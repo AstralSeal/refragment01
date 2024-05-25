@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 479: 'song_list' is not a keyword argument or valid child of the screen statement.
+    song_list = []
+             ^
+
+Ren'Py Version: Ren'Py 8.1.1.23060707
+Sat May 25 19:58:02 2024
