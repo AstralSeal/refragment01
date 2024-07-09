@@ -34,6 +34,9 @@ define mary_en = Character("Mary",color="#F0F8FF", who_outlines=[(2,"#000000")],
 define father_en = Character("Mary's Father",color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")] , condition='persistent.language == "eng"')
 
 define reika = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define nanami = Character("นานามิ", image ="nanami" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+
+
 
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
@@ -63,36 +66,36 @@ image fb3_5 = im.Scale("cg/fb3_5.png",1920,1080)
 image fb3_6 = im.Scale("cg/fb3_6.png",1920,1080)
 image cg3 = im.Scale("cg/cg3.png",1920,1080)
 
-image reika normal :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
+# image reika normal :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
 
-image reika angry1 :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
+# image reika angry1 :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
 
-image reika p_normal :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
+# image reika p_normal :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
 
-image reika p_angry1 :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
+# image reika p_angry1 :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
 
 
-image reika normal_2 :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_normal.png") 
+# image reika normal_2 :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_normal.png") 
 
-image reika angry1_2 :
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_angry.png") 
+# image reika angry1_2 :
+#     zoom 0.75
+#     xoffset 25
+#     im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_angry.png") 
 
 
 label splashscreen:
@@ -145,21 +148,33 @@ init python:
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
     show reika normal with dissolve
+    # reika normal "Word1" with dissolve
+    # reika angry1 "Word2" with dissolve
+    # reika normal "Word3" with dissolve
+
+    # reika normal_2 "Word1" with dissolve
+    # reika angry1_2 "Word2" with dissolve
+    # reika normal_2 "Word3" with dissolve
+
+    # reika normal "Word1" with dissolve
+    # reika angry1_2 "Word2" with dissolve
+    # reika normal "Word3" with dissolve
+
+    # reika p_normal "Word1" with dissolve
+    # reika p_angry1 "Word2" with dissolve
+    # reika p_normal "Word3" with dissolve
     reika normal "Word1" with dissolve
-    reika angry1 "Word2" with dissolve
-    reika normal "Word3" with dissolve
+    reika onegai "Word1" with dissolve
+    reika smile "Word3" with dissolve
+    reika sad "Word4" with dissolve
 
-    reika normal_2 "Word1" with dissolve
-    reika angry1_2 "Word2" with dissolve
-    reika normal_2 "Word3" with dissolve
+    hide reika with dissolve
 
-    reika normal "Word1" with dissolve
-    reika angry1_2 "Word2" with dissolve
-    reika normal "Word3" with dissolve
-
-    reika p_normal "Word1" with dissolve
-    reika p_angry1 "Word2" with dissolve
-    reika p_normal "Word3" with dissolve
+    show nanami normal with dissolve
+    nanami normal "Word1" with dissolve
+    nanami onegai "Word1" with dissolve
+    nanami smile "Word3" with dissolve
+    nanami sad "Word4" with dissolve
 
 
  
