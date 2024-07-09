@@ -35,16 +35,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side reika {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/{c}" )')
 
 for c in onlyfiles:
     print(f'image side reika_p {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\reika02"
@@ -71,16 +71,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side reika {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_body.png" ,(0,2000), "Sprite/reika02/{c}" )')
 
 for c in onlyfiles:
     print(f'image side reika_p {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/{c}" )')
 
 ##########################################################################################################
@@ -117,16 +117,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side nanami {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/{c}" )')
 
 for c in onlyfiles:
     print(f'image side nanami_p {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\nanami02"
@@ -158,16 +158,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side nanami {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/{c}" )')
 
 for c in onlyfiles:
     print(f'image side nanami_p {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/{c}" )')
 
 #################################################################################################
@@ -203,16 +203,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side maya {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/{c}" )')
 
 for c in onlyfiles:
     print(f'image side maya_p {get_emotion_from_file(c)}:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\maya02"
@@ -244,16 +244,16 @@ for c in onlyfiles:
 
 for c in onlyfiles:
     print(f'image side maya {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/{c}" )')
 
 for c in onlyfiles:
     print(f'image side maya_p {get_emotion_from_file(c)}_2:')
-    print(f'    zoom 0.5')
-    print(f'    xoffset 400')
-    print(f'    yoffset -200')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/{c}" )')
 
 #################################################################################################

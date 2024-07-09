@@ -164,7 +164,7 @@ label start:
     # reika p_angry1 "Word2" with dissolve
     # reika p_normal "Word3" with dissolve
     reika normal "Word1" with dissolve
-    reika onegai "Word1" with dissolve
+    reika onegai_2 "Word1" with dissolve
     reika smile "Word3" with dissolve
     reika sad "Word4" with dissolve
 
