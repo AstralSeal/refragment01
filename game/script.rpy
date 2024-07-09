@@ -35,7 +35,7 @@ define father_en = Character("Mary's Father",color="#F0F8FF", who_outlines=[(2,"
 
 define reika = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define nanami = Character("นานามิ", image ="nanami" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
-
+define maya = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
 
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
@@ -175,6 +175,14 @@ label start:
     nanami onegai "Word1" with dissolve
     nanami smile "Word3" with dissolve
     nanami sad "Word4" with dissolve
+
+    hide nanami with dissolve
+
+    show maya normal with dissolve
+    maya normal "Word1" with dissolve
+    maya onegai "Word1" with dissolve
+    maya smile "Word3" with dissolve
+    maya sad "Word4" with dissolve
 
 
  

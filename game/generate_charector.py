@@ -121,7 +121,7 @@ for c in onlyfiles:
 
 #############################################################################################
 
-mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\nanami01"
+mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\maya01"
 
 # /reika02_shy.png -> shy
 def get_emotion_from_file(file_name):
@@ -137,20 +137,20 @@ else:
     #print(onlyfiles)
 
 for c in onlyfiles:
-    print(f'image nanami {get_emotion_from_file(c)}:')
+    print(f'image maya {get_emotion_from_file(c)}:')
     print(f'    zoom 0.75')
     print(f'    xoffset 25')
-    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/{c}" )')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/{c}" )')
 
 for c in onlyfiles:
-    print(f'image nanami_p {get_emotion_from_file(c)}:')
+    print(f'image maya_p {get_emotion_from_file(c)}:')
     print(f'    zoom 0.75')
     print(f'    xoffset 25')
-    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/{c}" )')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/{c}" )')
 
 
 
-mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\nanami02"
+mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\maya02"
 
 # /reika02_shy.png -> shy
 def get_emotion_from_file(file_name):
@@ -166,16 +166,16 @@ else:
     #print(onlyfiles)
 
 for c in onlyfiles:
-    print(f'image nanami {get_emotion_from_file(c)}_2:')
+    print(f'image maya {get_emotion_from_file(c)}_2:')
     print(f'    zoom 0.75')
     print(f'    xoffset 25')
-    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/{c}" )')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/{c}" )')
 
 for c in onlyfiles:
-    print(f'image nanami_p {get_emotion_from_file(c)}_2:')
+    print(f'image maya_p {get_emotion_from_file(c)}_2:')
     print(f'    zoom 0.75')
     print(f'    xoffset 25')
-    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/{c}" )')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/{c}" )')
 
 
 
