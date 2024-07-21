@@ -33,8 +33,12 @@ define mary0_en = Character("???",color="#F0F8FF", who_outlines=[(2,"#000000")],
 define mary_en = Character("Mary",color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")] , condition='persistent.language == "eng"')
 define father_en = Character("Mary's Father",color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")] , condition='persistent.language == "eng"')
 
+
+define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+
 define reika = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
-define nanami = Character("นานามิ", image ="nanami" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define yuno = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define maya = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
 
@@ -147,42 +151,43 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    show reika normal with dissolve
+    jump s1_1
+    # show reika normal with dissolve
+    # # reika normal "Word1" with dissolve
+    # # reika angry1 "Word2" with dissolve
+    # # reika normal "Word3" with dissolve
+
+    # # reika normal_2 "Word1" with dissolve
+    # # reika angry1_2 "Word2" with dissolve
+    # # reika normal_2 "Word3" with dissolve
+
+    # # reika normal "Word1" with dissolve
+    # # reika angry1_2 "Word2" with dissolve
+    # # reika normal "Word3" with dissolve
+
+    # # reika p_normal "Word1" with dissolve
+    # # reika p_angry1 "Word2" with dissolve
+    # # reika p_normal "Word3" with dissolve
     # reika normal "Word1" with dissolve
-    # reika angry1 "Word2" with dissolve
-    # reika normal "Word3" with dissolve
+    # reika onegai_2 "Word1" with dissolve
+    # reika smile "Word3" with dissolve
+    # reika sad "Word4" with dissolve
 
-    # reika normal_2 "Word1" with dissolve
-    # reika angry1_2 "Word2" with dissolve
-    # reika normal_2 "Word3" with dissolve
+    # hide reika with dissolve
 
-    # reika normal "Word1" with dissolve
-    # reika angry1_2 "Word2" with dissolve
-    # reika normal "Word3" with dissolve
+    # show nanami normal with dissolve
+    # nanami normal "Word1" with dissolve
+    # nanami onegai "Word1" with dissolve
+    # nanami smile "Word3" with dissolve
+    # nanami sad "Word4" with dissolve
 
-    # reika p_normal "Word1" with dissolve
-    # reika p_angry1 "Word2" with dissolve
-    # reika p_normal "Word3" with dissolve
-    reika normal "Word1" with dissolve
-    reika onegai_2 "Word1" with dissolve
-    reika smile "Word3" with dissolve
-    reika sad "Word4" with dissolve
+    # hide nanami with dissolve
 
-    hide reika with dissolve
-
-    show nanami normal with dissolve
-    nanami normal "Word1" with dissolve
-    nanami onegai "Word1" with dissolve
-    nanami smile "Word3" with dissolve
-    nanami sad "Word4" with dissolve
-
-    hide nanami with dissolve
-
-    show maya normal with dissolve
-    maya normal "Word1" with dissolve
-    maya onegai "Word1" with dissolve
-    maya smile "Word3" with dissolve
-    maya sad "Word4" with dissolve
+    # show maya normal with dissolve
+    # maya normal "Word1" with dissolve
+    # maya onegai "Word1" with dissolve
+    # maya smile "Word3" with dissolve
+    # maya sad "Word4" with dissolve
 
 
  
