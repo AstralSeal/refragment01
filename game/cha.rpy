@@ -46,10 +46,6 @@ image reika shy:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_body_shy.png" )
-image reika ceymeme:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_ceymeme.png" )
 image reika chito:
     zoom 0.75
     xoffset 25
@@ -58,6 +54,10 @@ image reika confident:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_confident.png" )
+image reika crymeme:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_crymeme.png" )
 image reika despair:
     zoom 0.75
     xoffset 25
@@ -202,10 +202,6 @@ image reika_p shy:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_body_shy.png" )
-image reika_p ceymeme:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_ceymeme.png" )
 image reika_p chito:
     zoom 0.75
     xoffset 25
@@ -214,6 +210,10 @@ image reika_p confident:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_confident.png" )
+image reika_p crymeme:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_crymeme.png" )
 image reika_p despair:
     zoom 0.75
     xoffset 25
@@ -370,11 +370,6 @@ image side reika shy:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_body_shy.png" )
-image side reika ceymeme:
-    zoom 0.25
-    xoffset 100
-    yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_ceymeme.png" )
 image side reika chito:
     zoom 0.25
     xoffset 100
@@ -385,6 +380,11 @@ image side reika confident:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_confident.png" )
+image side reika crymeme:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_body.png" ,(0,2000), "Sprite/reika01/reika01_crymeme.png" )
 image side reika despair:
     zoom 0.25
     xoffset 100
@@ -565,11 +565,6 @@ image side reika_p shy:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_body_shy.png" )
-image side reika_p ceymeme:
-    zoom 0.25
-    xoffset 100
-    yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_ceymeme.png" )
 image side reika_p chito:
     zoom 0.25
     xoffset 100
@@ -580,6 +575,11 @@ image side reika_p confident:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_confident.png" )
+image side reika_p crymeme:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/reika01/reika01_p_body.png" ,(0,2000), "Sprite/reika01/reika01_crymeme.png" )
 image side reika_p despair:
     zoom 0.25
     xoffset 100
@@ -740,6 +740,10 @@ image reika angrymeme_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme.png" )
+image reika angrymeme2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme2.png" )
 image reika body_2:
     zoom 0.75
     xoffset 25
@@ -912,6 +916,10 @@ image reika_p angrymeme_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme.png" )
+image reika_p angrymeme2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme2.png" )
 image reika_p body_2:
     zoom 0.75
     xoffset 25
@@ -1094,6 +1102,11 @@ image side reika angrymeme_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme.png" )
+image side reika angrymeme2_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme2.png" )
 image side reika body_2:
     zoom 0.25
     xoffset 100
@@ -1309,6 +1322,11 @@ image side reika_p angrymeme_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme.png" )
+image side reika_p angrymeme2_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/reika02_angrymeme2.png" )
 image side reika_p body_2:
     zoom 0.25
     xoffset 100
@@ -1474,1590 +1492,1590 @@ image side reika_p yasashi_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/reika02/reika02_p_body.png" ,(0,2000), "Sprite/reika02/reika02_yasashi.png" )
-image nanami nanami01:
+image yuno yuno01:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01.png" )
-image nanami ah:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01.png" )
+image yuno ah:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_ah.png" )
-image nanami angry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_ah.png" )
+image yuno angry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_angry.png" )
-image nanami badass:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_angry.png" )
+image yuno badass:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_badass.png" )
-image nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_badass.png" )
+image yuno body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body.png" )
-image nanami body2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body.png" )
+image yuno body2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body2.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body2.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body_shy.png" )
-image nanami confident:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body_shy.png" )
+image yuno confident:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident.png" )
-image nanami confident2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident.png" )
+image yuno confident2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident2.png" )
-image nanami confuse:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident2.png" )
+image yuno confuse:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confuse.png" )
-image nanami cry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confuse.png" )
+image yuno cry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry.png" )
-image nanami cry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry.png" )
+image yuno cry2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry2.png" )
-image nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry2.png" )
+image yuno body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body_shy.png" )
-image nanami eh3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body_shy.png" )
+image yuno eh3:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_eh3.png" )
-image nanami endure:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_eh3.png" )
+image yuno endure:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_endure.png" )
-image nanami fun:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_endure.png" )
+image yuno fun:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_fun.png" )
-image nanami gambatte:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_fun.png" )
+image yuno gambatte:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_gambatte.png" )
-image nanami happy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_gambatte.png" )
+image yuno happy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_happy.png" )
-image nanami hee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_happy.png" )
+image yuno hee:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hee.png" )
-image nanami hehe:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hee.png" )
+image yuno hehe:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hehe.png" )
-image nanami hungry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hehe.png" )
+image yuno hungry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hungry.png" )
-image nanami m:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hungry.png" )
+image yuno m:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m.png" )
-image nanami mumu:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m.png" )
+image yuno mumu:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_mumu.png" )
-image nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_mumu.png" )
+image yuno body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body2_shy.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body2_shy.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body_shy.png" )
-image nanami normal:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body_shy.png" )
+image yuno normal:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_normal.png" )
-image nanami onegai:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_normal.png" )
+image yuno onegai:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_onegai.png" )
-image nanami p:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_onegai.png" )
+image yuno p:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p.png" )
-image nanami panic:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p.png" )
+image yuno panic:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_panic.png" )
-image nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_panic.png" )
+image yuno body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body_shy.png" )
-image nanami question:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body_shy.png" )
+image yuno question:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_question.png" )
-image nanami relieve:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_question.png" )
+image yuno relieve:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_relieve.png" )
-image nanami sad:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_relieve.png" )
+image yuno sad:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sad.png" )
-image nanami serious:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sad.png" )
+image yuno serious:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_serious.png" )
-image nanami shout:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_serious.png" )
+image yuno shout:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shout.png" )
-image nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shout.png" )
+image yuno shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shy.png" )
-image nanami shymeme:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shy.png" )
+image yuno shymeme:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shymeme.png" )
-image nanami sleepy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shymeme.png" )
+image yuno sleepy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sleepy.png" )
-image nanami smile:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sleepy.png" )
+image yuno smile:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile.png" )
-image nanami smile2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile.png" )
+image yuno smile2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile2.png" )
-image nanami smile3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile2.png" )
+image yuno smile3:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile3.png" )
-image nanami smile4:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile3.png" )
+image yuno smile4:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile4.png" )
-image nanami smug:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile4.png" )
+image yuno smug:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smug.png" )
-image nanami teehee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smug.png" )
+image yuno teehee:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_teehee.png" )
-image nanami worry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_teehee.png" )
+image yuno worry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry.png" )
-image nanami worry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry.png" )
+image yuno worry2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry2.png" )
-image nanami wow:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry2.png" )
+image yuno wow:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_wow.png" )
-image nanami yasashi:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_wow.png" )
+image yuno yasashi:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_yasashi.png" )
-image nanami_p nanami01:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_yasashi.png" )
+image yuno_p yuno01:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01.png" )
-image nanami_p ah:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01.png" )
+image yuno_p ah:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_ah.png" )
-image nanami_p angry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_ah.png" )
+image yuno_p angry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_angry.png" )
-image nanami_p badass:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_angry.png" )
+image yuno_p badass:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_badass.png" )
-image nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_badass.png" )
+image yuno_p body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body.png" )
-image nanami_p body2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body.png" )
+image yuno_p body2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body2.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body2.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body_shy.png" )
-image nanami_p confident:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body_shy.png" )
+image yuno_p confident:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident.png" )
-image nanami_p confident2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident.png" )
+image yuno_p confident2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident2.png" )
-image nanami_p confuse:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident2.png" )
+image yuno_p confuse:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confuse.png" )
-image nanami_p cry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confuse.png" )
+image yuno_p cry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry.png" )
-image nanami_p cry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry.png" )
+image yuno_p cry2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry2.png" )
-image nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry2.png" )
+image yuno_p body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body_shy.png" )
-image nanami_p eh3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body_shy.png" )
+image yuno_p eh3:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_eh3.png" )
-image nanami_p endure:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_eh3.png" )
+image yuno_p endure:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_endure.png" )
-image nanami_p fun:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_endure.png" )
+image yuno_p fun:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_fun.png" )
-image nanami_p gambatte:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_fun.png" )
+image yuno_p gambatte:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_gambatte.png" )
-image nanami_p happy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_gambatte.png" )
+image yuno_p happy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_happy.png" )
-image nanami_p hee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_happy.png" )
+image yuno_p hee:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hee.png" )
-image nanami_p hehe:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hee.png" )
+image yuno_p hehe:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hehe.png" )
-image nanami_p hungry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hehe.png" )
+image yuno_p hungry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hungry.png" )
-image nanami_p m:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hungry.png" )
+image yuno_p m:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m.png" )
-image nanami_p mumu:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m.png" )
+image yuno_p mumu:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_mumu.png" )
-image nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_mumu.png" )
+image yuno_p body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body2_shy.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body2_shy.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body_shy.png" )
-image nanami_p normal:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body_shy.png" )
+image yuno_p normal:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_normal.png" )
-image nanami_p onegai:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_normal.png" )
+image yuno_p onegai:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_onegai.png" )
-image nanami_p p:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_onegai.png" )
+image yuno_p p:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p.png" )
-image nanami_p panic:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p.png" )
+image yuno_p panic:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_panic.png" )
-image nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_panic.png" )
+image yuno_p body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body_shy.png" )
-image nanami_p question:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body_shy.png" )
+image yuno_p question:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_question.png" )
-image nanami_p relieve:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_question.png" )
+image yuno_p relieve:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_relieve.png" )
-image nanami_p sad:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_relieve.png" )
+image yuno_p sad:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sad.png" )
-image nanami_p serious:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sad.png" )
+image yuno_p serious:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_serious.png" )
-image nanami_p shout:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_serious.png" )
+image yuno_p shout:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shout.png" )
-image nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shout.png" )
+image yuno_p shy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shy.png" )
-image nanami_p shymeme:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shy.png" )
+image yuno_p shymeme:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shymeme.png" )
-image nanami_p sleepy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shymeme.png" )
+image yuno_p sleepy:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sleepy.png" )
-image nanami_p smile:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sleepy.png" )
+image yuno_p smile:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile.png" )
-image nanami_p smile2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile.png" )
+image yuno_p smile2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile2.png" )
-image nanami_p smile3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile2.png" )
+image yuno_p smile3:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile3.png" )
-image nanami_p smile4:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile3.png" )
+image yuno_p smile4:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile4.png" )
-image nanami_p smug:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile4.png" )
+image yuno_p smug:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smug.png" )
-image nanami_p teehee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smug.png" )
+image yuno_p teehee:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_teehee.png" )
-image nanami_p worry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_teehee.png" )
+image yuno_p worry:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry.png" )
-image nanami_p worry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry.png" )
+image yuno_p worry2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry2.png" )
-image nanami_p wow:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry2.png" )
+image yuno_p wow:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_wow.png" )
-image nanami_p yasashi:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_wow.png" )
+image yuno_p yasashi:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_yasashi.png" )
-image side nanami nanami01:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_yasashi.png" )
+image side yuno yuno01:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01.png" )
-image side nanami ah:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01.png" )
+image side yuno ah:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_ah.png" )
-image side nanami angry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_ah.png" )
+image side yuno angry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_angry.png" )
-image side nanami badass:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_angry.png" )
+image side yuno badass:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_badass.png" )
-image side nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_badass.png" )
+image side yuno body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body.png" )
-image side nanami body2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body.png" )
+image side yuno body2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body2.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body2.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body_shy.png" )
-image side nanami confident:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body_shy.png" )
+image side yuno confident:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident.png" )
-image side nanami confident2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident.png" )
+image side yuno confident2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident2.png" )
-image side nanami confuse:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident2.png" )
+image side yuno confuse:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confuse.png" )
-image side nanami cry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confuse.png" )
+image side yuno cry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry.png" )
-image side nanami cry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry.png" )
+image side yuno cry2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry2.png" )
-image side nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry2.png" )
+image side yuno body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body_shy.png" )
-image side nanami eh3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body_shy.png" )
+image side yuno eh3:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_eh3.png" )
-image side nanami endure:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_eh3.png" )
+image side yuno endure:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_endure.png" )
-image side nanami fun:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_endure.png" )
+image side yuno fun:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_fun.png" )
-image side nanami gambatte:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_fun.png" )
+image side yuno gambatte:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_gambatte.png" )
-image side nanami happy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_gambatte.png" )
+image side yuno happy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_happy.png" )
-image side nanami hee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_happy.png" )
+image side yuno hee:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hee.png" )
-image side nanami hehe:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hee.png" )
+image side yuno hehe:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hehe.png" )
-image side nanami hungry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hehe.png" )
+image side yuno hungry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hungry.png" )
-image side nanami m:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hungry.png" )
+image side yuno m:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m.png" )
-image side nanami mumu:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m.png" )
+image side yuno mumu:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_mumu.png" )
-image side nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_mumu.png" )
+image side yuno body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body2_shy.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body2_shy.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body_shy.png" )
-image side nanami normal:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body_shy.png" )
+image side yuno normal:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_normal.png" )
-image side nanami onegai:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_normal.png" )
+image side yuno onegai:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_onegai.png" )
-image side nanami p:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_onegai.png" )
+image side yuno p:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p.png" )
-image side nanami panic:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p.png" )
+image side yuno panic:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_panic.png" )
-image side nanami body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_panic.png" )
+image side yuno body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body_shy.png" )
-image side nanami question:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body_shy.png" )
+image side yuno question:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_question.png" )
-image side nanami relieve:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_question.png" )
+image side yuno relieve:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_relieve.png" )
-image side nanami sad:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_relieve.png" )
+image side yuno sad:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sad.png" )
-image side nanami serious:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sad.png" )
+image side yuno serious:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_serious.png" )
-image side nanami shout:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_serious.png" )
+image side yuno shout:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shout.png" )
-image side nanami shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shout.png" )
+image side yuno shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shy.png" )
-image side nanami shymeme:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shy.png" )
+image side yuno shymeme:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shymeme.png" )
-image side nanami sleepy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shymeme.png" )
+image side yuno sleepy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sleepy.png" )
-image side nanami smile:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sleepy.png" )
+image side yuno smile:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile.png" )
-image side nanami smile2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile.png" )
+image side yuno smile2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile2.png" )
-image side nanami smile3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile2.png" )
+image side yuno smile3:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile3.png" )
-image side nanami smile4:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile3.png" )
+image side yuno smile4:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile4.png" )
-image side nanami smug:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile4.png" )
+image side yuno smug:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smug.png" )
-image side nanami teehee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smug.png" )
+image side yuno teehee:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_teehee.png" )
-image side nanami worry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_teehee.png" )
+image side yuno worry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry.png" )
-image side nanami worry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry.png" )
+image side yuno worry2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry2.png" )
-image side nanami wow:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry2.png" )
+image side yuno wow:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_wow.png" )
-image side nanami yasashi:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_wow.png" )
+image side yuno yasashi:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_body.png" ,(0,2000), "Sprite/nanami01/nanami01_yasashi.png" )
-image side nanami_p nanami01:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_body.png" ,(0,2000), "Sprite/yuno01/yuno01_yasashi.png" )
+image side yuno_p yuno01:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01.png" )
-image side nanami_p ah:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01.png" )
+image side yuno_p ah:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_ah.png" )
-image side nanami_p angry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_ah.png" )
+image side yuno_p angry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_angry.png" )
-image side nanami_p badass:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_angry.png" )
+image side yuno_p badass:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_badass.png" )
-image side nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_badass.png" )
+image side yuno_p body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body.png" )
-image side nanami_p body2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body.png" )
+image side yuno_p body2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body2.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body2.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_body_shy.png" )
-image side nanami_p confident:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_body_shy.png" )
+image side yuno_p confident:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident.png" )
-image side nanami_p confident2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident.png" )
+image side yuno_p confident2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confident2.png" )
-image side nanami_p confuse:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confident2.png" )
+image side yuno_p confuse:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_confuse.png" )
-image side nanami_p cry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_confuse.png" )
+image side yuno_p cry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry.png" )
-image side nanami_p cry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry.png" )
+image side yuno_p cry2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_cry2.png" )
-image side nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_cry2.png" )
+image side yuno_p body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_c_body_shy.png" )
-image side nanami_p eh3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_c_body_shy.png" )
+image side yuno_p eh3:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_eh3.png" )
-image side nanami_p endure:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_eh3.png" )
+image side yuno_p endure:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_endure.png" )
-image side nanami_p fun:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_endure.png" )
+image side yuno_p fun:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_fun.png" )
-image side nanami_p gambatte:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_fun.png" )
+image side yuno_p gambatte:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_gambatte.png" )
-image side nanami_p happy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_gambatte.png" )
+image side yuno_p happy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_happy.png" )
-image side nanami_p hee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_happy.png" )
+image side yuno_p hee:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hee.png" )
-image side nanami_p hehe:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hee.png" )
+image side yuno_p hehe:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hehe.png" )
-image side nanami_p hungry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hehe.png" )
+image side yuno_p hungry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_hungry.png" )
-image side nanami_p m:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_hungry.png" )
+image side yuno_p m:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m.png" )
-image side nanami_p mumu:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m.png" )
+image side yuno_p mumu:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_mumu.png" )
-image side nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_mumu.png" )
+image side yuno_p body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body2_shy.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body2_shy.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_m_body_shy.png" )
-image side nanami_p normal:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_m_body_shy.png" )
+image side yuno_p normal:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_normal.png" )
-image side nanami_p onegai:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_normal.png" )
+image side yuno_p onegai:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_onegai.png" )
-image side nanami_p p:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_onegai.png" )
+image side yuno_p p:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p.png" )
-image side nanami_p panic:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p.png" )
+image side yuno_p panic:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_panic.png" )
-image side nanami_p body:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_panic.png" )
+image side yuno_p body:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_p_body_shy.png" )
-image side nanami_p question:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_p_body_shy.png" )
+image side yuno_p question:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_question.png" )
-image side nanami_p relieve:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_question.png" )
+image side yuno_p relieve:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_relieve.png" )
-image side nanami_p sad:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_relieve.png" )
+image side yuno_p sad:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sad.png" )
-image side nanami_p serious:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sad.png" )
+image side yuno_p serious:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_serious.png" )
-image side nanami_p shout:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_serious.png" )
+image side yuno_p shout:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shout.png" )
-image side nanami_p shy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shout.png" )
+image side yuno_p shy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shy.png" )
-image side nanami_p shymeme:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shy.png" )
+image side yuno_p shymeme:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_shymeme.png" )
-image side nanami_p sleepy:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_shymeme.png" )
+image side yuno_p sleepy:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_sleepy.png" )
-image side nanami_p smile:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_sleepy.png" )
+image side yuno_p smile:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile.png" )
-image side nanami_p smile2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile.png" )
+image side yuno_p smile2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile2.png" )
-image side nanami_p smile3:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile2.png" )
+image side yuno_p smile3:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile3.png" )
-image side nanami_p smile4:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile3.png" )
+image side yuno_p smile4:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smile4.png" )
-image side nanami_p smug:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smile4.png" )
+image side yuno_p smug:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_smug.png" )
-image side nanami_p teehee:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_smug.png" )
+image side yuno_p teehee:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_teehee.png" )
-image side nanami_p worry:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_teehee.png" )
+image side yuno_p worry:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry.png" )
-image side nanami_p worry2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry.png" )
+image side yuno_p worry2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_worry2.png" )
-image side nanami_p wow:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_worry2.png" )
+image side yuno_p wow:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_wow.png" )
-image side nanami_p yasashi:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_wow.png" )
+image side yuno_p yasashi:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami01/nanami01_p_body.png" ,(0,2000), "Sprite/nanami01/nanami01_yasashi.png" )
-image nanami nanami02_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno01/yuno01_p_body.png" ,(0,2000), "Sprite/yuno01/yuno01_yasashi.png" )
+image yuno yuno02_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02.png" )
-image nanami ah_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02.png" )
+image yuno ah_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_ah.png" )
-image nanami angry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_ah.png" )
+image yuno angry_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_angry.png" )
-image nanami blank_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_angry.png" )
+image yuno blank_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_blank.png" )
-image nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_blank.png" )
+image yuno body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body.png" )
-image nanami body2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body.png" )
+image yuno body2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2_shy.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2_shy.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body_shy.png" )
-image nanami c_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body_shy.png" )
+image yuno c_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c.png" )
-image nanami c2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c.png" )
+image yuno c2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c2.png" )
-image nanami confident_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c2.png" )
+image yuno confident_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_confident.png" )
-image nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_confident.png" )
+image yuno body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body_shy.png" )
-image nanami M_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body_shy.png" )
+image yuno M_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_M.png" )
-image nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_M.png" )
+image yuno body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body_shy.png" )
-image nanami normal_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body_shy.png" )
+image yuno normal_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_normal.png" )
-image nanami onegai_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_normal.png" )
+image yuno onegai_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_onegai.png" )
-image nanami p_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_onegai.png" )
+image yuno p_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p.png" )
-image nanami panic2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p.png" )
+image yuno panic2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic2.png" )
-image nanami panic3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic2.png" )
+image yuno panic3_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic3.png" )
-image nanami panic4_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic3.png" )
+image yuno panic4_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic4.png" )
-image nanami panic5_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic4.png" )
+image yuno panic5_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic5.png" )
-image nanami pout_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic5.png" )
+image yuno pout_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout.png" )
-image nanami pout2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout.png" )
+image yuno pout2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout2.png" )
-image nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout2.png" )
+image yuno body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body_shy.png" )
-image nanami sad_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body_shy.png" )
+image yuno sad_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_sad.png" )
-image nanami serious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_sad.png" )
+image yuno serious_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_serious.png" )
-image nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_serious.png" )
+image yuno shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_shy.png" )
-image nanami smile_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_shy.png" )
+image yuno smile_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile.png" )
-image nanami smile2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile.png" )
+image yuno smile2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile2.png" )
-image nanami smug_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile2.png" )
+image yuno smug_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug.png" )
-image nanami smug2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug.png" )
+image yuno smug2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug2.png" )
-image nanami smug3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug2.png" )
+image yuno smug3_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug3.png" )
-image nanami suspicious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug3.png" )
+image yuno suspicious_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_suspicious.png" )
-image nanami worry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_suspicious.png" )
+image yuno worry_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_worry.png" )
-image nanami_p nanami02_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_worry.png" )
+image yuno_p yuno02_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02.png" )
-image nanami_p ah_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02.png" )
+image yuno_p ah_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_ah.png" )
-image nanami_p angry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_ah.png" )
+image yuno_p angry_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_angry.png" )
-image nanami_p blank_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_angry.png" )
+image yuno_p blank_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_blank.png" )
-image nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_blank.png" )
+image yuno_p body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body.png" )
-image nanami_p body2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body.png" )
+image yuno_p body2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2_shy.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2_shy.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body_shy.png" )
-image nanami_p c_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body_shy.png" )
+image yuno_p c_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c.png" )
-image nanami_p c2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c.png" )
+image yuno_p c2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c2.png" )
-image nanami_p confident_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c2.png" )
+image yuno_p confident_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_confident.png" )
-image nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_confident.png" )
+image yuno_p body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body_shy.png" )
-image nanami_p M_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body_shy.png" )
+image yuno_p M_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_M.png" )
-image nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_M.png" )
+image yuno_p body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body_shy.png" )
-image nanami_p normal_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body_shy.png" )
+image yuno_p normal_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_normal.png" )
-image nanami_p onegai_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_normal.png" )
+image yuno_p onegai_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_onegai.png" )
-image nanami_p p_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_onegai.png" )
+image yuno_p p_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p.png" )
-image nanami_p panic2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p.png" )
+image yuno_p panic2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic2.png" )
-image nanami_p panic3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic2.png" )
+image yuno_p panic3_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic3.png" )
-image nanami_p panic4_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic3.png" )
+image yuno_p panic4_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic4.png" )
-image nanami_p panic5_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic4.png" )
+image yuno_p panic5_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic5.png" )
-image nanami_p pout_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic5.png" )
+image yuno_p pout_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout.png" )
-image nanami_p pout2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout.png" )
+image yuno_p pout2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout2.png" )
-image nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout2.png" )
+image yuno_p body_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body_shy.png" )
-image nanami_p sad_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body_shy.png" )
+image yuno_p sad_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_sad.png" )
-image nanami_p serious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_sad.png" )
+image yuno_p serious_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_serious.png" )
-image nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_serious.png" )
+image yuno_p shy_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_shy.png" )
-image nanami_p smile_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_shy.png" )
+image yuno_p smile_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile.png" )
-image nanami_p smile2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile.png" )
+image yuno_p smile2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile2.png" )
-image nanami_p smug_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile2.png" )
+image yuno_p smug_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug.png" )
-image nanami_p smug2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug.png" )
+image yuno_p smug2_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug2.png" )
-image nanami_p smug3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug2.png" )
+image yuno_p smug3_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug3.png" )
-image nanami_p suspicious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug3.png" )
+image yuno_p suspicious_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_suspicious.png" )
-image nanami_p worry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_suspicious.png" )
+image yuno_p worry_2:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_worry.png" )
-image side nanami nanami02_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_worry.png" )
+image side yuno yuno02_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02.png" )
-image side nanami ah_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02.png" )
+image side yuno ah_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_ah.png" )
-image side nanami angry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_ah.png" )
+image side yuno angry_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_angry.png" )
-image side nanami blank_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_angry.png" )
+image side yuno blank_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_blank.png" )
-image side nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_blank.png" )
+image side yuno body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body.png" )
-image side nanami body2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body.png" )
+image side yuno body2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2_shy.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2_shy.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body_shy.png" )
-image side nanami c_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body_shy.png" )
+image side yuno c_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c.png" )
-image side nanami c2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c.png" )
+image side yuno c2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c2.png" )
-image side nanami confident_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c2.png" )
+image side yuno confident_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_confident.png" )
-image side nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_confident.png" )
+image side yuno body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body_shy.png" )
-image side nanami M_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body_shy.png" )
+image side yuno M_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_M.png" )
-image side nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_M.png" )
+image side yuno body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body_shy.png" )
-image side nanami normal_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body_shy.png" )
+image side yuno normal_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_normal.png" )
-image side nanami onegai_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_normal.png" )
+image side yuno onegai_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_onegai.png" )
-image side nanami p_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_onegai.png" )
+image side yuno p_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p.png" )
-image side nanami panic2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p.png" )
+image side yuno panic2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic2.png" )
-image side nanami panic3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic2.png" )
+image side yuno panic3_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic3.png" )
-image side nanami panic4_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic3.png" )
+image side yuno panic4_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic4.png" )
-image side nanami panic5_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic4.png" )
+image side yuno panic5_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic5.png" )
-image side nanami pout_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic5.png" )
+image side yuno pout_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout.png" )
-image side nanami pout2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout.png" )
+image side yuno pout2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout2.png" )
-image side nanami body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout2.png" )
+image side yuno body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body_shy.png" )
-image side nanami sad_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body_shy.png" )
+image side yuno sad_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_sad.png" )
-image side nanami serious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_sad.png" )
+image side yuno serious_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_serious.png" )
-image side nanami shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_serious.png" )
+image side yuno shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_shy.png" )
-image side nanami smile_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_shy.png" )
+image side yuno smile_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile.png" )
-image side nanami smile2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile.png" )
+image side yuno smile2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile2.png" )
-image side nanami smug_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile2.png" )
+image side yuno smug_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug.png" )
-image side nanami smug2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug.png" )
+image side yuno smug2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug2.png" )
-image side nanami smug3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug2.png" )
+image side yuno smug3_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug3.png" )
-image side nanami suspicious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug3.png" )
+image side yuno suspicious_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_suspicious.png" )
-image side nanami worry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_suspicious.png" )
+image side yuno worry_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_body.png" ,(0,2000), "Sprite/nanami02/nanami02_worry.png" )
-image side nanami_p nanami02_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_body.png" ,(0,2000), "Sprite/yuno02/yuno02_worry.png" )
+image side yuno_p yuno02_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02.png" )
-image side nanami_p ah_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02.png" )
+image side yuno_p ah_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_ah.png" )
-image side nanami_p angry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_ah.png" )
+image side yuno_p angry_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_angry.png" )
-image side nanami_p blank_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_angry.png" )
+image side yuno_p blank_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_blank.png" )
-image side nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_blank.png" )
+image side yuno_p body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body.png" )
-image side nanami_p body2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body.png" )
+image side yuno_p body2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body2_shy.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body2_shy.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_body_shy.png" )
-image side nanami_p c_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_body_shy.png" )
+image side yuno_p c_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c.png" )
-image side nanami_p c2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c.png" )
+image side yuno_p c2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c2.png" )
-image side nanami_p confident_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c2.png" )
+image side yuno_p confident_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_confident.png" )
-image side nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_confident.png" )
+image side yuno_p body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_c_body_shy.png" )
-image side nanami_p M_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_c_body_shy.png" )
+image side yuno_p M_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_M.png" )
-image side nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_M.png" )
+image side yuno_p body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_m_body_shy.png" )
-image side nanami_p normal_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_m_body_shy.png" )
+image side yuno_p normal_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_normal.png" )
-image side nanami_p onegai_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_normal.png" )
+image side yuno_p onegai_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_onegai.png" )
-image side nanami_p p_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_onegai.png" )
+image side yuno_p p_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p.png" )
-image side nanami_p panic2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p.png" )
+image side yuno_p panic2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic2.png" )
-image side nanami_p panic3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic2.png" )
+image side yuno_p panic3_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic3.png" )
-image side nanami_p panic4_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic3.png" )
+image side yuno_p panic4_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic4.png" )
-image side nanami_p panic5_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic4.png" )
+image side yuno_p panic5_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_panic5.png" )
-image side nanami_p pout_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_panic5.png" )
+image side yuno_p pout_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout.png" )
-image side nanami_p pout2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout.png" )
+image side yuno_p pout2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_pout2.png" )
-image side nanami_p body_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_pout2.png" )
+image side yuno_p body_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_p_body_shy.png" )
-image side nanami_p sad_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_p_body_shy.png" )
+image side yuno_p sad_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_sad.png" )
-image side nanami_p serious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_sad.png" )
+image side yuno_p serious_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_serious.png" )
-image side nanami_p shy_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_serious.png" )
+image side yuno_p shy_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_shy.png" )
-image side nanami_p smile_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_shy.png" )
+image side yuno_p smile_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile.png" )
-image side nanami_p smile2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile.png" )
+image side yuno_p smile2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smile2.png" )
-image side nanami_p smug_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smile2.png" )
+image side yuno_p smug_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug.png" )
-image side nanami_p smug2_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug.png" )
+image side yuno_p smug2_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug2.png" )
-image side nanami_p smug3_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug2.png" )
+image side yuno_p smug3_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_smug3.png" )
-image side nanami_p suspicious_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_smug3.png" )
+image side yuno_p suspicious_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_suspicious.png" )
-image side nanami_p worry_2:
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_suspicious.png" )
+image side yuno_p worry_2:
     zoom 0.25
     xoffset 100
     yoffset 0
-    im.Composite((1433,3100), (0,2000), "Sprite/nanami02/nanami02_p_body.png" ,(0,2000), "Sprite/nanami02/nanami02_worry.png" )
+    im.Composite((1433,3100), (0,2000), "Sprite/yuno02/yuno02_p_body.png" ,(0,2000), "Sprite/yuno02/yuno02_worry.png" )
 image maya maya01:
     zoom 0.75
     xoffset 25
@@ -3066,6 +3084,18 @@ image maya maya01c:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c.png" )
+image maya maya01c2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2.png" )
+image maya body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body.png" )
+image maya shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body_shy.png" )
 image maya body:
     zoom 0.75
     xoffset 25
@@ -3274,6 +3304,18 @@ image maya_p maya01c:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c.png" )
+image maya_p maya01c2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2.png" )
+image maya_p body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body.png" )
+image maya_p shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body_shy.png" )
 image maya_p body:
     zoom 0.75
     xoffset 25
@@ -3484,6 +3526,21 @@ image side maya maya01c:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c.png" )
+image side maya maya01c2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2.png" )
+image side maya body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body.png" )
+image side maya shy:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body_shy.png" )
 image side maya body:
     zoom 0.25
     xoffset 100
@@ -3744,6 +3801,21 @@ image side maya_p maya01c:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c.png" )
+image side maya_p maya01c2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2.png" )
+image side maya_p body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body.png" )
+image side maya_p shy:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya01/maya01_p_body.png" ,(0,2000), "Sprite/maya01/maya01c2_body_shy.png" )
 image side maya_p body:
     zoom 0.25
     xoffset 100
@@ -4002,6 +4074,18 @@ image maya maya02c_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c.png" )
+image maya maya02c2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2.png" )
+image maya body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body.png" )
+image maya shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body_shy.png" )
 image maya body_2:
     zoom 0.75
     xoffset 25
@@ -4138,6 +4222,18 @@ image maya_p maya02c_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c.png" )
+image maya_p maya02c2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2.png" )
+image maya_p body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body.png" )
+image maya_p shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body_shy.png" )
 image maya_p body_2:
     zoom 0.75
     xoffset 25
@@ -4276,6 +4372,21 @@ image side maya maya02c_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c.png" )
+image side maya maya02c2_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2.png" )
+image side maya body_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body.png" )
+image side maya shy_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body_shy.png" )
 image side maya body_2:
     zoom 0.25
     xoffset 100
@@ -4446,6 +4557,21 @@ image side maya_p maya02c_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c.png" )
+image side maya_p maya02c2_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2.png" )
+image side maya_p body_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body.png" )
+image side maya_p shy_2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02c2_body_shy.png" )
 image side maya_p body_2:
     zoom 0.25
     xoffset 100
