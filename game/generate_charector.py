@@ -293,4 +293,93 @@ for c in onlyfiles:
     print(f'    zoom 0.75')
     print(f'    xoffset 25')
     print(f'    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side kazuma {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side kazuma_c {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side kazuma_s {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/{c}" )')
 ############################################################################################################################
+
+
+
+####################### risa ###################################################
+
+
+mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\risa"
+
+def get_emotion_from_file(file_name):
+    return c.split(".")[0].split("_")[-1]
+    
+
+# Check if the path exists
+if not os.path.exists(mypath):
+    print(f"The directory {mypath} does not exist.")
+else:
+    # List files in the directory
+    onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+    #print(onlyfiles)
+
+for c in onlyfiles:
+    print(f'image risa {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side risa {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/{c}" )')
+
+######################################################################################
+
+
+
+####################### akane ###################################################
+
+
+mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\akane"
+
+def get_emotion_from_file(file_name):
+    return c.split(".")[0].split("_")[-1]
+    
+
+# Check if the path exists
+if not os.path.exists(mypath):
+    print(f"The directory {mypath} does not exist.")
+else:
+    # List files in the directory
+    onlyfiles = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+    #print(onlyfiles)
+
+for c in onlyfiles:
+    print(f'image akane {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side akane {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/{c}" )')
+
+######################################################################################

@@ -4732,3 +4732,921 @@ image side maya_p yasashi_2:
     xoffset 100
     yoffset 0
     im.Composite((1433,3100), (0,2000), "Sprite/maya02/maya02_p_body.png" ,(0,2000), "Sprite/maya02/maya02_yasashi.png" )
+image kazuma kazuma:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image kazuma kazumac:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image kazuma body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image kazuma ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image kazuma angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image kazuma body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image kazuma confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image kazuma die:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image kazuma eh:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image kazuma fun:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image kazuma hurt:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image kazuma normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image kazuma sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image kazuma sad2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image kazuma serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image kazuma shock:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image kazuma shock2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image kazuma shout:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image kazuma smart:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image kazuma smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image kazuma soccer:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image kazuma body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image kazuma yasashi:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image kazuma_c kazuma:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image kazuma_c kazumac:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image kazuma_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image kazuma_c ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image kazuma_c angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image kazuma_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image kazuma_c confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image kazuma_c die:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image kazuma_c eh:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image kazuma_c fun:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image kazuma_c hurt:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image kazuma_c normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image kazuma_c sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image kazuma_c sad2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image kazuma_c serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image kazuma_c shock:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image kazuma_c shock2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image kazuma_c shout:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image kazuma_c smart:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image kazuma_c smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image kazuma_c soccer:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image kazuma_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image kazuma_c yasashi:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image kazuma_s kazuma:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image kazuma_s kazumac:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image kazuma_s body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image kazuma_s ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image kazuma_s angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image kazuma_s body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image kazuma_s confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image kazuma_s die:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image kazuma_s eh:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image kazuma_s fun:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image kazuma_s hurt:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image kazuma_s normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image kazuma_s sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image kazuma_s sad2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image kazuma_s serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image kazuma_s shock:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image kazuma_s shock2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image kazuma_s shout:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image kazuma_s smart:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image kazuma_s smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image kazuma_s soccer:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image kazuma_s body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image kazuma_s yasashi:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image side kazuma kazuma:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image side kazuma kazumac:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image side kazuma body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image side kazuma ah:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image side kazuma angry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image side kazuma body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image side kazuma confident:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image side kazuma die:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image side kazuma eh:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image side kazuma fun:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image side kazuma hurt:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image side kazuma normal:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image side kazuma sad:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image side kazuma sad2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image side kazuma serious:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image side kazuma shock:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image side kazuma shock2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image side kazuma shout:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image side kazuma smart:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image side kazuma smile:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image side kazuma soccer:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image side kazuma body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image side kazuma yasashi:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image side kazuma_c kazuma:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image side kazuma_c kazumac:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image side kazuma_c body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image side kazuma_c ah:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image side kazuma_c angry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image side kazuma_c body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image side kazuma_c confident:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image side kazuma_c die:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image side kazuma_c eh:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image side kazuma_c fun:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image side kazuma_c hurt:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image side kazuma_c normal:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image side kazuma_c sad:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image side kazuma_c sad2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image side kazuma_c serious:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image side kazuma_c shock:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image side kazuma_c shock2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image side kazuma_c shout:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image side kazuma_c smart:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image side kazuma_c smile:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image side kazuma_c soccer:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image side kazuma_c body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image side kazuma_c yasashi:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazumac_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image side kazuma_s kazuma:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma.png" )
+image side kazuma_s kazumac:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazumac.png" )
+image side kazuma_s body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazumac_body.png" )
+image side kazuma_s ah:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_ah.png" )
+image side kazuma_s angry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_angry.png" )
+image side kazuma_s body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_body.png" )
+image side kazuma_s confident:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_confident.png" )
+image side kazuma_s die:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_die.png" )
+image side kazuma_s eh:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_eh.png" )
+image side kazuma_s fun:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_fun.png" )
+image side kazuma_s hurt:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_hurt.png" )
+image side kazuma_s normal:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_normal.png" )
+image side kazuma_s sad:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad.png" )
+image side kazuma_s sad2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_sad2.png" )
+image side kazuma_s serious:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_serious.png" )
+image side kazuma_s shock:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock.png" )
+image side kazuma_s shock2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shock2.png" )
+image side kazuma_s shout:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_shout.png" )
+image side kazuma_s smart:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smart.png" )
+image side kazuma_s smile:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_smile.png" )
+image side kazuma_s soccer:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_soccer.png" )
+image side kazuma_s body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_s_body.png" )
+image side kazuma_s yasashi:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/Kazuma/kazuma_s_body.png" ,(0,2000), "Sprite/Kazuma/kazuma_yasashi.png" )
+image risa Mana:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/Mana.png" )
+image risa ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_ah.png" )
+image risa angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_angry.png" )
+image risa body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_body.png" )
+image risa s:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_body_s.png" )
+image risa confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_confident.png" )
+image risa normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_normal.png" )
+image risa question:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_question.png" )
+image risa sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_sad.png" )
+image risa sadistic:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_sadistic.png" )
+image risa serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_serious.png" )
+image risa smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_smile.png" )
+image risa smug:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_smug.png" )
+image risa worry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_worry.png" )
+image side risa Mana:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/Mana.png" )
+image side risa ah:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_ah.png" )
+image side risa angry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_angry.png" )
+image side risa body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_body.png" )
+image side risa s:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_body_s.png" )
+image side risa confident:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_confident.png" )
+image side risa normal:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_normal.png" )
+image side risa question:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_question.png" )
+image side risa sad:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_sad.png" )
+image side risa sadistic:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_sadistic.png" )
+image side risa serious:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_serious.png" )
+image side risa smile:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_smile.png" )
+image side risa smug:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_smug.png" )
+image side risa worry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/risa/risa_body.png" ,(0,2000), "Sprite/risa/risa_worry.png" )
+image akane akane:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane.png" )
+image akane ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_ah.png" )
+image akane angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_angry.png" )
+image akane angrymeme:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_angrymeme.png" )
+image akane body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_body.png" )
+image akane bodys:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_bodys.png" )
+image akane confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_confident.png" )
+image akane look:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_look.png" )
+image akane look2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_look2.png" )
+image akane normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_normal.png" )
+image akane onegai:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_onegai.png" )
+image akane s1:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s1.png" )
+image akane s2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s2.png" )
+image akane s3:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s3.png" )
+image akane sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_sad.png" )
+image akane serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_serious.png" )
+image akane smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_smile.png" )
+image akane smug:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_smug.png" )
+image akane yasashi:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_yasashi.png" )
+image side akane akane:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane.png" )
+image side akane ah:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_ah.png" )
+image side akane angry:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_angry.png" )
+image side akane angrymeme:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_angrymeme.png" )
+image side akane body:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_body.png" )
+image side akane bodys:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_bodys.png" )
+image side akane confident:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_confident.png" )
+image side akane look:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_look.png" )
+image side akane look2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_look2.png" )
+image side akane normal:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_normal.png" )
+image side akane onegai:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_onegai.png" )
+image side akane s1:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s1.png" )
+image side akane s2:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s2.png" )
+image side akane s3:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_s3.png" )
+image side akane sad:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_sad.png" )
+image side akane serious:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_serious.png" )
+image side akane smile:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_smile.png" )
+image side akane smug:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_smug.png" )
+image side akane yasashi:
+    zoom 0.25
+    xoffset 100
+    yoffset 0
+    im.Composite((1433,3100), (0,2000), "Sprite/akane/akane_body.png" ,(0,2000), "Sprite/akane/akane_yasashi.png" )
