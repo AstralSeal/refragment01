@@ -37,10 +37,25 @@ define father_en = Character("Mary's Father",color="#F0F8FF", who_outlines=[(2,"
 define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
+
+define maya_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define student_m_a = Character("นักเรียนชาย A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define student_m_b = Character("นักเรียนชาย B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define student_m_c = Character("นักเรียนชาย C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+
+define student_f_a = Character("นักเรียนหญิง A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define student_f_b = Character("นักเรียนหญิง B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define student_f_c = Character("นักเรียนหญิง C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+
+
+
 define reika = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define yuno = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define maya = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
+define akane = Character("อาคาเนะ", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define kazuma = Character("คาซึมะ", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define risa = Character("ริซะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
@@ -73,33 +88,33 @@ image cg3 = im.Scale("cg/cg3.png",1920,1080)
 # image reika normal :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika01/reika01_body.png" , (0,1700),"Sprite/reika01/reika01_normal.png") 
 
 # image reika angry1 :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika01/reika01_body.png" , (0,1700),"Sprite/reika01/reika01_angry1.png") 
 
 # image reika p_normal :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_normal.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika01/reika01_p_body.png" , (0,1700),"Sprite/reika01/reika01_normal.png") 
 
 # image reika p_angry1 :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika01/reika01_p_body.png" , (0,2000),"Sprite/reika01/reika01_angry1.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika01/reika01_p_body.png" , (0,1700),"Sprite/reika01/reika01_angry1.png") 
 
 
 # image reika normal_2 :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_normal.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika02/reika02_body.png" , (0,1700),"Sprite/reika02/reika02_normal.png") 
 
 # image reika angry1_2 :
 #     zoom 0.75
 #     xoffset 25
-#     im.Composite((1433,3100), (0,2000),"Sprite/reika02/reika02_body.png" , (0,2000),"Sprite/reika02/reika02_angry.png") 
+#     im.Composite((1433,3100), (0,1700),"Sprite/reika02/reika02_body.png" , (0,1700),"Sprite/reika02/reika02_angry.png") 
 
 
 label splashscreen:
@@ -151,23 +166,23 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s1_1_2
     # show reika normal with dissolve
-    # # reika normal "Word1" with dissolve
-    # # reika angry1 "Word2" with dissolve
-    # # reika normal "Word3" with dissolve
+    # reika normal "Word1" with dissolve
+    # reika angry1 "Word2" with dissolve
+    # reika normal "Word3" with dissolve
 
-    # # reika normal_2 "Word1" with dissolve
-    # # reika angry1_2 "Word2" with dissolve
-    # # reika normal_2 "Word3" with dissolve
+    # reika normal_2 "Word1" with dissolve
+    # reika angry1_2 "Word2" with dissolve
+    # reika normal_2 "Word3" with dissolve
 
-    # # reika normal "Word1" with dissolve
-    # # reika angry1_2 "Word2" with dissolve
-    # # reika normal "Word3" with dissolve
+    # reika normal "Word1" with dissolve
+    # reika angry1_2 "Word2" with dissolve
+    # reika normal "Word3" with dissolve
 
-    # # reika p_normal "Word1" with dissolve
-    # # reika p_angry1 "Word2" with dissolve
-    # # reika p_normal "Word3" with dissolve
+    # reika p_normal "Word1" with dissolve
+    # reika p_angry1 "Word2" with dissolve
+    # reika p_normal "Word3" with dissolve
     # reika normal "Word1" with dissolve
     # reika onegai_2 "Word1" with dissolve
     # reika smile "Word3" with dissolve
@@ -175,20 +190,20 @@ label start:
 
     # hide reika with dissolve
 
-    # show nanami normal with dissolve
-    # nanami normal "Word1" with dissolve
-    # nanami onegai "Word1" with dissolve
-    # nanami smile "Word3" with dissolve
-    # nanami sad "Word4" with dissolve
+    # show yuno normal with dissolve
+    # yuno normal "Word1" with dissolve
+    # yuno onegai "Word1" with dissolve
+    # yuno smile "Word3" with dissolve
+    # yuno sad "Word4" with dissolve
 
-    # hide nanami with dissolve
+    # hide yuno with dissolve
 
     # show maya normal with dissolve
     # maya normal "Word1" with dissolve
     # maya onegai "Word1" with dissolve
     # maya smile "Word3" with dissolve
     # maya sad "Word4" with dissolve
-
+    
 
  
     # This ends the game.
