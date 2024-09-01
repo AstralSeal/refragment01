@@ -160,13 +160,38 @@ label title3:
 
 
 
+
+    
+image flyingseal01:
+    "SD/flyingseal/flyingseal01.png" with dissolve
+    pause 1.0
+    "SD/flyingseal/flyingseal02.png" with dissolve
+    pause 1.0
+    repeat
+
+image kick01:
+    "SD/kick/kick01.png" with dissolve
+    pause 1.0
+    "SD/kick/kick02.png" with dissolve
+    pause 1.0
+    repeat
+
+image kick04:
+    "SD/kick/kick04.png" with dissolve
+    pause 0.5
+    "SD/kick/kick05.png" with dissolve
+    pause 0.5
+    repeat
+
+
+
 style default:
     line_spacing 10
 init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1_2
+    jump s1_1
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve

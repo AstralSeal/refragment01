@@ -2,7 +2,7 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s1_1_2.csv"
+FILE_NAME = "s1_1.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 
@@ -74,11 +74,12 @@ for i,c in data.iterrows():
     if(bg):
         print(f'scene {bg} with Dissolve(1.0)')
 
-    # if(bgm and bgm != 'stop'):
-    #     print(f'play music "audio/bgm/{bgm}.mp3" volume 0.5')
+    if(bgm and bgm != 'stop'):
+        print(f"stop music")
+        print(f'play music "audio/bgm/{bgm}.mp3" volume 0.5')
     
-    # if(bgm =='stop'):
-    #     print(f"stop music")
+    if(bgm =='stop'):
+        print(f"stop music")
 
     show_charector(character1, character2)
         
@@ -89,7 +90,7 @@ for i,c in data.iterrows():
     
     if(bg_effect):
         if("hide" in bg_effect):
-            print(f'hide {bg_effect} with dissolve')
+            print(f'{bg_effect} with dissolve')
         else:
             print(f'show {bg_effect} with dissolve')
 

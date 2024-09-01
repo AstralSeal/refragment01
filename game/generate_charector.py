@@ -114,6 +114,13 @@ for c in onlyfiles:
     print(f'    xoffset 25')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno01/yuno01_p_body.png" ,(0,1700), "Sprite/yuno01/{c}" )')
 
+for c in onlyfiles:
+    print(f'image yuno_c {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno01/yuno01_c_body.png" ,(0,1700), "Sprite/yuno01/{c}" )')
+
+
 
 for c in onlyfiles:
     print(f'image side yuno {get_emotion_from_file(c)}:')
@@ -128,6 +135,13 @@ for c in onlyfiles:
     print(f'    xoffset 100')
     print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno01/yuno01_p_body.png" ,(0,1700), "Sprite/yuno01/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side yuno_c {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno01/yuno01_c_body.png" ,(0,1700), "Sprite/yuno01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\yuno02"
 
@@ -157,6 +171,12 @@ for c in onlyfiles:
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno02/yuno02_p_body.png" ,(0,1700), "Sprite/yuno02/{c}" )')
 
 for c in onlyfiles:
+    print(f'image yuno_c {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno02/yuno02_c_body.png" ,(0,1700), "Sprite/yuno02/{c}" )')
+
+for c in onlyfiles:
     print(f'image side yuno {get_emotion_from_file(c)}_2:')
     print(f'    zoom 0.25')
     print(f'    xoffset 100')
@@ -169,6 +189,13 @@ for c in onlyfiles:
     print(f'    xoffset 100')
     print(f'    yoffset 0')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno02/yuno02_p_body.png" ,(0,1700), "Sprite/yuno02/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side yuno_c {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.25')
+    print(f'    xoffset 100')
+    print(f'    yoffset 0')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/yuno02/yuno02_c_body.png" ,(0,1700), "Sprite/yuno02/{c}" )')
 
 #################################################################################################
 
