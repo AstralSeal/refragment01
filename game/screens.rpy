@@ -1359,15 +1359,15 @@ screen config_main():
     key "K_ESCAPE" action Hide('config_main')
 
     if (persistent.language == "thai"):
-        add "config/setting_th_bg.png"
+        add "config/setting_bg_th.png"
     else :
         add "config/setting_bg_eng.png"
     
     if (persistent.language == "thai"):
         imagebutton:
             focus_mask True
-            idle "config/setting_th_bg.png" 
-            hover "config/setting_th_bg.png" 
+            idle "config/setting_bg_th.png" 
+            hover "config/setting_bg_th.png" 
             action SetVariable("persistent.nothing" , 0)
     else :
         imagebutton:
@@ -1384,21 +1384,38 @@ screen config_main():
         activate_sound "audio/UIsound/choice_confirm_01.ogg" 
         
 
-    
-    if  preferences.skip_unseen ==True:
-        imagebutton:
-            focus_mask True
-            idle "config/all_hover.png"
-        imagebutton auto "config/read_%s.png":
-            focus_mask True
-            action Preference("skip", "toggle")
-    else:
-        imagebutton:
-            focus_mask True
-            idle "config/read_only_hover.png"
-        imagebutton auto "config/all_%s.png":
-            focus_mask True
-            action Preference("skip", "toggle")
+    if (persistent.language == "thai"):
+        if  preferences.skip_unseen ==True:
+            imagebutton:
+                focus_mask True
+                idle "config/allth_hover.png"
+            imagebutton auto "config/readth_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+        else:
+            imagebutton:
+                focus_mask True
+                idle "config/readth_hover.png"
+            imagebutton auto "config/allth_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+    # else :
+    #     if  preferences.skip_unseen ==True:
+    #         imagebutton:
+    #             focus_mask True
+    #             idle "config/all_hover.png"
+    #         imagebutton auto "config/read_%s.png":
+    #             focus_mask True
+    #             action Preference("skip", "toggle")
+    #     else:
+    #         imagebutton:
+    #             focus_mask True
+    #             idle "config/read_only_hover.png"
+    #         imagebutton auto "config/all_%s.png":
+    #             focus_mask True
+    #             action Preference("skip", "toggle")
+
+
     
     if  preferences.fullscreen==False:
         imagebutton:
