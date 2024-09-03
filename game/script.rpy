@@ -183,8 +183,9 @@ image kick04:
     pause 0.5
     repeat
 
-
-
+transform zoom_in:
+    zoom 1.7
+    yoffset 200
 style default:
     line_spacing 10
 init python:
