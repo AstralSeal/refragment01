@@ -185,7 +185,7 @@ image kick04:
 
 transform zoom_in:
     zoom 1.7
-    yoffset 200
+    yoffset 300
 style default:
     line_spacing 10
 init python:
