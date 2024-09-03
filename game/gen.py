@@ -2,17 +2,30 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s1_4.csv"
+FILE_NAME = "s1_1.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
-
+zoom_in_cha = ""
 def show_charector(charector1,charector2,zoom=False):
+    global zoom_in_cha 
+    if(  charector1 != ""):
+        zoom_in_cha = charector1
+        print("##################" , zoom_in_cha)
 
     if ("hide" in charector1) :
         print(charector1)
         if("hide" in charector2):
             print(charector2)
         return 
+
+    if (zoom == "1" or zoom == 1) :
+        print(f'show {zoom_in_cha} normal at zoom_in,center with Dissolve(1.0) ')
+        return
+    
+    if (zoom == "0" or zoom == 0):
+        print(f'show {zoom_in_cha} normal at center with Dissolve(1.0) ')
+        return
+
 
 
     if ( charector1 == "" ):
@@ -34,7 +47,6 @@ def show_charector(charector1,charector2,zoom=False):
         
     # One character Case
     print(f'show {character1} normal at center with Dissolve(1.0) ')
-
     return
 
 def preprocess_dialog(s):
@@ -81,12 +93,12 @@ for i,c in data.iterrows():
     if(bgm =='stop'):
         print(f"stop music")
 
-    show_charector(character1, character2)
+    show_charector(character1, character2, zoom)
         
 
 
-    if(voice):
-        print(f'play sound "audio/voice/{voice}"')
+    # if(voice):
+    #     print(f'play sound "audio/voice/{voice}"')
     
     if(bg_effect):
         if("hide" in bg_effect):
