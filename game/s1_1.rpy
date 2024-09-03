@@ -180,4 +180,5 @@ label s1_1:
     stop music
     play music "audio/bgm/stop music.mp3" volume 0.5
     "สักวันหนึ่งผมจะอบรมน้องสาวเรื่องการใช้เงินอย่างจริงจัง แต่ตอนนี้ต้องรีบไปโรงเรียนแล้ว" with dissolve
+    jump s1_2
     return
