@@ -2,7 +2,7 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s1_1.csv"
+FILE_NAME = "s1_2.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -10,7 +10,6 @@ def show_charector(charector1,charector2,zoom=False):
     global zoom_in_cha 
     if(  charector1 != ""):
         zoom_in_cha = charector1
-        print("##################" , zoom_in_cha)
 
     if ("hide" in charector1) :
         print(charector1)

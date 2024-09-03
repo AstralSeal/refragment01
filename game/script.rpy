@@ -38,7 +38,7 @@ define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#0000
 define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
 
-define maya_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define maya_0 = Character("???",image ="maya", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define student_m_a = Character("นักเรียนชาย A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define student_m_b = Character("นักเรียนชาย B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define student_m_c = Character("นักเรียนชาย C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
@@ -192,7 +192,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s1_2
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
