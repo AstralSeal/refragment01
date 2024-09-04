@@ -1,4 +1,4 @@
-label s1_3:
+label s1_3: 
     scene school_classroom_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
@@ -41,7 +41,7 @@ label s1_3:
     yuma  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่รึไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
     reika angry2_2 "นายหยุดพูดเรื่องไฝที่ก้นซักทีได้ไหม ในสมองนาย ความทรงจำที่มีร่วมกันของพวกเรามันมีอยู่แค่เรื่องเดียวหรือไงห้ะ" with dissolve
     yuma  "เธอจะบอกว่าในวันนั้นตอนที่พวกเราสองทำเรื่องสนุกๆ ด้วยกันแล้วไปอาบน้ำด้วยกัน มันไม่น่าจดจำงั้นเหรอ" with dissolve
-    reika angry "หุบปาก เดี๋ยวฉันเคลียร์เรื่องนี้เอง แล้วนายก็ไม่ต้องพูดเรื่องไฝที่ก้นหรืออะไรที่ชวนเข้าใจผิดด้วย เข้าใจไหม" with dissolve
+    reika angry1 "หุบปาก เดี๋ยวฉันเคลียร์เรื่องนี้เอง แล้วนายก็ไม่ต้องพูดเรื่องไฝที่ก้นหรืออะไรที่ชวนเข้าใจผิดด้วย เข้าใจไหม" with dissolve
     reika angry3 "อีกอย่าง ตอนนั้นฉันไม่ได้อาบน้ำกับนายด้วย" with dissolve
     yuma  "คร้าบๆ เข้าใจแล้ว" with dissolve
     hide reika
@@ -62,7 +62,7 @@ label s1_3:
     yuma  "นั่นสินะ รู้จักกันมานานมากพอที่จะรู้ว่าเรกะมีไฝที่…" with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
     "ขณะที่ผมกำลังพูด เรกะหันมาจ้องผมด้วยสายตาอำมหิต" with dissolve
-    reika angry3_2 "นานพอที่จะรู้ที่ซ่อนหนังสือลามกทั้งหมดของนายแล้วกัน ยูมะ" with dissolve
+    reika angry3 "นานพอที่จะรู้ที่ซ่อนหนังสือลามกทั้งหมดของนายแล้วกัน ยูมะ" with dissolve
     reika  "นายคงยังไม่อยากเห็นหนังสือพวกนั้นตกอยู่ในกองเพลิงสินะ" with dissolve
     "จิตสังหารของยัยนี่น่ากลัวชะมัด" with dissolve
     "แม้ว่าเรื่องไฝที่ก้นของเธอเป็นเรื่องที่ยูโนะเล่าให้ฟังสมัยอาบน้ำด้วยกันกับเรกะตอนเด็กๆ ก็เถอะ" with dissolve
@@ -127,7 +127,7 @@ label s1_3:
     "จู่ๆ ผมก็ถูกหยิกเข้าที่เอวอย่างรุนแรง" with dissolve
     "ความเจ็บปวดที่ไม่ทันตั้งตัวนี้ ทำให้ความง่วงของผมหายเป็นปลิดทิ้ง" with dissolve
     show risa normal at zoom_in,center with Dissolve(1.0) 
-    reika angry_2 "ยูมะ ตั้งใจเรียนหน่อย" with dissolve
+    reika angry1_2 "ยูมะ ตั้งใจเรียนหน่อย" with dissolve
     yuma  "เมื่อคืนเธอทำให้ฉันนอนหลับไม่เต็มอิ่ม ตอนกลางวันยังตามมาขัดขวางอีก" with dissolve
     reika hee "พูดอะไรของนาย ไม่เห็นเข้าใจเลย เมื่อคืนฉันไม่ได้ยุ่งกับนายเลยสักนิด" with dissolve
     reika angry "อีกอย่าง หัดทำตัวให้สมกับสมาชิกสภานักเรียนหน่อย" with dissolve
@@ -136,7 +136,7 @@ label s1_3:
     yuma  "ช่วยไม่ได้ ถ้างั้นเดี๋ยวฉันเเอบงีบคาบต่อไปแทนก็แล้วกัน" with dissolve
     reika angry2_2 "ไม่ได้!" with dissolve
     yuma  "แล้วฉันจะต้องแอบหลับคาบไหนละเนี่ย" with dissolve
-    reika angry_2 "นายก็อดทนไปนอนตอนพักกลางวันสิ จะมาหลับตอนเรียนได้ไงกัน" with dissolve
+    reika angry1_2 "นายก็อดทนไปนอนตอนพักกลางวันสิ จะมาหลับตอนเรียนได้ไงกัน" with dissolve
     yuma  "แบบนั้นฉันก็อดกินข้าวน่ะสิ" with dissolve
     hide reika
     show risa normal at center with Dissolve(1.0) 
@@ -157,7 +157,7 @@ label s1_3:
     hide risa
     "แย่แล้ว ข้อต่อไปนี่มันข้อไหนล่ะเนี่ย เมื่อกี้กำลังจะหลับ" with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    yuma angry3 "เรกะ เฮลป์มีพลีส" with dissolve
+    yuma  "เรกะ เฮลป์มีพลีส" with dissolve
     "ผมส่งสายตาขอความช่วยเหลือ แต่เรกะเบือนหน้านี้ ทำหน้าไม่รู้ไม่ชี้" with dissolve
     hide reika
     show reika normal at center with Dissolve(1.0) 
@@ -176,3 +176,4 @@ label s1_3:
     reika cold_2 "สมน้ำหน้า ทีนี้ก็ตั้งใจทำรายงานซะด้วยล่ะ" with dissolve
     "ฝากไว้ก่อนเถอะเรกะ" with dissolve
     hide reika
+    return
