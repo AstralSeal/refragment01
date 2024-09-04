@@ -176,4 +176,5 @@ label s1_3:
     reika cold_2 "สมน้ำหน้า ทีนี้ก็ตั้งใจทำรายงานซะด้วยล่ะ" with dissolve
     "ฝากไว้ก่อนเถอะเรกะ" with dissolve
     hide reika
+    jump s1_4
     return
