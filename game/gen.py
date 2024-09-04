@@ -7,15 +7,17 @@ data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
 def show_charector(charector1,charector2,zoom=False):
+
+    if ("hide" in charector1) :
+        return
+    if("hide" in charector2):
+        return 
+
     global zoom_in_cha 
     if(  charector1 != ""):
         zoom_in_cha = charector1
 
-    if ("hide" in charector1) :
-        print(charector1)
-        if("hide" in charector2):
-            print(charector2)
-        return 
+
 
     if (zoom == "1" or zoom == 1) :
         print(f'show {zoom_in_cha} normal at zoom_in,center with Dissolve(1.0) ')
@@ -61,6 +63,12 @@ def preprocess_face(s):
     if( s == "sadistic2_2_s" or s == "sadistic2_2_s" or s == "s2_s" ):
         return "normal"
     return s
+
+def hide_charector(charector1,charector2) :
+    if ("hide" in charector1) :
+        print(charector1)
+    if("hide" in charector2):
+        print(charector2)
 
 for i,c in data.iterrows():
     ### Assign ##############################
@@ -118,7 +126,7 @@ for i,c in data.iterrows():
         else:
             print(f'"{preprocess_dialog(talk)}" with dissolve')
 
-
+    hide_charector(character1,character2)
     # if(bg_effect):
     #     print(f'hide {bg_effect}')
 

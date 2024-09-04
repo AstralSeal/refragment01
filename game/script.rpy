@@ -47,7 +47,7 @@ define student_f_a = Character("นักเรียนหญิง A", color="
 define student_f_b = Character("นักเรียนหญิง B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define student_f_c = Character("นักเรียนหญิง C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
-
+define everyone = Character("ทุกคน", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
 define reika = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 define yuno = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
@@ -192,7 +192,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s1_3
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
