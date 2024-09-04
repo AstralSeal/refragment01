@@ -2,7 +2,7 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s1_2.csv"
+FILE_NAME = "s1_3.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -57,6 +57,10 @@ def preprocess_dialog(s):
             .replace("]","")\
             .replace("%","\%")
 
+def preprocess_face(s):
+    if( s == "sadistic2_2_s" or s == "sadistic2_2_s" or s == "s2_s" ):
+        return "normal"
+    return s
 
 for i,c in data.iterrows():
     ### Assign ##############################
@@ -110,7 +114,7 @@ for i,c in data.iterrows():
     
     if(talk):
         if(who_talk):
-            print(f'{who_talk} {face} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk} {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
         else:
             print(f'"{preprocess_dialog(talk)}" with dissolve')
 
