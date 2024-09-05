@@ -182,17 +182,18 @@ image kick04:
     "SD/kick/kick05.png" with dissolve
     pause 0.5
     repeat
+image imagine = im.Scale("imagine.png",1920,1080)
 
 transform zoom_in:
     zoom 1.7
-    yoffset 300
+    yoffset 500
 style default:
     line_spacing 10
 init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_3
+    jump s1_1
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
