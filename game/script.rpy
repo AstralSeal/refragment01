@@ -183,7 +183,7 @@ image kick04:
     pause 0.5
     repeat
 image imagine = im.Scale("imagine.png",1920,1080)
-
+image sunset4 = im.Scale("bg/sunset4.png",1920,1080)
 transform zoom_in:
     zoom 1.7
     yoffset 500
