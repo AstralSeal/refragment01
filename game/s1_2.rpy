@@ -9,17 +9,23 @@ label s1_2:
     akane ah "รุ่นพี่ยูมะ มาพอดีเลย" with dissolve
     akane normal "รองประธานฯ ฝากบอกมาว่าให้รุ่นพี่ยูมะไปที่หอประชุมด่วน" with dissolve
     yuma  "เข้าใจแล้ว" with dissolve
-    hide akane
     "นักเรียนคนอื่นเมื่อมาถึงโรงเรียนก็จะทยอยเข้าไปที่ห้องเรียนของตัวเอง" with dissolve
+    hide akane
     "แต่เนื่องจากผมทำงานอยู่สังกัดสภานักเรียน" with dissolve
     "ผมจึงต้องช่วยงานกิจกรรมต่างๆ ของสภานักเรียนด้วย" with dissolve
+    "ส่วนผู้หญิงคนนี้ ถึงยามปกติจะดูเป็นคนเรียบร้อย" with dissolve
+    "แต่ว่าถ้าเป็นเรื่องกฎระเบียบแล้วละก็..." with dissolve
     scene akane with Dissolve(1.0)
-    akane  "อากาเนะ: นักเรียนชายตรงนั้น หยุดก่อน ช่วยแต่งตัวให้เรียบร้อยหน่อย" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-125.mp3" volume 0.5
+    akane  "นักเรียนชายตรงนั้น หยุดก่อน ช่วยแต่งตัวให้เรียบร้อยหน่อย" with dissolve
     student_m_a  "ครับ!" with dissolve
     "เธอคนนี้คืออิวาโนะ อากาเนะ เป็นกรรมการฝ่ายระเบียบวินัย" with dissolve
     "ทำหน้าที่ตรวจตราและดูแลความเรียบร้อยของนักเรียนทุกคน" with dissolve
     "แม้เป็นนักเรียนชั้นปีหนึ่ง แต่ความเคร่งครัดของเธอทำให้นักเรียนชั้นปีสูงกว่าเกรงกลัวเธออย่างมาก" with dissolve
     scene school_front_noon with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-107.mp3" volume 0.5
     "เนื่องจากผมยังไม่มีธุระอะไรกับอากาเนะในตอนนี้" with dissolve
     "ผมจึงรีบไปที่หอประชุมตามที่รองประธานฯ บอกมา" with dissolve
     scene school_conventionhall_lightoff with Dissolve(1.0)
@@ -39,8 +45,8 @@ label s1_2:
     akane ah "นักเรียนทุกคนมากันหมดแล้ว พร้อมหรือยัง" with dissolve
     yuma  "พร้อมแล้ว ไม่มีปัญหา" with dissolve
     kazuma smile "ถ้าอย่างนั้นก็เริ่มเลย" with dissolve
-    hide kazuma
     "......" with dissolve
+    hide kazuma
     scene school_conventionhall_limelight with Dissolve(1.0)
     "......" with dissolve
     "......." with dissolve
@@ -80,7 +86,7 @@ label s1_2:
     reika  "โรงเรียนซิลเวอร์ซีลมีน้ำอัดลมหลายยี่ห้อวางจำหน่ายอยู่ แต่สมาคมศิษย์เก่าเสนอว่าควรยกเลิกการจำหน่ายน้ำอัดลมในพื้นที่โรงเรียนถาวร" with dissolve
     reika  "นักเรียนทุกท่านมีความเห็นอย่างไร ควรอนุญาตให้จำหน่ายน้ำอัดลมต่อ หรือยกเลิกการจำหน่ายน้ำอัดลมถาวร โปรดลงคะแนนเสียงภายในสัปดาห์นี้" with dissolve
     reika  "ขอจบการนำเสนอเพียงเท่านี้ ใครมีคำถามอะไรไหม" with dissolve
-    scene school_conventionhall_limelight with Dissolve(1.0)
+    scene school_conventionhall_lightoff with Dissolve(1.0)
     "หลังเรกะพูดจบ หอประชุมตกอยู่ในความเงียบสงบ" with dissolve
     "จนกระทั่งเสียงหนึ่งทำหลายความเงียบขึ้นมา" with dissolve
     student_m_b  "คุณคุโรมิยะมีแฟนหรือยังครับ ช่วยบอกสเปคผู้ชายที่ชอบหน่อยครับ" with dissolve
@@ -89,7 +95,6 @@ label s1_2:
     reika  "สเปคผู้ชายที่ชอบเหรอ... อันดับแรกคือไม่ใช่คนแบบนายล่ะนะ" with dissolve
     reika  "ที่นี่คือหอประชุม พื้นที่สาธารณะที่ทุกคนใช้งานร่วมกัน" with dissolve
     reika  "ไม่มีสุภาพบุรุษที่ดีคนไหนโผงผางเรื่องส่วนตัวกลางพื้นที่สาธารณะหรอกนะ" with dissolve
-    scene school_conventionhall_limelight with Dissolve(1.0)
     student_m_b  "อะเฮือก!" with dissolve
     student_m_a  "เห้ย ทำใจดีๆ ไว้ วิญญาณหลุดออกจากร่างไปซะแล้ว" with dissolve
     scene podium00 with Dissolve(1.0)
@@ -111,15 +116,18 @@ label s1_2:
     maya_0  "กดปุ่มนี้...... หรือว่าปุ่มนี้......" with dissolve
     maya_0  "ใช้ยากชะมัด ทำไมไม่ทำปุ่มกดให้มันใช้ง่ายๆ กันเล่า" with dissolve
     maya_0  "จริงด้วย คิดออกแล้ว" with dissolve
-    hide flyingseal01 with dissolve
-    maya_0  "เอานี่ไปกิน" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-119.mp3" volume 0.5
     show kick01 with dissolve
+    hide flyingseal01
+    maya_0  "เอานี่ไปกิน" with dissolve
     maya_0  "ย้ากกกกกก!" with dissolve
     maya_0  "แปลกจัง ทำไมกระป๋องน้ำถึงไม่หล่นลงมาแบบในอนิเมะ" with dissolve
     maya_0  "สงสัยออกแรงน้อยไปหน่อย" with dissolve
-    hide kick01 with dissolve
     maya_0  "ดีล่ะ รอบนี้ได้แน่นอน คงต้องใช้เทคนิคขั้นสูงกันสักหน่อยแล้ว" with dissolve
     show kick04 with dissolve
+    hide kick01 with dissolve
+
     maya_0  "รับไปซะ ลูกเตะอัคคีสลาตัน!" with dissolve
     "จะบ้าเหรอ นี่มันตู้กดน้ำ ไม่ใช่ลูกบอล" with dissolve
     hide kick04 with dissolve
@@ -131,17 +139,17 @@ label s1_2:
     maya_0 ah "อ๊ะ คนจากสภานักเรียนใช่มั้ย พอดีเลย นายมานี่หน่อยสิ" with dissolve
     maya_0 angry "ตู้เสียแน่เลย กดปุ่มแล้วไม่เห็นมีน้ำออกมาเลย" with dissolve
     yuma  "ตู้ไม่ได้เสียซักหน่อย เธอน่ะใช้ตู้ผิดวิธีต่างหาก" with dissolve
-    hide maya
     maya_0  "งั้นนายช่วยสอนวิธีการใช้หน่อยสิ" with dissolve
     show flyingseal05 with dissolve
     yuma  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า แมวน้ำบิน" with dissolve
+    hide maya
     yuma  "ตู้กดเครื่องดื่มอัตโนมัติรุ่นใหม่ล่าสุดที่ใช้พื้นที่แค่ 1x1 ตารางเมตร" with dissolve
     yuma  "จุดเด่นคือเสริฟเครื่องดื่มใส่แก้วเลย ไม่ใช่กระป๋องหรือขวดน้ำแบบตู้กดน้ำธรรมดา" with dissolve
     yuma  "นอกจากนี้ยังเลือกประเภทเครื่องดื่ม ร้อน-เย็น-ปั่น ได้มากกว่า 180 เมนูเลยทีเดียว" with dissolve
     yuma  "เนื่องจากมีเมนูเครื่องดื่มให้เลือกเยอะมาก จึงต้องสั่งงานผ่านหน้าจอสัมผัสขนาดใหญ่" with dissolve
-    hide flyingseal05 with dissolve
     yuma  "วิธีใช้ไม่ยาก เลือกเมนูที่ต้องการ เลือกระดับความหวานและจ่ายเงิน ทำตามขั้นตอนได้เลย" with dissolve
     show maya normal at center with Dissolve(1.0) 
+    hide flyingseal05 with dissolve
     maya_0 ah_2 "ว้าว จริงด้วย ใช้งานไม่ยากอย่างที่คิดแฮะ" with dissolve
     maya_0  "นี่นายเป็นพนักงานบริษัทผลิตตู้เครื่องดื่มที่ปลอมตัวมาเป็นนักเรียนหรือเปล่าเนี่ย" with dissolve
     yuma  "จริงๆ แล้วผมเป็นประธานบริษัท! ……ไม่ใช่ จะเป็นแบบนั้นได้ยังไงเล่า!?" with dissolve
@@ -214,8 +222,8 @@ label s1_2:
     yuma  "เมื่อกี้เธอว่าอะไรนะ" with dissolve
     maya shy2 "ปะ… เปล่า" with dissolve
     maya wink "ฉันต้องรีบไปแล้ว ไว้เจอกันใหม่นะ ขอบใจมาก ยูคุง~" with dissolve
-    hide maya
     "หลังพูดจบ มายะก็รีบวิ่งขึ้นบันไดพร้อมกับแก้วเครื่องดื่มจากตู้แมวน้ำบิน" with dissolve
+    hide maya
     yuma  "อะไรของเขากันนะ พิลึกคน" with dissolve
     "ทันใดนั้นผมก็รู้สาเหตุที่รุ่นพี่มายะทำตัวแปลกไป" with dissolve
     show akane normal at center with Dissolve(1.0) 
@@ -223,9 +231,10 @@ label s1_2:
     akane angrymeme "อย่าหนีนะ …ให้ตายเถอะ ตามไม่ทันจนได้" with dissolve
     akane angry "รุ่นพี่ยูมะ ทำไมรุ่นพี่ถึงไม่ตักเตือนคุณชิราซากิคะ นอกจากวิ่งบริเวณทางเดินแล้วยัยนั่นยังแต่งตัวผิดระเบียบหัวจรดเท้าอีกต่างหาก" with dissolve
     yuma  "ขอโทษคร้าบ ครั้งหน้าจะรีบตักเตือน" with dissolve
+    show akane normal at zoom_in,center with Dissolve(1.0) 
     akane normal "อย่าให้หนูรู้นะว่ารุ่นพี่แกล้งทำเป็นมองไม่เห็นเพราะโดนยัยนั่นหว่านเสน่ห์ใส่น่ะ" with dissolve
-    hide akane
     "ถึงว่า เมื่อสักครู่นี้รุ่นพี่มายะจะรีบวิ่งหนีไปเพราะเห็นอากาเนะสินะ" with dissolve
+    hide akane
     "วันนี้มันอะไรกันเนี่ย วุ่นวายชะมัด" with dissolve
     jump s1_3
     return

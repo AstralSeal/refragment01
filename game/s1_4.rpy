@@ -1,7 +1,9 @@
 label s1_4:
-    scene school_classroom_evening with Dissolve(1.0)
+    scene sunset4 with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5
+    "ในที่สุดก็ถึงเวลาเลิกเรียน" with dissolve
+    scene school_classroom_evening with Dissolve(1.0)
     student_m_a  "เห้อ ในที่สุดก็เลิกเรียนสักที" with dissolve
     student_m_b  "เย็นนี้ไปยิมด้วยกันเถอะ ลูกผู้ชายกับกล้ามเนื้อเป็นของคู่กันอยู่แล้ว" with dissolve
     yuma  "ฉันขอผ่าน วันนี้มีงานสภานักเรียนตอนเย็นน่ะสิ" with dissolve
@@ -89,7 +91,7 @@ label s1_4:
     hide reika
     "เรกะชี้ไปที่หน้าประตูห้อง เธอคงหมายถึงลำโพงสินะ" with dissolve
     show reika normal at center with Dissolve(1.0) 
-    yuma "ประกาศรายชื่อคนที่ไม่ได้นำหนังสือมาคืนเหรอ" with dissolve
+    yuma  "ประกาศรายชื่อคนที่ไม่ได้นำหนังสือมาคืนเหรอ" with dissolve
     reika  "ใช่แล้ว ลองนึกภาพว่าถ้าถูกประกาศชื่อว่าไม่ยอมคืนหนังสือบ่อยๆ จนกลายเป็น Talk of The Town ละก็ ต่อให้มีเงินล้นฟ้าก็ต้องทนไม่ไหวบ้างแหละ" with dissolve
     yuma  "แบบนี้นี่เอง" with dissolve
     hide reika
@@ -97,7 +99,6 @@ label s1_4:
     akane serious "ถ้าอย่างนั้นฉันจะเป็นรับผิดชอบเรื่องนี้เอง ถ้าเกิดว่าใครมีปัญหาล่ะก็ฉันจะจัดการให้พวกนั้นลืมไม่ลงเลย" with dissolve
     yuma  "ลืมไม่ลงนี่คือไม่ลืมคืนหนังสือใช่ไหม" with dissolve
     hide akane
-    show akane normal at center with Dissolve(1.0) 
     "จริงอย่างที่เรกะว่า นักเรียนในโรงเรียนนี้ส่วนมากเป็นพวกคนมีฐานะที่ห่วงภาพลักษณ์ทางสังคม ถ้าหากถูกประกาศชื่อว่าไม่คืนหนังสือทุกวันล่ะก็คงทนไม่ไหวแน่" with dissolve
     "แถมการที่สภานักเรียนออกหน้าเองก็ยังช่วยตัดปัญหาที่ชมรมห้องสมุดจะถูกโจมตีด้วย" with dissolve
     "ตั้งแต่สมัยก่อนแล้วไม่ว่าจะมีปัญหาแบบไหนเรกะก็สามารถแก้ได้ภายในเวลาไม่นานเสมอ บางทีเรกะอาจจะเป็นคนที่เกิดมาเพื่อเป็นผู้นำโดยแท้จริงเลยก็ได้" with dissolve
@@ -127,6 +128,7 @@ label s1_4:
     hide akane
     yuma  "กำลังเสริม 1 นายถ้วน กำลังไป" with dissolve
     "ถ้าโชคชะตาลิขิตให้เรกะเกิดมาเป็นผู้นำแล้วละก็บางทีผมคงเกิดมาเป็นเบ๊รับใช้ละมั้ง" with dissolve
+    "ทำตัดฉากสีดำ" with dissolve
     scene home_entrance_evening with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
@@ -154,13 +156,13 @@ label s1_4:
     "ขณะที่ผมพูด เรกะก็เดินเข้ามาจากด้านหลัง" with dissolve
     hide yuno
     stop music
-    play music "audio/bgm/MusMus-BGM-134.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
     show reika normal at zoom_in,center with Dissolve(1.0) 
     # show excited with dissolve
     reika normal "เมื่อกี้นายว่ายังไงนะ" with dissolve
     "แผ่นหลังผมเย็นวาบ สัมผัสได้ถึงจิตสังหารที่ย่างกรายเข้ามา" with dissolve
     "นี่มันบ้านของผมไม่ใช่เหรอ เรกะมาอยู่ที่นี่ได้ยังไงเนี่ย" with dissolve
-    yuma "นี่เธอมายังไงเนี่ย!!!" with dissolve
+    yuma  "นี่เธอมายังไงเนี่ย!!!" with dissolve
     reika angrymeme_2 "ฉันบอกให้ลืมเรื่องนั้นไปให้หมด" with dissolve
     yuma  "มันจะไปลืมได้ยังไงล่ะ" with dissolve
     reika normal "ดีล่ะ ถ้างั้นจะทำให้นายลืมไปตลอดกาลเลย" with dissolve
@@ -213,18 +215,26 @@ label s1_4:
     reika normal_2 "ช่างเถอะ ฉันมีเรื่องสำคัญที่จะต้องบอกนายให้ได้" with dissolve
     "ผมสัมผัสได้ถึงแววตาที่เต็มเปี่ยมด้วยความร้อนแรง" with dissolve
     scene imagine with Dissolve(1.0)
-    reika onegai_2_shy "ยูมะ…" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
+    show reika normal at zoom_in,center with Dissolve(1.0) 
+    reika onegai_2 "ยูมะ…" with dissolve
     reika  "ฉัน…" with dissolve
     reika  "ฉัน........." with dissolve
     scene home_livingroom_night with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
+    show reika normal at zoom_in,center with Dissolve(1.0) 
     reika angrymeme_2 "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
     yuma  "เอ๋?!" with dissolve
     reika eh "เอ๋?!!!!!!" with dissolve
-    reika angry "นายจะตกใจอะไร ฉันออกเงินค่าบัตรเติมเงินเกม Seal Impact ของยูโนะไปก่อนล่วงหน้า ดังนั้นนายต้องจ่ายคืนฉันมาด้วย" with dissolve
+    reika angry1 "นายจะตกใจอะไร ฉันออกเงินค่าบัตรเติมเงินเกม Seal Impact ของยูโนะไปก่อนล่วงหน้า ดังนั้นนายต้องจ่ายคืนฉันมาด้วย" with dissolve
     yuma  "เอ๋?!!!!!!!" with dissolve
     "สมองของผมประมวลผลไม่ทันเพราะความเป็นจริงทับซ้อนกับความฝันในเช้าวันนี้พอดี" with dissolve
     "ฝันเมื่อเช้านี้เป็นลางบอกเหตุสินะว่าผมจะต้องติดหนี้เรกะในตอนนี้" with dissolve
     reika onegai_2 "ฮัลโหล ยูมะ อยู่ไหม" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
     yuma  "โทษที เผลอคิดนอกเรื่องไปหน่อย เมื่อกี้ว่าอะไรนะ" with dissolve
     reika hee_2 "นายจะคืนเงินที่ฉันออกให้ก่อนล่วงหน้าตอนไหน" with dissolve
     yuma  "ตอนนี้เลยก็ได้ ว่าแต่เท่าไหร่เหรอ" with dissolve

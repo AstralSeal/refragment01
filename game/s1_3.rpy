@@ -1,12 +1,14 @@
-label s1_3: 
+label s1_3:
     scene school_classroom_noon with Dissolve(1.0)
     stop music
-    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-037.mp3" volume 0.5
     show border with dissolve
     "ผมเข้ามาในห้องเรียนขณะนี้ยังไม่ถึงเวลาเรียน นักเรียนแต่คนละคนจึงจับกลุ่มคุยกัน" with dissolve
     student_f_a  "เรื่องงดขายน้ำอัดลมเมื่อเช้า คิดว่าไงบ้าง" with dissolve
     student_f_b  "ไม่เอาด้วยหรอก ไม่มีอะไรสดชื่นไปกว่าน้ำอัดลมแล้ว" with dissolve
     "ดูเหมือนว่าเพื่อนร่วมชั้นทุกคนต่างกำลังคุยกันเรื่องการงดจำหน่ายน้ำอัดลม" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     hide border with dissolve
     "ยกเว้น…" with dissolve
     student_m_b  "ยูม้า~~~ นายช่วยสอนวิธีจีบสาวหน่อย" with dissolve
@@ -25,12 +27,16 @@ label s1_3:
     "ทำไมทุกคนถึงเอาแต่สนใจเรื่องหน้าอกเบิ้มๆ กัน ไม่มีเรื่องอื่นที่น่าสนใจกว่านี้แล้วหรือไง" with dissolve
     "แล้วทำไมเรกะต้องโมโหขึ้นมาด้วยเนี่ย" with dissolve
     "ใครก็ได้ช่วยเปลี่ยนเรื่องที" with dissolve
+    hide reika
     student_f_a  "จะว่าไป ทั้งสองคนสนิทกันดีจัง" with dissolve
     student_f_b  "จริงด้วย ถ้าเป็นแค่คนที่ทำงานในสภานักเรียนด้วยกันเฉยๆ ก็คงไม่สนิทกันแบบนี้หรอก นายเป็นอะไรกับคุณคุโรมิยะ บอกมาเดี๋ยวนี้นะ" with dissolve
+    show reika normal at center with Dissolve(1.0) 
     reika normal_2 "ฉันตอบให้ก็ได้ ฉันกับยูมะเป็น—-" with dissolve
     yuma  "หยุด ขอเวลานอก!" with dissolve
     hide reika
     scene school_corridor_noon with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-079.mp3" volume 0.5
     show reika normal at center with Dissolve(1.0) 
     "พอพูดจบ ผมก็ลากเรกะออกมาหน้าริมทางเดินห้องเรียน" with dissolve
     yuma  "นี่เธอจะเปิดเผยความสัมพันธ์ของพวกเราให้คนอื่นรู้ตอนนี้เลยเหรอ" with dissolve
@@ -47,6 +53,8 @@ label s1_3:
     hide reika
     "พอพูดจบ พวกเราทั้งสองคนก็เดินเข้าห้องเรียน" with dissolve
     scene school_classroom_noon with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show reika normal at center with Dissolve(1.0) 
     reika normal "ทุกคน ฉันขอแจ้งให้ทราบว่า……" with dissolve
     everyone  "ว่า…" with dissolve
@@ -78,8 +86,6 @@ label s1_3:
     student_m_a  "เดี๋ยวสิ คุณคุโรมิยะเป็นของนายตั้งแต่เมื่อไหร่" with dissolve
     hide reika
     scene imagine with Dissolve(1.0)
-    stop music
-    play music "audio/bgm/MusMus-BGM-134.mp3" volume 0.5
     show reika normal at left with Dissolve(1.0) 
     show maya normal at right with Dissolve(1.0) 
     "ถ้าพูดถึงผู้หญิงที่ได้นับความนิยมสูงที่สุดในโรงเรียนคงหนีไม่พ้นเรกะและรุ่นพี่มายะ" with dissolve
@@ -107,9 +113,6 @@ label s1_3:
     show risa normal at zoom_in,center with Dissolve(1.0) 
     risa ah "ทุกคนเงียบ ได้เวลาเริ่มเรียนแล้ว" with dissolve
     "โชคดีที่ครูริสะมาได้ถูกจังหวะ ในที่สุดความวุ่นวายในห้องเรียนได้คลี่คลายลง" with dissolve
-    "………" with dissolve
-    stop music
-    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     "ขณะนี้เป็นวิชาชีววิทยา นักเรียนในห้องตั้งใจจดบันทึกอย่างขะมักเขม้น" with dissolve
     risa normal "เกสรเพศผู้ทำหน้าที่สร้างเซลล์สืบพันธุ์เพศผู้" with dissolve
     risa  "ซึ่งเกสรเพศผู้แต่ละอันประกอบด้วยอับเกสรตัวผู้บรรจุละอองเรณู และก้านชูอับเรณู" with dissolve
@@ -126,23 +129,22 @@ label s1_3:
     yuma  "โอ๊ย!" with dissolve
     "จู่ๆ ผมก็ถูกหยิกเข้าที่เอวอย่างรุนแรง" with dissolve
     "ความเจ็บปวดที่ไม่ทันตั้งตัวนี้ ทำให้ความง่วงของผมหายเป็นปลิดทิ้ง" with dissolve
-    show risa normal at zoom_in,center with Dissolve(1.0) 
-    reika angry1_2 "ยูมะ ตั้งใจเรียนหน่อย" with dissolve
+    show reika normal at zoom_in,center with Dissolve(1.0) 
+    reika angry1 "ยูมะ ตั้งใจเรียนหน่อย" with dissolve
     yuma  "เมื่อคืนเธอทำให้ฉันนอนหลับไม่เต็มอิ่ม ตอนกลางวันยังตามมาขัดขวางอีก" with dissolve
     reika hee "พูดอะไรของนาย ไม่เห็นเข้าใจเลย เมื่อคืนฉันไม่ได้ยุ่งกับนายเลยสักนิด" with dissolve
-    reika angry "อีกอย่าง หัดทำตัวให้สมกับสมาชิกสภานักเรียนหน่อย" with dissolve
+    reika angry_2 "อีกอย่าง หัดทำตัวให้สมกับสมาชิกสภานักเรียนหน่อย" with dissolve
     reika  "อย่าลืมนะว่าคุณครูริสะก็เป็นที่ปรึกษาให้กับสภานักเรียนด้วย" with dissolve
     yuma  "สมาชิกสภานักเรียนก็ง่วงเป็นเหมือนกันนะ" with dissolve
     yuma  "ช่วยไม่ได้ ถ้างั้นเดี๋ยวฉันเเอบงีบคาบต่อไปแทนก็แล้วกัน" with dissolve
     reika angry2_2 "ไม่ได้!" with dissolve
     yuma  "แล้วฉันจะต้องแอบหลับคาบไหนละเนี่ย" with dissolve
-    reika angry1_2 "นายก็อดทนไปนอนตอนพักกลางวันสิ จะมาหลับตอนเรียนได้ไงกัน" with dissolve
+    reika angry_2 "นายก็อดทนไปนอนตอนพักกลางวันสิ จะมาหลับตอนเรียนได้ไงกัน" with dissolve
     yuma  "แบบนั้นฉันก็อดกินข้าวน่ะสิ" with dissolve
     hide reika
-    show risa normal at center with Dissolve(1.0) 
     "ในขณะที่ผมกำลังโต้เถียงกับเรกะ คุณครูริสะก็เดินเข้ามา" with dissolve
     stop music
-    play music "audio/bgm/MusMus-BGM-115.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-128.mp3" volume 0.5
     show risa normal at center with Dissolve(1.0) 
     risa angry "นี่ พวกเธอคุยอะไรกัน" with dissolve
     yuma  "ไม่ได้คุยนะครับ" with dissolve
