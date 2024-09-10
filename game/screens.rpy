@@ -249,14 +249,14 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-    add "blackk.png"
+    # add "blackk.png"
 
     ## Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
         hbox:
-            style_prefix "quick"
+            # style_prefix "quick"
 
             xalign 0.95
             yalign 1.0
@@ -271,7 +271,7 @@ screen quick_menu():
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Config") :
+            textbutton _("Settings") :
                 action ShowMenu("config")
                 #activate_sound "audio/system/System_6.mp3" 
             # textbutton _("Prefs") action ShowMenu('preferences')
