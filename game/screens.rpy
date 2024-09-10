@@ -401,7 +401,11 @@ screen main_menu():
             focus_mask True
 
 
-
+    imagebutton:
+        focus_mask True
+        idle "main/main_logo_demo.png"
+        hover "main/main_logo_demo.png"
+        action SetVariable("persistent.nothing" , 0)    
 
     
 
@@ -432,10 +436,24 @@ screen main_menu():
         focus_mask True 
         action ShowMenu("config_main")
 
-    imagebutton auto "main/extra_%s.png":
-        hover_sound "audio/UIsound/cursor.ogg" 
-        focus_mask True 
-        action ShowMenu("extra")
+    # imagebutton auto "main/extra_%s.png":
+    #     hover_sound "audio/UIsound/cursor.ogg" 
+    #     focus_mask True 
+    #     action ShowMenu("extra")
+
+    imagebutton:
+        focus_mask True
+        idle "main/extra_disable.png"
+        hover "main/extra_disable.png"
+        action SetVariable("persistent.nothing" , 0)   
+
+
+    imagebutton:
+        focus_mask True
+        idle "main/after_disable.png"
+        hover "main/after_disable.png"
+        action SetVariable("persistent.nothing" , 0)    
+
 
     imagebutton auto "main/exit_%s.png":
         hover_sound "audio/UIsound/cursor.ogg" 
