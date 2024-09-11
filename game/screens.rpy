@@ -249,14 +249,14 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-    add "blackk.png"
+    # add "blackk.png"
 
     ## Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
         hbox:
-            style_prefix "quick"
+            # style_prefix "quick"
 
             xalign 0.95
             yalign 1.0
@@ -271,7 +271,7 @@ screen quick_menu():
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Config") :
+            textbutton _("Settings") :
                 action ShowMenu("config")
                 #activate_sound "audio/system/System_6.mp3" 
             # textbutton _("Prefs") action ShowMenu('preferences')
@@ -401,7 +401,11 @@ screen main_menu():
             focus_mask True
 
 
-
+    imagebutton:
+        focus_mask True
+        idle "main/main_logo_demo.png"
+        hover "main/main_logo_demo.png"
+        action SetVariable("persistent.nothing" , 0)    
 
     
 
@@ -432,10 +436,24 @@ screen main_menu():
         focus_mask True 
         action ShowMenu("config_main")
 
-    imagebutton auto "main/extra_%s.png":
-        hover_sound "audio/UIsound/cursor.ogg" 
-        focus_mask True 
-        action ShowMenu("extra")
+    # imagebutton auto "main/extra_%s.png":
+    #     hover_sound "audio/UIsound/cursor.ogg" 
+    #     focus_mask True 
+    #     action ShowMenu("extra")
+
+    imagebutton:
+        focus_mask True
+        idle "main/extra_disable.png"
+        hover "main/extra_disable.png"
+        action SetVariable("persistent.nothing" , 0)   
+
+
+    imagebutton:
+        focus_mask True
+        idle "main/after_disable.png"
+        hover "main/after_disable.png"
+        action SetVariable("persistent.nothing" , 0)    
+
 
     imagebutton auto "main/exit_%s.png":
         hover_sound "audio/UIsound/cursor.ogg" 
