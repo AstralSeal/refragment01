@@ -1379,7 +1379,8 @@ screen config_main():
     if (persistent.language == "thai"):
         add "config/setting_bg_th.png"
     else :
-        add "config/setting_bg_eng.png"
+        add "config/setting_bg_en.png"
+
     
     if (persistent.language == "thai"):
         imagebutton:
@@ -1390,8 +1391,8 @@ screen config_main():
     else :
         imagebutton:
             focus_mask True
-            idle "config/setting_bg_eng.png" 
-            hover "config/setting_bg_eng.png" 
+            idle "config/setting_bg_en.png" 
+            hover "config/setting_bg_en.png" 
             action SetVariable("persistent.nothing" , 0)
 
     # add "config/setting_th_bg.png"      
@@ -1450,6 +1451,31 @@ screen config_main():
         imagebutton auto "config/window_%s.png":
             focus_mask True
             action Preference("display", "window")
+
+    if (persistent.language == "thai"):
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_hover.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_idle.png" 
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "en")
+    else:
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_idle.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_hover.png"  
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "en")
 
     hbox:
         style_prefix "slider"
@@ -1516,6 +1542,19 @@ screen config():
         add "config/setting_th_bg.png"
     else :
         add "config/setting_bg_eng.png"
+
+    if (persistent.language == "thai"):
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_idle.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.nothing" , 0)
+    else:
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_idle.png" 
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.nothing" , 0)
     
     imagebutton auto "config/config_back_%s.png":
         focus_mask True
