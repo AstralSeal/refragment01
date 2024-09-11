@@ -13,7 +13,7 @@
 ## The _() surrounding the string marks it as eligible for translation.
 
 
-define config.name = _("Refragment")
+define config.name = _("Re:Fragment ~Absolute Ambition~ Demo")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -38,7 +38,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Refragment"
+define build.name = "Refragment01"
 
 
 ## Sounds and music ############################################################
