@@ -2,7 +2,7 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s2_1.csv"
+FILE_NAME = "s1_1.csv"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -89,6 +89,7 @@ for i,c in data.iterrows():
     # effect = c['effect']
     who_talk = c['who_talk']
     talk = c['talk']
+    talk_en = c['talk_en']
     voice = c['voice']
     
     ### Action ###############################
@@ -122,9 +123,11 @@ for i,c in data.iterrows():
     
     if(talk):
         if(who_talk):
-            print(f'{who_talk} {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}_th {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}_en {preprocess_face(face)} "{preprocess_dialog(talk_en)}" with dissolve')
         else:
-            print(f'"{preprocess_dialog(talk)}" with dissolve')
+            print(f'th "{preprocess_dialog(talk)}" with dissolve')
+            print(f'en "{preprocess_dialog(talk_en)}" with dissolve')
 
     hide_charector(character1,character2)
     # if(bg_effect):

@@ -1423,7 +1423,7 @@ screen config_main():
             imagebutton:
                 focus_mask True
                 idle "config/all_hover.png"
-            imagebutton auto "config/read_%s.png":
+            imagebutton auto "config/read_only_%s.png":
                 focus_mask True
                 action Preference("skip", "toggle")
         else:
@@ -1603,7 +1603,7 @@ screen config():
             imagebutton:
                 focus_mask True
                 idle "config/all_hover.png"
-            imagebutton auto "config/read_%s.png":
+            imagebutton auto "config/read_only_%s.png":
                 focus_mask True
                 action Preference("skip", "toggle")
         else:
