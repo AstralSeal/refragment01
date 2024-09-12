@@ -1463,7 +1463,7 @@ screen config_main():
             focus_mask True
             idle "config/lang_en_idle.png" 
             hover "config/lang_en_hover.png" 
-            action SetVariable("persistent.language" , "en")
+            action SetVariable("persistent.language" , "eng")
     else:
         imagebutton:
             focus_mask True
@@ -1475,7 +1475,7 @@ screen config_main():
             focus_mask True
             idle "config/lang_en_hover.png"  
             hover "config/lang_en_hover.png" 
-            action SetVariable("persistent.language" , "en")
+            action SetVariable("persistent.language" , "eng")
 
     hbox:
         style_prefix "slider"
@@ -1556,7 +1556,7 @@ screen config():
             focus_mask True
             idle "config/lang_en_idle.png" 
             hover "config/lang_en_hover.png" 
-            action SetVariable("persistent.language" , "en")
+            action SetVariable("persistent.language" , "eng")
     else:
         imagebutton:
             focus_mask True
@@ -1568,7 +1568,7 @@ screen config():
             focus_mask True
             idle "config/lang_en_hover.png"  
             hover "config/lang_en_hover.png" 
-            action SetVariable("persistent.language" , "en")
+            action SetVariable("persistent.language" , "eng")
     
     imagebutton auto "config/config_back_%s.png":
         focus_mask True
