@@ -420,7 +420,7 @@ label s1_4:
     en "I can sense the intense look in her eyes." with dissolve
     scene imagine with Dissolve(1.0)
     stop music
-    play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-CP05.mp3" volume 0.5
     show reika normal at zoom_in,center with Dissolve(1.0) 
     #todo
     # play sound "audio/sfx/wink.mp3"
@@ -433,10 +433,10 @@ label s1_4:
     #---- play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_040.mp3"
     reika_th  "ฉัน........." with dissolve
     reika_en  "I........" with dissolve
-    scene home_livingroom_night with Dissolve(1.0)
+    scene home_livingroom_night
     stop music
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
-    show reika normal at zoom_in,center with Dissolve(1.0) 
+    show reika onegai_2 at zoom_in,center
     #---- play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
     reika_th angrymeme_2 "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
     reika_en angrymeme_2 "When are you going to pay me back?!!!" with dissolve
