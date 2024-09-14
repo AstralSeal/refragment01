@@ -50,7 +50,7 @@ define reika_th = Character("เรกะ", image ="reika" , color="#F0F8FF", wh
 define yuno_th = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define maya_th = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
-define akane_th = Character("อาคาเนะ", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define akane_th = Character("อากาเนะ", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define kazuma_th = Character("คาซึมะ", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define risa_th = Character("ริสะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
@@ -178,16 +178,20 @@ label title1:
     
 image flyingseal01:
     "SD/flyingseal/flyingseal01.png" with dissolve
-    pause 1.0
+    pause 0.5
+    "SD/flyingseal/flyingseal01.png" with dissolve
+    pause 0.5
     "SD/flyingseal/flyingseal02.png" with dissolve
-    pause 1.0
+    pause 0.5
+    "SD/flyingseal/flyingseal02.png" with dissolve
+    pause 0.5
     repeat
 
 image kick01:
     "SD/kick/kick01.png" with dissolve
-    pause 1.0
+    pause 0.25
     "SD/kick/kick02.png" with dissolve
-    pause 1.0
+    pause 0.25
     repeat
 
 image kick04:
