@@ -814,8 +814,8 @@ screen save():
         grid gui.file_slot_cols gui.file_slot_rows:
             style_prefix "slot"
 
-            xalign 0.81
-            yalign 0.4
+            xalign 0.35
+            yalign 0.55
 
             spacing gui.slot_spacing
 
@@ -889,8 +889,8 @@ screen load():
     grid gui.file_slot_cols gui.file_slot_rows:
         style_prefix "slot"
 
-        xalign 0.81
-        yalign 0.4
+        xalign 0.35
+        yalign 0.55
 
         spacing gui.slot_spacing
 
@@ -957,8 +957,8 @@ screen load_main():
     grid gui.file_slot_cols gui.file_slot_rows:
         style_prefix "slot"
 
-        xalign 0.81
-        yalign 0.4
+        xalign 0.35
+        yalign 0.55
 
         spacing gui.slot_spacing
 

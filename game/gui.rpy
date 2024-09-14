@@ -283,7 +283,7 @@ define gui.pref_button_spacing = 0
 define gui.page_spacing = 0
 
 ## The spacing between file slots.
-define gui.slot_spacing = 15
+define gui.slot_spacing = 8
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0
