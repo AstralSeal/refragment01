@@ -432,30 +432,23 @@ label s1_2:
     #---- play sound "audio/voice/maya/chapter1/chapter1_2/maya_1_2_040.mp3"
     maya_th  "นายน่ะคิดยังไง เห็นด้วยกับการยกเลิกการจำหน่ายน้ำอัดลมในโรงเรียนหรือไม่" with dissolve
     maya_en  "What do you think? Do you agree with banning soda sales in school or not?" with dissolve
-    th "CHOICE#1" with dissolve
-    en "CHOICE#1" with dissolve
-    th "เห็นด้วย" with dissolve
-    en "Agree" with dissolve
-    th "ไม่เห็นด้วย" with dissolve
-    en "Disagree" with dissolve
-    th "กรณีเลือก choice1 เห็นด้วย" with dissolve
-    en "If choice1 Agree is selected:" with dissolve
-    yuma_th  "ผมคิดว่าควรยกเลิกการจำหน่ายน้ำอัดลม" with dissolve
-    yuma_en  "I think we should ban soda sales." with dissolve
-    yuma_th  "ปัญหาไม่ใช่เรื่องใครอยากดื่มก็ดื่ม ใครไม่อยากดื่มก็ไม่ต้องดื่ม แต่เป็นเรื่องของสภาพแวดล้อมภายในโรงเรียนต่างหาก" with dissolve
-    yuma_en  "The problem isn't about who wants to drink and who doesn't want to drink. It's about the environment within the school." with dissolve
-    yuma_th  "การที่นักเรียนเห็นน้ำอัดลมตลอดเวลา จะทำให้นักเรียนคุ้นชินกับการดื่มน้ำอัดลม และมองว่าน้ำอัดลมเป็นสิ่งที่เข้าถึงง่าย ส่งผลให้มีแนวโน้มดื่มน้ำอัดลมมากขึ้น" with dissolve
-    yuma_en  "When students see soda all the time, it makes them familiar with drinking soda and view it as easily accessible, resulting in a tendency to drink more soda." with dissolve
-    th "กรณีเลือก choice2 ไม่เห็นด้วย" with dissolve
-    en "If choice2 Disagree is selected:" with dissolve
-    yuma_th  "นั่นสินะ ไม่ปฏิเสธว่าน้ำอัดลมส่งผลเสียต่อสุขภาพ" with dissolve
-    yuma_en  "That's true. I don't deny that soda has negative effects on health." with dissolve
-    yuma_th  "แต่ช่วงสอบหรือเวลาที่เหนื่อย บางทีก็รู้สึกว่าอยากหาอะไรดื่มเพื่อให้กระปี้กระเป่ามากขึ้น" with dissolve
-    yuma_en  "But during exam periods or when we're tired, sometimes we feel like we need something to drink to feel more energized." with dissolve
-    yuma_th  "ซึ่งไม่มีอะไรดีไปกว่าน้ำอัดลมเย็นๆ สักแก้วแล้วล่ะ" with dissolve
-    yuma_en  "And nothing beats a cold glass of soda in those moments." with dissolve
-    th "เพราะฉะนั้นผมคิดว่าควรจำหน่ายน้ำอัดลมต่อไป" with dissolve
-    en "Therefore, I think we should continue selling soda." with dissolve
+    menu:
+        "Agree":
+            yuma_th  "ผมคิดว่าควรยกเลิกการจำหน่ายน้ำอัดลม"
+            yuma_en  "I think we should ban soda sales."
+            yuma_th  "ปัญหาไม่ใช่เรื่องใครอยากดื่มก็ดื่ม ใครไม่อยากดื่มก็ไม่ต้องดื่ม แต่เป็นเรื่องของสภาพแวดล้อมภายในโรงเรียนต่างหาก"
+            yuma_en  "The problem isn't about who wants to drink and who doesn't want to drink. It's about the environment within the school." with dissolve
+            yuma_th  "การที่นักเรียนเห็นน้ำอัดลมตลอดเวลา จะทำให้นักเรียนคุ้นชินกับการดื่มน้ำอัดลม และมองว่าน้ำอัดลมเป็นสิ่งที่เข้าถึงง่าย ส่งผลให้มีแนวโน้มดื่มน้ำอัดลมมากขึ้น" with dissolve
+            yuma_en  "When students see soda all the time, it makes them familiar with drinking soda and view it as easily accessible, resulting in a tendency to drink more soda." with dissolve
+        "Disagree":
+            yuma_th  "นั่นสินะ ไม่ปฏิเสธว่าน้ำอัดลมส่งผลเสียต่อสุขภาพ"
+            yuma_en  "That's true. I don't deny that soda has negative effects on health."
+            yuma_th  "แต่ช่วงสอบหรือเวลาที่เหนื่อย บางทีก็รู้สึกว่าอยากหาอะไรดื่มเพื่อให้กระปี้กระเป่ามากขึ้น"
+            yuma_en  "But during exam periods or when we're tired, sometimes we feel like we need something to drink to feel more energized." with dissolve
+            yuma_th  "ซึ่งไม่มีอะไรดีไปกว่าน้ำอัดลมเย็นๆ สักแก้วแล้วล่ะ"
+            yuma_en  "And nothing beats a cold glass of soda in those moments."
+            yuma_th "เพราะฉะนั้นผมคิดว่าควรจำหน่ายน้ำอัดลมต่อไป" with dissolve
+            yuma_en "Therefore, I think we should continue selling soda." with dissolve
     th "......" with dissolve
     en "......" with dissolve
     #---- play sound "audio/voice/maya/chapter1/chapter1_2/maya_1_2_041.mp3"
