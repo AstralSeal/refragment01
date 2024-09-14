@@ -1485,7 +1485,7 @@ screen config_main():
                 value Preference("music volume")
                 xsize 450
             xpos 390
-            ypos 578
+            ypos 585
 
     hbox:
         style_prefix "slider"
@@ -1495,7 +1495,7 @@ screen config_main():
                 value Preference("sound volume")
                 xsize 450
             xpos 390
-            ypos 712
+            ypos 720
     hbox:
         style_prefix "slider"
         box_wrap True
@@ -1504,7 +1504,7 @@ screen config_main():
                 value Preference("voice volume")
                 xsize 450
             xpos 390
-            ypos 849
+            ypos 856
                 
     
     hbox:
@@ -1515,7 +1515,7 @@ screen config_main():
                 value Preference("Text Speed")
                 xsize 450
             xpos 1075
-            ypos 578
+            ypos 585
                 
 
     hbox:
@@ -1527,7 +1527,7 @@ screen config_main():
                 value Preference("auto-forward time")
                 xsize 450
             xpos 1075
-            ypos 712
+            ypos 720
 
 screen config():
     key "mouseup_3" action Return()
@@ -1638,7 +1638,7 @@ screen config():
                 value Preference("music volume")
                 xsize 450
             xpos 390
-            ypos 578
+            ypos 585
 
     hbox:
         style_prefix "slider"
@@ -1648,7 +1648,7 @@ screen config():
                 value Preference("sound volume")
                 xsize 450
             xpos 390
-            ypos 712
+            ypos 720
     hbox:
         style_prefix "slider"
         box_wrap True
@@ -1657,7 +1657,7 @@ screen config():
                 value Preference("voice volume")
                 xsize 450
             xpos 390
-            ypos 849
+            ypos 856
                 
     
     hbox:
@@ -1668,7 +1668,7 @@ screen config():
                 value Preference("Text Speed")
                 xsize 450
             xpos 1075
-            ypos 578
+            ypos 585
                 
 
     hbox:
@@ -1680,7 +1680,7 @@ screen config():
                 value Preference("auto-forward time")
                 xsize 450
             xpos 1075
-            ypos 712
+            ypos 720
 
 screen help():
 
