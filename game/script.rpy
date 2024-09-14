@@ -44,7 +44,7 @@ define student_f_a_th = Character("นักเรียนหญิง A", colo
 define student_f_b_th = Character("นักเรียนหญิง B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define student_f_c_th = Character("นักเรียนหญิง C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
-define everyone_th = Character("ทุกคน", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define everyone_th = Character("ทุกคน", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define reika_th = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define yuno_th = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
@@ -55,6 +55,7 @@ define kazuma_th = Character("คาซึมะ", image ="kazuma" , color="#F0F
 define risa_th = Character("ริซะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
 define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -70,7 +71,7 @@ define student_f_a_en = Character("Student Female A", color="#F0F8FF", who_outli
 define student_f_b_en = Character("Student Female B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define student_f_c_en = Character("Student Female C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
-define everyone_en = Character("Everyone", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
+define everyone_en = Character("Everyone", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define reika_en = Character("Reika", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_en = Character("Yuno", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -81,6 +82,7 @@ define kazuma_en = Character("Kazuma", image ="kazuma" , color="#F0F8FF", who_ou
 define risa_en = Character("Risa", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define yuno_p_en = Character("yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define yuno_c_en = Character("yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 #########################################
 
@@ -205,7 +207,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s1_4
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve

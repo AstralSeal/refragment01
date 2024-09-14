@@ -2,9 +2,9 @@
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
 import pandas as pd
-FILE_NAME = "s1_1.csv"
+FILE_NAME = "s1_4.csv"
 VOICE_BASE_PATH="audio/voice"
-VOICE_PATH = "chapter1/chapter1_1"
+VOICE_PATH = "chapter1/chapter1_4"
 SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
