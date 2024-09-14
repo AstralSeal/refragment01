@@ -24,7 +24,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.0.3"
+define config.version = "0.0.4"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -64,7 +64,7 @@ define config.has_voice = True
 ## game, until it is stopped or another file is played.
 
 
-#define config.main_menu_music = "audio/bgm/廃墟洋館.mp3"
+define config.main_menu_music = "audio/bgm/Glitter.mp3"
 
 ## Transitions #################################################################
 ##
@@ -144,14 +144,14 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "MeMary-1695039628"
+define config.save_directory = "refragment01-1695039628"
 
 
 ## Icon ########################################################################
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/icon.png"
 
 
 ## Build configuration #########################################################
