@@ -207,7 +207,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_4
+    jump s1_2
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
