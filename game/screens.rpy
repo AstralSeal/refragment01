@@ -248,34 +248,60 @@ style choice_button_text is default:
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
+# Define the style for quick menu buttons
+style quick_button:
+    padding (5, 10)  # Adjust padding as needed (vertical, horizontal)
+    margin (5, 5, 5, 5)  # Adjust margin as needed (top, right, bottom, left)
+style menu_button_text is text:
+    size 38
+    
 screen quick_menu():
-    # add "blackk.png"
-
-    ## Ensure this appears on top of other screens.
+    # Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
         hbox:
-            # style_prefix "quick"
-
+            spacing 10  # Space between buttons
             xalign 0.95
             yalign 1.0
-            textbutton _("Save") :  
-                action ShowMenu("save")
-                #activate_sound "audio/system/System_3.mp3" 
-            textbutton _("Load") :
-                action ShowMenu("load")
-                #activate_sound "audio/system/System_4.mp3" 
-            textbutton _("Backlog") action ShowMenu('history2')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Settings") :
-                action ShowMenu("config")
-                #activate_sound "audio/system/System_6.mp3" 
-            # textbutton _("Prefs") action ShowMenu('preferences')
 
+            style_prefix "quick"
+
+            textbutton _("Save"):
+                action ShowMenu("save")
+                style_prefix "menu"
+                # activate_sound "audio/system/System_3.mp3"
+
+            textbutton _("Load"):
+                action ShowMenu("load")
+                style_prefix "menu"
+                # activate_sound "audio/system/System_4.mp3"
+
+            textbutton _("Backlog"):
+                style_prefix "menu"
+                action ShowMenu('history2')
+
+            textbutton _("Skip"):
+                style_prefix "menu"
+                action Skip()
+                alternate Skip(fast=True, confirm=True)
+
+            textbutton _("Auto"):
+                style_prefix "menu"
+                action Preference("auto-forward", "toggle")
+
+            textbutton _("Q.Save"):
+                style_prefix "menu"
+                action QuickSave()
+
+            textbutton _("Q.Load"):
+                style_prefix "menu"
+                action QuickLoad()
+
+            textbutton _("Settings"):
+                style_prefix "menu"
+                action ShowMenu("config")
+                # activate_sound "audio/system/System_6.mp3"
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.

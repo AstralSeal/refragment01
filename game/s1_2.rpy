@@ -291,10 +291,10 @@ label s1_2:
     #---- play sound "audio/voice/maya_0/chapter1/chapter1_2/maya_1_2_014.mp3"
     maya_0_th  "งั้นนายช่วยสอนวิธีการใช้หน่อยสิ" with dissolve
     maya_0_en  "Then can you teach me how to use it?" with dissolve
+    hide maya
     show flyingseal05 with dissolve
     yuma_th  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า แมวน้ำบิน" with dissolve
     yuma_en  "I understand. First of all, this machine is called the Flying Seal." with dissolve
-    hide maya
     yuma_th  "ตู้กดเครื่องดื่มอัตโนมัติรุ่นใหม่ล่าสุดที่ใช้พื้นที่แค่ 1x1 ตารางเมตร" with dissolve
     yuma_en  "It's the latest automatic beverage dispenser that only takes up 1x1 square meter of space." with dissolve
     yuma_th  "จุดเด่นคือเสริฟเครื่องดื่มใส่แก้วเลย ไม่ใช่กระป๋องหรือขวดน้ำแบบตู้กดน้ำธรรมดา" with dissolve
@@ -305,7 +305,7 @@ label s1_2:
     yuma_en  "Because there are so many drink options, you have to order through the large touch screen." with dissolve
     yuma_th  "วิธีใช้ไม่ยาก เลือกเมนูที่ต้องการ เลือกระดับความหวานและจ่ายเงิน ทำตามขั้นตอนได้เลย" with dissolve
     yuma_en  "It's not difficult to use. Just select the menu you want, choose the sweetness level, and pay. Follow the steps and you're done." with dissolve
-    show maya normal at center with Dissolve(1.0) 
+    show maya ah_2 at center
     #---- play sound "audio/voice/maya_0/chapter1/chapter1_2/maya_1_2_015.mp3"
     hide flyingseal05 with dissolve
     maya_0_th ah_2 "ว้าว จริงด้วย ใช้งานไม่ยากอย่างที่คิดแฮะ" with dissolve

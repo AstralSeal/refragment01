@@ -1,6 +1,10 @@
 #set PYTHONIOENCODING=utf-8
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
+
+#todo reika normal_2 
+#maya smile
+#yuno smile_2
 import pandas as pd
 FILE_NAME = "s1_4.csv"
 VOICE_BASE_PATH="audio/voice"
