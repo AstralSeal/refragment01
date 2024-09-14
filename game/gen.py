@@ -3,6 +3,8 @@
 #python gen.py > s1_1.rpy
 import pandas as pd
 FILE_NAME = "s1_1.csv"
+VOICE_BASE_PATH="audio/voice"
+VOICE_PATH = "chapter1/chapter1_1"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -70,6 +72,46 @@ def hide_charector(charector1,charector2) :
     if("hide" in charector2):
         print(charector2)
 
+
+def get_cloth(past_cloth,s) :
+    if not isinstance(s, str):
+        s = ""
+
+    if("hide" in s):
+        return ""
+    
+    if(past_cloth != "" and s == ""):
+        return past_cloth
+    if "_" in s:
+        s = "_"+s.split("_")[-1]
+    else:
+        s = ""
+    return s
+
+cloth_dict = {}
+
+def get_origin_charector(charector):
+    if ("_" in charector):
+        return charector.split("_")[0]
+    return charector
+
+
+def remove_cloth(charector) :
+    cloth_dict[charector] = ""
+
+
+def set_cloth(charector,cloth):
+    cloth_dict[charector] = cloth
+
+def apply_cloth(charector):
+    if cloth_dict.get(charector):
+        return cloth_dict.get(charector)
+    else:
+        return ""
+    
+
+cloth1=""
+cloth2=""
 for i,c in data.iterrows():
     ### Assign ##############################
 
@@ -79,8 +121,23 @@ for i,c in data.iterrows():
     zoom = c['zoom']
 
     character1 = c['character1']
+    cloth1 = get_cloth(cloth1,c['character1'])
+
+    if(not "hide" in character1 ) :
+        set_cloth(get_origin_charector(character1),cloth1)
+    else :
+        remove_cloth(get_origin_charector(character1))
+
+
     
     character2 = c['character2']
+    cloth2 = get_cloth(cloth2,c['character2'])
+
+    
+    if(not "hide" in character2 ) :
+        set_cloth(get_origin_charector(character2),cloth2)
+    else :
+        remove_cloth(get_origin_charector(character2))
     
     # character3 = c['character3']
 
@@ -109,8 +166,8 @@ for i,c in data.iterrows():
         
 
 
-    # if(voice):
-    #     print(f'play sound "audio/voice/{voice}"')
+    if(voice):
+        print(f'#---- play sound "{VOICE_BASE_PATH}/{who_talk}/{VOICE_PATH}/{voice}.mp3"')
     
     if(bg_effect):
         if("hide" in bg_effect):
@@ -123,8 +180,8 @@ for i,c in data.iterrows():
     
     if(talk):
         if(who_talk):
-            print(f'{who_talk}_th {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
-            print(f'{who_talk}_en {preprocess_face(face)} "{preprocess_dialog(talk_en)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_th {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_en {preprocess_face(face)} "{preprocess_dialog(talk_en)}" with dissolve')
         else:
             print(f'th "{preprocess_dialog(talk)}" with dissolve')
             print(f'en "{preprocess_dialog(talk_en)}" with dissolve')

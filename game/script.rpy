@@ -54,6 +54,7 @@ define akane_th = Character("อาคาเนะ", image ="akane" , color="#F0
 define kazuma_th = Character("คาซึมะ", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define risa_th = Character("ริซะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
+define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
 define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -79,7 +80,7 @@ define akane_en = Character("Akane", image ="akane" , color="#F0F8FF", who_outli
 define kazuma_en = Character("Kazuma", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define risa_en = Character("Risa", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
-
+define yuno_p_en = Character("yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 #########################################
 
