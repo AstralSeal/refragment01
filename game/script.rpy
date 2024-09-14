@@ -199,8 +199,12 @@ image kick04:
 image imagine = im.Scale("imagine.png",1920,1080)
 image sunset4 = im.Scale("bg/sunset4.png",1920,1080)
 transform zoom_in:
-    zoom 1.7
-    yoffset 500
+    zoom 1.5
+    yoffset 420
+
+transform zoom_in_yuno:
+    zoom 1.5
+    yoffset 350
 style default:
     line_spacing 10
 init python:

@@ -25,9 +25,9 @@ label s1_1:
     en "Her glossy black hair swayed gracefully in the breeze coming through the window." with dissolve
     th "แสงอาทิตย์ยามเย็นเผยให้เห็นถึงใบหน้าที่แดงระเรื่อ" with dissolve
     en "The evening sunlight revealed her flushed face." with dissolve
-    scene reika_hand03 with Dissolve(1.0)
+    scene reika_hand03
     #---- play sound "audio/voice/reika/chapter1/chapter1_1/reika_1_1_001.mp3"
-    reika_th  "ขอโทษนะที่เรียกมาตอนเย็นแบบนี้" with dissolve
+    reika_th  "ขอโทษนะที่เรียกมาตอนเย็นแบบนี้"
     reika_en  "Sorry for calling you here so late," with dissolve
     th "เธอพูดด้วยน้ำเสียงอ่อนหวานละมุนหู แตกต่างจากปกติที่แข็งกร้าวและดุดัน" with dissolve
     en "she said in a soft, gentle voice, different from her usual stern and fierce tone." with dissolve
@@ -278,7 +278,7 @@ label s1_1:
     en "Originally, our father didn't want to go abroad until he received an offer from a large multinational company." with dissolve
     th "ด้วยเงินทุนสนับสนุนนี้ พวกเราจึงมีชีวิตสุขสบายกว่าครอบครัวอื่น" with dissolve
     en "With this financial support, we live more comfortably than other families." with dissolve
-    show yuno_c normal at zoom_in,center with Dissolve(1.0) 
+    show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
     play sound "audio/sfx/レベルアップ.mp3"
     #---- play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_022.mp3"
     yuno_c_th wow "เย้ กดกาชาได้แมวน้ำหายากระดับ SSR แล้ว ขอโพสต์อวดลงกลุ่มก่อน" with dissolve
@@ -332,7 +332,7 @@ label s1_1:
     yuma_en  "and special currencies modeled after casino chips, causing people to overspend without realizing it." with dissolve
     yuma_th  "นอกจากนี้ยังมี—" with dissolve
     yuma_en  "Not to mention—" with dissolve
-    show yuno_c normal at zoom_in,center with Dissolve(1.0) 
+    show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
     #---- play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
     yuno_c_th hee "พูดมากน่ารำคาญ ทีพี่เองยังซ่อนแผ่นเกมโป๊ไว้ใต้เตียง ลองนับดูสิว่าเป็นเงินเท่าไหร่" with dissolve
     yuno_c_en hee "You talk too much. It's annoying. You're the one hiding erotic game discs under your bed. Try counting how much money that is." with dissolve
