@@ -391,14 +391,14 @@ screen main_menu():
     # button :
     #     add "main/main_logo.png"
 
-    if persistent.language == "thai":
-        imagebutton auto "main/thai_%s.png":
-            action SetVariable("persistent.language" , "eng")
-            focus_mask True
-    else :
-        imagebutton auto "main/eng_%s.png":
-            action SetVariable("persistent.language" , "thai")
-            focus_mask True
+    # if persistent.language == "thai":
+    #     imagebutton auto "main/thai_%s.png":
+    #         action SetVariable("persistent.language" , "eng")
+    #         focus_mask True
+    # else :
+        # imagebutton auto "main/eng_%s.png":
+        #     action SetVariable("persistent.language" , "thai")
+        #     focus_mask True
 
 
     imagebutton:
