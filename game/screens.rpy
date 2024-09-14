@@ -1748,6 +1748,11 @@ screen history2():
     imagebutton auto "backlog/back_%s.png":
         focus_mask True 
         action Return()
+    imagebutton auto "backlog/title_%s.png":
+            focus_mask True
+            action MainMenu()
+            hover_sound "audio/UIsound/cursor.ogg"
+            activate_sound "audio/UIsound/choice_confirm_01.ogg" 
     frame:
 
         style_prefix "history"
@@ -1780,6 +1785,8 @@ screen history2():
         ## ypadding essentially combines the top_padding and bottom_padding properties
         ## and sets them to the same value
         ypadding 150
+
+
 
         vpgrid:
 
