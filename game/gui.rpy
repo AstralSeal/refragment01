@@ -73,7 +73,7 @@ define gui.name_text_font = "LayijiMahaniyomV1_61.ttf"
 define gui.interface_text_font = "LayijiMahaniyomV1_61.ttf"
 define gui.language = "thaic90"
 ## The size of normal dialogue text.
-define gui.text_size = 45
+define gui.text_size = 50
 
 ## The size of character names.
 define gui.name_text_size = 55

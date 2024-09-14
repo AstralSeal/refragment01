@@ -46,13 +46,13 @@ define student_f_c_th = Character("นักเรียนหญิง C", colo
 
 define everyone_th = Character("ทุกคน", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
-define reika_th = Character("เรย์กะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define reika_th = Character("เรกะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define yuno_th = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define maya_th = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define akane_th = Character("อาคาเนะ", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define kazuma_th = Character("คาซึมะ", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
-define risa_th = Character("ริซะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define risa_th = Character("ริสะ", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
@@ -63,13 +63,13 @@ define yuno_0_en = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")
 
 
 define maya_0_en = Character("???",image ="maya", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define student_m_a_en = Character("Student Male A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define student_m_b_en = Character("Student Male B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define student_m_c_en = Character("Student Male C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_m_a_en = Character("Male Student A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_m_b_en = Character("Male Student B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_m_c_en = Character("Male Student C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
-define student_f_a_en = Character("Student Female A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define student_f_b_en = Character("Student Female B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define student_f_c_en = Character("Student Female C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_f_a_en = Character("Female Student A", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_f_b_en = Character("Female Student B", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_f_c_en = Character("Female Student C", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define everyone_en = Character("Everyone", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
@@ -81,8 +81,8 @@ define akane_en = Character("Akane", image ="akane" , color="#F0F8FF", who_outli
 define kazuma_en = Character("Kazuma", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define risa_en = Character("Risa", image ="risa" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
-define yuno_p_en = Character("yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
-define yuno_c_en = Character("yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define yuno_p_en = Character("Yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 #########################################
 
