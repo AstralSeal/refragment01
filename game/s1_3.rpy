@@ -327,4 +327,5 @@ label s1_3:
     th "ฝากไว้ก่อนเถอะเรกะ" with dissolve
     en "Just you wait, Rega." with dissolve
     hide reika
+    jump s1_4
     return

@@ -496,4 +496,5 @@ label s1_2:
     hide akane
     th "วันนี้มันอะไรกันเนี่ย วุ่นวายชะมัด" with dissolve
     en "What's with today? It's so chaotic." with dissolve
+    jump s1_3
     return

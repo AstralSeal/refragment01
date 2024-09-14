@@ -361,4 +361,5 @@ label s1_1:
     stop music
     th "สักวันหนึ่งผมจะอบรมน้องสาวเรื่องการใช้เงินอย่างจริงจัง แต่ตอนนี้ต้องรีบไปโรงเรียนแล้ว" with dissolve
     en "One day I'll seriously teach my little sister about money management, but right now I need to hurry to school." with dissolve
+    jump s1_2
     return
