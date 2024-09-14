@@ -5,6 +5,7 @@ import pandas as pd
 FILE_NAME = "s1_1.csv"
 VOICE_BASE_PATH="audio/voice"
 VOICE_PATH = "chapter1/chapter1_1"
+SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -148,6 +149,7 @@ for i,c in data.iterrows():
     talk = c['talk']
     talk_en = c['talk_en']
     voice = c['voice']
+    sfx = c['sfx']
     
     ### Action ###############################
 
@@ -164,7 +166,8 @@ for i,c in data.iterrows():
 
     show_charector(character1, character2, zoom)
         
-
+    if(sfx):
+        print(f'play sound "{SFX_BASE_PATH}/{sfx}.mp3"')
 
     if(voice):
         print(f'#---- play sound "{VOICE_BASE_PATH}/{who_talk}/{VOICE_PATH}/{voice}.mp3"')
