@@ -13,7 +13,7 @@
 ## The _() surrounding the string marks it as eligible for translation.
 
 
-define config.name = _("Refragment")
+define config.name = _("Re:Fragment ~Absolute Ambition~ Demo")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -24,7 +24,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.0.3"
+define config.version = "0.0.4"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -38,7 +38,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Refragment"
+define build.name = "Refragment01"
 
 
 ## Sounds and music ############################################################
@@ -64,7 +64,7 @@ define config.has_voice = True
 ## game, until it is stopped or another file is played.
 
 
-#define config.main_menu_music = "audio/bgm/廃墟洋館.mp3"
+define config.main_menu_music = "audio/bgm/Glitter.mp3"
 
 ## Transitions #################################################################
 ##
@@ -144,14 +144,14 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "MeMary-1695039628"
+define config.save_directory = "refragment01-1695039628"
 
 
 ## Icon ########################################################################
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/icon.png"
 
 
 ## Build configuration #########################################################
@@ -205,7 +205,7 @@ init python:
 
 # define build.itch_project = "renpytom/test-project"
 default persistent.page = 0
-default persistent.language = "thai"
+default persistent.language = "eng"
 default persistent.nothing = 0
 default persistent.extra_bgm_page = 1
 default persistent.common_end_pass  = False

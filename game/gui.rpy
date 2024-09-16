@@ -73,7 +73,7 @@ define gui.name_text_font = "LayijiMahaniyomV1_61.ttf"
 define gui.interface_text_font = "LayijiMahaniyomV1_61.ttf"
 define gui.language = "thaic90"
 ## The size of normal dialogue text.
-define gui.text_size = 45
+define gui.text_size = 50
 
 ## The size of character names.
 define gui.name_text_size = 55
@@ -283,7 +283,7 @@ define gui.pref_button_spacing = 0
 define gui.page_spacing = 0
 
 ## The spacing between file slots.
-define gui.slot_spacing = 15
+define gui.slot_spacing = 8
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0

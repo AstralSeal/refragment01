@@ -210,20 +210,20 @@ screen choice(items):
     style_prefix "choice"
 
     vbox:
-        xalign 0.97 
-        yalign 0.5
+        # xalign 0.97 
+        # yalign 0.5
         for i in items:
             textbutton i.caption style "c_choice" action i.action
 
 style c_choice:        
-        background Frame("images/screen/choice2_idle.png",10,10)
-        hover_background Frame("images/screen/choice2_hover.png",10,10)
+        background Frame("images/screen/choice_idle.png")
+        hover_background Frame("images/screen/choice_hover.png")
         top_padding 18
-        left_padding 30
+        left_padding 100
         bottom_padding 18
-        yminimum 70 # default y size of the button image with no text
-        ymaximum 70
-        xminimum 300 # default x size of the button image with no text
+        yminimum 80 # default y size of the button image with no text
+        # ymaximum 70
+        xminimum 800 # default x size of the button image with no text
 
 style choice_vbox is vbox
 style choice_button is button
@@ -248,34 +248,60 @@ style choice_button_text is default:
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
+# Define the style for quick menu buttons
+style quick_button:
+    padding (5, 10)  # Adjust padding as needed (vertical, horizontal)
+    margin (5, 5, 5, 5)  # Adjust margin as needed (top, right, bottom, left)
+style menu_button_text is text:
+    size 38
+    
 screen quick_menu():
-    # add "blackk.png"
-
-    ## Ensure this appears on top of other screens.
+    # Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
         hbox:
-            # style_prefix "quick"
-
+            spacing 10  # Space between buttons
             xalign 0.95
             yalign 1.0
-            textbutton _("Save") :  
-                action ShowMenu("save")
-                #activate_sound "audio/system/System_3.mp3" 
-            textbutton _("Load") :
-                action ShowMenu("load")
-                #activate_sound "audio/system/System_4.mp3" 
-            textbutton _("Backlog") action ShowMenu('history2')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Settings") :
-                action ShowMenu("config")
-                #activate_sound "audio/system/System_6.mp3" 
-            # textbutton _("Prefs") action ShowMenu('preferences')
 
+            style_prefix "quick"
+
+            textbutton _("Save"):
+                action ShowMenu("save")
+                style_prefix "menu"
+                # activate_sound "audio/system/System_3.mp3"
+
+            textbutton _("Load"):
+                action ShowMenu("load")
+                style_prefix "menu"
+                # activate_sound "audio/system/System_4.mp3"
+
+            textbutton _("Backlog"):
+                style_prefix "menu"
+                action ShowMenu('history2')
+
+            textbutton _("Skip"):
+                style_prefix "menu"
+                action Skip()
+                alternate Skip(fast=True, confirm=True)
+
+            textbutton _("Auto"):
+                style_prefix "menu"
+                action Preference("auto-forward", "toggle")
+
+            textbutton _("Q.Save"):
+                style_prefix "menu"
+                action QuickSave()
+
+            textbutton _("Q.Load"):
+                style_prefix "menu"
+                action QuickLoad()
+
+            textbutton _("Settings"):
+                style_prefix "menu"
+                action ShowMenu("config")
+                # activate_sound "audio/system/System_6.mp3"
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -391,14 +417,14 @@ screen main_menu():
     # button :
     #     add "main/main_logo.png"
 
-    if persistent.language == "thai":
-        imagebutton auto "main/thai_%s.png":
-            action SetVariable("persistent.language" , "eng")
-            focus_mask True
-    else :
-        imagebutton auto "main/eng_%s.png":
-            action SetVariable("persistent.language" , "thai")
-            focus_mask True
+    # if persistent.language == "thai":
+    #     imagebutton auto "main/thai_%s.png":
+    #         action SetVariable("persistent.language" , "eng")
+    #         focus_mask True
+    # else :
+        # imagebutton auto "main/eng_%s.png":
+        #     action SetVariable("persistent.language" , "thai")
+        #     focus_mask True
 
 
     imagebutton:
@@ -814,8 +840,8 @@ screen save():
         grid gui.file_slot_cols gui.file_slot_rows:
             style_prefix "slot"
 
-            xalign 0.81
-            yalign 0.4
+            xalign 0.35
+            yalign 0.55
 
             spacing gui.slot_spacing
 
@@ -889,8 +915,8 @@ screen load():
     grid gui.file_slot_cols gui.file_slot_rows:
         style_prefix "slot"
 
-        xalign 0.81
-        yalign 0.4
+        xalign 0.35
+        yalign 0.55
 
         spacing gui.slot_spacing
 
@@ -957,8 +983,8 @@ screen load_main():
     grid gui.file_slot_cols gui.file_slot_rows:
         style_prefix "slot"
 
-        xalign 0.81
-        yalign 0.4
+        xalign 0.35
+        yalign 0.55
 
         spacing gui.slot_spacing
 
@@ -1379,7 +1405,8 @@ screen config_main():
     if (persistent.language == "thai"):
         add "config/setting_bg_th.png"
     else :
-        add "config/setting_bg_eng.png"
+        add "config/setting_bg_en.png"
+
     
     if (persistent.language == "thai"):
         imagebutton:
@@ -1390,8 +1417,8 @@ screen config_main():
     else :
         imagebutton:
             focus_mask True
-            idle "config/setting_bg_eng.png" 
-            hover "config/setting_bg_eng.png" 
+            idle "config/setting_bg_en.png" 
+            hover "config/setting_bg_en.png" 
             action SetVariable("persistent.nothing" , 0)
 
     # add "config/setting_th_bg.png"      
@@ -1417,21 +1444,21 @@ screen config_main():
             imagebutton auto "config/allth_%s.png":
                 focus_mask True
                 action Preference("skip", "toggle")
-    # else :
-    #     if  preferences.skip_unseen ==True:
-    #         imagebutton:
-    #             focus_mask True
-    #             idle "config/all_hover.png"
-    #         imagebutton auto "config/read_%s.png":
-    #             focus_mask True
-    #             action Preference("skip", "toggle")
-    #     else:
-    #         imagebutton:
-    #             focus_mask True
-    #             idle "config/read_only_hover.png"
-    #         imagebutton auto "config/all_%s.png":
-    #             focus_mask True
-    #             action Preference("skip", "toggle")
+    else :
+        if  preferences.skip_unseen ==True:
+            imagebutton:
+                focus_mask True
+                idle "config/all_hover.png"
+            imagebutton auto "config/read_only_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+        else:
+            imagebutton:
+                focus_mask True
+                idle "config/read_only_hover.png"
+            imagebutton auto "config/all_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
 
 
     
@@ -1451,6 +1478,31 @@ screen config_main():
             focus_mask True
             action Preference("display", "window")
 
+    if (persistent.language == "thai"):
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_hover.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_idle.png" 
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "eng")
+    else:
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_idle.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_hover.png"  
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "eng")
+
     hbox:
         style_prefix "slider"
         box_wrap True
@@ -1459,7 +1511,7 @@ screen config_main():
                 value Preference("music volume")
                 xsize 450
             xpos 390
-            ypos 578
+            ypos 585
 
     hbox:
         style_prefix "slider"
@@ -1469,7 +1521,7 @@ screen config_main():
                 value Preference("sound volume")
                 xsize 450
             xpos 390
-            ypos 712
+            ypos 720
     hbox:
         style_prefix "slider"
         box_wrap True
@@ -1478,7 +1530,7 @@ screen config_main():
                 value Preference("voice volume")
                 xsize 450
             xpos 390
-            ypos 849
+            ypos 856
                 
     
     hbox:
@@ -1489,7 +1541,7 @@ screen config_main():
                 value Preference("Text Speed")
                 xsize 450
             xpos 1075
-            ypos 578
+            ypos 585
                 
 
     hbox:
@@ -1501,7 +1553,7 @@ screen config_main():
                 value Preference("auto-forward time")
                 xsize 450
             xpos 1075
-            ypos 712
+            ypos 720
 
 screen config():
     key "mouseup_3" action Return()
@@ -1512,10 +1564,37 @@ screen config():
         action Return()
         hover_sound "audio/UIsound/cursor.ogg"
         activate_sound "audio/UIsound/choice_confirm_01.ogg" 
+    
     if (persistent.language == "thai"):
-        add "config/setting_th_bg.png"
+        add "config/setting_bg_th.png"
     else :
-        add "config/setting_bg_eng.png"
+        add "config/setting_bg_en.png"
+
+
+    if (persistent.language == "thai"):
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_hover.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_idle.png" 
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "eng")
+    else:
+        imagebutton:
+            focus_mask True
+            idle "config/lang_th_idle.png" 
+            hover "config/lang_th_hover.png" 
+            action SetVariable("persistent.language" , "thai")
+
+        imagebutton:
+            focus_mask True
+            idle "config/lang_en_hover.png"  
+            hover "config/lang_en_hover.png" 
+            action SetVariable("persistent.language" , "eng")
     
     imagebutton auto "config/config_back_%s.png":
         focus_mask True
@@ -1530,20 +1609,36 @@ screen config():
         activate_sound "audio/UIsound/choice_confirm_01.ogg" 
 
     
-    if  preferences.skip_unseen ==True:
-        imagebutton:
-            focus_mask True
-            idle "config/all_hover.png"
-        imagebutton auto "config/read_%s.png":
-            focus_mask True
-            action Preference("skip", "toggle")
-    else:
-        imagebutton:
-            focus_mask True
-            idle "config/read_only_hover.png"
-        imagebutton auto "config/all_%s.png":
-            focus_mask True
-            action Preference("skip", "toggle")
+    if (persistent.language == "thai"):
+        if  preferences.skip_unseen ==True:
+            imagebutton:
+                focus_mask True
+                idle "config/allth_hover.png"
+            imagebutton auto "config/readth_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+        else:
+            imagebutton:
+                focus_mask True
+                idle "config/readth_hover.png"
+            imagebutton auto "config/allth_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+    else :
+        if  preferences.skip_unseen ==True:
+            imagebutton:
+                focus_mask True
+                idle "config/all_hover.png"
+            imagebutton auto "config/read_only_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
+        else:
+            imagebutton:
+                focus_mask True
+                idle "config/read_only_hover.png"
+            imagebutton auto "config/all_%s.png":
+                focus_mask True
+                action Preference("skip", "toggle")
     
     if  preferences.fullscreen==False:
         imagebutton:
@@ -1569,7 +1664,7 @@ screen config():
                 value Preference("music volume")
                 xsize 450
             xpos 390
-            ypos 578
+            ypos 585
 
     hbox:
         style_prefix "slider"
@@ -1579,7 +1674,7 @@ screen config():
                 value Preference("sound volume")
                 xsize 450
             xpos 390
-            ypos 712
+            ypos 720
     hbox:
         style_prefix "slider"
         box_wrap True
@@ -1588,7 +1683,7 @@ screen config():
                 value Preference("voice volume")
                 xsize 450
             xpos 390
-            ypos 849
+            ypos 856
                 
     
     hbox:
@@ -1599,7 +1694,7 @@ screen config():
                 value Preference("Text Speed")
                 xsize 450
             xpos 1075
-            ypos 578
+            ypos 585
                 
 
     hbox:
@@ -1611,7 +1706,7 @@ screen config():
                 value Preference("auto-forward time")
                 xsize 450
             xpos 1075
-            ypos 712
+            ypos 720
 
 screen help():
 
@@ -1653,6 +1748,11 @@ screen history2():
     imagebutton auto "backlog/back_%s.png":
         focus_mask True 
         action Return()
+    imagebutton auto "backlog/title_%s.png":
+            focus_mask True
+            action MainMenu()
+            hover_sound "audio/UIsound/cursor.ogg"
+            activate_sound "audio/UIsound/choice_confirm_01.ogg" 
     frame:
 
         style_prefix "history"
@@ -1685,6 +1785,8 @@ screen history2():
         ## ypadding essentially combines the top_padding and bottom_padding properties
         ## and sets them to the same value
         ypadding 150
+
+
 
         vpgrid:
 

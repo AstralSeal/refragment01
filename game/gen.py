@@ -1,8 +1,15 @@
 #set PYTHONIOENCODING=utf-8
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
 #python gen.py > s1_1.rpy
+
+#todo reika normal_2 
+#maya smile
+#yuno smile_2
 import pandas as pd
 FILE_NAME = "s1_4.csv"
+VOICE_BASE_PATH="audio/voice"
+VOICE_PATH = "chapter1/chapter1_4"
+SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
@@ -70,6 +77,46 @@ def hide_charector(charector1,charector2) :
     if("hide" in charector2):
         print(charector2)
 
+
+def get_cloth(past_cloth,s) :
+    if not isinstance(s, str):
+        s = ""
+
+    if("hide" in s):
+        return ""
+    
+    if(past_cloth != "" and s == ""):
+        return past_cloth
+    if "_" in s:
+        s = "_"+s.split("_")[-1]
+    else:
+        s = ""
+    return s
+
+cloth_dict = {}
+
+def get_origin_charector(charector):
+    if ("_" in charector):
+        return charector.split("_")[0]
+    return charector
+
+
+def remove_cloth(charector) :
+    cloth_dict[charector] = ""
+
+
+def set_cloth(charector,cloth):
+    cloth_dict[charector] = cloth
+
+def apply_cloth(charector):
+    if cloth_dict.get(charector):
+        return cloth_dict.get(charector)
+    else:
+        return ""
+    
+
+cloth1=""
+cloth2=""
 for i,c in data.iterrows():
     ### Assign ##############################
 
@@ -79,8 +126,23 @@ for i,c in data.iterrows():
     zoom = c['zoom']
 
     character1 = c['character1']
+    cloth1 = get_cloth(cloth1,c['character1'])
+
+    if(not "hide" in character1 ) :
+        set_cloth(get_origin_charector(character1),cloth1)
+    else :
+        remove_cloth(get_origin_charector(character1))
+
+
     
     character2 = c['character2']
+    cloth2 = get_cloth(cloth2,c['character2'])
+
+    
+    if(not "hide" in character2 ) :
+        set_cloth(get_origin_charector(character2),cloth2)
+    else :
+        remove_cloth(get_origin_charector(character2))
     
     # character3 = c['character3']
 
@@ -89,7 +151,9 @@ for i,c in data.iterrows():
     # effect = c['effect']
     who_talk = c['who_talk']
     talk = c['talk']
+    talk_en = c['talk_en']
     voice = c['voice']
+    sfx = c['sfx']
     
     ### Action ###############################
 
@@ -106,10 +170,11 @@ for i,c in data.iterrows():
 
     show_charector(character1, character2, zoom)
         
+    if(sfx):
+        print(f'play sound "{SFX_BASE_PATH}/{sfx}.mp3"')
 
-
-    # if(voice):
-    #     print(f'play sound "audio/voice/{voice}"')
+    if(voice):
+        print(f'#---- play sound "{VOICE_BASE_PATH}/{who_talk}/{VOICE_PATH}/{voice}.mp3"')
     
     if(bg_effect):
         if("hide" in bg_effect):
@@ -122,9 +187,11 @@ for i,c in data.iterrows():
     
     if(talk):
         if(who_talk):
-            print(f'{who_talk} {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_th {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_en {preprocess_face(face)} "{preprocess_dialog(talk_en)}" with dissolve')
         else:
-            print(f'"{preprocess_dialog(talk)}" with dissolve')
+            print(f'th "{preprocess_dialog(talk)}" with dissolve')
+            print(f'en "{preprocess_dialog(talk_en)}" with dissolve')
 
     hide_charector(character1,character2)
     # if(bg_effect):
