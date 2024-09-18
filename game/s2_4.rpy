@@ -1021,4 +1021,5 @@ label s2_4:
     hide reika
     th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
     en "" with dissolve
+    jump s2_5
     return

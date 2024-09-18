@@ -189,8 +189,8 @@ label s2_5:
     #---- play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_037.mp3"
     yuno_c_th smile_2 "จริงด้วย ไอสไตน์เป็นคนประดิษฐ์หลอดไฟนี่นา" with dissolve
     yuno_c_en smile_2 "" with dissolve
-    yuma_th normal_2 "ยูโนะ อย่าเชื่อทุกสิ่งทุกอย่างที่เขียนบนอินเทอร์เน็ตสิ" with dissolve
-    yuma_en normal_2 "" with dissolve
+    yuma_th  "ยูโนะ อย่าเชื่อทุกสิ่งทุกอย่างที่เขียนบนอินเทอร์เน็ตสิ" with dissolve
+    yuma_en  "" with dissolve
     th "บางครั้งน้องสาวของผมเชื่อว่า meme หรือข่าวแปลกๆ เป็นเรื่องจริง" with dissolve
     en "" with dissolve
     th "ทั้งๆ ที่ปัจจุบันคนเราสามารถเข้าถึงข้อมูลต่างๆ ได้มากขึ้นแต่ก็มีคนไม่น้อยที่มักจะไปหลงเชื่อว่าข่าวปลอมเป็นเรื่องจริง" with dissolve
@@ -311,4 +311,5 @@ label s2_5:
     th "หลังจากนั้นฉันก็นอนกอดพีสุเกะ และฝันถึงผู้ชายคนหนึ่งที่หน้าตาเหมือนยูมะ…" with dissolve
     en "" with dissolve
     hide reika
+    jump s2_6
     return
