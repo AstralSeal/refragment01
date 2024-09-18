@@ -1,14 +1,14 @@
 #set PYTHONIOENCODING=utf-8
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
-#python gen.py > s2_4.rpy
+#python gen.py > s2_6.rpy
 
 #todo reika normal_2 
 #maya smile
 #yuno smile_2
 import pandas as pd
-FILE_NAME = "s2_4.csv"
+FILE_NAME = "s2_6.csv"
 VOICE_BASE_PATH="audio/voice"
-VOICE_PATH = "chapter2/chapter2_4"
+VOICE_PATH = "chapter2/chapter2_6"
 SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
