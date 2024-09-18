@@ -173,9 +173,12 @@ label title1:
     return
 
 
-
-
-    
+######## Custom #########
+image reika angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body.png" ,(0,1700), "Sprite/reika01/reika01_angry1.png" )
+######## Custom ######### 
 image flyingseal01:
     "SD/flyingseal/flyingseal01.png" with dissolve
     pause 0.5
@@ -215,7 +218,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_1
+    jump s2_4
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve

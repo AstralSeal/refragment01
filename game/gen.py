@@ -1,28 +1,36 @@
 #set PYTHONIOENCODING=utf-8
 #set PYTHONLEGACYWINDOWSSTDIO=utf-8
-#python gen.py > s1_1.rpy
+#python gen.py > s2_4.rpy
 
 #todo reika normal_2 
 #maya smile
 #yuno smile_2
 import pandas as pd
-FILE_NAME = "s2_1.csv"
+FILE_NAME = "s2_4.csv"
 VOICE_BASE_PATH="audio/voice"
-VOICE_PATH = "chapter2/chapter2_1"
+VOICE_PATH = "chapter2/chapter2_4"
 SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
 zoom_in_cha = ""
+shortcut_charector_1 = ""
 def show_charector(charector1,charector2,zoom=False):
 
     if ("hide" in charector1) :
         return
     if("hide" in charector2):
         return 
-
+    
+    global shortcut_charector_1 
     global zoom_in_cha 
+    
     if(  charector1 != ""):
         zoom_in_cha = charector1
+
+    if(shortcut_charector_1 != "" and character1 != ""):
+        print(f'hide {shortcut_charector_1}')
+        print(f'show {charector1} normal at center with Dissolve(1.0) ')
+
 
 
 
@@ -167,11 +175,10 @@ for i,c in data.iterrows():
     
     if(bgm =='stop'):
         print(f"stop music")
-
     show_charector(character1, character2, zoom)
         
-    if(sfx):
-        print(f'play sound "{SFX_BASE_PATH}/{sfx}.mp3"')
+    # if(sfx):
+    #     print(f'play sound "{SFX_BASE_PATH}/{sfx}.mp3"')
 
     if(voice):
         print(f'#---- play sound "{VOICE_BASE_PATH}/{who_talk}/{VOICE_PATH}/{voice}.mp3"')
@@ -192,7 +199,11 @@ for i,c in data.iterrows():
         else:
             print(f'th "{preprocess_dialog(talk)}" with dissolve')
             print(f'en "{preprocess_dialog(talk_en)}" with dissolve')
-
+    
+    if( character1 != "" and ("hide" not in character1)):
+        shortcut_charector_1 = character1
+    else:
+        shortcut_charector_1 = ""
     hide_charector(character1,character2)
     # if(bg_effect):
     #     print(f'hide {bg_effect}')
