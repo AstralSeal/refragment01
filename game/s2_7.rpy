@@ -224,4 +224,5 @@ label s2_7:
     hide kazuma
     th "ถ้าเป็นคาสึมะคงไม่มีอะไรน่าเป็นห่วง" with dissolve
     en "" with dissolve
+    jump s2_8
     return

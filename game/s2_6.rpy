@@ -474,4 +474,5 @@ label s2_6:
     en "" with dissolve
     th "ผมอุตส่าห์ดักรอพนักงานเปิดตู้อยู่ตั้งนานเพื่อดูว่ามีคนอยู่ข้างในตู้หรือเปล่าเชียวนะ" with dissolve
     en "" with dissolve
+    jump s2_7
     return

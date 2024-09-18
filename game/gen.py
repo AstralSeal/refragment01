@@ -6,9 +6,9 @@
 #maya smile
 #yuno smile_2
 import pandas as pd
-FILE_NAME = "s2_6.csv"
+FILE_NAME = "s2_8.csv"
 VOICE_BASE_PATH="audio/voice"
-VOICE_PATH = "chapter2/chapter2_6"
+VOICE_PATH = "chapter2/chapter2_8"
 SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")
@@ -74,7 +74,9 @@ def preprocess_dialog(s):
             .replace("]","")\
             .replace("%","\%")
 
-def preprocess_face(s):
+def preprocess_face(s,who):
+    if (who == 'yuma'):
+        return s
     if( s == "sadistic2_2_s" or s == "sadistic2_2_s" or s == "s2_s" or s =="sadistic_s" or s =="sadistic2_2" ):
         return "normal"
     return s
@@ -194,8 +196,8 @@ for i,c in data.iterrows():
     
     if(talk):
         if(who_talk):
-            print(f'{who_talk}{apply_cloth(who_talk)}_th {preprocess_face(face)} "{preprocess_dialog(talk)}" with dissolve')
-            print(f'{who_talk}{apply_cloth(who_talk)}_en {preprocess_face(face)} "{preprocess_dialog(talk_en)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_th {preprocess_face(face,who_talk)} "{preprocess_dialog(talk)}" with dissolve')
+            print(f'{who_talk}{apply_cloth(who_talk)}_en {preprocess_face(face,who_talk)} "{preprocess_dialog(talk_en)}" with dissolve')
         else:
             print(f'th "{preprocess_dialog(talk)}" with dissolve')
             print(f'en "{preprocess_dialog(talk_en)}" with dissolve')
