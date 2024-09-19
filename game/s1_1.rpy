@@ -333,14 +333,14 @@ label s1_1:
     yuma_th  "นอกจากนี้ยังมี—" with dissolve
     yuma_en  "Not to mention—" with dissolve
     show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
-    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
+    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
     yuno_c_th hee "พูดมากน่ารำคาญ ทีพี่เองยังซ่อนแผ่นเกมโป๊ไว้ใต้เตียง ลองนับดูสิว่าเป็นเงินเท่าไหร่" with dissolve
     yuno_c_en hee "You talk too much. It's annoying. You're the one hiding erotic game discs under your bed. Try counting how much money that is." with dissolve
     yuma_th  "เกมโป๊ซื้อรอบเดียวจบ ไม่เหมือนเกมกาชาที่ต้องเติมเรื่อยๆ ไม่มีวันสิ้นสุด" with dissolve
     yuma_en  "Erotic games are a one-time purchase. Unlike gacha games that require constant topping up with no end." with dissolve
     yuma_th  "อีกอย่าง พี่แอบเกมโป๊ไว้ที่ตู้หนังสือด้านใน หลังตำราแคลคูลัส ไม่ได้เก็บไว้ใต้เตียงสักหน่อย" with dissolve
     yuma_en  "Besides, I hide my erotic games in the bookshelf, behind the calculus textbooks, not under the bed." with dissolve
-    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
+    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
     yuno_c_th hehe "ฮั่นแน่! คราวหน้าขอเวลา ‘ต-ร-ว-จ-ส-อ-บ’ สักหน่อยนะพี่จ๋า~" with dissolve
     yuno_c_en hehe "Aha! Next time, I'll take some time to 'i-n-s-p-e-c-t', okay dear brother~" with dissolve
     th "แย่แล้ว เผลอหลุดปากจนได้ ยัยน้องสาวตัวแสบนี้ฉลาดไม่เบา" with dissolve
@@ -348,7 +348,7 @@ label s1_1:
     yuma_th  "เรื่องนั้นเอาไว้ก่อน สายแล้ว พี่ไปโรงเรียนก่อนนะ" with dissolve
     yuma_en  "We'll talk about that later. It's getting late. I'm going to school now." with dissolve
     show yuno_c normal at center with Dissolve(1.0) 
-    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
+    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
     yuno_c_th smug2_2 "พอถูกจับได้ก็รีบหนีเลยนะ" with dissolve
     yuno_c_en smug2_2 "As soon as you're caught, you run away, huh?" with dissolve
     th "เพราะคำว่า ‘ของมันต้องมี’ นี่แหละ ที่ทำให้สัดส่วนหนี้ครัวเรือนเพิ่มสูงขึ้นทุกปี" with dissolve
