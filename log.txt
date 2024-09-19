@@ -1,40 +1,37 @@
-Sat May 25 20:22:27 2024
+2024-09-19 15:40:13 UTC
 Windows-10-10.0.19045
-Ren'Py 8.1.1.23060707
- 
+Ren'Py 8.2.1.24030407
 
-Bootstrap to the start of init.init. took 0.02s
-Early init. took 0.00s
-Loader init. took 0.01s
-Loading error handling. took 0.02s
-Loading script. took 0.13s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
+Early init took 0.06s
+Loading error handling took 0.04s
+Loading script took 1.70s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.01s
+Running init code took 0.09s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.44s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Dump and make backups. took 0.03s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.02s
+Backing up script files to 'C:\\Users\\astralaria\\AppData\\Roaming/RenPy/backups\\project3rd':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object. took 0.21s
+Creating interface object took 0.16s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.08s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.04s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Load screen analysis took 0.01s
+Analyze screens took 0.03s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.09s
+Save bytecode. took 0.05s
 Running _start took 0.00s
-Performance test:
-Interface start. took 0.06s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1440)
@@ -44,5 +41,114 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3070/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.23'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2379, 1338) drawable=(2379, 1338)
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1346) drawable=(2560, 1346)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1346) drawable=(2560, 1346)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1923, 1082) drawable=(1923, 1082)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 17.01s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.05s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\astralaria\\AppData\\Roaming/RenPy/backups\\project3rd':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3070/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 536.23'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1923, 1082) drawable=(1923, 1082)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 39.85s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.06s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\astralaria\\AppData\\Roaming/RenPy/backups\\project3rd':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.13s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3070/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 536.23'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1923, 1082) drawable=(1923, 1082)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
