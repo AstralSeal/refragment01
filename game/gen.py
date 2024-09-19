@@ -29,17 +29,17 @@ def show_charector(charector1,charector2,zoom=False):
 
     if(shortcut_charector_1 != "" and character1 != ""):
         print(f'hide {shortcut_charector_1}')
-        print(f'show {charector1} normal at center with Dissolve(1.0) ')
+        print(f'show {charector1} normal at center with Dissolve(0.2) ')
 
 
 
 
     if (zoom == "1" or zoom == 1) :
-        print(f'show {zoom_in_cha} normal at zoom_in,center with Dissolve(1.0) ')
+        print(f'show {zoom_in_cha} normal at zoom_in,center with Dissolve(0.2) ')
         return
     
     if (zoom == "0" or zoom == 0):
-        print(f'show {zoom_in_cha} normal at center with Dissolve(1.0) ')
+        print(f'show {zoom_in_cha} normal at center with Dissolve(0.2) ')
         return
 
 
@@ -57,12 +57,12 @@ def show_charector(charector1,charector2,zoom=False):
 
     #2 Charector Case
     if ( charector2 != ""):
-        print(f'show {character1} normal at left with Dissolve(1.0) ')
-        print(f'show {character2} normal at right with Dissolve(1.0) ')
+        print(f'show {character1} normal at left')
+        print(f'show {character2} normal at right with Dissolve(0.2) ')
         return
         
     # One character Case
-    print(f'show {character1} normal at center with Dissolve(1.0) ')
+    print(f'show {character1} normal at center with Dissolve(0.2) ')
     return
 
 def preprocess_dialog(s):
