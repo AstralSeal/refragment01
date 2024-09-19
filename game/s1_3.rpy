@@ -29,14 +29,14 @@ label s1_3:
     th "จู่ๆ ผมก็ตกเป็นเป้าสายตาของเพื่อนร่วมชั้น" with dissolve
     en "Suddenly, I became the center of attention for my classmates." with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_001.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_001.mp3"
     reika_th serious_2 "ยูมะ เมื่อกี้หมายความว่าไง" with dissolve
     reika_en serious_2 "Yuma, what did you mean just now?" with dissolve
     th "ใช่แล้ว คุโรมิยะ เรกะ ประธานนักเรียนของโรงเรียนแห่งนี้อยู่ห้องเดียวกับผม นอกจากอยู่ห้องเดียวกันแล้วยังนั่งติดกันอีกต่างหาก" with dissolve
     en "That's right, Kuromiya Rega, the student council president of this school, is in the same class as me. Not only are we in the same class, but we also sit next to each other." with dissolve
     yuma_th  "ก็แค่บังเอิญน่ะ" with dissolve
     yuma_en  "It's just a coincidence." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_002.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_002.mp3"
     reika_th normal "เห… นายจะบอกว่ารุ่นพี่กระเถิบเอาหน้าอกเบิ้มๆ มาดันแขนเนี่ยเป็นเรื่องบังเอิญเหรอ" with dissolve
     reika_en normal "Huh... You're saying it's a coincidence that a senior moved closer and pressed her huge breasts against your arm?" with dissolve
     yuma_th  "ก็… แค่… บัง… เอิญ…" with dissolve
@@ -55,7 +55,7 @@ label s1_3:
     student_f_b_th  "จริงด้วย ถ้าเป็นแค่คนที่ทำงานในสภานักเรียนด้วยกันเฉยๆ ก็คงไม่สนิทกันแบบนี้หรอก นายเป็นอะไรกับคุณคุโรมิยะ บอกมาเดี๋ยวนี้นะ" with dissolve
     student_f_b_en  "That's true. If you were just people working together in the student council, you wouldn't be this close. What's your relationship with Miss Kuromiya? Tell us now." with dissolve
     show reika normal at center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_003.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_003.mp3"
     reika_th normal_2 "ฉันตอบให้ก็ได้ ฉันกับยูมะเป็น—-" with dissolve
     reika_en normal_2 "I can answer that. Yuma and I are—-" with dissolve
     yuma_th  "หยุด ขอเวลานอก!" with dissolve
@@ -69,26 +69,26 @@ label s1_3:
     en "As soon as I finished speaking, I dragged Rega out to the hallway in front of the classroom." with dissolve
     yuma_th  "นี่เธอจะเปิดเผยความสัมพันธ์ของพวกเราให้คนอื่นรู้ตอนนี้เลยเหรอ" with dissolve
     yuma_en  "Are you going to reveal our relationship to others right now?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_004.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_004.mp3"
     reika_th worry2 "ก็ไม่เห็นมีอะไรต้องปิดบังเลยนี่" with dissolve
     reika_en worry2 "I don't see anything that needs to be hidden." with dissolve
     yuma_th  "แล้วทีเรื่องที่เธอมีไฝที่ก้น ทำไมถึงสั่งห้ามไม่ให้บอกคนอื่นล่ะ" with dissolve
     yuma_en  "Then what about the mole on your butt? Why did you forbid me from telling others about it?" with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_005.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_005.mp3"
     reika_th angrymeme2_2 "ก็เพราะว่าเวลานายพูดแล้วมันจะทำให้คนอื่นเข้าใจผิดไงเล่า!" with dissolve
     reika_en angrymeme2_2 "That's because when you talk about it, it makes others misunderstand!" with dissolve
     yuma_th  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่รึไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
     yuma_en  "But isn't our relationship like that? The kind where I can see the mole on your butt?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_006.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_006.mp3"
     reika_th angry2_2 "นายหยุดพูดเรื่องไฝที่ก้นซักทีได้ไหม ในสมองนาย ความทรงจำที่มีร่วมกันของพวกเรามันมีอยู่แค่เรื่องเดียวหรือไงห้ะ" with dissolve
     reika_en angry2_2 "Can you stop talking about the mole on my butt? In your brain, is that the only shared memory we have?" with dissolve
     yuma_th  "เธอจะบอกว่าในวันนั้นตอนที่พวกเราสองทำเรื่องสนุกๆ ด้วยกันแล้วไปอาบน้ำด้วยกัน มันไม่น่าจดจำงั้นเหรอ" with dissolve
     yuma_en  "Are you saying that day when we did fun things together and took a bath together isn't worth remembering?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_007.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_007.mp3"
     reika_th angry1 "หุบปาก เดี๋ยวฉันเคลียร์เรื่องนี้เอง แล้วนายก็ไม่ต้องพูดเรื่องไฝที่ก้นหรืออะไรที่ชวนเข้าใจผิดด้วย เข้าใจไหม" with dissolve
     reika_en angry1 "Shut up. I'll clear this up myself. And you don't need to talk about the mole on my butt or anything else that could cause misunderstandings, got it?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_008.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_008.mp3"
     reika_th angry3 "อีกอย่าง ตอนนั้นฉันไม่ได้อาบน้ำกับนายด้วย" with dissolve
     reika_en angry3 "Besides, I didn't take a bath with you back then." with dissolve
     yuma_th  "คร้าบๆ เข้าใจแล้ว" with dissolve
@@ -100,12 +100,12 @@ label s1_3:
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show reika normal at center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_009.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_009.mp3"
     reika_th normal "ทุกคน ฉันขอแจ้งให้ทราบว่า……" with dissolve
     reika_en normal "Everyone, I'd like to inform you that......" with dissolve
     everyone_th  "ว่า…" with dissolve
     everyone_en  "That...?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_010.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_010.mp3"
     reika_th worry "ฉันกับยูมะพวกเราเป็นเพื่อนสมัยเด็กกัน" with dissolve
     reika_en worry "Yuma and I are childhood friends." with dissolve
     student_f_a_th  "โธ่ นึกว่าจะประกาศว่าคบเป็นแฟนกัน หลอกให้ลุ้นทำไม" with dissolve
@@ -127,10 +127,10 @@ label s1_3:
     show reika normal at zoom_in,center with Dissolve(1.0) 
     th "ขณะที่ผมกำลังพูด เรกะหันมาจ้องผมด้วยสายตาอำมหิต" with dissolve
     en "As I was speaking, Rega turned to glare at me with murderous eyes." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_011.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_011.mp3"
     reika_th angry3 "นานพอที่จะรู้ที่ซ่อนหนังสือลามกทั้งหมดของนายแล้วกัน ยูมะ" with dissolve
     reika_en angry3 "Long enough to know where all your porn magazines are hidden, Yuma." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_012.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_012.mp3"
     reika_th  "นายคงยังไม่อยากเห็นหนังสือพวกนั้นตกอยู่ในกองเพลิงสินะ" with dissolve
     reika_en  "You probably don't want to see those books end up in flames, do you?" with dissolve
     th "จิตสังหารของยัยนี่น่ากลัวชะมัด" with dissolve
@@ -149,10 +149,10 @@ label s1_3:
     everyone_en  "Yes." with dissolve
     yuma_th  "ทีแบบนี้สามัคคีกันเชียว ตอบเป็นเสียงเดียวกันอีก!?" with dissolve
     yuma_en  "Now you're all in agreement, answering in unison!?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_013.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_013.mp3"
     reika_th ah_2 "ฉันรู้จักและสนิทกับยูมะตั้งแต่สมัยประถมเพราะบ้านอยู่ใกล้กันก็เท่านั้นเอง" with dissolve
     reika_en ah_2 "I've known and been close to Yuma since elementary school just because our houses were close, that's all." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_014.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_014.mp3"
     reika_th normal_2 "คงไม่มีข้อสงสัยแล้วนะ" with dissolve
     reika_en normal_2 "I hope there are no more doubts now." with dissolve
     student_m_b_th  "ยูมะ กล้าดียังไงมาแย่งคุณคุโรมิยะของฉัน" with dissolve
@@ -197,20 +197,20 @@ label s1_3:
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show risa normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_001.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_001.mp3"
     risa_th ah "ทุกคนเงียบ ได้เวลาเริ่มเรียนแล้ว" with dissolve
     risa_en ah "Everyone is quiet. It's time for class to start." with dissolve
     th "โชคดีที่ครูริสะมาได้ถูกจังหวะ ในที่สุดความวุ่นวายในห้องเรียนได้คลี่คลายลง" with dissolve
     en "Luckily, Teacher Risa came at the right moment. Finally, the chaos in the classroom has settled down." with dissolve
     th "ขณะนี้เป็นวิชาชีววิทยา นักเรียนในห้องตั้งใจจดบันทึกอย่างขะมักเขม้น" with dissolve
     en "It's now biology class. The students in the room are diligently taking notes." with dissolve
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_002.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_002.mp3"
     risa_th normal "เกสรเพศผู้ทำหน้าที่สร้างเซลล์สืบพันธุ์เพศผู้" with dissolve
     risa_en normal "The male stamen functions to produce male reproductive cells." with dissolve
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_003.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_003.mp3"
     risa_th  "ซึ่งเกสรเพศผู้แต่ละอันประกอบด้วยอับเกสรตัวผู้บรรจุละอองเรณู และก้านชูอับเรณู" with dissolve
     risa_en  "Each male stamen consists of an anther containing pollen and a filament." with dissolve
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_004.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_004.mp3"
     risa_th ah "ส่วนเกสรเพศเมียแต่ละอันประกอบด้วยรังไข่ ก้านเกสรเพศเมีย…….." with dissolve
     risa_en ah "The female pistil consists of an ovary, style......" with dissolve
     hide risa
@@ -236,30 +236,30 @@ label s1_3:
     th "ความเจ็บปวดที่ไม่ทันตั้งตัวนี้ ทำให้ความง่วงของผมหายเป็นปลิดทิ้ง" with dissolve
     en "This unexpected pain makes my sleepiness disappear instantly." with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_015.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_015.mp3"
     reika_th angry1 "ยูมะ ตั้งใจเรียนหน่อย" with dissolve
     reika_en angry1 "Yuma, pay attention in class." with dissolve
     yuma_th  "เมื่อคืนเธอทำให้ฉันนอนหลับไม่เต็มอิ่ม ตอนกลางวันยังตามมาขัดขวางอีก" with dissolve
     yuma_en  "You made me not sleep well last night, and now you're interrupting me during the day too." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_016.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_016.mp3"
     reika_th hee "พูดอะไรของนาย ไม่เห็นเข้าใจเลย เมื่อคืนฉันไม่ได้ยุ่งกับนายเลยสักนิด" with dissolve
     reika_en hee "What are you talking about? I don't understand at all. I didn't bother you at all last night." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_017.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_017.mp3"
     reika_th angry_2 "อีกอย่าง หัดทำตัวให้สมกับสมาชิกสภานักเรียนหน่อย" with dissolve
     reika_en angry_2 "Besides, try to act more like a student council member." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_018.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_018.mp3"
     reika_th  "อย่าลืมนะว่าคุณครูริสะก็เป็นที่ปรึกษาให้กับสภานักเรียนด้วย" with dissolve
     reika_en  "Don't forget that Teacher Risa is also an advisor to the student council." with dissolve
     yuma_th  "สมาชิกสภานักเรียนก็ง่วงเป็นเหมือนกันนะ" with dissolve
     yuma_en  "Even student council members get sleepy, you know." with dissolve
     yuma_th  "ช่วยไม่ได้ ถ้างั้นเดี๋ยวฉันเเอบงีบคาบต่อไปแทนก็แล้วกัน" with dissolve
     yuma_en  "Can't be helped. Then I'll take a nap during the next period instead." with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_019.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_019.mp3"
     reika_th angry2_2 "ไม่ได้!" with dissolve
     reika_en angry2_2 "No way!" with dissolve
     yuma_th  "แล้วฉันจะต้องแอบหลับคาบไหนละเนี่ย" with dissolve
     yuma_en  "Then when am I supposed to sneak in a nap?" with dissolve
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_020.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_020.mp3"
     reika_th angry_2 "นายก็อดทนไปนอนตอนพักกลางวันสิ จะมาหลับตอนเรียนได้ไงกัน" with dissolve
     reika_en angry_2 "Just endure it and sleep during lunch break. How can you sleep during class?" with dissolve
     yuma_th  "แบบนั้นฉันก็อดกินข้าวน่ะสิ" with dissolve
@@ -270,21 +270,21 @@ label s1_3:
     stop music
     play music "audio/bgm/MusMus-BGM-128.mp3" volume 0.5
     show risa normal at center with Dissolve(1.0) 
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_005.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_005.mp3"
     risa_th angry "นี่ พวกเธอคุยอะไรกัน" with dissolve
     risa_en angry "Hey, what are you two talking about?" with dissolve
     yuma_th  "ไม่ได้คุยนะครับ" with dissolve
     yuma_en  "We're not talking about anything, ma'am." with dissolve
     hide risa
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_021.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_021.mp3"
     reika_th chito "จริง นายหลับสบายใจเฉิบ จะคุยได้อย่างไร" with dissolve
     reika_en chito "True. You were sleeping so peacefully, how could you be talking?" with dissolve
     yuma_th  "ยังไม่ได้หลับสักหน่อย" with dissolve
     yuma_en  "I wasn't sleeping at all." with dissolve
     hide reika
     show risa normal at center with Dissolve(1.0) 
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_006.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_006.mp3"
     risa_th serious "ไม่ต้องเถียงกันแล้ว ถ้างั้นไหนคุซากะลองตอบคำถามข้อต่อไปหน่อยสิ" with dissolve
     risa_en serious "Stop arguing. Well then, Kusaka, why don't you answer the next question?" with dissolve
     yuma_th  "เอ๊ะ อะ ครับ" with dissolve
@@ -311,17 +311,17 @@ label s1_3:
     en "What's wrong? Did I guess wrong?" with dissolve
     hide reika
     show risa normal at center with Dissolve(1.0) 
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_007.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_007.mp3"
     risa_th angry "ช้อย 2 อะไรของเธอ นี่มันเป็นแบบฝึกหัดเติมคำ" with dissolve
     risa_en angry "What 'choice 2' are you talking about? This is a fill-in-the-blank exercise." with dissolve
-    #---- play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_008.mp3"
+    play sound "audio/voice/risa/chapter1/chapter1_3/risa_1_3_008.mp3"
     risa_th  "แสดงว่าเมื่อกี้ไม่ได้ฟังที่ครูสอนเลยสินะ ดังนั้นคุณคุซากะ เธอทำรายงานสรุปบทเรียนวันนี้มาส่งครูภายในวันพรุ่งนี้ด้วย" with dissolve
     risa_en  "So you weren't listening to what I was teaching at all, were you? Therefore, Mr. Kusaka, you'll submit a report summarizing today's lesson to me by tomorrow." with dissolve
     yuma_th  "เข้าใจแล้วครับ…" with dissolve
     yuma_en  "I understand, ma'am..." with dissolve
     hide risa
     show reika normal at zoom_in,center with Dissolve(1.0) 
-    #---- play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_022.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_022.mp3"
     reika_th cold_2 "สมน้ำหน้า ทีนี้ก็ตั้งใจทำรายงานซะด้วยล่ะ" with dissolve
     reika_en cold_2 "Serves you right. Now make sure you do the report properly." with dissolve
     th "ฝากไว้ก่อนเถอะเรกะ" with dissolve

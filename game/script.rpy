@@ -56,6 +56,8 @@ define risa_th = Character("ริสะ", image ="risa" , color="#F0F8FF", who_
 
 define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+
+define student_m_2_th = Character("student_m_2_th" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
 define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -84,6 +86,7 @@ define risa_en = Character("Risa", image ="risa" , color="#F0F8FF", who_outlines
 define yuno_p_en = Character("Yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
+define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
 
 
@@ -173,9 +176,12 @@ label title1:
     return
 
 
-
-
-    
+######## Custom #########
+image reika angry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body.png" ,(0,1700), "Sprite/reika01/reika01_angry1.png" )
+######## Custom ######### 
 image flyingseal01:
     "SD/flyingseal/flyingseal01.png" with dissolve
     pause 0.5
