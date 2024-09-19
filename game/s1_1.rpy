@@ -26,13 +26,13 @@ label s1_1:
     th "แสงอาทิตย์ยามเย็นเผยให้เห็นถึงใบหน้าที่แดงระเรื่อ" with dissolve
     en "The evening sunlight revealed her flushed face." with dissolve
     scene reika_hand03
-    #---- play sound "audio/voice/reika/chapter1/chapter1_1/reika_1_1_001.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_1/reika_1_1_001.mp3"
     reika_th  "ขอโทษนะที่เรียกมาตอนเย็นแบบนี้"
     reika_en  "Sorry for calling you here so late," with dissolve
     th "เธอพูดด้วยน้ำเสียงอ่อนหวานละมุนหู แตกต่างจากปกติที่แข็งกร้าวและดุดัน" with dissolve
     en "she said in a soft, gentle voice, different from her usual stern and fierce tone." with dissolve
     scene reika_hand02 with Dissolve(1.0)
-    #---- play sound "audio/voice/reika/chapter1/chapter1_1/reika_1_1_002.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_1/reika_1_1_002.mp3"
     reika_th  "ฉันตัดสินใจได้แล้ว" with dissolve
     reika_en  "I've made up my mind." with dissolve
     scene reika_hand04 with Dissolve(1.0)
