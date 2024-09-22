@@ -1,11 +1,13 @@
 label s2_3:
+    scene sky_summer with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-165.mp3" volume 0.5
+    play sound "audio/sfx/school_alarm.mp3"
+    th "เสียงออดดังขึ้นหลังจบคาบเรียนที่ 4" with dissolve
+    en "The bell rings after the fourth period ends." with dissolve
     scene school_corridor_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-165.mp3" volume 0.5
-    #to do
-    # play sound "audio/sfx/เสียงออด.mp3"
-    th "เสียงออดดังขึ้นหลังจบคาบเรียนที่ 4" with dissolve
-    en "The bell rings after the fourth period ends." with dissolve
     th "ขณะนี้เป็นเวลาพักเที่ยง นักเรียนบางส่วนคุยเล่น บางส่วนไปห้องสมุด บางส่วนไปที่โรงอาหาร" with dissolve
     en "It's now lunchtime. Some students chat, others head to the library, and some go to the cafeteria." with dissolve
     th "ส่วนผมแวะซื้อเครื่องดื่มที่ตู้แมวน้ำบิน และไปที่ห้องสภานักเรียน" with dissolve
@@ -13,18 +15,17 @@ label s2_3:
     scene school_councilroom_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-143.mp3" volume 0.5
-    #todo
-    # play sound "audio/sfx/door school.mp3"
+    play sound "audio/sfx/door_school.mp3"
     th "เมื่อเปิดประตูห้องก็พบว่าเรกะ คาสึมะ และอากาเนะอยู่ที่ห้องสภานักเรียนแล้ว" with dissolve
     en "When I open the door, I find Reka, Kasuma, and Akane already there." with dissolve
-    show reika normal at center with Dissolve(1.0) 
+    show reika normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_001.mp3"
     reika_th ah_2 "ยูมะ ได้ข่าวว่าเช้าวันนี้นายมาสายเหรอ" with dissolve
     reika_en ah_2 "Yuma, I heard you were late this morning?" with dissolve
     yuma_th  "ไม่ได้สายซักหน่อย มาทันเวลาแบบฉิวเฉียดต่างหาก มาถึงตอน 8 โมง 29 นาทีเป๊ะๆ เลย" with dissolve
     yuma_en  "I wasn't late at all. I made it just in time, arriving at exactly 8:29 AM." with dissolve
-    show reika normal at left with Dissolve(1.0) 
-    show kazuma normal at right with Dissolve(1.0) 
+    show reika normal at left
+    show kazuma normal at right with Dissolve(0.2) 
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_001.mp3"
     kazuma_th serious "คาบเส้นพอดีแบบนี้ก็ไม่ต่างจากมาสายหรอกนะ" with dissolve
     kazuma_en serious "Cutting it that close is basically the same as being late." with dissolve
@@ -35,11 +36,11 @@ label s2_3:
     kazuma_en  "Try using some common sense. Arriving at 8:29:59 is practically no different from being late." with dissolve
     yuma_th  "คอมมอนเซนส์ของแต่ละคนแตกต่างกัน แต่กฎก็คือกฎ จริงมั้ยอากาเนะ" with dissolve
     yuma_en  "Common sense differs from person to person. But rules are rules, right, Akane?" with dissolve
-    hide kazuma 
     hide reika
+    hide kazuma
     th "ผมหันไปหาอากาเนะผู้ยึดมั่นในกฎระเบียบตามตัวอักษรทุกระเบียดนิ้ว" with dissolve
     en "I turn to Akane, who strictly adheres to every letter of the rules." with dissolve
-    show akane normal at center with Dissolve(1.0) 
+    show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_3/akane_2_3_001.mp3"
     akane_th ah "ถึงจะไม่ค่อยเห็นด้วยกับรุ่นพี่ยูมะ แต่รุ่นพี่ยูมะพูดถูก เพราะกฎของโรงเรียนระบุว่านักเรียนต้องมาถึงโรงเรียนภายใน 8 โมง 30 นาที" with dissolve
     akane_en ah "Although I don't quite agree with Senior Yuma, he's correct. The school rules state that students must arrive by 8:30 AM." with dissolve
@@ -49,12 +50,13 @@ label s2_3:
     th "อากาเนะตอบแบบไม่เต็มใจนัก" with dissolve
     en "Akane replies, somewhat reluctantly." with dissolve
     hide akane
-    show kazuma normal at center with Dissolve(1.0) 
+    show kazuma normal at center with Dissolve(0.2) 
     th "เยี่ยมยอด ต้องแบบนี้สิ ตอนนี้สองต่อหนึ่งเสียงแล้ว ว่าไงคาสึมะ" with dissolve
     en "Excellent! That's how it should be. Now it's two against one. What do you say, Kasuma?" with dissolve
     th "ผมยิ้มแบบมีเล่ห์นัย ในขณะที่คาสึมะกำลังกำหมัด" with dissolve
     en "I smile mischievously while Kasuma clenches his fist." with dissolve
-    show reika normal at center with Dissolve(1.0) 
+    hide kazuma
+    show reika angry2_2 at center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_002.mp3"
     reika_th angry2_2 "พอก่อน ไม่ต้องเถียงกัน" with dissolve
     reika_en angry2_2 "Enough, stop arguing." with dissolve
@@ -83,8 +85,8 @@ label s2_3:
     #---- play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_009.mp3"
     reika_th  "คาสึมะ ลองบอกสิว่าการได้รับเลือกให้เป็นสมาชิกสภานักเรียนต้องทำอย่างไร" with dissolve
     reika_en  "Kasuma, tell me how one gets elected to the student council." with dissolve
-    show kazuma normal at left with Dissolve(1.0) 
-    show reika normal at right with Dissolve(1.0) 
+    show kazuma normal at left
+    show reika normal at right with Dissolve(0.2) 
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_003.mp3"
     kazuma_th normal "สมาชิกสภานักเรียนต้องได้รับความเห็นชอบจากนักเรียนหมู่มาก" with dissolve
     kazuma_en normal "Student council members need approval from the majority of students, Kasuma answers." with dissolve
@@ -100,7 +102,9 @@ label s2_3:
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_004.mp3"
     kazuma_th angry "ถ้าหากนายโดนตำหนิ คนอื่นในสภานักเรียนอาจโดนตำหนิตามไปด้วย" with dissolve
     kazuma_en angry "If you're criticized, others in the student council might be criticized too." with dissolve
-    show akane normal at center with Dissolve(1.0) 
+    hide kazuma 
+    hide reika
+    show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_3/akane_2_3_003.mp3"
     akane_th angry "จำที่ฉันบอกได้ไหม คนจากสภานักเรียนต้องเป็นแบบอย่างที่ดีให้กับนักเรียนทุกคน เข้า-ใจ-ไหม" with dissolve
     akane_en angry "Remember what I told you? People from the student council must set a good example for all students. Un-der-stand?" with dissolve
@@ -111,16 +115,17 @@ label s2_3:
     hide akane
     th "ไหงเป็นแบบนี้ไปได้" with dissolve
     en "Someone opens the door." with dissolve
-    # play sound "audio/sfx/door school.mp3"
+    play sound "audio/sfx/door_school.mp3"
     th "ใครบางคนเปิดประตูห้อง เมื่อหันไปก็พบว่าเป็นครูริสะ" with dissolve
     en "When we turn, we see it's Teacher Risa." with dissolve
-    show risa normal at center with Dissolve(1.0) 
+    show risa normal at center with Dissolve(0.2) 
     th "นอกจากครูริสะเป็นครูประจำชั้นห้องเรียนของผมและเรกะ เธอยังเป็นครูที่ปรึกษาของสภานักเรียนด้วย" with dissolve
     en "Besides being the homeroom teacher for my and Reka's class, she's also the advisor for the student council." with dissolve
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_001.mp3"
     risa_th  "ทุกคน ผลการนับคะแนนโหวตวันก่อนไปถึงไหนแล้ว" with dissolve
     risa_en  "Everyone, how far have you gotten with counting the votes from the other day?" with dissolve
-    show kazuma normal at center with Dissolve(1.0) 
+    hide risa
+    show kazuma normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_005.mp3"
     kazuma_th ah "นับคะแนนเสร็จแล้วครับ คะแนนเสียงส่วนมากบอกว่าเห็นด้วย ควรยกเลิกการจำหน่ายน้ำอัดลมในโรงเรียนครับ" with dissolve
     kazuma_en ah "We've finished counting, ma'am. The majority voted in favor of banning soda sales in school, Reka reports." with dissolve
@@ -133,7 +138,8 @@ label s2_3:
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_008.mp3"
     kazuma_th  "การยกเลิกจำหน่ายน้ำอัดลมเป็นการปรับสภาพแวดล้อมของโรงเรียนให้ดีขึ้น ช่วยลดการเสพติดน้ำอัดลมที่ไม่ดีต่อสุขภาพได้" with dissolve
     kazuma_en  "Banning soda sales will improve the school environment and help reduce addiction to unhealthy sodas." with dissolve
-    show risa normal at center with Dissolve(1.0) 
+    hide kazuma
+    show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_002.mp3"
     risa_th normal "ดีมาก เดี๋ยวครูจะประกาศผลการโหวตตอนนี้เลย" with dissolve
     risa_en normal "Excellent. I'll announce the voting results now, Teacher Risa says." with dissolve
@@ -143,23 +149,27 @@ label s2_3:
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_004.mp3"
     risa_th smile "เพื่อเป็นการเปลี่ยนบรรยากาศ เย็นวันนี้พวกเธอมีธุระอะไรไหม เดี๋ยวครูพาไปเลี้ยงข้าวเอง" with dissolve
     risa_en smile "To change the atmosphere, do you all have plans this evening? I'll treat you to dinner." with dissolve
-    show akane normal at center with Dissolve(1.0) 
+    hide risa
+    show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_3/akane_2_3_004.mp3"
     akane_th smile "นานๆ ทีพักผ่อนบ้างก็ดีเหมือนกันนะคะ" with dissolve
     akane_en smile "It would be nice to take a break once in a while, Reka agrees." with dissolve
+    hide akane
     yuma_th  "เราจะไปที่ไหนกันเหรอครับ" with dissolve
     yuma_en  "Where are we going? I ask." with dissolve
-    show risa normal at center with Dissolve(1.0) 
+    show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_005.mp3"
     risa_th smile "ถ้าอย่างนั้น เย็นวันนี้เวลา 18:30 น. เจอกันที่ห้างฯ โอเคไหม" with dissolve
     risa_en smile "How about meeting at the mall at 6:30 PM? Is that okay?" with dissolve
-    show reika normal at center with Dissolve(1.0) 
+    hide risa
+    show reika normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_013.mp3"
     reika_th smile_2 "ได้ค่ะ" with dissolve
     reika_en smile_2 "Sure." with dissolve
+    hide reika
     yuma_th  "โอเคครับ" with dissolve
     yuma_en  "Okay." with dissolve
-    show risa normal at center with Dissolve(1.0) 
+    show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_006.mp3"
     risa_th smile "โอเค ถ้าอย่างนั้น เจอกันเย็นวันนี้นะ ถือเป็นการพักผ่อนคลายเครียดไปในตัว" with dissolve
     risa_en smile "Alright then, see you this evening. Consider it a chance to relax and de-stress." with dissolve
@@ -168,13 +178,11 @@ label s2_3:
     risa_en  "It's almost time for class. Let's head to our classrooms." with dissolve
     yuma_th  "รับทราบ" with dissolve
     yuma_en  "Understood." with dissolve
+    hide risa
     th "หลังจากนั้นพวกเราทุกคนก็เดินออกจากห้องสภานักเรียนไปที่ห้องเรียนของตัวเอง" with dissolve
     en "After that, we all walked out of the student council room to our respective classrooms." with dissolve
-    hide risa
     th "………" with dissolve
     en "..." with dissolve
-    th "Background - ห้องเรียน" with dissolve
-    en "Background - Classroom" with dissolve
     scene school_classroom_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
@@ -206,13 +214,13 @@ label s2_3:
     en "But because voting is normal at this school, all students accept the results without issues." with dissolve
     th "แม้จะมีความคิดเห็นแตกต่างกันบ้าง แต่ทุกคนก็ยอมรับในผลลัพธ์ที่เกิดขึ้นได้" with dissolve
     en "Even with differing opinions, everyone accepts the outcome." with dissolve
-    # play sound "audio/sfx/[SFX - เสียงออดดัง].mp3"
+    play sound "audio/sfx/school_alarm.mp3"
     th "ดูเหมือนตอนนี้จะถึงเวลาเรียนแล้ว" with dissolve
     en "It seems it's time for class now." with dissolve
     scene blackboard with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
-    show risa normal at center with Dissolve(1.0) 
+    show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_008.mp3"
     risa_th ah "เอาล่ะ ถึงเวลาเรียนแล้ว ทุกคนกลับนั่งที่ให้เรียบร้อย" with dissolve
     risa_en ah "Alright, class time. Everyone, back to your seats, Teacher Risa announces." with dissolve
@@ -222,9 +230,9 @@ label s2_3:
     th "ครูริสะก็หันมามองหน้าผมด้วยสายตาที่ดูไม่เป็นมิตรสักเท่าไร" with dissolve
     en "She turns to look at me with an unfriendly gaze." with dissolve
     scene school_classroom_noon with Dissolve(1.0)
-    show reika normal at zoom_in,center with Dissolve(1.0) 
-    yuma_th "นี่ เรกะ ฉันว่าบางทีเราน่าจะเสนอนโยบายยกเลิกการเรียนหลังช่วงพักกลางมันดีมั้ย" with dissolve
-    yuma_en "Hey, Reka, I whisper. Do you think we should propose a policy to cancel classes after lunch break?" with dissolve
+    show reika normal at zoom_in,center with Dissolve(0.2) 
+    yuma_th  "นี่ เรกะ ฉันว่าบางทีเราน่าจะเสนอนโยบายยกเลิกการเรียนหลังช่วงพักกลางมันดีมั้ย" with dissolve
+    yuma_en  "Hey, Reka, I whisper. Do you think we should propose a policy to cancel classes after lunch break?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_014.mp3"
     reika_th angry_2 "ไร้สาระ ต่อให้ย้ายไปตอนเช้า นายก็อ้างอยู่ดีว่าพึ่งตื่นได้ไม่นาน ยังง่วงนอนไม่หาย" with dissolve
     reika_en angry_2 "Nonsense. Even if we moved them to the morning, you'd still complain about just waking up and being sleepy." with dissolve
@@ -238,5 +246,4 @@ label s2_3:
     en "I can't help it. I'm bored with biology. If it were math, it'd be different." with dissolve
     th "ครั้งหน้าลองเสนอนโยบายเปลี่ยนทุกคาบเรียนเป็นวิชาคณิตฯ ดีไหมนะ" with dissolve
     en "Maybe next time I should propose a policy to change all classes to math?" with dissolve
-    jump s2_4
-    return 
+    return

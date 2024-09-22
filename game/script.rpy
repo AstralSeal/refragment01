@@ -94,6 +94,7 @@ define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=
 
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
+image sky_summer = im.Scale("bg/sky_summer.png",1920,1080)
 image classroom_sunset = im.Scale("bg/classroom_sunset.png",1920,1080)
 image classroom_morning = im.Scale("bg/classroom_morning.jpg",1920,1080)
 image sky_morning = im.Scale("bg/sky_morning.png",1920,1080)
@@ -221,7 +222,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s2_3
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve

@@ -2,13 +2,11 @@ label s2_2:
     scene school_shoebox_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-034.mp3" volume 0.5
-    th "Background - ตู้รองเท้าหน้าโรงเรียน BG12_d_a_19201080" with dissolve
-    en "Background - School shoe lockers BG12_d_a_19201080" with dissolve
     th "ผมเดินเข้ามาข้างในอาคารเรียนได้สำเร็จ" with dissolve
     en "I successfully make it inside the school building. Suddenly," with dissolve
     th "ทันใดนั้นผมก็พบกับรุ่นพี่มายะโดนบังเอิญ" with dissolve
     en "I run into Senior Maya by chance." with dissolve
-    show maya normal at center with Dissolve(1.0) 
+    show maya normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_001.mp3"
     maya_th smile "อ๊ะ ยูคุงนี่นา อรุณสวัสดิ์" with dissolve
     maya_en smile "Oh, Yu-kun! Good morning." with dissolve
@@ -31,7 +29,7 @@ label s2_2:
     en "Even if you want to argue, you can't, because you're actually breaking the rules." with dissolve
     yuma_th  "ว่าแต่มาบอกผมที่เป็นคนจากสภานักเรียนจะดีเหรอ" with dissolve
     yuma_en  "By the way, is it okay to tell me this? I'm from the student council." with dissolve
-    show maya normal at center with Dissolve(1.0) 
+    show maya normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_004.mp3"
     maya_th hee_2 "ฉันเชื่อว่านายคงไม่เอาเรื่องนี้ไปบอกคุณกรรมการระเบียบวินัยสุดโหดแน่นอน" with dissolve
     maya_en hee_2 "I trust you won't report this to the super-strict disciplinary committee member." with dissolve
@@ -42,7 +40,7 @@ label s2_2:
     maya_en angry "Everyone's definition of 'a bit' is different. Your 'a bit' might be someone else's extreme." with dissolve
     yuma_th  "ถ้าลองเปรียบเทียบเป็นสเกลตัวเลขหนึ่งถึงสิบ โดยที่เต็ม 10 หมายถึงเคร่งมาก รุ่นพี่มายะให้คะแนนเท่าไหร่" with dissolve
     yuma_en  "If we compare it on a scale of one to ten, with ten being very strict, how would you rate her, Senior Maya?" with dissolve
-    show maya normal at zoom_in,center with Dissolve(1.0) 
+    show maya normal at zoom_in,center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_006.mp3"
     maya_th yada "ให้ไปเลย 1,000,000" with dissolve
     maya_en yada "I'd give her 1,000,000." with dissolve
@@ -57,20 +55,16 @@ label s2_2:
     maya_th wink "ฉันขอตัวก่อน ไว้เจอกันใหม่นะ ยูคุง~☆" with dissolve
     maya_en wink "I've got to go. See you later, Yu-kun~☆" with dissolve
     play sound "audio/sfx/家の階段を駆け上る.mp3"
-    th "SFX - เสียงฟิ้ววว (วิ่งด้วยความรวดเร็ว)" with dissolve
-    en "SFX - Whoosh sound (running at high speed)" with dissolve
-    hide maya
-    th "VFX - sprite มายะแฉลบออกจากหน้าจออย่างรวดเร็ว" with dissolve
-    en "VFX - Maya's sprite quickly slides off the screen" with dissolve
     th "พอพูดจบ รุ่นพี่มายะก็รีบวิ่งขึ้นบันไดไปอย่างรวดเร็ว" with dissolve
     en "As soon as she finishes speaking, Senior Maya hurriedly runs up the stairs," with dissolve
     th "ราวกับว่ารุ่นพี่มายะไม่ได้อยู่ตรงนี้ตั้งแต่แรก" with dissolve
     en "As if she was never here in the first place." with dissolve
-    yuma_th  "อ้าว อะไรของรุ่นพี่มายะ แปลกชะมัด" with dissolve
+    yuma_th  "อะไรของรุ่นพี่มายะเนี่ย แปลกชะมัด" with dissolve
     yuma_en  "Huh? What's up with Senior Maya? That was weird." with dissolve
     th "ทันใดนั้นผมก็รู้สาเหตุที่รุ่นพี่มายะทำตัวลุกลี้ลุกลนผิดปกติ" with dissolve
     en "Just then, I realize the reason for Senior Maya's unusual behavior." with dissolve
-    show akane normal at center with Dissolve(1.0) 
+    hide maya
+    show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_001.mp3"
     akane_th normal "รุ่นพี่ยูมะ ทำอะไรอยู่หรือเปล่าคะ" with dissolve
     akane_en normal "Senior Yuma, are you doing something?" with dissolve
@@ -104,11 +98,9 @@ label s2_2:
     en "As I'm walking to the student council room, my foot catches on something." with dissolve
     yuma_th  "หืม? อะไรตกอยู่ที่พื้น" with dissolve
     yuma_en  "Hm? What's that on the floor?" with dissolve
+    show student card with dissolve
     th "วัตถุขนาดสี่เหลี่ยมผืนผ้าตกอยู่ที่พื้น เมื่อหยิบขึ้นมาก็พบว่าเป็นบัตรนักเรียน" with dissolve
     en "A rectangular object is lying on the ground. When I pick it up, I see it's a student ID card." with dissolve
-    show student card with dissolve
-    th "SD - บัตรนักเรียนมายะ student card" with dissolve
-    en "SD - Maya's student card" with dissolve
     yuma_th  "ชิราซากิ… มายะ…" with dissolve
     yuma_en  "Shirasaki... Maya..." with dissolve
     yuma_th  "นี่มันบัตรนักเรียนของรุ่นพี่มายะนี่นา เผลอทำหล่นตอนวิ่งหนีอากาเนะเมื่อกี้นี้แน่เลย" with dissolve
@@ -139,5 +131,5 @@ label s2_2:
     en "My curiosity is starting to get the better of me." with dissolve
     th "เอาไว้โอกาสหน้าลองถามรุ่นพี่มายะตรงๆ เลยดีกว่า" with dissolve
     en "I'll try asking Senior Maya directly next time I get the chance." with dissolve
-    jump s2_3
+    jump s2_2
     return
