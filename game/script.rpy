@@ -91,7 +91,7 @@ define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outl
 define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
 
-
+image NightSky2 = im.Scale("bg/NightSky2.png",1920,1080)
 image NightSky1 = im.Scale("bg/NightSky1.png",1920,1080)
 image sunset2 = im.Scale("bg/sunset2.png",1920,1080)
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
@@ -229,7 +229,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_7
+    jump s2_8
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
