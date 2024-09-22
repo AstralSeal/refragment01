@@ -13,7 +13,7 @@ label s2_9:
     th "………" with dissolve
     en "......" with dissolve
     stop music
-    play music "audio/bgm/MusMus-BGM-79.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-079.mp3" volume 0.5
     th "10 นาทีผ่านไป" with dissolve
     en "10 minutes passed." with dissolve
     th "ผมสังเกตว่าคู่รักแต่ละคู่ค่อยๆ ทยอยเดินเข้าห้างฯ จนเหลือเพียงผมกับผู้ชายอีกคน" with dissolve
@@ -35,7 +35,7 @@ label s2_9:
     th "ทันใดนั้นรุ่นพี่มายะก็ตะโกนเรียกชื่อผม" with dissolve
     en "Suddenly, senior Maya called out my name." with dissolve
     stop music
-    play music "audio/bgm/MusMus-BGM-34.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-034.mp3" volume 0.5
     show maya_c2 normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_001.mp3"
     maya_c2_th hurt "ยูคุง~!" with dissolve
@@ -104,8 +104,8 @@ label s2_9:
     th "ถ้างั้น แบบนี้ต้อง—" with dissolve
     en "In that case, I should—" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
-    yuma_th normal "เล็บที่นิ้วเท้าของรุ่นพี่มายะยาวขึ้นกว่าเดิม 1 มิลลิเมตรนะครับ" with dissolve
-    yuma_en normal "The nails on your toes have grown 1 millimeter longer than before, senior Maya." with dissolve
+    yuma_th  "เล็บที่นิ้วเท้าของรุ่นพี่มายะยาวขึ้นกว่าเดิม 1 มิลลิเมตรนะครับ" with dissolve
+    yuma_en  "The nails on your toes have grown 1 millimeter longer than before, senior Maya." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_011.mp3"
     maya_c2_th shock "……" with dissolve
     maya_c2_en shock "......" with dissolve
@@ -136,12 +136,12 @@ label s2_9:
     scene life_shoppingmall1_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-103.mp3" volume 0.5
-    พิธีกร_th  "ยินดีต้อนรับทุกท่านเข้าสู่อีเวนท์ยิ่งใหญ่ที่สุดเท่าที่เกม Seal Impact เคยจัดมา" with dissolve
-    พิธีกร_en  "Welcome everyone to the biggest event Seal Impact has ever held!" with dissolve
-    พิธีกร_th  "เดือนที่แล้วมีตัวละครเพิ่มมาใหม่หนึ่งตัว แต่เดือนนี้พิเศษยิ่งกว่าเดิม" with dissolve
-    พิธีกร_en  "Last month we added one new character, but this month is even more special." with dissolve
-    พิธีกร_th  "เพราะไม่ใช่แค่หนึ่ง แต่มากถึงสอง!!" with dissolve
-    พิธีกร_en  "Because it's not just one, but two!!" with dissolve
+    speaker_th  "ยินดีต้อนรับทุกท่านเข้าสู่อีเวนท์ยิ่งใหญ่ที่สุดเท่าที่เกม Seal Impact เคยจัดมา" with dissolve
+    speaker_en  "Welcome everyone to the biggest event Seal Impact has ever held!" with dissolve
+    speaker_th  "เดือนที่แล้วมีตัวละครเพิ่มมาใหม่หนึ่งตัว แต่เดือนนี้พิเศษยิ่งกว่าเดิม" with dissolve
+    speaker_en  "Last month we added one new character, but this month is even more special." with dissolve
+    speaker_th  "เพราะไม่ใช่แค่หนึ่ง แต่มากถึงสอง!!" with dissolve
+    speaker_en  "Because it's not just one, but two!!" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_015.mp3"
     maya_c2_th ah "โอ้โห ไม่นึกว่าคนจะเยอะขนาดนี้" with dissolve
@@ -150,23 +150,23 @@ label s2_9:
     yuma_en  "Of course, Seal Impact is currently the number one game in the world." with dissolve
     yuma_th  "แถมทิ้งห่างอันดับสองอย่าง Seal Star Rail พอสมควรเลยล่ะ" with dissolve
     yuma_en  "And it's quite far ahead of the second-place Seal Star Rail." with dissolve
-    พิธีกร_th  "ไม่ใช่แค่หนึ่ง แต่มากถึงสอง เพราะแมวน้ำทั้งสองตัวเป็นคู่รักตั้งแต่ชาติปางก่อน" with dissolve
-    พิธีกร_en  "Not just one, but two, because these two seals were lovers in their past lives." with dissolve
+    speaker_th  "ไม่ใช่แค่หนึ่ง แต่มากถึงสอง เพราะแมวน้ำทั้งสองตัวเป็นคู่รักตั้งแต่ชาติปางก่อน" with dissolve
+    speaker_en  "Not just one, but two, because these two seals were lovers in their past lives." with dissolve
     hide maya_c2
-    พิธีกร_th  "แมวน้ำทั้งสองฝ่าฟันอุปสรรค และโคจรมาพบกันในที่สุด" with dissolve
-    พิธีกร_en  "The two seals overcame obstacles and finally found each other." with dissolve
-    พิธีกร_th  "ดังนั้นในวันนี้เรามีกิจกรรมพิเศษสำหรับคู่รักที่โคจรมาพบกันในบูธกิจกรรม" with dissolve
-    พิธีกร_en  "So today, we have a special activity for couples who have found each other at our activity booth." with dissolve
-    พิธีกร_th  "คู่รักที่เข้าร่วมงานทุกท่านจะได้รับของรางวัลเป็นตุ๊กตาแมวน้ำสุด Limited" with dissolve
-    พิธีกร_en  "All couples participating in the event will receive a super limited edition seal plush toy as a prize." with dissolve
-    พิธีกร_th  "เพื่อไม่ให้เสียเวลา ขอเชิญผู้เข้าร่วมกิจกรรมทุกท่านมาต่อแถวตรงนี้ได้เลย!" with dissolve
-    พิธีกร_en  "To save time, all participants please line up here!" with dissolve
+    speaker_th  "แมวน้ำทั้งสองฝ่าฟันอุปสรรค และโคจรมาพบกันในที่สุด" with dissolve
+    speaker_en  "The two seals overcame obstacles and finally found each other." with dissolve
+    speaker_th  "ดังนั้นในวันนี้เรามีกิจกรรมพิเศษสำหรับคู่รักที่โคจรมาพบกันในบูธกิจกรรม" with dissolve
+    speaker_en  "So today, we have a special activity for couples who have found each other at our activity booth." with dissolve
+    speaker_th  "คู่รักที่เข้าร่วมงานทุกท่านจะได้รับของรางวัลเป็นตุ๊กตาแมวน้ำสุด Limited" with dissolve
+    speaker_en  "All couples participating in the event will receive a super limited edition seal plush toy as a prize." with dissolve
+    speaker_th  "เพื่อไม่ให้เสียเวลา ขอเชิญผู้เข้าร่วมกิจกรรมทุกท่านมาต่อแถวตรงนี้ได้เลย!" with dissolve
+    speaker_en  "To save time, all participants please line up here!" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_016.mp3"
     maya_c2_th serious_2 "ยูคุง พวกเรารีบไปเข้าแถวก่อนที่รางวัลจะหมดกันเถอะ" with dissolve
     maya_c2_en serious_2 "Yu-kun, let's hurry and line up before the prizes run out." with dissolve
-    yuma_th ah_2 "ไม่ต้องรีบหรอกครับ ผู้เล่นกาชาเกินครึ่งเป็นหนุ่มโสด" with dissolve
-    yuma_en ah_2 "No need to rush. More than half of the gacha players are single guys." with dissolve
+    yuma_th  "ไม่ต้องรีบหรอกครับ ผู้เล่นกาชาเกินครึ่งเป็นหนุ่มโสด" with dissolve
+    yuma_en  "No need to rush. More than half of the gacha players are single guys." with dissolve
     yuma_th  "คนส่วนมากแค่มาเช็คอินหรือถ่ายรูปนักคอสเพลย์ในบูธกิจกรรมเท่านั้น ของรางวัลยังไม่หมดหรอกครับ" with dissolve
     yuma_en  "Most people just come to check in or take photos with cosplayers at the activity booth. The prizes won't run out." with dissolve
     yuma_th  "เห็นมั้ย หนุ่มโสดไปกองอยู่ตรงนั้นเพียบเลย ว้าย น่าสงสาร" with dissolve
@@ -178,7 +178,7 @@ label s2_9:
     th "ตัดฉาก" with dissolve
     en "Scene change" with dissolve
     stop music
-    play music "audio/bgm/MusMus-BGM-34.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-034.mp3" volume 0.5
     th "หลังจากที่ต่อคิวและรอประมาณ 15 นาที เจ้าหน้าที่ก็เรียกพวกเราเข้าไปข้างในบูธกิจกรรม" with dissolve
     en "After queuing and waiting for about 15 minutes, the staff called us into the activity booth." with dissolve
     th "พิธีกรอธิบายว่าคู่รักที่เข้าร่วมกิจกรรมต้องถ่ายรูปคู่รักและนำไปโพสต์ลงโซเชียลมีเดีย" with dissolve
@@ -187,10 +187,10 @@ label s2_9:
     yuma_en  "Just take a photo and post it on the internet, huh?" with dissolve
     th "ขณะที่ผมกำลังเดินไปหน้าตู้ถ่ายรูป เจ้าหน้าที่ก็เข้ามายืนขวาง" with dissolve
     en "As I was walking towards the photo booth, a staff member stepped in to block my way." with dissolve
-    พนักงาน_th  "ขอโทษด้วยครับคุณลูกค้า แฟนของคุณผู้ชายสวยเกินกว่าผู้เล่นเกมกาชาโดยเฉลี่ย" with dissolve
-    พนักงาน_en  "I'm sorry, sir, but your girlfriend is too beautiful for the average gacha game player." with dissolve
-    พนักงาน_th  "ด้วยเหตุนี้เราต้องขอทดสอบว่าเป็นคู่รักจริงๆ หรือไม่" with dissolve
-    พนักงาน_en  "Therefore, we need to test if you're really a couple or not." with dissolve
+    staff_th  "ขอโทษด้วยครับคุณลูกค้า แฟนของคุณผู้ชายสวยเกินกว่าผู้เล่นเกมกาชาโดยเฉลี่ย" with dissolve
+    staff_en  "I'm sorry, sir, but your girlfriend is too beautiful for the average gacha game player." with dissolve
+    staff_th  "ด้วยเหตุนี้เราต้องขอทดสอบว่าเป็นคู่รักจริงๆ หรือไม่" with dissolve
+    staff_en  "Therefore, we need to test if you're really a couple or not." with dissolve
     yuma_th  "เอาจริงดิ" with dissolve
     yuma_en  "Are you serious?" with dissolve
     th "ผมหันไปมองหน้ารุ่นพี่มายะด้วยความสับสน" with dissolve
@@ -205,12 +205,12 @@ label s2_9:
     show quiz00 with dissolve
     th "ทันใดนั้นพนักงานก็ยื่นแผ่นป้ายกระดานและปากกาเมจิกให้ผมกับรุ่นพี่มายะ" with dissolve
     en "Suddenly, the staff handed Maya and me whiteboards and markers." with dissolve
-    พนักงาน_th  "ภารกิจแรก เชื่อมจิตพิชิตหัวใจ" with dissolve
-    พนักงาน_en  "First mission: Connect hearts, conquer love." with dissolve
-    พนักงาน_th  "กติกาคือให้ทั้งสองคนตอบคำถามด้วยการเขียนลงบนกระดาน จากนั้นยกแผ่นป้ายขึ้นมา" with dissolve
-    พนักงาน_en  "The rule is for both of you to answer questions by writing on the board. Then, raise your boards." with dissolve
-    พนักงาน_th  "ถ้าเป็นคู่รักกันจริง คำตอบของทั้งสองคนควรเหมือนกัน" with dissolve
-    พนักงาน_en  "If you're really a couple, both of your answers should be the same." with dissolve
+    staff_th  "ภารกิจแรก เชื่อมจิตพิชิตหัวใจ" with dissolve
+    staff_en  "First mission: Connect hearts, conquer love." with dissolve
+    staff_th  "กติกาคือให้ทั้งสองคนตอบคำถามด้วยการเขียนลงบนกระดาน จากนั้นยกแผ่นป้ายขึ้นมา" with dissolve
+    staff_en  "The rule is for both of you to answer questions by writing on the board. Then, raise your boards." with dissolve
+    staff_th  "ถ้าเป็นคู่รักกันจริง คำตอบของทั้งสองคนควรเหมือนกัน" with dissolve
+    staff_en  "If you're really a couple, both of your answers should be the same." with dissolve
     th "ผมโดนรุ่นพี่มายะประเมินคะแนนการเดทยังไม่พอ ยังโดนพนักงานบูธกิจกรรมประเมินคะแนนอีกหรอ" with dissolve
     en "I'm already being evaluated by senior Maya for our date, and now I'm being evaluated by the event staff too?" with dissolve
     hide quiz00 with dissolve
@@ -222,30 +222,30 @@ label s2_9:
     maya_c2_en confident "Trust me, we'll definitely pass this." with dissolve
     th "ดูเหมือนรุ่นพี่จะดูไม่ทุกข์ร้อนอะไรกับกิจกรรมนี้เลย สมแล้วที่เป็นกูรูด้านความรัก" with dissolve
     en "It seems senior Maya isn't worried about this activity at all. As expected of a love guru." with dissolve
-    พนักงาน_th  "ถ้าพร้อมแล้วก็มาเริ่มกันเลย" with dissolve
-    พนักงาน_en  "First question: Where did you two first meet?" with dissolve
+    staff_th  "ถ้าพร้อมแล้วก็มาเริ่มกันเลย" with dissolve
+    staff_en  "First question: Where did you two first meet?" with dissolve
     hide maya_c2
     show quiz00 with dissolve
-    พนักงาน_th  "คำถามข้อแรก สถานที่ที่ทั้งสองคนได้พบกันครั้งแรก" with dissolve
-    พนักงาน_en  "This one's not hard. Senior Maya must know the answer." with dissolve
+    staff_th  "คำถามข้อแรก สถานที่ที่ทั้งสองคนได้พบกันครั้งแรก" with dissolve
+    staff_en  "This one's not hard. Senior Maya must know the answer." with dissolve
     th "ข้อนี้ไม่ยาก รุ่นพี่มายะต้องตอบได้แน่นอน" with dissolve
     en "Let's see both of your answers." with dissolve
-    พนักงาน_th  "มาดูคำตอบของทั้งสองคนกัน" with dissolve
-    พนักงาน_en  "It seems our answers for the first question match." with dissolve
+    staff_th  "มาดูคำตอบของทั้งสองคนกัน" with dissolve
+    staff_en  "It seems our answers for the first question match." with dissolve
     show quiz01 with dissolve
     th "ดูเหมือนคำถามในข้อแรกของพวกเราจะตรงกัน" with dissolve
     en "Wow, unbelievable. Both of you answered the same." with dissolve
     hide quiz01 with dissolve
-    พนักงาน_th  "โอ้โห ไม่น่าเชื่อ ทั้งสองคนตอบเหมือนกันเลย" with dissolve
-    พนักงาน_en  "Good, if it continues like this, we'll definitely do well." with dissolve
+    staff_th  "โอ้โห ไม่น่าเชื่อ ทั้งสองคนตอบเหมือนกันเลย" with dissolve
+    staff_en  "Good, if it continues like this, we'll definitely do well." with dissolve
     th "ดีล่ะ ถ้าเป็นแบบนี้ต่อไปคงไปได้สวยแน่" with dissolve
     en "I turned to give senior Maya a sign that we did well, and she winked back at me." with dissolve
     show maya_c2 normal at zoom_in,center with Dissolve(0.2) 
     th "ผมหันไปส่งซิกให้รุ่นพี่มายะว่าดีมาก รุ่นพี่มายะก็ขยิบตากลับมา" with dissolve
     en "Next question: If you two had a child, what would you name them?" with dissolve
     show quiz00 with dissolve
-    พนักงาน_th  "คำถามถัดไป สมมุติว่าถ้าทั้งสองมีลูก จะตั้งชื่อลูกว่าอะไร" with dissolve
-    พนักงาน_en  "The modern trend is Double Income, No Kids. Couples don't necessarily need to have children." with dissolve
+    staff_th  "คำถามถัดไป สมมุติว่าถ้าทั้งสองมีลูก จะตั้งชื่อลูกว่าอะไร" with dissolve
+    staff_en  "The modern trend is Double Income, No Kids. Couples don't necessarily need to have children." with dissolve
     hide maya_c2
     th "คำถามนี้มันอะไรกัน" with dissolve
     en "It's obvious we're still students. Do normal student couples usually think about naming their children?" with dissolve
@@ -266,8 +266,8 @@ label s2_9:
     hide quiz00 with dissolve
     th "ขอให้ถูกทีเถอะ" with dissolve
     en "SFX - John Cena's title music, instrumental version" with dissolve
-    พนักงาน_th  "ทั้งสองคนเปิดแผ่นป้ายได้" with dissolve
-    พนักงาน_en  "After seeing senior Maya's answer, everyone went silent." with dissolve
+    staff_th  "ทั้งสองคนเปิดแผ่นป้ายได้" with dissolve
+    staff_en  "After seeing senior Maya's answer, everyone went silent." with dissolve
     th "แผ่นกระดาษของยูมะ Yuuya" with dissolve
     en "" with dissolve
     th "แผ่นกระดาษของมายะ John Cena" with dissolve
@@ -279,8 +279,8 @@ label s2_9:
     en "" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     hide quiz02 with dissolve
-    yuma_th normal "เดี๋ยวก่อน แล้วไอ้ที่ขยิบตาเมื่อกี้นี้มันอะไรกันครับ" with dissolve
-    yuma_en normal "Wait a minute, what was that wink earlier all about?" with dissolve
+    yuma_th  "เดี๋ยวก่อน แล้วไอ้ที่ขยิบตาเมื่อกี้นี้มันอะไรกันครับ" with dissolve
+    yuma_en  "Wait a minute, what was that wink earlier all about?" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_020.mp3"
     maya_c2_th pero "ก็นึกว่ายูมะขอให้ตอบแบบเด็ดๆ โคตรตลกซะอีก เทเฮ๊ะ~" with dissolve
     maya_c2_en pero "I thought you wanted me to give a cool answer. It's super funny, right? Tehe~" with dissolve
@@ -291,15 +291,15 @@ label s2_9:
     en "I'm sorry, mom. I'm sorry I couldn't protect Yuno's smile." with dissolve
     th "ผมคงไม่มีหน้าไปพบกับคุณแม่บนสวรรค์อีกแล้ว" with dissolve
     en "I probably won't be able to face you in heaven anymore." with dissolve
-    พนักงาน_th  "อย่าเพิ่งเสียใจไป ภารกิจแรกไม่ผ่าน แต่ก็ยังมีโอกาสอยู่" with dissolve
-    พนักงาน_en  "Don't be sad yet. You failed the first mission, but there's still a chance." with dissolve
-    พนักงาน_th  "ภารกิจที่สอง รักหรอกจึงตอบถูก" with dissolve
-    พนักงาน_en  "Second mission: Love knows the answer." with dissolve
-    พนักงาน_th  "เราจะถามคำถามเกี่ยวกับอีกฝ่าย ถ้าตอบถูกทั้งคู่ก็ถือว่าผ่านภารกิจ" with dissolve
-    พนักงาน_en  "We'll ask questions about each other. If both of you answer correctly, you pass the mission." with dissolve
+    staff_th  "อย่าเพิ่งเสียใจไป ภารกิจแรกไม่ผ่าน แต่ก็ยังมีโอกาสอยู่" with dissolve
+    staff_en  "Don't be sad yet. You failed the first mission, but there's still a chance." with dissolve
+    staff_th  "ภารกิจที่สอง รักหรอกจึงตอบถูก" with dissolve
+    staff_en  "Second mission: Love knows the answer." with dissolve
+    staff_th  "เราจะถามคำถามเกี่ยวกับอีกฝ่าย ถ้าตอบถูกทั้งคู่ก็ถือว่าผ่านภารกิจ" with dissolve
+    staff_en  "We'll ask questions about each other. If both of you answer correctly, you pass the mission." with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
-    พนักงาน_th ah_2 "เริ่มต้นที่คุณผู้หญิง แฟนของคุณชื่ออะไร" with dissolve
-    พนักงาน_en ah_2 "Let's start with the lady. What's your boyfriend's name?" with dissolve
+    staff_th  "เริ่มต้นที่คุณผู้หญิง แฟนของคุณชื่ออะไร" with dissolve
+    staff_en  "Let's start with the lady. What's your boyfriend's name?" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_021.mp3"
     maya_c2_th smile_2 "ยูมะค่ะ" with dissolve
     maya_c2_en smile_2 "Yuma." with dissolve
@@ -310,14 +310,14 @@ label s2_9:
     en "Thank you, mom in heaven, for sending your power to help me protect Yuno's smile." with dissolve
     th "มาเลย ไม่ว่าจะเป็นคำถามแบบไหนผมก็จะพยายามพิชิตให้ได้" with dissolve
     en "Bring it on. No matter what question it is, I'll try my best to conquer it." with dissolve
-    พนักงาน_th  "คำถามถัดไป คุณผู้ชาย จงบอกชื่อบรรพบุรุษของแฟนคุณ" with dissolve
-    พนักงาน_en  "Next question. Gentleman, please tell us your girlfriend's ancestors' names." with dissolve
+    staff_th  "คำถามถัดไป คุณผู้ชาย จงบอกชื่อบรรพบุรุษของแฟนคุณ" with dissolve
+    staff_en  "Next question. Gentleman, please tell us your girlfriend's ancestors' names." with dissolve
     yuma_th  "จะบ้าเหรอ ผมยังไม่รู้เลยว่าบรรพบุรุษตัวเองเป็นใคร" with dissolve
     yuma_en  "Are you crazy? I don't even know my own ancestors." with dissolve
     yuma_th  "ใครมันจะไปตอบได้ฟะ" with dissolve
     yuma_en  "Who could possibly answer that?" with dissolve
-    พนักงาน_th  "คุณผู้ชายต้องสนใจแฟนตัวเองมากกว่านี้นะครับ" with dissolve
-    พนักงาน_en  "Sir, you need to pay more attention to your girlfriend." with dissolve
+    staff_th  "คุณผู้ชายต้องสนใจแฟนตัวเองมากกว่านี้นะครับ" with dissolve
+    staff_en  "Sir, you need to pay more attention to your girlfriend." with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_022.mp3"
     maya_c2_th bruh "จริงค่ะ คำถามแค่นี้ยังตอบไม่ได้ถือว่ายังอ่อนหัดนะยูมะคุง~" with dissolve
@@ -325,8 +325,8 @@ label s2_9:
     yuma_th  "ขออีกรอบ รอบนี้ไม่พลาดแน่" with dissolve
     yuma_en  "One more chance. This time I won't fail." with dissolve
     hide maya_c2
-    พนักงาน_th  "คำถามที่สอง คุณผู้หญิง แฟนหนุ่มของคุณใส่เสื้อขนาดอะไร" with dissolve
-    พนักงาน_en  "Second question. Lady, what size shirt does your boyfriend wear?" with dissolve
+    staff_th  "คำถามที่สอง คุณผู้หญิง แฟนหนุ่มของคุณใส่เสื้อขนาดอะไร" with dissolve
+    staff_en  "Second question. Lady, what size shirt does your boyfriend wear?" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_023.mp3"
     maya_c2_th smile "ไซซ์ L ค่ะ" with dissolve
@@ -335,8 +335,8 @@ label s2_9:
     en "I showed the tag on the back of my shirt to the host and senior Maya, confirming it was size L." with dissolve
     th "เอาล่ะ ถึงตาของเราแล้ว" with dissolve
     en "Alright, it's our turn now." with dissolve
-    พนักงาน_th  "ต่อไป คุณผู้ชาย แฟนของคุณมีหน้าอกขนาดเท่าไหร่" with dissolve
-    พนักงาน_en  "Next, gentleman, what is your girlfriend's bust size?" with dissolve
+    staff_th  "ต่อไป คุณผู้ชาย แฟนของคุณมีหน้าอกขนาดเท่าไหร่" with dissolve
+    staff_en  "Next, gentleman, what is your girlfriend's bust size?" with dissolve
     th "บ้าไปแล้ว คำถามอะไรเนี่ย นี่มัน sexual harrashment ชัดๆ" with dissolve
     en "This is insane. What kind of question is this? This is clearly sexual harassment." with dissolve
     th "แต่ไม่ว่ายังไง เราก็ต้องตอบคำถามข้อนี้ให้ได้" with dissolve
@@ -364,8 +364,8 @@ label s2_9:
     hide maya_c2
     th "ผมตะโกนออกมาด้วยความยินดี" with dissolve
     en "I shouted with joy." with dissolve
-    พนักงาน_th  "ขอแสดงความยินดีกับคุณแฟนหนุ่มผู้ไม่รู้อะไรเกี่ยวกับแฟนนอกจากขนาดหน้าอก คุณทำภารกิจผ่านแล้ว" with dissolve
-    พนักงาน_en  "Congratulations to the boyfriend who knows nothing about his girlfriend except her bust size. You've passed the mission." with dissolve
+    staff_th  "ขอแสดงความยินดีกับคุณแฟนหนุ่มผู้ไม่รู้อะไรเกี่ยวกับแฟนนอกจากขนาดหน้าอก คุณทำภารกิจผ่านแล้ว" with dissolve
+    staff_en  "Congratulations to the boyfriend who knows nothing about his girlfriend except her bust size. You've passed the mission." with dissolve
     yuma_th  "แกเป็นคนถามแบบนี้เองไม่ใช่หรือไงฟะ" with dissolve
     yuma_en  "Weren't you the one who asked this kind of question?" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
@@ -411,7 +411,7 @@ label s2_9:
     en "CG - Couple's photo booth (purikura)" with dissolve
     scene purikura00 with Dissolve(1.0)
     stop music
-    play music "audio/bgm/MusMus-BGM-34.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-034.mp3" volume 0.5
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_029.mp3"
     maya_c2_th  "นี่ ยูคุง พวกเราโพสท่าอะไรกันดี" with dissolve
     maya_c2_en  "Hey, Yu-kun, what pose should we do?" with dissolve
@@ -549,8 +549,8 @@ label s2_9:
     en "Suitable for a couple who were enemies in their past lives, I guess." with dissolve
     scene life_shoppingmall1_noon with Dissolve(1.0)
     show maya_c2 normal at center with Dissolve(0.2) 
-    yuma_th smile "ขอบคุณนะครับรุ่นพี่มายะ ในที่สุดผมก็ได้ตุ๊กตานี้มาแล้ว น้องสาวของผมต้องดีใจแน่นอน" with dissolve
-    yuma_en smile "Thank you, senior Maya. I finally got this plush toy. My little sister will definitely be happy." with dissolve
+    yuma_th  "ขอบคุณนะครับรุ่นพี่มายะ ในที่สุดผมก็ได้ตุ๊กตานี้มาแล้ว น้องสาวของผมต้องดีใจแน่นอน" with dissolve
+    yuma_en  "Thank you, senior Maya. I finally got this plush toy. My little sister will definitely be happy." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_047.mp3"
     maya_c2_th meme "ยูคุงเนี่ยรักน้องสาวดีจัง สมกับฉายาราชาซิสค่อน" with dissolve
     maya_c2_en meme "Yu-kun really loves his little sister. As expected of the Siscon King." with dissolve
@@ -588,7 +588,7 @@ label s2_9:
     en "Scene change" with dissolve
     scene sunset2 with Dissolve(1.0)
     stop music
-    play music "audio/bgm/MusMus-BGM-66.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-066.mp3" volume 0.5
     th "แสงอาทิตย์กำลังลับขอบฟ้า" with dissolve
     en "The sun was setting." with dissolve
     th "รุ่นพี่มายะใช้เวลาเลือกซื้อเสื้อผ้าเกือบสามชั่วโมง" with dissolve
@@ -604,8 +604,8 @@ label s2_9:
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_053.mp3"
     maya_c2_th sad "ขอโทษนะยูคุง พอเข้าไปในร้านเสื้อผ้าแล้วเหมือนหลุดไปอยู่อีกโลกตลอดเลย" with dissolve
     maya_c2_en sad "Sorry, Yu-kun. Once I enter a clothing store, it's like I'm in another world the whole time." with dissolve
-    yuma_th smile "ไม่เป็นไรครับ แค่รุ่นพี่มีความสุข ผมก็มีความสุข" with dissolve
-    yuma_en smile "It's okay. As long as you're happy, I'm happy." with dissolve
+    yuma_th  "ไม่เป็นไรครับ แค่รุ่นพี่มีความสุข ผมก็มีความสุข" with dissolve
+    yuma_en  "It's okay. As long as you're happy, I'm happy." with dissolve
     th "ใจจริงอยากตอบว่านานชะมัด แต่ไม่ดีกว่า" with dissolve
     en "I really wanted to say it took too long, but I'd better not." with dissolve
     yuma_th  "จะว่าไป ผมสังเกตว่ารุ่นพี่กระดี๊กระด๊าตอนเลือกซื้อเสื้อผ้า" with dissolve
@@ -621,8 +621,8 @@ label s2_9:
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_056.mp3"
     maya_c2_th  "เป็นไงละ ฟังเปล่งประกายสุดๆ ไปเลยใช่มั้ย" with dissolve
     maya_c2_en  "How about that? Doesn't it sound brilliant?" with dissolve
-    yuma_th normal "ผมเองก็มีความฝันเหมือนกันครับ" with dissolve
-    yuma_en normal "I have a dream too." with dissolve
+    yuma_th  "ผมเองก็มีความฝันเหมือนกันครับ" with dissolve
+    yuma_en  "I have a dream too." with dissolve
     yuma_th  "ความฝันของผมคือการเปลี่ยนชุดเครื่องแบบโรงเรียนของเราให้กลายเป็นชุดว่ายน้ำ!" with dissolve
     yuma_en  "My dream is to change our school uniforms into swimsuits!" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_057.mp3"
@@ -789,4 +789,4 @@ label s2_9:
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
     th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอรี่จากร้านดังในห้าง" with dissolve
     en "I walked home with the strawberry pudding from the famous shop in the mall." with dissolve
-    return
+    return 

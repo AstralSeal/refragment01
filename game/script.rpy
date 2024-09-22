@@ -60,6 +60,8 @@ define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF
 define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define student_m_2_th = Character("student_m_2_th" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define staff_th = Character("พนักงาน" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define speaker_th = Character("พิธีกร" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
 define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -91,6 +93,8 @@ define yuno_p_en = Character("Yuno", image ="yuno_p" , color="#F0F8FF", who_outl
 define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define staff_en = Character("Staff" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define speaker_en = Character("Speaker" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
 
 image NightSky2 = im.Scale("bg/NightSky2.png",1920,1080)
