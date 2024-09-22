@@ -229,6 +229,12 @@ for c in onlyfiles:
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/{c}" )')
 
 for c in onlyfiles:
+    print(f'image maya_c2 {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/{c}" )')
+
+for c in onlyfiles:
     print(f'image side maya {get_emotion_from_file(c)}:')
     print(f'    zoom 0.55')
     print(f'    xoffset -200')
@@ -241,6 +247,13 @@ for c in onlyfiles:
     print(f'    xoffset -200')
     print(f'    yoffset 370')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side maya_c2 {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.55')
+    print(f'    xoffset -200')
+    print(f'    yoffset 370')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\maya02"
 
@@ -270,6 +283,12 @@ for c in onlyfiles:
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/{c}" )')
 
 for c in onlyfiles:
+    print(f'image maya_c2 {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/{c}" )')
+
+for c in onlyfiles:
     print(f'image side maya {get_emotion_from_file(c)}_2:')
     print(f'    zoom 0.55')
     print(f'    xoffset -200')
@@ -282,6 +301,14 @@ for c in onlyfiles:
     print(f'    xoffset -200')
     print(f'    yoffset 370')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side maya_c2 {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.55')
+    print(f'    xoffset -200')
+    print(f'    yoffset 370')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/{c}" )')
+
 
 #################################################################################################
 
