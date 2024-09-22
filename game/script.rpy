@@ -47,6 +47,7 @@ define student_f_c_th = Character("นักเรียนหญิง C", colo
 define everyone_th = Character("ทุกคน", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define reika_th = Character("เรกะ", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define reika_p_th = Character("Reika", image ="reika_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_th = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define maya_th = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
@@ -76,6 +77,7 @@ define student_f_c_en = Character("Female Student C", color="#F0F8FF", who_outli
 define everyone_en = Character("Everyone", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define reika_en = Character("Reika", image ="reika" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define reika_p_en = Character("Reika", image ="reika_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_en = Character("Yuno", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define maya_en = Character("Maya", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
