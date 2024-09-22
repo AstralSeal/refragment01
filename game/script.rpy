@@ -97,8 +97,11 @@ define staff_en = Character("Staff" , color="#F0F8FF", who_outlines=[(2,"#000000
 define speaker_en = Character("Speaker" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
 
+
+
 image NightSky2 = im.Scale("bg/NightSky2.png",1920,1080)
 image NightSky1 = im.Scale("bg/NightSky1.png",1920,1080)
+image sunset1 = im.Scale("bg/sunset1.png",1920,1080)
 image sunset2 = im.Scale("bg/sunset2.png",1920,1080)
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
@@ -207,6 +210,14 @@ image flyingseal01:
     pause 0.5
     repeat
 
+image excicted:
+    "emotion/excited2.png" with dissolve
+    pause 0.5
+    "emotion/excited1.png" with dissolve
+    pause 0.5
+    repeat
+
+
 image kick01:
     "SD/kick/kick01.png" with dissolve
     pause 0.25
@@ -235,7 +246,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_9
+    jump s2_10
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
