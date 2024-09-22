@@ -919,7 +919,8 @@ label s2_4:
     reika_en  "I don't get lonely. I usually listen to music when I walk home." with dissolve
     th "นี่ผมคิดถูกจริงๆแล้วใช่ไหมเนี่ยที่รอกลับบ้านพร้อมเรกะ" with dissolve
     en "I made the right call waiting to walk home with Rega, didn't I." with dissolve
-    scene 住宅街２（夜・照明ON） with Dissolve(1.0)
+    #todo 住宅街２（夜・照明ON
+    # scene 住宅街２（夜・照明ON） with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show reika normal at zoom_in,center with Dissolve(0.2) 
