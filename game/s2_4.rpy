@@ -988,4 +988,5 @@ label s2_4:
     en "After waving goodbye, Rega walked off and disappeared from my sight." with dissolve
     th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
     en "Yuno must be waiting for me by now. I better hurry inside." with dissolve
+    jump s2_5
     return

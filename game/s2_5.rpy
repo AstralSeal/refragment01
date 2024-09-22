@@ -305,4 +305,5 @@ label s2_5:
     th "หลังจากนั้นฉันก็นอนกอดพีสุเกะ และฝันถึงผู้ชายคนหนึ่งที่หน้าตาเหมือนยูมะ…" with dissolve
     en "After that, I slept hugging Piske, dreaming of a boy who looked just like Yuma..." with dissolve
     hide reika_pov with dissolve
+    jump s2_6
     return

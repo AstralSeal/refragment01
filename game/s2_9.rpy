@@ -789,4 +789,5 @@ label s2_9:
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
     th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอรี่จากร้านดังในห้าง" with dissolve
     en "I walked home with the strawberry pudding from the famous shop in the mall." with dissolve
+    jump s2_10
     return 
