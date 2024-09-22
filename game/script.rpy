@@ -90,8 +90,8 @@ define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=
 #########################################
 
 
-
-
+image NightSky1 = im.Scale("bg/NightSky1.png",1920,1080)
+image sunset2 = im.Scale("bg/sunset2.png",1920,1080)
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
 image sky_summer = im.Scale("bg/sky_summer.png",1920,1080)
@@ -182,6 +182,11 @@ image reika angry:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body.png" ,(0,1700), "Sprite/reika01/reika01_angry1.png" )
+
+image reika bored_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body.png" ,(0,1700), "Sprite/reika02/reika02_Bored.png" )
 ######## Custom ######### 
 image flyingseal01:
     "SD/flyingseal/flyingseal01.png" with dissolve
@@ -222,7 +227,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_3
+    jump s2_4
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
