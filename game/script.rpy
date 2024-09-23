@@ -50,6 +50,7 @@ define reika_th = Character("เรกะ", image ="reika" , color="#F0F8FF", wh
 define reika_p_th = Character("Reika", image ="reika_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_th = Character("ยูโนะ", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define maya_th = Character("มายะ", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define maya_c2_th = Character("มายะ", image ="maya_c2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define akane_th = Character("อากาเนะ", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define kazuma_th = Character("คาซึมะ", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
@@ -59,6 +60,8 @@ define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF
 define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
 define student_m_2_th = Character("student_m_2_th" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define staff_th = Character("พนักงาน" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define speaker_th = Character("พิธีกร" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
 define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -80,6 +83,7 @@ define reika_en = Character("Reika", image ="reika" , color="#F0F8FF", who_outli
 define reika_p_en = Character("Reika", image ="reika_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_en = Character("Yuno", image ="yuno" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define maya_en = Character("Maya", image ="maya" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define maya_c2_en = Character("Maya", image ="maya_c2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define akane_en = Character("Akane", image ="akane" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define kazuma_en = Character("Kazuma", image ="kazuma" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
@@ -89,10 +93,15 @@ define yuno_p_en = Character("Yuno", image ="yuno_p" , color="#F0F8FF", who_outl
 define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
 define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define staff_en = Character("Staff" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define speaker_en = Character("Speaker" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
+
+
 
 image NightSky2 = im.Scale("bg/NightSky2.png",1920,1080)
 image NightSky1 = im.Scale("bg/NightSky1.png",1920,1080)
+image sunset1 = im.Scale("bg/sunset1.png",1920,1080)
 image sunset2 = im.Scale("bg/sunset2.png",1920,1080)
 image moonlight3 = im.Scale("bg/moonlight3.png",1920,1080)
 image sky_cloudy = im.Scale("bg/sky_cloudy.png",1920,1080)
@@ -201,6 +210,14 @@ image flyingseal01:
     pause 0.5
     repeat
 
+image excicted:
+    "emotion/excited2.png" with dissolve
+    pause 0.5
+    "emotion/excited1.png" with dissolve
+    pause 0.5
+    repeat
+
+
 image kick01:
     "SD/kick/kick01.png" with dissolve
     pause 0.25
@@ -229,7 +246,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_8
+    jump s2_10
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
