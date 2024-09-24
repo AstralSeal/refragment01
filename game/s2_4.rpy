@@ -6,7 +6,7 @@ label s2_4:
     en "At first, the student council members planned to meet up at the mall together after school was over." with dissolve
     th "แต่ดูเหมือนว่าทุกคนมีภารกิจที่ต้องทำ" with dissolve
     en "But it seemed like everyone had tasks they needed to take care of." with dissolve
-    th "เรกะเคลียร์งานเอกสาร คาสึมะถูกชมรมฟุตบอลดึงตัวไป ส่วนผมต้องอยู่ทำเวรตอนเย็น" with dissolve
+    th "เรกะเคลียร์งานเอกสาร คาสึมะถูกชมรมฟุตบอลดึงตัวไป" with dissolve
     en "Rega was clearing up some paperwork, Kasuma got called away by the football club, and I had to stay and do evening duty." with dissolve
     th "ทำให้แต่ละคนแยกย้ายกันกันเดินทางไปที่จุดนัดพบ" with dissolve
     en "So each of us ended up making our separate ways to the meeting point." with dissolve
@@ -32,7 +32,7 @@ label s2_4:
     hide risa
     stop music
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
-    show fertilization with dissolve
+    show fertilization_censor with dissolve
     th "ผมหยิบผลงานชิ้นเอกของผมออกมาให้ครูริสะดู" with dissolve
     en "I took out my masterpiece and gave it to Ms. Risa to look at." with dissolve
     th "ต้องขอบคุณเรกะที่ให้ยืมสมุดจดเลคเชอร์" with dissolve
@@ -101,7 +101,7 @@ label s2_4:
     yuma_th  "ในที่สุดครูก็เห็นถึงความสุดยอดของผมแล้วสินะครับ" with dissolve
     yuma_en  "So you finally see how brilliant I am, right?" with dissolve
     stop music
-    play music "audio/bgm/MusMus-BGM-165.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-143.mp3" volume 0.5
     show risa normal at zoom_in,center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_013.mp3"
     hide fertilization with dissolve
@@ -141,11 +141,14 @@ label s2_4:
     yuma_th  "ครับ ถ้ามีอะไรเกิดขึ้นผมจะปกป้องเรกะเอง ทั้งในฐานะสมาชิกสภานักเรียนและเพื่อนสมัยเด็ก" with dissolve
     yuma_en  "Got it. If anything happens, I'll protect Rega myself, both as a student council member and childhood friend." with dissolve
     hide risa
+    hide fertilization_censor
     show border with dissolve
     th "อาจจะจริงอย่างที่ครูริสะว่าเมื่อมีคนรักก็ต้องมีคนเกลียด คงเป็นไปไม่ได้ที่เรกะจะมาถึงจุดนี้แล้วไม่มีคนเกลียดเลย" with dissolve
     en "You may be right that popularity breeds contempt too. I guess it's inevitable Rega would make some enemies after rising this far." with dissolve
     th "แต่ถ้ามีอะไรเกิดขึ้นผมก็จะอยู่เคียงข้างเรกะเสมอ" with dissolve
     en "But if anything happens, I'll always be by Rega's side." with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
     show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_022.mp3"
     hide border with dissolve
@@ -201,8 +204,6 @@ label s2_4:
     yuma_th  "ว่าแต่ ทุกคนมาถึงกันตั้งแต่เมื่อไหร่" with dissolve
     yuma_en  "But anyway, when did you all get here?" with dissolve
     hide risa
-    th "VFX - แพนกล้องให้เห็นตัวละครทีละคน" with dissolve
-    en "" with dissolve
     show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_4/akane_2_4_001.mp3"
     akane_th ah "หนูมาถึงก่อนรุ่นพี่คาสึมะ 10 นาที" with dissolve
@@ -254,7 +255,6 @@ label s2_4:
     th "กรณีตอบถูก" with dissolve
     en "If answered correctly" with dissolve
     show reika normal at center with Dissolve(0.2) 
-    play sound "audio/sfx/correct.mp3"
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_006.mp3"
     reika_th doya_2 "ฉันชนะ บอกแล้วว่าเครื่องคิดเลข…ไม่สิเหรัญญิกของฉันไม่มีทางตอบผิดหรอก" with dissolve
     reika_en doya_2 "I win. See, I told you my treasurer...I mean, calculator, would never get it wrong." with dissolve
@@ -271,7 +271,6 @@ label s2_4:
     th "กรณีตอบผิด" with dissolve
     en "If answered incorrectly" with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/sfx/wrong.mp3"
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
     kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
     kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
@@ -330,15 +329,17 @@ label s2_4:
     th "คาสึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
     en "Kasuma and Akane spoke in flat, synthesized robot voices." with dissolve
     yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า ‘สุดยอดไปเลยยูมะ’ ไม่ใช่เหรอ" with dissolve
-    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like That's amazing, Yuma! ?" with dissolve
+    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like 'That's amazing, Yuma!'?" with dissolve
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_006.mp3"
-    kazuma_th normal "สุดยอดไปเลยยูมะ เสียงราบเรียบน่าเบื่อๆ" with dissolve
+    kazuma_th normal "สุดยอดไปเลยยูมะ " with dissolve
     kazuma_en normal "That's amazing, Yuma. Flat, bored tone" with dissolve
     #---- play sound "audio/voice/akane/chapter2/chapter2_4/akane_2_4_004.mp3"
-    akane_th normal "สุดยอดไปเลยยูมะ เสียงราบเรียบน่าเบื่อๆ" with dissolve
+    akane_th normal "สุดยอดไปเลยยูมะ" with dissolve
     akane_en normal "That's amazing, Yuma. Flat, bored tone" with dissolve
     yuma_th  "ตั้งใจชมกันมากเลย (ประชด)" with dissolve
     yuma_en  "You're really putting your hearts into it, huh. (Sarcastic)" with dissolve
+    hide kazuma
+    hide akane
     show risa normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_028.mp3"
     risa_th smile "ไหนๆ ทุกคนก็มาครบกันแล้ว ไปกินข้าวเย็นกันเถอะ ครูเลี้ยงเอง" with dissolve
@@ -400,7 +401,7 @@ label s2_4:
     hide risa
     show reika normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_014.mp3"
-    reika_th ah_2 "งั้นเราก็แยกกันตรงนี้ก่อนก็ได้ แล้วค่อยรวมตัวกันอีกรอบ" with dissolve
+    reika_th ah_2 "งั้นเราก็แยกกันตรงนี้ก็ได้" with dissolve
     reika_en ah_2 "In that case, let's split up here for now and regroup later." with dissolve
     th "หลังจากนั้นแต่ละคนก็แยกย้ายกันไปเดินดูของตามโซนต่างๆ ของห้างฯ ตามที่สนใจ" with dissolve
     en "After that, we each went our separate ways to browse the mall's various sections that interested us." with dissolve
@@ -462,9 +463,8 @@ label s2_4:
     yuma_th  "ไม่นึกเลยว่าเธอจะสนใจเรื่องทำนายความรักอะไรแบบนี้ด้วย" with dissolve
     yuma_en  "I never imagined you'd be into love fortune-telling stuff like this." with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_018.mp3"
-    #todo shy_2_shy
-    reika_th normal "ปะ… เปล่านะ ฉันแค่เห็นนิตยสารเล่มนี้วางอยู่ผิดที่ เลยจะเอาไปเก็บให้ต่างหาก" with dissolve
-    reika_en normal "It's n-not like that. I just saw this magazine out of place and was going to put it back, that's all." with dissolve
+    reika_th shy_2_shy "ปะ… เปล่านะ ฉันแค่เห็นนิตยสารเล่มนี้วางอยู่ผิดที่ เลยจะเอาไปเก็บให้ต่างหาก" with dissolve
+    reika_en shy_2_shy "It's n-not like that. I just saw this magazine out of place and was going to put it back, that's all." with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_019.mp3"
     reika_th angry "อีกอย่าง ในเล่มนี้เขียนว่าคนกรุ๊ปเลือด A ไม่เชื่อเรื่องดวง" with dissolve
     reika_en angry "Besides, this magazine says type A people don't believe in fortune-telling." with dissolve
@@ -473,8 +473,8 @@ label s2_4:
     yuma_th  "ว่าแต่ แล้วดวงด้านความรักของคนกรุ๊ป O ของฉันล่ะ" with dissolve
     yuma_en  "Anyway, what about my type O love fortune?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_020.mp3"
-    reika_th chito "คนกรุ๊ป O เป็นพวกหลงตัวเอง ชอบคิดว่าผู้หญิงคนอื่นมีใจให้ เหมือนนายเปี๊ยบเลย" with dissolve
-    reika_en chito "Type O's are egotistical and think other girls are into them. Just like you." with dissolve
+    reika_th cold_2 "คนกรุ๊ป O เป็นพวกหลงตัวเอง ชอบคิดว่าผู้หญิงคนอื่นมีใจให้ เหมือนนายเปี๊ยบเลย" with dissolve
+    reika_en cold_2 "Type O's are egotistical and think other girls are into them. Just like you." with dissolve
     yuma_th  "เธอพึ่งคิดสดเมื่อกี้นี้เลยใช่มั้ยเนี่ย" with dissolve
     yuma_en  "You totally just made that up on the spot, didn't you!" with dissolve
     yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า ‘ราชินีไร้เทียมทาน’ อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
@@ -482,8 +482,8 @@ label s2_4:
     yuma_th  "ถ้านักเรียนคนอื่นในห้องรู้จะเป็นยังไงกันนะ" with dissolve
     yuma_en  "I wonder what the other students in our class would think if they knew." with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_021.mp3"
-    reika_th angrymeme_2 "หยุดเดี๋ยวนี้เลยนะ ถ้าเกิดว่านายบอกคนอื่นล่ะก็ฉันฆ่านายแน่" with dissolve
-    reika_en angrymeme_2 "You stop that right now. I swear if you tell anyone else, I'll kill you." with dissolve
+    reika_th angry "หยุดเดี๋ยวนี้เลยนะ ถ้าเกิดว่านายบอกคนอื่นล่ะก็ฉันฆ่านายแน่" with dissolve
+    reika_en angry "You stop that right now. I swear if you tell anyone else, I'll kill you." with dissolve
     yuma_th  "รู้แล้วล่ะน่า แต่ว่าถ้าจะให้เก็บความลับระดับสุดยอดแบบนี้ต้องมีค่าจ้างนะ" with dissolve
     yuma_en  "Alright, alright. But keeping a top secret like this is gonna cost you." with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_022.mp3"
@@ -716,7 +716,7 @@ label s2_4:
     th "การนับเลขทำให้จิตใจสงบได้ 2.23606797" with dissolve
     en "Counting helps settle the mind. 2.23606797..." with dissolve
     th "เวลาที่ผู้หญิงถามว่าเลือกอันไหนดี แสดงว่าพวกเธอมีอันที่ชอบอยู่ในใจอยู่แล้ว" with dissolve
-    en "When a girl asks 'which one is better,' it means she already has one she likes in mind." with dissolve
+    en "When a girl asks 'which one is better' it means she already has one she likes in mind." with dissolve
     th "พวกเธอเพียงแค่ต้องการคนสนับสนุนเท่านั้น" with dissolve
     en "She just wants someone to support her choice." with dissolve
     th "ดังนั้นสิ่งที่ต้องทำคือตอบให้ถูกอัน แต่เราไม่รู้ว่าอากาเนะชอบอันไหน" with dissolve
@@ -900,32 +900,31 @@ label s2_4:
     en "Shortly after I exited, Rega came out too." with dissolve
     show reika normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_035.mp3"
-    reika_th  "นี่นายดักรอฉันอยู่หรอ เป็นสโตกเกอร์รึไง" with dissolve
-    reika_en  "Were you waiting here to ambush me? What are you, a stalker?" with dissolve
+    reika_th cold_2 "นี่นายดักรอฉันอยู่หรอ เป็นสโตกเกอร์รึไง" with dissolve
+    reika_en cold_2 "Were you waiting here to ambush me? What are you, a stalker?" with dissolve
     yuma_th  "เดี๋ยวสิเธอไม่คิดว่าฉันเป็นสุภาพบุรุษที่ไม่สามารถทนเห็นผู้หญิงเดินกลับบ้านคนเดียวได้บ้างเหรอ" with dissolve
     yuma_en  "Hey now, don't you think I'm enough of a gentleman to not let a girl walk home alone?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_036.mp3"
-    reika_th  "นายเนี่ยนะ" with dissolve
-    reika_en  "You, a gentleman?" with dissolve
+    reika_th chito "นายเนี่ยนะ" with dissolve
+    reika_en chito "You, a gentleman?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_037.mp3"
-    reika_th  "ไม่ใช่ว่านายกลัวถูกดักตีเลยรอให้ฉันกลับบ้านด้วยรึไง" with dissolve
-    reika_en  "More like you were scared of getting beat up, so you waited for me to walk home with you." with dissolve
+    reika_th hee "ไม่ใช่ว่านายกลัวถูกดักตีเลยรอให้ฉันกลับบ้านด้วยรึไง" with dissolve
+    reika_en hee "More like you were scared of getting beat up, so you waited for me to walk home with you." with dissolve
     yuma_th  "เอาน่า ไหนๆบ้านพวกเราสองคนก็กลับทางเดียวกันนี่นา" with dissolve
     yuma_en  "Oh come on, we're heading the same way home anyway." with dissolve
     yuma_th  "กลับด้วยกันก็ไม่เห็นเป็นไรนี่จะได้ไม่เหงาด้วย" with dissolve
     yuma_en  "Walking back together isn't a big deal. Plus it's less lonely." with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_038.mp3"
-    reika_th  "ฉันไม่เหงาหรอกปกติเวลาเดินกลับบ้านฉันชอบฟังเพลงไปด้วย" with dissolve
-    reika_en  "I don't get lonely. I usually listen to music when I walk home." with dissolve
+    reika_th ah_2 "ฉันไม่เหงาหรอกปกติเวลาเดินกลับบ้านฉันชอบฟังเพลงไปด้วย" with dissolve
+    reika_en ah_2 "I don't get lonely. I usually listen to music when I walk home." with dissolve
     th "นี่ผมคิดถูกจริงๆแล้วใช่ไหมเนี่ยที่รอกลับบ้านพร้อมเรกะ" with dissolve
     en "I made the right call waiting to walk home with Rega, didn't I." with dissolve
-    #todo 住宅街２（夜・照明ON
-    # scene 住宅街２（夜・照明ON） with Dissolve(1.0)
+    scene 住宅街２（夜・照明ON） with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show reika normal at zoom_in,center with Dissolve(0.2) 
-    yuma_th  "นี่ เรกะ เธอคิดยังไงกับเรื่องการยกเลิกจำหน่ายน้ำอัดลมเหรอ" with dissolve
-    yuma_en  "Hey Rega, what do you think about the school banning soda sales?" with dissolve
+    yuma_th "นี่ เรกะ เธอคิดยังไงกับเรื่องการยกเลิกจำหน่ายน้ำอัดลมเหรอ" with dissolve
+    yuma_en "Hey Rega, what do you think about the school banning soda sales?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_039.mp3"
     reika_th cold_2 "อย่าบอกนะว่านายเสียใจที่ไม่มีน้ำอัดลมขายแล้ว" with dissolve
     reika_en cold_2 "Don't tell me you're sad they don't sell soda anymore." with dissolve
@@ -958,7 +957,7 @@ label s2_4:
     en "Major issues, emotional scars, painful memories they want to forget." with dissolve
     th "ผมกลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็ก" with dissolve
     en "I've been afraid of public speaking since I was little." with dissolve
-    th "ด้วยเหตุนี้จึงเลือกรับตำแหน่งเหรัญญิกที่เน้นการอ่านและคำนวณข้อมูล ไม่ต้องออกไปพูดต่อหน้าคนจำนวนมาก" with dissolve
+    th "และนี่คงเป็นเหตุผลให้ผมเลือกตำแหน่งเหรัญญิกที่เน้นการอ่านและคำนวณข้อมูล ไม่ต้องออกไปพูดต่อหน้าคนจำนวนมาก" with dissolve
     en "That's why I chose the treasurer role that focuses on reading and calculating data. I don't have to go up and talk in front of a crowd." with dissolve
     scene home_yuumahouse_night with Dissolve(1.0)
     stop music
@@ -988,5 +987,4 @@ label s2_4:
     en "After waving goodbye, Rega walked off and disappeared from my sight." with dissolve
     th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
     en "Yuno must be waiting for me by now. I better hurry inside." with dissolve
-    jump s2_5
     return
