@@ -11,7 +11,6 @@ label s2_6:
     th "ด้วยเหตุนี้ผมจึงตื่นเช้ากว่าปกติ" with dissolve
     en "For that reason, I woke up earlier than usual." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    play sound "audio/sfx/door_open.mp3"
     th "ยูโนะเปิดประตูเข้ามาในห้อง" with dissolve
     en "Yuno opened the door and entered my room." with dissolve
     th "ทันใดนั้นผมกับยูโนะก็สบตากัน" with dissolve
@@ -39,10 +38,7 @@ label s2_6:
     scene 住宅街２（日中） with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-066.mp3" volume 0.5
-    play sound "audio/sfx/学校の廊下を歩く.mp3"
     scene school_front_noon with Dissolve(1.0)
-    th "Background - หน้าโรงเรียน" with dissolve
-    en "Background - School entrance" with dissolve
     th "อย่างที่เคยบอกว่าบ้านของผมอยู่ใกล้กับโรงเรียน" with dissolve
     en "As I mentioned before, my house is close to the school." with dissolve
     th "ใช้เวลาไม่นาน เดินเพียงแค่ 10 นาทีผมก็มาถึงโรงเรียนแล้ว" with dissolve
@@ -113,9 +109,11 @@ label s2_6:
     th "เมื่อวานเราเจอรุ่นพี่มายะที่ไหนกันนะ" with dissolve
     en "" with dissolve
     scene school_shoebox_morning with Dissolve(1.0)
+    show old with dissolve
+    th "..." with dissolve
+    en "Where did we run into Sempai Maya yesterday?" with dissolve
     show maya normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_001.mp3"
-    show old with dissolve
     maya_th smile "อ๊ะ ยูคุงนี่นา อรุณสวัสดิ์" with dissolve
     maya_en smile "Oh, if it isn't Yu-kun. Good morning." with dissolve
     yuma_th  "รุ่นพี่มายะ อรุณสวัสดิ์ครับ" with dissolve
@@ -127,7 +125,7 @@ label s2_6:
     en "Since we were late yesterday, that means..." with dissolve
     th "รุ่นพี่มายะมาโรงเรียนสายสินะ" with dissolve
     en "Sempai Maya is usually late to school, huh." with dissolve
-    th "จะรีบมาโรงเรียนทำไม ขอนอนต่อได้มั้ยเนี่ย" with dissolve
+    th "แล้วผมจะรีบมาโรงเรียนทำไมกัน...ขอนอนต่อได้มั้ยเนี่ย" with dissolve
     en "Why rush to get to school? Can't I sleep in a bit longer?" with dissolve
     show maya normal at center with Dissolve(0.2) 
     th "ในขณะที่ผมกำลังจะถอดใจ ผมก็เห็นเงาของคนที่คุ้นตาเดินผ่านไป" with dissolve
@@ -143,11 +141,10 @@ label s2_6:
     en "So I quickly ran after her." with dissolve
     th "………" with dissolve
     en "........" with dissolve
-    th "Background - ดาดฟ้า" with dissolve
-    en "Background - Rooftop" with dissolve
     scene school_rooftop_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-078.mp3" volume 0.5
+    hide old
     show border with dissolve
     th "ผมจึงไล่ตามรุ่นพี่มายะไปจนมาถึงบนดาดฟ้า" with dissolve
     en "I chased after Sempai Maya all the way to the rooftop." with dissolve
@@ -175,10 +172,11 @@ label s2_6:
     maya_en consider "Did he mix up his spoken words and thoughts?" with dissolve
     student_m_2_th  "ถ้ามีโอกาส โปรดคบผมเป็นแฟนด้วยเถอะครับ" with dissolve
     student_m_2_en  "If possible, please go out with me!" with dissolve
+    hide maya
+    hide border
     show border with dissolve
     th "ชายหนุ่มคนนั้นยังดึงดันที่จะสารภาพรักกับรุ่นพี่มายะทั้งๆที่เผลอพูดสิ่งที่อยู่ในใจออกมาแล้ว" with dissolve
     en "The young man stubbornly insisted on confessing his love to Sempai Maya, even though he accidentally blurted out what was on his mind." with dissolve
-    hide maya
     th "ไม่คิดเลยว่าจะมาเจอเหตุการณ์อะไรแบบนี้ตั้งแต่เช้า" with dissolve
     en "I never imagined I'd witness something like this first thing in the morning." with dissolve
     th "สมแล้วกับที่เขาเลื่องลือกันว่ารุ่นพี่มายะเป็นสาวป๊อบประจำโรงเรียน" with dissolve
@@ -212,11 +210,14 @@ label s2_6:
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_008.mp3"
     maya_th smile_2 "ดังนั้นเรามาเริ่มจากเป็นเพื่อนก่อนดีไหม" with dissolve
     maya_en smile_2 "So why don't we start off as friends first?" with dissolve
+    hide maya
+    hide border
+    show border with dissolve
     th "สิ่งที่สนใจมากกว่าความรักงั้นเหรอ?" with dissolve
     en "Something that interests you more than love?" with dissolve
-    hide maya
     th "รุ่นพี่เรียนอยู่ปีสาม คงเป็นเรื่องสอบเข้ามหาวิทยาลัยแน่เลย" with dissolve
     en "Since Sempai is a third year student, it must be about college entrance exams for sure." with dissolve
+    hide border with dissolve
     th "ไม่สิ บางทีอาจจะเป็นเรื่องครอบครัวก็ได้" with dissolve
     en "No, maybe it's a family matter." with dissolve
     show maya normal at center with Dissolve(0.2) 
@@ -248,6 +249,7 @@ label s2_6:
     en "Sempai Maya walked over to the seal vending machine." with dissolve
     hide maya
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_010.mp3"
+    hide border
     show flyingseal01 with dissolve
     maya_th  "ไม่ไหวๆ หาอะไรหวานๆ เยียวยาใจดีกว่า" with dissolve
     maya_en  "I can't deal. I need something sweet to soothe my soul." with dissolve
@@ -302,13 +304,13 @@ label s2_6:
     en "Sempai Maya must be an undercover agent investigating this rumor for sure!" with dissolve
     th "แต่เรื่องนั้นคงต้องปล่อยไปก่อน ผมเองก็มีเรื่องที่จำเป็นต้องทำเหมือนกัน" with dissolve
     en "But I'll have to put that aside for now. I have something important I need to do too." with dissolve
-    show maya ah with Dissolve(0.2)
     yuma_th  "จะว่าไปเมื่อวานนี้ ผมเก็บบัตรนักเรียนของรุ่นพี่มายะได้" with dissolve
     yuma_en  "That reminds me, I found your student ID yesterday, Sempai Maya." with dissolve
     th "พอพูดจบ ผมก็หยิบบัตรนักเรียนของรุ่นพี่มายะออกมา" with dissolve
     en "Finishing my sentence, I took out Sempai Maya's student ID card." with dissolve
     hide maya
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_022.mp3"
+    hide flyingseal01
     show student card with dissolve
     maya_th crymeme "เอ๊ะ ไม่มี… จริงด้วย ฉันทำบัตรหล่นตอนไหนเนี่ย ไม่ทันสังเกตเลย" with dissolve
     maya_en crymeme "Huh? It's gone... Oh right, when did I drop my ID? I didn't even notice." with dissolve
@@ -387,8 +389,8 @@ label s2_6:
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_031.mp3"
     maya_th angry "14 คือจำนวนคนที่มาสารภาพรักกับฉัน และนายเป็นคนที่ 15" with dissolve
     maya_en angry "14 is the number of people who have confessed to me. And you're number 15." with dissolve
-    yuma_th  "ผมได้ยินข่าวลือมาบ้างว่ามีนักเรียนชายจำนวนมากพยายามสารภาพรักรุ่นพี่มายะ แต่ไม่นึกว่าจะมากถึง 14 คน" with dissolve
-    yuma_en  "I had heard rumors that a lot of guys have tried confessing to Sempai Maya, but I didn't think it would be as many as 14." with dissolve
+    th "ผมได้ยินข่าวลือมาบ้างว่ามีนักเรียนชายจำนวนมากพยายามสารภาพรักรุ่นพี่มายะ แต่ไม่นึกว่าจะมากถึง 14 คน" with dissolve
+    en "I had heard rumors that a lot of guys have tried confessing to Sempai Maya, but I didn't think it would be as many as 14." with dissolve
     yuma_th  "ถ้างั้นสนใจให้ 15 เป็นครั้งสุดท้ายไหมครับ" with dissolve
     yuma_en  "In that case, want to make 15 the last time?" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_032.mp3"
@@ -421,7 +423,6 @@ label s2_6:
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_038.mp3"
     maya_th confident "ตกลง ฉันจะยอมเข้าร่วมกิจกรรมที่ห้างฯ ในฐานะคู่รักของยูคุงเอง" with dissolve
     maya_en confident "Alright, I'll agree to participate in the event at the mall as Yu-kun's girlfriend." with dissolve
-    play sound "audio/sfx/洗濯機動作終了.mp3"
     flying_seal_th  "กรุณาหยิบเครื่องดื่มของท่าน" with dissolve
     flying_seal_en  "Please take your drink." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_039.mp3"
@@ -456,5 +457,4 @@ label s2_6:
     en "You already knew that? And here I went to the trouble of..." with dissolve
     th "ผมอุตส่าห์ดักรอพนักงานเปิดตู้อยู่ตั้งนานเพื่อดูว่ามีคนอยู่ข้างในตู้หรือเปล่าเชียวนะ" with dissolve
     en "I waited forever for the worker to open the machine, just to see if there was someone inside!" with dissolve
-    jump s2_7
     return
