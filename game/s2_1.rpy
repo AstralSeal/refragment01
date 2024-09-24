@@ -1,15 +1,17 @@
 label s2_1:
-    scene wakeup24 with Dissolve(1.0)
+    scene home_yuumabedroom_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/Sunrise.mp3" volume 0.5
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_001.mp3"
+    show wakeup24 with dissolve
     yuno_th  "ยู…มะ…" with dissolve
     yuno_en  "Yu... ma..." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_002.mp3"
     yuno_th  "ยูมะ ตื่นได้แล้ว!" with dissolve
     yuno_en  "Yuma, time to wake up!" with dissolve
-    scene wakeup01 with Dissolve(1.0)
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_003.mp3"
+    hide wakeup24
+    show wakeup01 with dissolve
     yuno_th  "ได้เวลาไปโรงเรียนแล้ว!" with dissolve
     yuno_en  "It's time for school!" with dissolve
     th "สิ่งแรกที่ผมพบเห็นในตอนเช้าคือใบหน้ายิ้มแย้มแจ่มใสของยูโนะ" with dissolve
@@ -18,27 +20,29 @@ label s2_1:
     en "Today, Yuno is sitting on top of me again." with dissolve
     yuma_th  "ยูโนะ ช่วยลุกหน่อย พี่ขยับตัวไม่ได้แล้วเนี่ย" with dissolve
     yuma_en  "Yuno, can you get off? I can't move." with dissolve
-    scene wakeup03 with Dissolve(1.0)
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_004.mp3"
+    hide wakeup01
+    show wakeup03 with dissolve
     yuno_th  "ไม่! หนูไม่ลุกจนกว่าพี่จะตื่น" with dissolve
     yuno_en  "No! I won't get up until you wake up." with dissolve
     yuma_th  "ก็ได้ ตื่นแล้ว ลุกออกไปที" with dissolve
     yuma_en  "Fine, I'm awake. Now get off." with dissolve
-    scene wakeup04 with Dissolve(1.0)
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_005.mp3"
+    hide wakeup03
+    show wakeup04 with dissolve
     yuno_th  "ก็ได้" with dissolve
     yuno_en  "Okay." with dissolve
     th "ยูโนะยอมลุกขึ้นแต่โดยดี" with dissolve
     en "Yuno obediently gets up." with dissolve
-    scene wakeup07 with Dissolve(1.0)
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_006.mp3"
+    hide wakeup04
+    show wakeup07 with dissolve
     yuno_th  "วันนี้เกม Seal Impact มีอัพเดตใหม่ หนูไม่ว่างมาปลุกพี่ซ้ำหรอกนะ " with dissolve
     yuno_en  "There's a new update for Seal Impact today. I won't have time to wake you up again." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_007.mp3"
     yuno_th  "ห้ามนอนเด็ดขาด ขืนหลับต่อละก็ไปโรงเรียนสายแน่" with dissolve
     yuno_en  "Don't you dare fall back asleep. If you do, you'll be late for school." with dissolve
     scene home_yuumabedroom_morning with Dissolve(1.0)
-    play sound "audio/sfx/ドアを閉める2.mp3"
     th "นี่เรามีน้องสาวหรือแม่คนที่สองกันแน่เนี่ย…" with dissolve
     en "I wonder if we have a little sister or a second mother..." with dissolve
     th "ยูโนะพูดทิ้งท้ายก่อนเดินออกจากห้อง" with dissolve
@@ -61,65 +65,64 @@ label s2_1:
     yuma_en  "Hm? What time is it?" with dissolve
     th "ผมมองนาฬิกา พบว่าเวลาไม่ได้ผ่านไปแค่ห้านาที แต่เป็นสามสิบห้านาที" with dissolve
     en "I look at the clock and realize that not five, but thirty-five minutes have passed." with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
     yuma_th  "แย่แล้ว สายแล้ว" with dissolve
     yuma_en  "Oh no, I'm late." with dissolve
     th "ด้วยเหตุนี้ผมรีบแต่งตัวและวิ่งพรวดออกจากห้องนอน" with dissolve
     en "With that, I hurriedly get dressed and dash out of my bedroom." with dissolve
     scene home_livingroom_morning with Dissolve(1.0)
-    stop music
-    play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
-    show yuno_p normal at center with Dissolve(0.2) 
-    yuma_th "ยูโนะ ทำไมไม่เข้ามาปลุกพี่อีกรอบล่ะ" with dissolve
+    show yuno_c normal at center with Dissolve(0.2) 
+    yuma_th  "ยูโนะ ทำไมไม่เข้ามาปลุกพี่อีกรอบล่ะ" with dissolve
     yuma_en  "Yuno, why didn't you come wake me up again?" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_008.mp3"
-    yuno_p_th pout2_2 "หนูเข้าไปปลุกพี่อีกรอบแล้ว แต่พี่เป็นคนตอบเองว่าโอเค" with dissolve
-    yuno_p_en pout2_2 "I did come to wake you up again, but you said you were okay." with dissolve
+    yuno_c_th pout2_2 "หนูเข้าไปปลุกพี่อีกรอบแล้ว แต่พี่เป็นคนตอบเองว่าโอเค" with dissolve
+    yuno_c_en pout2_2 "I did come to wake you up again, but you said you were okay." with dissolve
     yuma_th  "จริงเหรอ ไม่รู้ตัวเลย" with dissolve
     yuma_en  "Really? I don't remember at all." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_009.mp3"
-    yuno_p_th hee "จริงสิ หนูจะโกหกทำไม" with dissolve
-    yuno_p_en hee "Of course. Why would I lie?" with dissolve
+    yuno_c_th hee "จริงสิ หนูจะโกหกทำไม" with dissolve
+    yuno_c_en hee "Of course. Why would I lie?" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_010.mp3"
-    yuno_p_th teehee "อีกอย่าง รู้มั้ยว่าวันนี้เกม Seal Impact มีอัพเดตใหม่ หนูต้องรีบเล่นก่อนคนอื่น" with dissolve
-    yuno_p_en teehee "Besides, did you know Seal Impact has a new update today? I need to play before everyone else." with dissolve
+    yuno_c_th teehee "อีกอย่าง รู้มั้ยว่าวันนี้เกม Seal Impact มีอัพเดตใหม่ หนูต้องรีบเล่นก่อนคนอื่น" with dissolve
+    yuno_c_en teehee "Besides, did you know Seal Impact has a new update today? I need to play before everyone else." with dissolve
     th "ช่วงหลังมานี้น้องสาวของผมเริ่มรักเกมมากกว่าผมแล้วหรือเปล่าเนี่ย…" with dissolve
     en "I wonder if my little sister has started to love games more than me lately..." with dissolve
     yuma_th  "ช่างเถอะ พี่ไปก่อนละนะ" with dissolve
     yuma_en  "Anyway, I'm heading out." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_011.mp3"
-    yuno_p_th ah_2 "ไม่กินข้าวเช้าก่อนเหรอ" with dissolve
-    yuno_p_en ah_2 "Aren't you going to have breakfast?" with dissolve
+    yuno_c_th ah_2 "ไม่กินข้าวเช้าก่อนเหรอ" with dissolve
+    yuno_c_en ah_2 "Aren't you going to have breakfast?" with dissolve
     yuma_th  "โทษที แต่วันนี้ไม่ทันแล้ว" with dissolve
     yuma_en  "Sorry, but there's no time today." with dissolve
-    hide yuno_p
+    hide yuno_c
     scene home_entrance_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-103.mp3" volume 0.5
-    show yuno_p normal at center with Dissolve(0.2) 
+    show yuno_c normal at center with Dissolve(0.2) 
     th "ขณะที่ผมกำลังเดินออกจากบ้าน ยูโนะก็เดินมาหาผมที่บริเวณทางเข้าหน้าประตูบ้าน" with dissolve
     en "As I'm about to leave the house, Yuno walks up to me near the front door." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_012.mp3"
-    yuno_p_th  "เดี๋ยวก่อน" with dissolve
-    yuno_p_en  "Wait a second." with dissolve
+    yuno_c_th  "เดี๋ยวก่อน" with dissolve
+    yuno_c_en  "Wait a second." with dissolve
     yuma_th  "มีอะไรเหรอ" with dissolve
     yuma_en  "What is it?" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_013.mp3"
-    yuno_p_th wow "พี่ไม่ลองคาบขนมปังแล้ววิ่งไปโรงเรียนดูล่ะ" with dissolve
-    yuno_p_en wow "Why don't you try running to school with a piece of toast in your mouth?" with dissolve
+    yuno_c_th wow "พี่ไม่ลองคาบขนมปังแล้ววิ่งไปโรงเรียนดูล่ะ" with dissolve
+    yuno_c_en wow "Why don't you try running to school with a piece of toast in your mouth?" with dissolve
     th "ยูโนะพูดด้วยท่าทีขี้เล่น ดวงตาเป็นประกาย" with dissolve
     en "Yuno says playfully, her eyes sparkling." with dissolve
     yuma_th  "พี่ไม่ใช่นางเอกการ์ตูนตาหวานสักหน่อย" with dissolve
     yuma_en  "I'm not some wide-eyed anime heroine." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_014.mp3"
-    yuno_p_th crymeme2 "ชิ พี่ไม่รักหนูแล้วใช่มั้ย หนูอุตส่าห์เตรียมอาหารเช้าไว้แล้ว" with dissolve
-    yuno_p_en crymeme2 "Hmph. Don't you love me anymore? I even prepared breakfast for you." with dissolve
-    yuma_th  "เอาไว้วันหลัง ตอนนี้สายแล้ว" with dissolve
+    yuno_c_th crymeme2 "ชิ พี่ไม่รักหนูแล้วใช่มั้ย หนูอุตส่าห์เตรียมอาหารเช้าไว้แล้ว" with dissolve
+    yuno_c_en crymeme2 "Hmph. Don't you love me anymore? I even prepared breakfast for you." with dissolve
+    yuma_th  "เอาไว้วันหลังน่า ตอนนี้สายแล้ว" with dissolve
     yuma_en  "Maybe next time. I'm late now." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_015.mp3"
-    yuno_p_th smile_2 "ไปดีมาดีนะ" with dissolve
-    yuno_p_en smile_2 "Take care!" with dissolve
-    hide yuno_p
-    play sound "audio/sfx/家の階段を駆け上る.mp3"
+    yuno_c_th smile_2 "ไปดีมาดีนะ" with dissolve
+    yuno_c_en smile_2 "Take care!" with dissolve
+    hide yuno_c
     th "พอพูดจบ ผมก็รีบวิ่งพรวดออกจากบ้านทันที" with dissolve
     en "With that, I dash out of the house." with dissolve
     th "ลองคิดดูแล้วแอบเสียดายอาหารเช้าฝีมือน้องสาวเหมือนกันนะ" with dissolve
@@ -129,11 +132,9 @@ label s2_1:
     scene neighborhood_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
-    scene back_street_noon with Dissolve(1.0)
-    play sound "audio/sfx/run.mp3"
     th "ผมรีบวิ่งสุดกำลังเพื่อไปโรงเรียนให้ทัน" with dissolve
     en "" with dissolve
-    play sound "audio/sfx/ロボットを殴る1.mp3"
+    scene back_street_noon with Dissolve(1.0)
     th "ผมสะดุดหกล้มเพราะเผลอไปเตะถังเหล็กเข้าโดยบังเอิญ" with dissolve
     en "I trip and fall because I accidentally kicked a metal bin." with dissolve
     yuma_th  "โอ๊ย!" with dissolve
@@ -142,7 +143,7 @@ label s2_1:
     yuma_en  "Damn it, I'm in such a hurry." with dissolve
     th "ตอนนี้ชุดนักเรียนของผมเปรอะเปื้อนฝุ่นตามถนน แถมเนคไทก็หลุดลุ่ย" with dissolve
     en "Now my school uniform is covered in street dust, and my tie is all messed up." with dissolve
-    th "ช่างมัน ตอนนี้ยังไม่จำเป็นต้องใส่ใจเรื่องเล็กๆ ร้อยๆ แบบนี้" with dissolve
+    th "ช่างมัน ตอนนี้ยังไม่จำเป็นต้องใส่ใจเรื่องเล็กๆ น้อยๆ แบบนี้" with dissolve
     en "Never mind. There's no need to worry about little things like this right now." with dissolve
     th "รีบไปโรงเรียนก่อนดีกว่า" with dissolve
     en "I'd better hurry to school." with dissolve
@@ -161,13 +162,14 @@ label s2_1:
     en "If I had been even a minute later, I would have been considered late." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-125.mp3" volume 0.5
+    hide wakeup07
     show border with dissolve
     th "เมื่อหันไปดูบรรยากาศรอบข้าง พบว่าหน้าโรงเรียนตอนนี้มีแต่ความวุ่นวาย" with dissolve
     en "Looking around, I see the school entrance is in chaos." with dissolve
     show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_001.mp3"
-    akane_th normal "นี่เธอ กระโปรงสั้นไปหรือเปล่า" with dissolve
-    akane_en normal "Hey, isn't your skirt too short?" with dissolve
+    akane_th angry "นี่เธอ กระโปรงสั้นไปหรือเปล่า" with dissolve
+    akane_en angry "Hey, isn't your skirt too short?" with dissolve
     student_f_a_th  "คิดว่าไม่...นะคะ" with dissolve
     student_f_a_en  "I don't... think so..." with dissolve
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_002.mp3"
@@ -242,7 +244,7 @@ label s2_1:
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_012.mp3"
     akane_th  "รุ่นพี่เป็นสมาชิกสภานักเรียน ต้องเป็นตัวอย่างที่ดีให้กับนักเรียนคนอื่นสิ" with dissolve
     akane_en  "You're a member of the student council. You should set a good example for other students." with dissolve
-    yuma_th  "รู้แล้วล่ะน่า กำลังสวมเนคไทใหม่อยู่" with dissolve
+    yuma_th  "รู้แล้วล่ะน่า " with dissolve
     yuma_en  "I know, I know. I'm fixing my tie now." with dissolve
     th "ทันใดนั้น อากาเนะก็คว้าเนคไทในมือผมไป" with dissolve
     en "Suddenly, Akane grabs the tie from my hand." with dissolve
@@ -263,7 +265,6 @@ label s2_1:
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_015.mp3"
     akane_th s2 "…แล้วก็ถือโอกาสไว้ลงโทษคนทำผิดกฏในเวลาเดียวกันด้วย!" with dissolve
     akane_en s2 "...And it's also a chance to punish rule-breakers at the same time!" with dissolve
-    play sound "audio/sfx/squeeze.mp3"
     th "ทันใดนั้น เนคไทที่คอผมก็รัดแน่นขึ้นมาอย่างกะทันหัน" with dissolve
     en "Suddenly, the tie around my neck tightens abruptly." with dissolve
     yuma_th  "โอ๊ยๆ หายใจไม่ออก จะตายแล้ว พอก่อน" with dissolve
@@ -274,7 +275,6 @@ label s2_1:
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_016.mp3"
     akane_th normal "จำไว้ คราวหน้าอย่าให้มีเหตุการณ์แบบนี้เกิดขึ้นอีกนะ" with dissolve
     akane_en normal "Remember, don't let this happen again." with dissolve
-    play sound "audio/sfx/escape.mp3"
     show akane normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_017.mp3"
     akane_th angry "ถ้ารุ่นพี่ยูมะตื่นเช้าตั้งแต่แรก ก็ไม่ต้องรีบวิ่งจนกระเซอะกระเซิงและเนคไทหลุดลุ่ยแบบนี้" with dissolve
@@ -310,5 +310,4 @@ label s2_1:
     en "As soon as she finishes speaking, Akane runs to block the late student." with dissolve
     th "ขืนอยู่ต่อผมอาจจะโดนลูกหลงไปด้วย ด้วยเหตุนี้ผมจึงอาสัยจังหวะชุลมุนรีบเดินเข้าอาคารเรียน" with dissolve
     en "If I stay any longer, I might get caught in the crossfire. So, I take advantage of the commotion to quickly enter the school building." with dissolve
-    jump s2_2
     return
