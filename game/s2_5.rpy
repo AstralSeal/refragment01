@@ -218,7 +218,9 @@ label s2_5:
     en "......." with dissolve
     hide yuno_c
     scene home_yuumabedroom_night with Dissolve(1.0)
-    th "สรุปได้ว่าตอนนี้มีกิจกรรมแจกตุ๊กตาสำหรับคู่รักหนุ่มสาวที่เข้าร่วมกิจกรรม" with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
+    th "ตอนนี้มีกิจกรรมแจกตุ๊กตาสำหรับคู่รักหนุ่มสาวที่เข้าร่วมกิจกรรม" with dissolve
     en "To summarize, there's currently an event giving out plush toys to young couples who participate." with dissolve
     th "ถ้ายูโนะสภาพร่างกายแข็งแรงตามปกติและออกจากบ้านได้" with dissolve
     en "If Yuno was healthy as usual and could go out," with dissolve
@@ -231,8 +233,9 @@ label s2_5:
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
     scene imagine with Dissolve(1.0)
+    th "..." with dissolve
+    en "" with dissolve
     show reika normal at zoom_in,center with Dissolve(0.2) 
-    play sound "audio/sfx/dream.mp3"
     #---- play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_001.mp3"
     reika_th angry_2 "หา? ฉันเนี่ยนะเป็นแฟนของนาย" with dissolve
     reika_en angry_2 "Huh? Me, be your girlfriend?" with dissolve
@@ -243,11 +246,12 @@ label s2_5:
     reika_th  "อยากได้ตุ๊กตาเหรอ?" with dissolve
     reika_en  "You want a doll that badly?" with dissolve
     #---- play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_004.mp3"
-    #todo sadistic_2_s
-    reika_th angry_2 "หึหึหึ ฉันจะทำให้นายนอนนิ่งเป็นตุ๊กตาของฉันเอง อย่าหนีเชียวล่ะ" with dissolve
-    reika_en angry_2 "Hehehe, I'll turn you into a lifeless doll for myself. Don't you run away now." with dissolve
+    reika_th sadistic_2_s "หึหึหึ ฉันจะทำให้นายนอนนิ่งเป็นตุ๊กตาของฉันเอง อย่าหนีเชียวล่ะ" with dissolve
+    reika_en sadistic_2_s "Hehehe, I'll turn you into a lifeless doll for myself. Don't you run away now." with dissolve
     hide reika
     scene home_yuumabedroom_night with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
     th "ไม่ดีๆ ไม่เข้าท่าอย่างแรง เรกะไม่มีทางมาด้วยกันกับเราหรอกมั้ง" with dissolve
     en "No good, that's way off. There's no way Rega would go along with this." with dissolve
     th "จริงสิ ยูโนะบอกว่าบางครั้งไอเดียก็เกิดจากเรื่องไม่คาดฝัน…?" with dissolve
@@ -305,5 +309,4 @@ label s2_5:
     th "หลังจากนั้นฉันก็นอนกอดพีสุเกะ และฝันถึงผู้ชายคนหนึ่งที่หน้าตาเหมือนยูมะ…" with dissolve
     en "After that, I slept hugging Piske, dreaming of a boy who looked just like Yuma..." with dissolve
     hide reika_pov with dissolve
-    jump s2_6
     return
