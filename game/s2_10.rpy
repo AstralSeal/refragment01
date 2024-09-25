@@ -3,7 +3,7 @@ label s2_10:
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
     show reika_c normal at center with Dissolve(0.2) 
-    show pov_reika with dissolve
+    show reika_pov with dissolve
     th "วันนี้เป็นวันหยุดแท้ๆ แต่ฉันกลับถูกยูโนะเรียกมา" with dissolve
     en "Even though it's a holiday, I was called over by Yuno." with dissolve
     th "ดูเหมือนยูโนะกำลังโกรธยูมะอีกแล้ว" with dissolve
@@ -82,8 +82,8 @@ label s2_10:
     scene home_yuumabedroom_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-097.mp3" volume 0.5
-    hide pov_reika
-    show pov_reika with dissolve
+    hide reika_pov
+    show reika_pov with dissolve
     th "ฉันถือวิสาสะเข้าไปในห้องของยูมะ" with dissolve
     en "I took the liberty of entering Yuma's room." with dissolve
     th "เมื่อมองไปรอบข้างก็พบกับสิ่งของที่ต้องการ" with dissolve
@@ -132,12 +132,12 @@ label s2_10:
     yuno_c_en ah_2 "Eh? Big brother still keeps this picture?" with dissolve
     hide yuno_c
     hide pov_reika
-    show pov_yuno with dissolve
-    scene sunset1 with Dissolve(1.0)
+
+    scene sunset1 
     stop music
     play music "audio/bgm/MusMus-BGM-105a.mp3" volume 0.5
-    hide pov_yuno
-    show old with dissolve
+    show old
+    show yuno_pov with Dissolve(1.0)
     th "ตอนนั้นฉันยังเป็นเด็กน้อยอายุเพียงแค่ 6 ขวบ" with dissolve
     en "At that time, I was just a little girl, only 6 years old." with dissolve
     yuma_th  "นี่ ยูโนะได้รางวัลประกวดวาดรูปมาสินะ ถ้างั้นวาดรูปพี่ให้หน่อยสิ" with dissolve
@@ -155,7 +155,9 @@ label s2_10:
     yuno_c_en  "Alright, I'll draw my big brother to be the most handsome in the world!" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_013.mp3"
     hide old
-    show yuno_draw01 with dissolve
+    hide yuno_pov
+    show yuno_draw01
+    show yuno_pov with Dissolve(1.0)
     yuno_c_th  "เรียบร้อย! เสร็จแย้วว" with dissolve
     yuno_c_en  "Done! It's finished!" with dissolve
     th "ถึงจะชอบวาดรูป แต่ว่าด้วยความที่ยังเป็นเด็กฉันก็เลยวาดออกมาได้ไม่สวยเลยซักนิด" with dissolve
@@ -168,7 +170,9 @@ label s2_10:
     yuma_en  "Wow, super handsome! The pointed chin is so cool!" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_014.mp3"
     hide yuno_draw01
-    show yuno_draw02 with dissolve
+    hide yuno_pov
+    show yuno_draw02
+    show yuno_pov with Dissolve(1.0)
     yuno_c_th  "จริงหรอๆ ดีใจจังเลย" with dissolve
     yuno_c_en  "Really? I'm so happy!" with dissolve
     th "ตัวฉันในตอนนั้นดีใจมากที่ได้รับคำชมจากพี่ ถึงจะไม่รู้ว่าพี่พูดจริงหรือไม่แต่เพียงแค่นั้นก็ทำให้ฉันมีความสุขแล้ว" with dissolve
@@ -180,7 +184,9 @@ label s2_10:
     yuno_c_en  "Okay! Big brother is here... and I'm standing next to big brother here..." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_016.mp3"
     hide yuno_draw02
-    show yuno_draw04 with dissolve
+    hide yuno_pov
+    show yuno_draw04
+    show yuno_pov with Dissolve(1.0)
     yuno_c_th  "เสร็จแล้ว! น่ารักใช่มั้ยล่ะ" with dissolve
     yuno_c_en  "Finished! Isn't it cute?" with dissolve
     yuma_th  "น่ารักสุดๆ ไปเลย สมแล้วที่เป็นน้องสาวของพี่" with dissolve
@@ -188,7 +194,9 @@ label s2_10:
     th "พี่ชายเป็นคนที่ใจดีแล้วก็อ่อนโยนมากๆ พอได้สัมผัสแล้วทำให้ฉันรู้สึกว่าดีจังเลยที่มีคนๆนี้เป็นพี่ชาย" with dissolve
     en "My big brother was so kind and gentle. When I felt his touch, it made me feel how great it was to have this person as my big brother." with dissolve
     hide yuno_draw04
-    show yuno_draw06 with dissolve
+    hide yuno_pov
+    show yuno_draw06 
+    show yuno_pov with Dissolve(1.0)
     th "ในขณะที่ฉันมัวแต่ดีใจอยู่พี่ชายก็ได้หยิบสีมาวาดเพิ่มเข้าไปในรูป" with dissolve
     en "While I was feeling happy, my big brother picked up a color and added something to the picture." with dissolve
     yuma_th  "ใส่หัวใจเข้าไปด้วยสิ จะได้รู้ไงล่ะว่าพวกเราเป็นครอบครัวเดียวกัน" with dissolve
@@ -199,8 +207,10 @@ label s2_10:
     yuma_th  "ขอบคุณนะยูโนะ พี่จะเก็บไว้อย่างดีเลย" with dissolve
     yuma_en  "Thank you, Yuno. I'll take good care of it." with dissolve
     scene sunset1 with Dissolve(1.0)
+    show old
     hide yuno_draw06
-    show old with dissolve
+    hide yuno_pov 
+    show yuno_pov with Dissolve(1.0)
     th "ถึงตอนนั้นจะไม่รู้ว่าทำไมพี่ถึงต้องวาดรูปหัวใจด้วยแต่ตอนนั้นก็เป็นความทรงจำที่ดีจริงๆ" with dissolve
     en "At that time, I didn't understand why he needed to draw a heart, but it became a really good memory." with dissolve
     th "ตอนนั้นฉันได้พยายามหลายสิ่งหลายอย่างเพื่อที่จะได้รับคำชมจากพี่" with dissolve
@@ -211,8 +221,10 @@ label s2_10:
     en "Thinking about that time, tears started flowing non-stop." with dissolve
     th "พี่ยังเก็บรูปเด็กชายคางแหลมกับเด็กหญิงตาโตเอาไว้อีกหรอเนี่ย ซิสค่อนเอ้ย" with dissolve
     en "You still keep this picture of the pointy-chinned boy and big-eyed girl, you siscon!" with dissolve
-    hide pov_yuno with dissolve
+    hide yuno_pov
+    hide old
     scene home_yuumabedroom_morning with Dissolve(1.0)
+    show reika_pov
     stop music
     play music "audio/bgm/MusMus-BGM-105.mp3" volume 0.5
     hide old
@@ -254,8 +266,8 @@ label s2_10:
     en "You're really making the most of your little sister privilege." with dissolve
     th "เห็นแบบนี้ ฉันเองก็ชักจะอยากมีน้องสาวขึ้นมาบ้างซะแล้วสิ" with dissolve
     en "Seeing this, I'm starting to wish I had a little sister too." with dissolve
-    hide pov_reika with dissolve
-    scene sunset with Dissolve(1.0)
+    hide reika_pov with dissolve
+    scene sunset1 with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5
     th "ผมเดินกลับมาที่บ้าน ขณะที่กำลังคิดหาวิธีคืนดีกับยูโนะ" with dissolve
@@ -281,8 +293,8 @@ label s2_10:
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_024.mp3"
     yuno_p_th  "ไม่ใช่ซักหน่อยนี่เป็นสิทธิพิเศษของน้องสาวต่างหาก" with dissolve
     yuno_p_en  "Not at all, this is just a little sister's special privilege." with dissolve
-    yuma_th angry_2 "สิทธิพิเศษของน้องสาว?" with dissolve
-    yuma_en angry_2 "A little sister's special privilege?" with dissolve
+    yuma_th  "สิทธิพิเศษของน้องสาว?" with dissolve
+    yuma_en  "A little sister's special privilege?" with dissolve
     th "ดูเหมือนในขณะที่ผมไม่อยู่บ้านยูโนะจะอารมณ์ดีขึ้นด้วยสาเหตุที่ผมก็ไม่ทราบว่าคืออะไร" with dissolve
     en "It seems that while I was away, Yuno's mood improved for reasons I don't know." with dissolve
     th "ถ้าอย่างงั้นลองอีกครั้งแล้วกัน" with dissolve
