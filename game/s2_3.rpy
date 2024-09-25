@@ -243,4 +243,5 @@ label s2_3:
     en "I can't help it. I'm bored with biology. If it were math, it'd be different." with dissolve
     th "ครั้งหน้าลองเสนอนโยบายเปลี่ยนทุกคาบเรียนเป็นวิชาคณิตฯ ดีไหมนะ" with dissolve
     en "Maybe next time I should propose a policy to change all classes to math?" with dissolve
+    jump s2_4
     return

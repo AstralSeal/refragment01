@@ -457,4 +457,5 @@ label s2_6:
     en "You already knew that? And here I went to the trouble of..." with dissolve
     th "ผมอุตส่าห์ดักรอพนักงานเปิดตู้อยู่ตั้งนานเพื่อดูว่ามีคนอยู่ข้างในตู้หรือเปล่าเชียวนะ" with dissolve
     en "I waited forever for the worker to open the machine, just to see if there was someone inside!" with dissolve
+    jump s2_7
     return

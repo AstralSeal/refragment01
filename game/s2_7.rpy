@@ -228,4 +228,5 @@ label s2_7:
     hide kazuma
     th "แถมถ้าคาสึมะลงคนมือเอง ก็คงไม่มีอะไรน่าเป็นห่วง" with dissolve
     en "Plus, with Kasuma taking the lead, there's probably nothing to worry about." with dissolve
+    jump s2_8
     return
