@@ -102,9 +102,9 @@ label s2_4:
     yuma_en  "So you finally see how brilliant I am, right?" with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-143.mp3" volume 0.5
-    show risa normal at zoom_in,center with Dissolve(0.2) 
+    show risa normal at zoom_in,center
     #---- play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_013.mp3"
-    hide fertilization with dissolve
+    hide fertilization_censor with dissolve
     risa_th angry "แต่ไม่ใช่ในรูปแบบการ์ตูนลามกแบบนี้!" with dissolve
     risa_en angry "But not in the form of this lewd manga!" with dissolve
     th "อ้าว ไหงเป็นงั้น ผมอุตส่าห์ตั้งใจทำอย่างสุดฝีมือเลยนะ" with dissolve
@@ -919,7 +919,7 @@ label s2_4:
     reika_en ah_2 "I don't get lonely. I usually listen to music when I walk home." with dissolve
     th "นี่ผมคิดถูกจริงๆแล้วใช่ไหมเนี่ยที่รอกลับบ้านพร้อมเรกะ" with dissolve
     en "I made the right call waiting to walk home with Rega, didn't I." with dissolve
-    scene 住宅街２（夜・照明ON） with Dissolve(1.0)
+    scene neighborhood_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     show reika normal at zoom_in,center with Dissolve(0.2) 

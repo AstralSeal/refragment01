@@ -144,6 +144,7 @@ label s2_7:
     en "Blub blub" with dissolve
     th "เดี๋ยวก่อน ชื่อของผมเปลี่ยนเป็นยูมะเดอะปลาทองตอนไหนเนี่ย" with dissolve
     en "Wait a minute, when did my name change to Yuma the Goldfish?" with dissolve
+    hide kazuma
     show reika normal at center with Dissolve(0.2) 
     reika_th normal_2 "ถ้างั้นอากาเนะ ฝากอธิบายให้ที" with dissolve
     reika_en normal_2 "In that case, Akane, please explain." with dissolve

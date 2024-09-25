@@ -145,8 +145,8 @@ label s2_8:
     hide sleep_note07 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_016.mp3"
-    yuno_c_th panic_2 "มุแง้" with dissolve
-    yuno_c_en panic_2 "Muwah!" with dissolve
+    yuno_c_th panic2_2 "มุแง้" with dissolve
+    yuno_c_en panic2_2 "Muwah!" with dissolve
     th "ยูโนะทำท่าตกใจ ราวกับโดนคริติคอลฮิตเข้าเต็มๆ" with dissolve
     en "Yuno looked shocked, as if she'd been hit by a critical attack." with dissolve
     yuma_th  "ช่วยไม่ได้ ถ้างั้นคงต้องเริ่มปูพื้นฐานใหม่หมดเลยสินะ" with dissolve

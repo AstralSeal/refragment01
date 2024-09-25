@@ -12,7 +12,7 @@ label s2_9:
     en "The place was filled with couples wearing matching shirts or shirts with characters from the game Seal Impact." with dissolve
     th "บรรยากาศในวันนี้แทบไม่แตกต่างจากวันวาเลนไทน์เลย" with dissolve
     en "The atmosphere today was hardly different from Valentine's Day." with dissolve
-    scene Sky_Morning with Dissolve(1.0)
+    scene sky_morning with Dissolve(1.0)
     th "………" with dissolve
     en "......" with dissolve
     stop music
@@ -27,7 +27,7 @@ label s2_9:
     en "Please, senior Maya, don't abandon me." with dissolve
     th "ผมยังไม่อยากถูกมองว่าเป็นหมาป่าเดียวดายในอีเว้นท์คู่รักหรอกนะ" with dissolve
     en "I don't want to be seen as a lone wolf at this couples' event." with dissolve
-    scene Sky_Morning with Dissolve(1.0)
+    scene sky_morning with Dissolve(1.0)
     th "………" with dissolve
     en "......" with dissolve
     th "20 นาทีผ่านไป" with dissolve
@@ -172,7 +172,7 @@ label s2_9:
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_017.mp3"
     maya_c2_th bruh "ทั้งที่ตัวเองก็ไม่มีแฟน ยังจะมีหน้าไปว่าคนอื่นอีกนะ" with dissolve
     maya_c2_en bruh "You don't have a girlfriend either, yet you have the nerve to talk about others." with dissolve
-    scene Sky_Morning with Dissolve(1.0)
+    scene sky_morning with Dissolve(1.0)
     th "..." with dissolve
     en "Scene change" with dissolve
     scene life_shoppingmall1_noon with Dissolve(1.0)
@@ -546,7 +546,7 @@ label s2_9:
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_046.mp3"
     maya_c2_th  "นั่นสินะ…" with dissolve
     maya_c2_en  "You're right..." with dissolve
-    scene Sky_Morning with Dissolve(1.0)
+    scene sky_morning with Dissolve(1.0)
     hide purikura15 with dissolve
     th "พวกเราทั้งสองคนเดินออกจากบูธด้วยรูปถ่ายที่… เอ่อ จะว่ายังไงดีล่ะ" with dissolve
     en "We both walked out of the booth with a photo that... well, how should I put it?" with dissolve
