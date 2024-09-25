@@ -27,7 +27,7 @@ label s2_9:
     en "Please, senior Maya, don't abandon me." with dissolve
     th "ผมยังไม่อยากถูกมองว่าเป็นหมาป่าเดียวดายในอีเว้นท์คู่รักหรอกนะ" with dissolve
     en "I don't want to be seen as a lone wolf at this couples' event." with dissolve
-    scene sky_morning with Dissolve(1.0)
+    scene life_shoppingmallbuilding_noon with Dissolve(1.0)
     th "………" with dissolve
     en "......" with dissolve
     th "20 นาทีผ่านไป" with dissolve
@@ -767,7 +767,7 @@ label s2_9:
     en "A date, huh..." with dissolve
     th "นี่คือเดทสินะ…" with dissolve
     en "So this was a date..." with dissolve
-    scene 住宅街２（夕方） with Dissolve(1.0)
+    scene neighborhood_evening with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     th "ขณะที่ผมกำลังกลับบ้าน ผมก็ไปสะดุดกับหนังสือหน้าตาประหลาดเล่มหนึ่ง" with dissolve
@@ -787,7 +787,7 @@ label s2_9:
     yuno_c_th angry_2 "พี่ซื้ออะไรมาอีกแล้วเนี่ย เต็มบ้านเลย" with dissolve
     yuno_c_en angry_2 "Did you buy something again, brother? The house is already full!" with dissolve
     hide yuno_c
-    scene 住宅街２（夕方） with Dissolve(1.0)
+    scene neighborhood_evening with Dissolve(1.0)
     th "พูดถึงยูโนะแล้ว ไม่รู้ว่าป่านนี้หายงอนหรือยังนะ" with dissolve
     en "Speaking of Yuno, I wonder if she's still upset." with dissolve
     th "ลองปรึกษาเรกะดีมั้ยนะ ไม่สิ จะพึ่งเรกะตลอดไม่ได้" with dissolve
@@ -796,4 +796,5 @@ label s2_9:
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
     th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอรี่จากร้านดังในห้าง" with dissolve
     en "I walked home with a strawberry pudding from the famous shop in the mall." with dissolve
+    jump s2_10
     return
