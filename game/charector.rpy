@@ -310,6 +310,162 @@ image reika_p yasashi:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_p_body.png" ,(0,1700), "Sprite/reika01/reika01_yasashi.png" )
+image reika_c reika01:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01.png" )
+image reika_c reika01c:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c.png" )
+image reika_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c_body.png" )
+image reika_c shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c_body_shy.png" )
+image reika_c ah:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_ah.png" )
+image reika_c angry1:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_angry1.png" )
+image reika_c angry3:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_angry3.png" )
+image reika_c annoy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_annoy.png" )
+image reika_c aru:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_aru.png" )
+image reika_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body.png" )
+image reika_c s:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body_s.png" )
+image reika_c shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body_shy.png" )
+image reika_c chito:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_chito.png" )
+image reika_c confident:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_confident.png" )
+image reika_c crymeme:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_crymeme.png" )
+image reika_c despair:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_despair.png" )
+image reika_c eh:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_eh.png" )
+image reika_c hee:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_hee.png" )
+image reika_c huh:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_huh.png" )
+image reika_c normal:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_normal.png" )
+image reika_c onegai:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_onegai.png" )
+image reika_c p:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p.png" )
+image reika_c body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p_body.png" )
+image reika_c shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p_body_shy.png" )
+image reika_c sad:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sad.png" )
+image reika_c sad2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sad2.png" )
+image reika_c sadistic:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sadistic.png" )
+image reika_c scary:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_scary.png" )
+image reika_c serious:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_serious.png" )
+image reika_c shy1:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_shy1.png" )
+image reika_c shy2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_shy2.png" )
+image reika_c smile:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_smile.png" )
+image reika_c surpise1:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_surpise1.png" )
+image reika_c surpise2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_surpise2.png" )
+image reika_c tense:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_tense.png" )
+image reika_c worry:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry.png" )
+image reika_c worry2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry2.png" )
+image reika_c worry3:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry3.png" )
+image reika_c yasashi:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_yasashi.png" )
 image side reika reika01:
     zoom 0.55
     xoffset -200
@@ -700,6 +856,201 @@ image side reika_p yasashi:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_p_body.png" ,(0,1700), "Sprite/reika01/reika01_yasashi.png" )
+image side reika_c reika01:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01.png" )
+image side reika_c reika01c:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c.png" )
+image side reika_c body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c_body.png" )
+image side reika_c shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01c_body_shy.png" )
+image side reika_c ah:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_ah.png" )
+image side reika_c angry1:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_angry1.png" )
+image side reika_c angry3:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_angry3.png" )
+image side reika_c annoy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_annoy.png" )
+image side reika_c aru:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_aru.png" )
+image side reika_c body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body.png" )
+image side reika_c s:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body_s.png" )
+image side reika_c shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_body_shy.png" )
+image side reika_c chito:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_chito.png" )
+image side reika_c confident:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_confident.png" )
+image side reika_c crymeme:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_crymeme.png" )
+image side reika_c despair:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_despair.png" )
+image side reika_c eh:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_eh.png" )
+image side reika_c hee:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_hee.png" )
+image side reika_c huh:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_huh.png" )
+image side reika_c normal:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_normal.png" )
+image side reika_c onegai:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_onegai.png" )
+image side reika_c p:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p.png" )
+image side reika_c body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p_body.png" )
+image side reika_c shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_p_body_shy.png" )
+image side reika_c sad:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sad.png" )
+image side reika_c sad2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sad2.png" )
+image side reika_c sadistic:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_sadistic.png" )
+image side reika_c scary:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_scary.png" )
+image side reika_c serious:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_serious.png" )
+image side reika_c shy1:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_shy1.png" )
+image side reika_c shy2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_shy2.png" )
+image side reika_c smile:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_smile.png" )
+image side reika_c surpise1:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_surpise1.png" )
+image side reika_c surpise2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_surpise2.png" )
+image side reika_c tense:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_tense.png" )
+image side reika_c worry:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry.png" )
+image side reika_c worry2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry2.png" )
+image side reika_c worry3:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_worry3.png" )
+image side reika_c yasashi:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/reika01_yasashi.png" )
 image reika reika02_2:
     zoom 0.75
     xoffset 25
@@ -1060,6 +1411,186 @@ image reika_p yasashi_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_p_body.png" ,(0,1700), "Sprite/reika02/reika02_yasashi.png" )
+image reika_c reika02_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02.png" )
+image reika_c reika02c_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c.png" )
+image reika_c body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c_body.png" )
+image reika_c shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c_body_shy.png" )
+image reika_c ah_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_ah.png" )
+image reika_c ahh_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_ahh.png" )
+image reika_c aho_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_aho.png" )
+image reika_c angry_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angry.png" )
+image reika_c angry2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angry2.png" )
+image reika_c angrymeme_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angrymeme.png" )
+image reika_c angrymeme2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angrymeme2.png" )
+image reika_c body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body.png" )
+image reika_c sadistic_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body_sadistic.png" )
+image reika_c shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body_shy.png" )
+image reika_c Bored_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_Bored.png" )
+image reika_c cold_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_cold.png" )
+image reika_c confident_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_confident.png" )
+image reika_c crymeme_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_crymeme.png" )
+image reika_c doya_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_doya.png" )
+image reika_c eh2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_eh2.png" )
+image reika_c fin_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_fin.png" )
+image reika_c fun_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_fun.png" )
+image reika_c hee_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_hee.png" )
+image reika_c normal_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_normal.png" )
+image reika_c onegai_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_onegai.png" )
+image reika_c p_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p.png" )
+image reika_c pout_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout.png" )
+image reika_c pout2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout2.png" )
+image reika_c pout3_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout3.png" )
+image reika_c body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body.png" )
+image reika_c s_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body_s.png" )
+image reika_c shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body_shy.png" )
+image reika_c sad_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sad.png" )
+image reika_c sadistic_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sadistic.png" )
+image reika_c sadistic2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sadistic2.png" )
+image reika_c scare_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_scare.png" )
+image reika_c serious_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_serious.png" )
+image reika_c shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_shy.png" )
+image reika_c shy2_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_shy2.png" )
+image reika_c smile_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_smile.png" )
+image reika_c surpise_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_surpise.png" )
+image reika_c tense_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_tense.png" )
+image reika_c think_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_think.png" )
+image reika_c wakaranai_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_wakaranai.png" )
+image reika_c yasashi_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_yasashi.png" )
 image side reika reika02_2:
     zoom 0.55
     xoffset -200
@@ -1510,6 +2041,231 @@ image side reika_p yasashi_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_p_body.png" ,(0,1700), "Sprite/reika02/reika02_yasashi.png" )
+image side reika_c reika02_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02.png" )
+image side reika_c reika02c_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c.png" )
+image side reika_c body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c_body.png" )
+image side reika_c shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02c_body_shy.png" )
+image side reika_c ah_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_ah.png" )
+image side reika_c ahh_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_ahh.png" )
+image side reika_c aho_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_aho.png" )
+image side reika_c angry_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angry.png" )
+image side reika_c angry2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angry2.png" )
+image side reika_c angrymeme_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angrymeme.png" )
+image side reika_c angrymeme2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_angrymeme2.png" )
+image side reika_c body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body.png" )
+image side reika_c sadistic_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body_sadistic.png" )
+image side reika_c shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_body_shy.png" )
+image side reika_c Bored_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_Bored.png" )
+image side reika_c cold_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_cold.png" )
+image side reika_c confident_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_confident.png" )
+image side reika_c crymeme_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_crymeme.png" )
+image side reika_c doya_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_doya.png" )
+image side reika_c eh2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_eh2.png" )
+image side reika_c fin_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_fin.png" )
+image side reika_c fun_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_fun.png" )
+image side reika_c hee_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_hee.png" )
+image side reika_c normal_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_normal.png" )
+image side reika_c onegai_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_onegai.png" )
+image side reika_c p_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p.png" )
+image side reika_c pout_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout.png" )
+image side reika_c pout2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout2.png" )
+image side reika_c pout3_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_pout3.png" )
+image side reika_c body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body.png" )
+image side reika_c s_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body_s.png" )
+image side reika_c shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_p_body_shy.png" )
+image side reika_c sad_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sad.png" )
+image side reika_c sadistic_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sadistic.png" )
+image side reika_c sadistic2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_sadistic2.png" )
+image side reika_c scare_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_scare.png" )
+image side reika_c serious_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_serious.png" )
+image side reika_c shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_shy.png" )
+image side reika_c shy2_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_shy2.png" )
+image side reika_c smile_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_smile.png" )
+image side reika_c surpise_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_surpise.png" )
+image side reika_c tense_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_tense.png" )
+image side reika_c think_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_think.png" )
+image side reika_c wakaranai_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_wakaranai.png" )
+image side reika_c yasashi_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/reika02_yasashi.png" )
 image yuno yuno01:
     zoom 0.75
     xoffset 25
@@ -3982,14 +4738,6 @@ image maya maya01c2:
 image maya body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image maya shy:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image maya body:
-    zoom 0.75
-    xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image maya shy:
     zoom 0.75
@@ -4019,6 +4767,14 @@ image maya bruh:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image maya body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image maya shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image maya confident:
     zoom 0.75
     xoffset 25
@@ -4214,14 +4970,6 @@ image maya_p maya01c2:
 image maya_p body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image maya_p shy:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image maya_p body:
-    zoom 0.75
-    xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image maya_p shy:
     zoom 0.75
@@ -4251,6 +4999,14 @@ image maya_p bruh:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image maya_p body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image maya_p shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image maya_p confident:
     zoom 0.75
     xoffset 25
@@ -4446,14 +5202,6 @@ image maya_c2 maya01c2:
 image maya_c2 body:
     zoom 0.75
     xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image maya_c2 shy:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image maya_c2 body:
-    zoom 0.75
-    xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image maya_c2 shy:
     zoom 0.75
@@ -4483,6 +5231,14 @@ image maya_c2 bruh:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image maya_c2 body:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image maya_c2 shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image maya_c2 confident:
     zoom 0.75
     xoffset 25
@@ -4682,16 +5438,6 @@ image side maya body:
     zoom 0.55
     xoffset -200
     yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image side maya shy:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image side maya body:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image side maya shy:
     zoom 0.55
@@ -4728,6 +5474,16 @@ image side maya bruh:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image side maya body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image side maya shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image side maya confident:
     zoom 0.55
     xoffset -200
@@ -4972,16 +5728,6 @@ image side maya_p body:
     zoom 0.55
     xoffset -200
     yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image side maya_p shy:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image side maya_p body:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image side maya_p shy:
     zoom 0.55
@@ -5018,6 +5764,16 @@ image side maya_p bruh:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image side maya_p body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image side maya_p shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_p_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image side maya_p confident:
     zoom 0.55
     xoffset -200
@@ -5262,16 +6018,6 @@ image side maya_c2 body:
     zoom 0.55
     xoffset -200
     yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body.png" )
-image side maya_c2 shy:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c2_body_shy.png" )
-image side maya_c2 body:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01c_body.png" )
 image side maya_c2 shy:
     zoom 0.55
@@ -5308,6 +6054,16 @@ image side maya_c2 bruh:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_bruh.png" )
+image side maya_c2 body:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body.png" )
+image side maya_c2 shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya01/maya01_c2_body.png" ,(0,1700), "Sprite/maya01/maya01_c2_body_shy.png" )
 image side maya_c2 confident:
     zoom 0.55
     xoffset -200
@@ -5545,22 +6301,6 @@ image maya maya02c2_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image maya body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image maya shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image maya body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image maya shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image maya ah_2:
     zoom 0.75
     xoffset 25
@@ -5581,10 +6321,26 @@ image maya shy_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image maya body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image maya shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image maya confident_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image maya body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image maya shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image maya fin_2:
     zoom 0.75
     xoffset 25
@@ -5693,22 +6449,6 @@ image maya_p maya02c2_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image maya_p body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image maya_p shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image maya_p body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image maya_p shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image maya_p ah_2:
     zoom 0.75
     xoffset 25
@@ -5729,10 +6469,26 @@ image maya_p shy_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image maya_p body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image maya_p shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image maya_p confident_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image maya_p body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image maya_p shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image maya_p fin_2:
     zoom 0.75
     xoffset 25
@@ -5841,22 +6597,6 @@ image maya_c2 maya02c2_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image maya_c2 body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image maya_c2 shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image maya_c2 body_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image maya_c2 shy_2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image maya_c2 ah_2:
     zoom 0.75
     xoffset 25
@@ -5877,10 +6617,26 @@ image maya_c2 shy_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image maya_c2 body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image maya_c2 shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image maya_c2 confident_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image maya_c2 body_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image maya_c2 shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image maya_c2 fin_2:
     zoom 0.75
     xoffset 25
@@ -5992,26 +6748,6 @@ image side maya maya02c2_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image side maya body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image side maya shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image side maya body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image side maya shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image side maya ah_2:
     zoom 0.55
     xoffset -200
@@ -6037,11 +6773,31 @@ image side maya shy_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image side maya body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image side maya shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image side maya confident_2:
     zoom 0.55
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image side maya body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image side maya shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image side maya fin_2:
     zoom 0.55
     xoffset -200
@@ -6177,26 +6933,6 @@ image side maya_p maya02c2_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image side maya_p body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image side maya_p shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image side maya_p body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image side maya_p shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image side maya_p ah_2:
     zoom 0.55
     xoffset -200
@@ -6222,11 +6958,31 @@ image side maya_p shy_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image side maya_p body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image side maya_p shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image side maya_p confident_2:
     zoom 0.55
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image side maya_p body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image side maya_p shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_p_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image side maya_p fin_2:
     zoom 0.55
     xoffset -200
@@ -6362,26 +7118,6 @@ image side maya_c2 maya02c2_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2.png" )
-image side maya_c2 body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body.png" )
-image side maya_c2 shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c2_body_shy.png" )
-image side maya_c2 body_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c_body.png" )
-image side maya_c2 shy_2:
-    zoom 0.55
-    xoffset -200
-    yoffset 370
-    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02c_body_shy.png" )
 image side maya_c2 ah_2:
     zoom 0.55
     xoffset -200
@@ -6407,11 +7143,31 @@ image side maya_c2 shy_2:
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_body_shy.png" )
+image side maya_c2 body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body.png" )
+image side maya_c2 shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c2_body_shy.png" )
 image side maya_c2 confident_2:
     zoom 0.55
     xoffset -200
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_confident.png" )
+image side maya_c2 body_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body.png" )
+image side maya_c2 shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/maya02/maya02_c2_body.png" ,(0,1700), "Sprite/maya02/maya02_c_body_shy.png" )
 image side maya_c2 fin_2:
     zoom 0.55
     xoffset -200

@@ -110,7 +110,6 @@ label s2_7:
     en "I'll accept being a goldfish" with dissolve
     th "กรณีตอบถูก" with dissolve
     en "If answered correctly" with dissolve
-    play sound "audio/sfx/correct.mp3"
     show kazuma normal at center with Dissolve(0.2) 
     kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
     kazuma_en ah "That answer is... correct." with dissolve
@@ -124,7 +123,6 @@ label s2_7:
     th "กรณีตอบผิด" with dissolve
     en "If answered incorrectly" with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/sfx/wrong.mp3"
     kazuma_th angry "เป็นคำตอบที่…… ผิด มั่วสิ้นดี" with dissolve
     kazuma_en angry "That answer is... wrong. Completely off." with dissolve
     hide kazuma
@@ -207,7 +205,7 @@ label s2_7:
     kazuma_en  "I heard they're planning to run for student council president next time." with dissolve
     yuma_th  "สรุปคือว่าที่คู่แข่งของพวกเราในอนาคตสินะ" with dissolve
     yuma_en  "So they're our future rivals, huh?" with dissolve
-    kazuma_th serious " " with dissolve
+    kazuma_th serious "ในเมื่อเจ้าพวกนั้นกล้าท้าชนสภานักเรียน เดี๋ยวฉันจะเป็นตัวแทนฝ่ายค้านให้เอง" with dissolve
     kazuma_en serious "" with dissolve
     th "การโต้วาทีไม่ใช่เรื่องที่พบได้บ่อย โดยเฉพาะอย่างยิ่งการท้าชนกับสภานักเรียน" with dissolve
     en "Debates aren't common, especially challenging the student council directly." with dissolve

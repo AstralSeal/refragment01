@@ -47,8 +47,6 @@ label s2_8:
     hide yuno_c
     th "หลังจากนั้นผมก็นำของไปเก็บที่ห้องและอาบน้ำ แล้วตามไปที่ห้องรับแขกในครึ่งชั่วโมงถัดมา" with dissolve
     en "After that, I put away my things in my room and took a shower, then joined her in the living room half an hour later." with dissolve
-    th "………" with dissolve
-    en "......" with dissolve
     scene home_livingroom_night with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-079.mp3" volume 0.5
@@ -73,8 +71,8 @@ label s2_8:
     yuma_en  "..." with dissolve
     th "ความตั้งใจเมื่อสักครู่นี้หายไปไหนหมดเนี่ย" with dissolve
     en "Where did all that enthusiasm from earlier go?" with dissolve
-    yuma_th  "นี่พึ่งเริ่มต้นเองนะ อย่าพึ่งถอดใจสิ" with dissolve
-    yuma_en  "We're just getting started. Don't give up so soon." with dissolve
+    yuma_th "นี่พึ่งเริ่มต้นเองนะ อย่าพึ่งถอดใจสิ" with dissolve
+    yuma_en "We're just getting started. Don't give up so soon." with dissolve
     yuma_th  "ลองนึกถึงตอนเล่นเกมก็ได้ ก่อนที่จะไปตะลุยดันเจี้ยนก็ต้องผ่านด่านแรก Tutorial ก่อน" with dissolve
     yuma_en  "Try to think of it like playing a game. Before diving into a dungeon, you have to clear the tutorial level first." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_008.mp3"
@@ -85,7 +83,7 @@ label s2_8:
     hide yuno_c
     th "ท่าทางจริงจังแบบนี้ แสดงว่าพอทำได้อยู่สินะ สมกับที่เป็นน้องสาวของเรา" with dissolve
     en "With this serious attitude, it seems she can handle it somewhat. As expected of my little sister." with dissolve
-    scene NightSky1 with Dissolve(1.0)
+    scene nightsky1 with Dissolve(1.0)
     th "……" with dissolve
     en "......" with dissolve
     scene home_livingroom_night with Dissolve(1.0)
@@ -100,7 +98,6 @@ label s2_8:
     hide yuno_c
     th "หลังจากที่ผมตรวจแบบทดสอบของยูโนะ ก็พบว่า……" with dissolve
     en "After I checked Yuno's test, I found that..." with dissolve
-    play sound "audio/sfx/レベルアップ.mp3"
     show 48 with dissolve
     yuma_th  "48 คะแนน" with dissolve
     yuma_en  "48 points." with dissolve
@@ -132,6 +129,7 @@ label s2_8:
     yuma_en  "First, try writing out the formula for me." with dissolve
     hide yuno_c
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_014.mp3"
+    hide 48
     show sleep_note07 with dissolve
     yuno_c_th smile_2 "นี่ไง พึ่งเรียนมาวันนี้เลย เป็นไงล่ะ" with dissolve
     yuno_c_en smile_2 "Here it is. I just learned it today. How's that?" with dissolve
@@ -147,8 +145,8 @@ label s2_8:
     hide sleep_note07 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_016.mp3"
-    yuno_c_th panic2_2 "มุแง้" with dissolve
-    yuno_c_en panic2_2 "Muwah!" with dissolve
+    yuno_c_th panic_2 "มุแง้" with dissolve
+    yuno_c_en panic_2 "Muwah!" with dissolve
     th "ยูโนะทำท่าตกใจ ราวกับโดนคริติคอลฮิตเข้าเต็มๆ" with dissolve
     en "Yuno looked shocked, as if she'd been hit by a critical attack." with dissolve
     yuma_th  "ช่วยไม่ได้ ถ้างั้นคงต้องเริ่มปูพื้นฐานใหม่หมดเลยสินะ" with dissolve
@@ -166,6 +164,7 @@ label s2_8:
     scene bg036n19201080 with Dissolve(1.0)
     show kazuma normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_001.mp3"
+    hide sleep_note07
     show old with dissolve
     kazuma_th smile "แรงจูงใจมีสองแบบ ได้แก่ แรงจูงใจภายนอกและแรงจูงใจภายใน" with dissolve
     kazuma_en smile "There are two types of motivation: extrinsic and intrinsic." with dissolve
@@ -173,10 +172,10 @@ label s2_8:
     kazuma_th normal "แรงจูงใจภายนอกคือการทำอะไรบางอย่างเพื่อเป้าหมายที่จับต้องได้ เช่น เงิน ของรางวัล การเลื่อนตำแหน่ง" with dissolve
     kazuma_en normal "Extrinsic motivation is doing something for tangible rewards, like money, prizes, or promotions." with dissolve
     #---- play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_003.mp3"
-    hide old with dissolve
     kazuma_th  "แรงจูงใจภายในคือการทำอะไรบางอย่างจากความต้องการส่วนตัว เช่น ความสนุก ความอยากรู้อยากเห็น" with dissolve
     kazuma_en  "Intrinsic motivation is doing something out of personal desire, like for fun or curiosity." with dissolve
     hide kazuma
+    hide old with dissolve
     scene home_livingroom_night with Dissolve(1.0)
     th "แรงจูงใจ…?" with dissolve
     en "Motivation...?" with dissolve
@@ -201,6 +200,7 @@ label s2_8:
     en "But isn't this a bit too easy? I'm starting to worry about Yuno's future." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
+    hide old
     show yuma_sensei00 with dissolve
     yuma_th  "ถ้าอย่างนั้น ครูยูมะจะเริ่มการสอนแล้วนะ" with dissolve
     yuma_en  "Alright then, Teacher Yuma will start the lesson now." with dissolve
@@ -210,10 +210,11 @@ label s2_8:
     en "Yuno isn't good with equations or complex calculations." with dissolve
     th "แต่ดูเหมือนว่าเธอถนัดเรื่องเรขาคณิต บางทีเธออาจจะได้ทักษะวิเคราะห์รูปทรงจากการเล่นเกมก็ได้" with dissolve
     en "But it seems she's good with geometry. Maybe she got her shape analysis skills from playing games." with dissolve
+    hide yuma_sensei00
     show yuma_sensei01 with dissolve
     yuma_th  "ถ้าความยาวของด้านสามเหลี่ยมมุมฉากเป็น x, x+2 และ x+3 ดังรูป แล้วความยาวของเส้นรอบรูปสามเหลี่ยม เป็นเท่าใด?" with dissolve
     yuma_en  "If the sides of a right triangle are x, x+2, and x+3 as shown in the figure, what is the perimeter of the triangle?" with dissolve
-    yuma_th  "เอาล่ะโจทย์ข้อแรก!" with dissolve
+    yuma_th  "เอาล่ะโจทย์ข้อแรกเริ่มได้!" with dissolve
     yuma_en  "Alright, first problem!" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_019.mp3"
     yuno_c_th confident "ข้อนี้หนูพอทำได้อยู่นะ" with dissolve
@@ -237,6 +238,7 @@ label s2_8:
     en "Yuno handed me her answer book." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
+    hide yuma_sensei01
     show sleep_note05 with dissolve
     th "ยูโนะเริ่มแก้โจทย์ด้วยทฤษฎีบทพีทาโกรัส ถูกต้อง" with dissolve
     en "Yuno started solving the problem using the Pythagorean theorem. Correct." with dissolve
@@ -250,19 +252,21 @@ label s2_8:
     yuno_c_en serious_2 "The rest of the answer, including my feelings, are on the next page." with dissolve
     th "ผมพลิกกระดาษไปหน้าถัดไปตามที่ยูโนะบอก" with dissolve
     en "I turned to the next page as Yuno said." with dissolve
+    hide sleep_note05
     show sleep_note01 with dissolve
     th "สิ่งที่ปรากฎอยู่ในสมุดไม่ใช่สมการหรือคำตอบ" with dissolve
     en "What appeared in the notebook wasn't an equation or answer." with dissolve
     th "แต่เป็นภาพการ์ตูนใบหน้าเด็กผู้หญิงที่เหมือนกับยูโนะกำลังร้องไห้อยู่" with dissolve
     en "It was a cartoon drawing of a girl's face that looked like Yuno crying." with dissolve
+    hide sleep_note01
     show sleep_note03 with dissolve
     th "พอพลิกไปหน้าถัดไปก็พบกับน้องสาวสุดหน้ารักทำหน้าดุ" with dissolve
     en "When I turned to the next page, I found my cute little sister making an angry face." with dissolve
-    hide sleep_note01 with dissolve
-    yuma_th  "นี่มันอะไรกันเนี่ย" with dissolve
-    yuma_en  "What's this all about?" with dissolve
+    hide sleep_note03 with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-063.mp3" volume 0.5
+    yuma_th  "นี่มันอะไรกันเนี่ย" with dissolve
+    yuma_en  "What's this all about?" with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_022.mp3"
     yuno_c_th angry_2 "พี่นี่ความรู้สึกช้าจังเลย ก็ตามที่เห็นนั่นแหละ " with dissolve
@@ -277,6 +281,7 @@ label s2_8:
     yuno_c_en angry "Who could remember such a long formula that goes on forever?" with dissolve
     yuma_th  "สูตรไม่ได้ยากขนาดนั้น มีแค่นี้เอง นี่ไง" with dissolve
     yuma_en  "The formula isn't that hard. It's just this. Here, look." with dissolve
+    hide sleep_note03
     show blackboard2 with dissolve
     yuma_th  "แค่เอาเลขที่อยู่ข้างหน้าตัวแปร X มาแทนเป็น a, b, c ในสูตรก็จบแล้ว" with dissolve
     yuma_en  "Just substitute the numbers in front of the X variable for a, b, c in the formula, and you're done." with dissolve
@@ -285,7 +290,7 @@ label s2_8:
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_025.mp3"
     yuno_c_th angry_2 "อะไรล่ะนั่น พี่อธิบายอะไรไม่เห็นเข้าใจเลย ไม่ต่างจากครูที่สอนหนูเลยสักนิด" with dissolve
     yuno_c_en angry_2 "What's that? I don't understand anything you're explaining. You're no different from my teachers." with dissolve
-    yuma_th  "ทั้งหมดคือการนำสมการเส้นตรงพื้นฐาน ax2+bx+c = 0 มาย้ายข้างเท่านั้นแหละ" with dissolve
+    yuma_th  "ทั้งหมดคือการนำสมการเส้นตรงพื้นฐานมาย้ายข้างเท่านั้นแหละ" with dissolve
     yuma_en  "It's all just taking the basic linear equation ax^2+bx+c = 0 and rearranging it." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_026.mp3"
     yuno_c_th angry "ย้ายข้างอะไร สุดท้ายคนที่เก่งคณิตก็มีแต่พวกความจำดี คนที่จำอะไรไม่ได้อย่างหนูคงหมดหวังแล้วล่ะ" with dissolve
@@ -299,12 +304,13 @@ label s2_8:
     yuma_en  "Fine, you want to see where it comes from? I'll show you. Don't say I didn't warn you." with dissolve
     th "ผมเขียนที่มาของสูตรให้ยูโนะดู" with dissolve
     en "I wrote out the derivation of the formula for Yuno to see." with dissolve
+    hide blackboard2
     show yuma_sensei22 with dissolve
     yuma_th  "นี่ไง ที่มาของสูตร ทีนี้ก็เข้าใจหรือยัง" with dissolve
     yuma_en  "Here, the origin of the formula. Now do you understand?" with dissolve
     th "ความรู้ของยูโนะในตอนนี้คงยังไม่มีทางเข้าใจการพิสูจน์สูตรพวกนี้ แต่ผมเองก็ชักโมโหแล้วเลยเขียนให้ดูตามที่ยูโนะขอ" with dissolve
     en "Yuno's current knowledge probably wouldn't allow her to understand these formula proofs, but I was getting annoyed and wrote it out as she asked." with dissolve
-    hide yuma_sense22 with dissolve
+    hide yuma_sensei22 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_028.mp3"
     yuno_c_th angry_2 "แบบนี้มันยากกว่าเดิมอีก ใครจะไปทำได้" with dissolve
@@ -325,7 +331,6 @@ label s2_8:
     yuno_c_th angry_2 "เรื่องของหนู ถ้ารู้ว่าพี่จะสอนแบบนี้ หนูอ่านหนังสือเองยังจะดีกว่าอีก" with dissolve
     yuno_c_en angry_2 "That's my problem. If I knew you'd teach like this, I'd be better off reading the book myself." with dissolve
     hide yuno_c
-    play sound "audio/sfx/ドアを閉める2.mp3"
     th "พอพูดจบ ยูโนะก็เดินกลับเข้าห้องตัวเองแล้วปิดประตูดังปั้ง!" with dissolve
     en "After saying that, Yuno walked back to her room and slammed the door shut!" with dissolve
     th "………" with dissolve
@@ -347,7 +352,7 @@ label s2_8:
     en "Maybe we need to try a different approach." with dissolve
     th "ลองหาวิธีการสอนที่เข้าใจง่ายกว่านี้ดีกว่า" with dissolve
     en "Let's try to find an easier teaching method." with dissolve
-    scene NightSky2 with Dissolve(1.0)
+    scene nightsky2 with Dissolve(1.0)
     th "……" with dissolve
     en "......" with dissolve
     scene home_yuumabedroom_night with Dissolve(1.0)

@@ -127,6 +127,7 @@ def apply_cloth(charector):
 
 cloth1=""
 cloth2=""
+past_bg_effect = ""
 for i,c in data.iterrows():
     ### Assign ##############################
 
@@ -188,8 +189,12 @@ for i,c in data.iterrows():
     if(bg_effect):
         if("hide" in bg_effect):
             print(f'{bg_effect} with dissolve')
+            bg_effect = ""
         else:
+            if past_bg_effect != "" and (("hide") not in past_bg_effect) :
+                print(f'hide {past_bg_effect}')
             print(f'show {bg_effect} with dissolve')
+            past_bg_effect = bg_effect
 
 
     #Todo 
