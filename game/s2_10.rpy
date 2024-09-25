@@ -291,7 +291,7 @@ label s2_10:
     yuma_th  "วันนี้ดูเหมือนจะเอาแต่ใจตัวเองเป็นพิเศษนะยูโนะ" with dissolve
     yuma_en  "You seem especially self-centered today, Yuno." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_024.mp3"
-    yuno_p_th  "ไม่ใช่ซักหน่อยนี่เป็นสิทธิพิเศษของน้องสาวต่างหาก" with dissolve
+    yuno_p_th "ไม่ใช่ซักหน่อยนี่เป็นสิทธิพิเศษของน้องสาวต่างหาก" with dissolve
     yuno_p_en  "Not at all, this is just a little sister's special privilege." with dissolve
     yuma_th  "สิทธิพิเศษของน้องสาว?" with dissolve
     yuma_en  "A little sister's special privilege?" with dissolve
@@ -333,7 +333,7 @@ label s2_10:
     th "ต่อมาก็ออกแรงกระโดดหมุนตัวขึ้นไปกลางอากาศ พร้อมกับพับขาเข้ามา พอถึงพื้นก็สไลด์กับพื้นเข้าไปหายูโนะ แล้วก้มหัวลงพร้อมกับเอามือ 2 ข้างแตะพื้น" with dissolve
     en "Next, I jumped and spun in the air, tucking in my legs. As I landed, I slid towards Yuno, then bowed my head and placed both hands on the ground." with dissolve
     hide border
-    show exicted with dissolve
+    show excited with dissolve
     yuma_th  "พี่ขอโทษนะยูโนะ!!" with dissolve
     yuma_en  "I'm sorry, Yuno!!" with dissolve
     hide excited with dissolve
@@ -567,8 +567,8 @@ label s2_10:
     yuma_en  "Of course I did. Do you know how many points I lost to get it?" with dissolve
     th "ยูโนะเอียงคอถามด้วยความสงสัยราวกับอยากถามว่าคะแนนอะไร" with dissolve
     en "Yuno tilted her head in confusion, as if wanting to ask what points." with dissolve
-    yuma_th ah "ช่างมันเถอะ เอ้านี่ รับไปสิ ถือว่าเป็นรางวัลที่พยายามตั้งใจเรียนด้วย" with dissolve
-    yuma_en ah "Never mind. Here, take it. Consider it a reward for studying hard." with dissolve
+    yuma_th  "ช่างมันเถอะ เอ้านี่ รับไปสิ ถือว่าเป็นรางวัลที่พยายามตั้งใจเรียนด้วย" with dissolve
+    yuma_en  "Never mind. Here, take it. Consider it a reward for studying hard." with dissolve
     th "ผมส่งตุ๊กตาแมวน้ำพรหมลิขิต limited edition ที่ได้มาด้วยความยากลำบากให้ยูโนะ" with dissolve
     en "I handed Yuno the limited edition Seal of Destiny plush that I got with great difficulty." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_049.mp3"

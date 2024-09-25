@@ -212,7 +212,7 @@ image flyingseal01:
     pause 0.5
     repeat
 
-image excicted:
+image excited:
     "emotion/excited2.png" with dissolve
     pause 0.5
     "emotion/excited1.png" with dissolve
