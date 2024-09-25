@@ -6,9 +6,9 @@
 #maya smile
 #yuno smile_2
 import pandas as pd
-FILE_NAME = "s2_8.csv"
+FILE_NAME = "s2_10.csv"
 VOICE_BASE_PATH="audio/voice"
-VOICE_PATH = "chapter2/chapter2_8"
+VOICE_PATH = "chapter2/chapter2_10"
 SFX_BASE_PATH="audio/sfx"
 data = pd.read_csv(FILE_NAME,encoding="utf-8")
 data = data.fillna("")

@@ -34,6 +34,12 @@ for c in onlyfiles:
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_p_body.png" ,(0,1700), "Sprite/reika01/{c}" )')
 
 for c in onlyfiles:
+    print(f'image reika_c {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/{c}" )')
+
+for c in onlyfiles:
     print(f'image side reika {get_emotion_from_file(c)}:')
     print(f'    zoom 0.55')
     print(f'    xoffset -200')
@@ -46,6 +52,13 @@ for c in onlyfiles:
     print(f'    xoffset -200')
     print(f'    yoffset 370')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_p_body.png" ,(0,1700), "Sprite/reika01/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side reika_c {get_emotion_from_file(c)}:')
+    print(f'    zoom 0.55')
+    print(f'    xoffset -200')
+    print(f'    yoffset 370')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_c_body.png" ,(0,1700), "Sprite/reika01/{c}" )')
 
 mypath = r"D:\renpy-8.0.3-sdk\renpy-8.0.3-sdk\project3rd\game\images\Sprite\reika02"
 
@@ -70,6 +83,12 @@ for c in onlyfiles:
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_p_body.png" ,(0,1700), "Sprite/reika02/{c}" )')
 
 for c in onlyfiles:
+    print(f'image reika_c {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.75')
+    print(f'    xoffset 25')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/{c}" )')
+
+for c in onlyfiles:
     print(f'image side reika {get_emotion_from_file(c)}_2:')
     print(f'    zoom 0.55')
     print(f'    xoffset -200')
@@ -82,6 +101,13 @@ for c in onlyfiles:
     print(f'    xoffset -200')
     print(f'    yoffset 370')
     print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_p_body.png" ,(0,1700), "Sprite/reika02/{c}" )')
+
+for c in onlyfiles:
+    print(f'image side reika_c {get_emotion_from_file(c)}_2:')
+    print(f'    zoom 0.55')
+    print(f'    xoffset -200')
+    print(f'    yoffset 370')
+    print(f'    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_c_body.png" ,(0,1700), "Sprite/reika02/{c}" )')
 
 ##########################################################################################################
 
