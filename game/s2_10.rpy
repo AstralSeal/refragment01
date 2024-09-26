@@ -226,7 +226,7 @@ label s2_10:
     scene home_yuumabedroom_morning with Dissolve(1.0)
     show reika_pov
     stop music
-    play music "audio/bgm/MusMus-BGM-105.mp3" volume 0.5
+    play music "audio/bgm/MusMus-BGM-105a.mp3" volume 0.5
     hide old
     show shimai with dissolve
     th "พอยูโนะได้เห็นรูปแล้วก็น้ำตาไหลลงมา ดูเหมือนรูปนั้นจะเป็นรูปที่มีความหมายสำหรับทั้งสองคนอย่างนั้นสินะ" with dissolve
