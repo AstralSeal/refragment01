@@ -7,17 +7,17 @@ label s2_2:
     th "ทันใดนั้นผมก็พบกับรุ่นพี่มายะโดนบังเอิญ" with dissolve
     en "I run into Senior Maya by chance." with dissolve
     show maya normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_001.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_001.mp3"
     maya_th smile "อ๊ะ ยูคุงนี่นา อรุณสวัสดิ์" with dissolve
     maya_en smile "Oh, Yu-kun! Good morning." with dissolve
     yuma_th  "รุ่นพี่มายะ อรุณสวัสดิ์ครับ" with dissolve
     yuma_en  "Good morning, Senior Maya." with dissolve
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_002.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_002.mp3"
     maya_th pero "เมื่อกี้ขอบใจมากเลยนะที่ช่วยเบี่ยงเบนความสนใจไว้ วันนี้ฉันเลยรอดจากการตรวจตราหน้าโรงเรียน" with dissolve
     maya_en pero "Thanks a lot for diverting her attention earlier. I managed to avoid the entrance inspection today." with dissolve
     yuma_th  "ผมยังไม่ได้ทำอะไรเลย" with dissolve
     yuma_en  "I didn't do anything, though." with dissolve
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_003.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_003.mp3"
     maya_th yasashi "ไม่มีใครกล้าต่อล้อต่อเถียงกับแม่สาวน้อยกรรมการระเบียบวินัยคนนั้นหรอกนะ เท่าที่ฉันเห็นก็มีแค่นายคนเดียวเนี่ยแหละ" with dissolve
     maya_en yasashi "No one dares to argue with that little miss disciplinary committee. As far as I can see, you're the only one." with dissolve
     th "พอลองคิดดูแล้วก็จริงอย่างที่รุ่นพี่มายะพูด ไม่เคยมีใครโต้แย้งอากาเนะได้สำเร็จ" with dissolve
@@ -30,28 +30,28 @@ label s2_2:
     yuma_th  "ว่าแต่มาบอกผมที่เป็นคนจากสภานักเรียนจะดีเหรอ" with dissolve
     yuma_en  "By the way, is it okay to tell me this? I'm from the student council." with dissolve
     show maya normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_004.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_004.mp3"
     maya_th hee_2 "ฉันเชื่อว่านายคงไม่เอาเรื่องนี้ไปบอกคุณกรรมการระเบียบวินัยสุดโหดแน่นอน" with dissolve
     maya_en hee_2 "I trust you won't report this to the super-strict disciplinary committee member." with dissolve
     yuma_th  "ไม่ขนาดนั้นหรอก ในความคิดผมอากาเนะแค่เคร่งครัดกว่าปกตินิดหน่อยเท่านั้นเอง" with dissolve
     yuma_en  "It's not like that. In my opinion, Akane is just a bit stricter than normal, that's all." with dissolve
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_005.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_005.mp3"
     maya_th angry "คำว่านิดหน่อยของแต่ละคนไม่เท่ากัน บางทีนิดหน่อยของนายอาจจะหมายถึงสุดขั้วของคนอื่นก็ได้นะ" with dissolve
     maya_en angry "Everyone's definition of 'a bit' is different. Your 'a bit' might be someone else's extreme." with dissolve
     yuma_th  "ถ้าลองเปรียบเทียบเป็นสเกลตัวเลขหนึ่งถึงสิบ โดยที่เต็ม 10 หมายถึงเคร่งมาก รุ่นพี่มายะให้คะแนนเท่าไหร่" with dissolve
     yuma_en  "If we compare it on a scale of one to ten, with ten being very strict, how would you rate her, Senior Maya?" with dissolve
     show maya normal at zoom_in,center with Dissolve(0.2) 
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_006.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_006.mp3"
     maya_th yada "ให้ไปเลย 1,000,000" with dissolve
     maya_en yada "I'd give her 1,000,000." with dissolve
     yuma_th  "เป็นล้านเลยเหรอพี่!!!" with dissolve
     yuma_en  "A million?! Senior!!!" with dissolve
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_007.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_007.mp3"
     maya_th think "ฉันพูดจริง ขอยกให้เป็นนัมเบอร์วันด้านการรักษากฎ—-" with dissolve
     maya_en think "I'm serious. I'd crown her the number one rule enforcer—" with dissolve
     th "จู่ๆ รุ่นพี่มายะก็หยุดพูดอย่างกะทันหัน" with dissolve
     en "Suddenly, Senior Maya stops talking abruptly." with dissolve
-    #---- play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_008.mp3"
+    play sound "audio/voice/maya/chapter2/chapter2_2/maya_2_2_008.mp3"
     maya_th wink "ฉันขอตัวก่อน ไว้เจอกันใหม่นะ ยูคุง~☆" with dissolve
     maya_en wink "I've got to go. See you later, Yu-kun~☆" with dissolve
     th "พอพูดจบ รุ่นพี่มายะก็รีบวิ่งขึ้นบันไดไปอย่างรวดเร็ว" with dissolve
@@ -64,19 +64,19 @@ label s2_2:
     en "Just then, I realize the reason for Senior Maya's unusual behavior." with dissolve
     hide maya
     show akane normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_001.mp3"
+    play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_001.mp3"
     akane_th normal "รุ่นพี่ยูมะ ทำอะไรอยู่หรือเปล่าคะ" with dissolve
     akane_en normal "Senior Yuma, are you doing something?" with dissolve
     th "จู่ๆ อากาเนะก็ปรากฏตัวมาจากทางข้างหลังผม" with dissolve
     en "Suddenly, Akane appears from behind me." with dissolve
     yuma_th  "ตกใจหมดเลย" with dissolve
     yuma_en  "I'm completely startled." with dissolve
-    #---- play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_002.mp3"
+    play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_002.mp3"
     akane_th serious "มีอะไรเหรอ" with dissolve
     akane_en serious "Is something wrong?" with dissolve
     yuma_th  "ปะ… เปล่า ไม่มีอะไรทั้งนั้น" with dissolve
     yuma_en  "Uh... no, nothing at all." with dissolve
-    #---- play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_003.mp3"
+    play sound "audio/voice/akane/chapter2/chapter2_2/akane_2_2_003.mp3"
     akane_th ah "ถ้างั้นช่วยเอาเอกสารฉบับนี้ไปให้รองประธานฯ ที่ห้องสภานักเรียนหน่อย" with dissolve
     akane_en ah "In that case, could you take this document to the vice president in the student council room?" with dissolve
     yuma_th  "อื้ม ได้เลย" with dissolve
