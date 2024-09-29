@@ -73,8 +73,10 @@ label s2_9:
     yuma_th  "ไม่เป็นไร เป็นห่วงแทบแย่เลย" with dissolve
     yuma_en  "It's okay, I was really worried about you." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_007.mp3"
+    show angry
     maya_c2_th angry "หัดคิดคำพูดเองบ้างสิ อย่าเอาแต่ลอกตามคนอื่น ติดลบ 10 คะแนน" with dissolve
     maya_c2_en angry "Try to come up with your own words sometimes. Don't just copy others. Minus 10 points." with dissolve
+    hide angry
     yuma_th  "ตอนนี้เหลือกี่คะแนนเนี่ย" with dissolve
     yuma_en  "How many points do I have left now?" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_008.mp3"
@@ -112,8 +114,10 @@ label s2_9:
     maya_c2_th shock "……" with dissolve
     maya_c2_en shock "......" with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_012.mp3"
+    show moyamoya
     maya_c2_th think "ถ้าไม่ติดว่านายช่วยเก็บบัตรนักเรียนให้ ฉันจะกลับบ้านแล้วนะ" with dissolve
     maya_c2_en think "If it weren't for you helping me pick up my student ID, I'd go home right now." with dissolve
+    hide moyamoya
     th "รุ่นพี่มายะแสดงท่าทางไม่สบอารมณ์อย่างชัดเจน" with dissolve
     en "Senior Maya clearly showed her displeasure." with dissolve
     th "ผมอุตส่าห์แสดงภาพลักษณ์ของคนช่างสังเกตขั้นสูงสุด นี่เราทำผิดพลาดตรงไหนกันนะ" with dissolve
@@ -356,8 +360,10 @@ label s2_9:
     yuma_en  "90 centimeters." with dissolve
     show maya_c2 normal at zoom_in,center with Dissolve(0.2) 
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_024.mp3"
+    show surprise
     maya_c2_th shock "เอ๋! ยูคุงรู้ได้ยังไง" with dissolve
     maya_c2_en shock "Eh! How did you know, Yu-kun?" with dissolve
+    hide surprise
     yuma_th  "เยสสส ในที่สุด" with dissolve
     yuma_en  "Yesss! Finally!" with dissolve
     hide maya_c2
@@ -722,8 +728,10 @@ label s2_9:
     yuma_th  "ไม่ใช่ครับ ผมแค่จะบอกว่าพวกเราแยกย้ายกันก่อนดีมั้ย พอดีว่าผมยังมีน้องสาวรออยู่ที่บ้านนะครับ" with dissolve
     yuma_en  "No, I was just thinking maybe we should part ways now. I still have my little sister waiting at home." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_073.mp3"
+    show moyamoya
     maya_c2_th hurt "เอ๋ ทั้งๆ ที่อยู่กับฉันแต่ยังแอบคิดถึงผู้หญิงคนอื่นอีกหรอ" with dissolve
     maya_c2_en hurt "Eh? Even though you're with me, you're still thinking about another girl?" with dissolve
+    hide moyamoya
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_074.mp3"
     maya_c2_th angry "จำไว้นะยูคุง เวลาเดทให้คิดถึงผู้หญิงที่อยู่ตรงหน้าก็พอ" with dissolve
     maya_c2_en angry "Remember this, Yu-kun. When you're on a date, just think about the girl in front of you." with dissolve
@@ -784,9 +792,11 @@ label s2_9:
     scene home_livingroom_night with Dissolve(1.0)
     show yuno_c normal at center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_9/yuno_2_9_001.mp3"
+    show old
     yuno_c_th angry_2 "พี่ซื้ออะไรมาอีกแล้วเนี่ย เต็มบ้านเลย" with dissolve
     yuno_c_en angry_2 "Did you buy something again, brother? The house is already full!" with dissolve
     hide yuno_c
+    hide old
     scene neighborhood_evening with Dissolve(1.0)
     th "พูดถึงยูโนะแล้ว ไม่รู้ว่าป่านนี้หายงอนหรือยังนะ" with dissolve
     en "Speaking of Yuno, I wonder if she's still upset." with dissolve

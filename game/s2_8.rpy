@@ -33,8 +33,10 @@ label s2_8:
     yuma_th  "ระหว่างคณิตศาสตร์กับแมลงสาบ อะไรน่ากลัวกว่ากัน" with dissolve
     yuma_en  "Between math and cockroaches, which is scarier?" with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_004.mp3"
+    show shine
     yuno_c_th confident "ครูสอนคณิตศาสตร์ที่เป็นแมลงสาบ" with dissolve
     yuno_c_en confident "A math teacher who's a cockroach." with dissolve
+    hide shine
     yuma_th  "ถ้ามีของแบบนั้นอยู่จริงพี่ก็กลัวเหมือนกัน" with dissolve
     yuma_en  "If something like that really existed, I'd be scared too." with dissolve
     yuma_th  "เอาเป็นว่าเดี๋ยวพี่ช่วยติวสอบให้ ขออาบน้ำก่อนนะ" with dissolve
