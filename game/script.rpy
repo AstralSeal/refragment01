@@ -248,7 +248,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_1
+    jump s1_1
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
@@ -343,9 +343,12 @@ image pout:
     "emotion/pout.png"
 image question:
     "emotion/question.png"
-
 image shine:
     "emotion/shine.png"
+    pause 0.5
+    "emotion/shine02.png"
+    pause 0.5
+    repeat
 image surprise:
     "emotion/surprise.png"
 image sweat:
