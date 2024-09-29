@@ -291,3 +291,68 @@ label start:
     # This ends the game.
 
     return
+
+
+image dot:
+    "emotion/dot1.png"
+    pause 0.5
+    "emotion/dot2.png"
+    pause 0.5
+    "emotion/dot3.png"
+    pause 0.5
+    "emotion/dot1.png"
+    repeat
+
+image laught:
+    "emotion/laught.png"
+    pause 0.5
+    "emotion/laught2.png"
+    pause 0.5
+    repeat
+
+image panic:
+    "emotion/panic1.png"
+    pause 0.5
+    "emotion/panic2.png"
+    pause 0.5
+    repeat
+
+image angry:
+    "emotion/angry.png"
+
+image aware:
+    "emotion/aware.png"
+
+image border:
+    "emotion/border.png"
+
+image dark:
+    "emotion/dark.png"
+image down:
+    "emotion/down.png"
+
+image happy:
+    "emotion/happy.png"
+image heart:
+    "emotion/heart.png"
+image huh:
+    "emotion/huh.png"
+image moyamoya:
+    "emotion/moyamoya.png"
+image pout:
+    "emotion/pout.png"
+image question:
+    "emotion/question.png"
+
+image shine:
+    "emotion/shine.png"
+image surprise:
+    "emotion/surprise.png"
+image sweat:
+    "emotion/sweat.png"
+image wakaru:
+    "emotion/wakaru.png"
+
+image spotlight:
+    "emotion/spotlight.png"
+
