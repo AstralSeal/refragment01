@@ -244,54 +244,61 @@ label s2_4:
     en "Rega arrived here at..." with dissolve
     th "Hint - คุณสามารถย้อนกลับไปดูข้อความก่อนหน้าได้ด้วยการกดปุ่ม Backlog" with dissolve
     en "Hint - You can look back at previous messages by pressing the Backlog button" with dissolve
-    th "CHOICE" with dissolve
-    en "CHOICE" with dissolve
-    th "1. 17.55 น." with dissolve
-    en "5:55 PM" with dissolve
-    th "2. 18.00 น." with dissolve
-    en "6:00 PM" with dissolve
-    th "3. 18.05 น." with dissolve
-    en "6:05 PM" with dissolve
-    th "4. 18.10 น." with dissolve
-    en "6:10 PM" with dissolve
-    th "5. 18.15 น." with dissolve
-    en "6:15 PM" with dissolve
-    th "กรณีตอบถูก" with dissolve
-    en "If answered correctly" with dissolve
-    show reika normal at center with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_006.mp3"
-    reika_th doya_2 "ฉันชนะ บอกแล้วว่าเครื่องคิดเลข…ไม่สิเหรัญญิกของฉันไม่มีทางตอบผิดหรอก" with dissolve
-    reika_en doya_2 "I win. See, I told you my treasurer...I mean, calculator, would never get it wrong." with dissolve
-    yuma_th  "นี่เธอเห็นฉันเป็นเครื่องคิดเลขจริงๆ สินะ…" with dissolve
-    yuma_en  "You really do see me as an actual calculator, don't you..." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_007.mp3"
-    reika_th smile_2 "ก็นะเพราะคณิตศาสตร์เป็นวิชาเดียวที่คะแนนสอบของนายสูงกว่าฉันนี่นา" with dissolve
-    reika_en smile_2 "Well, math is the only subject where your test scores are higher than mine." with dissolve
-    hide reika
-    show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_003.mp3"
-    kazuma_th sad "เห้อ ทายผิดซะได้" with dissolve
-    kazuma_en sad "Ugh, of course I got it wrong." with dissolve
-    th "กรณีตอบผิด" with dissolve
-    en "If answered incorrectly" with dissolve
-    show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
-    kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
-    kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
-    hide kazuma
-    show reika normal at center with Dissolve(0.2) 
-    show reika normal at zoom_in,center with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
-    reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
-    reika_en angry_2 "Yuma, I'm disappointed in you." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
-    reika_th angrymeme_2 "ปกตินายคูณเลขในใจได้เป็นสิบหลักไม่ใช่รึไง ทำไมวันนี้ตอบผิดได้เนี่ย" with dissolve
-    reika_en angrymeme_2 "You can normally multiply 10-digit numbers in your head, right? How could you get this wrong?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_010.mp3"
-    reika_th  "บางทีฉันอาจจะลืมเปลี่ยนถ่านเครื่องคิดเลขรึเปล่านะ" with dissolve
-    reika_en  "Maybe I forgot to change the batteries in my calculator." with dissolve
-    yuma_th  "นี่เดี๋ยวเถอะ ฉันไม่ใช่เครื่องคิดเลขของเธอซักหน่อย!" with dissolve
-    yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
+    menu :
+        '[get_choice("18.00 น.","6:00 PM")]':
+            show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
+            kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
+            kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
+            hide kazuma
+            show reika normal at center with Dissolve(0.2) 
+            show reika normal at zoom_in,center with Dissolve(0.2) 
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
+            reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
+            reika_en angry_2 "Yuma, I'm disappointed in you." with dissolve
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
+            reika_th angrymeme_2 "ปกตินายคูณเลขในใจได้เป็นสิบหลักไม่ใช่รึไง ทำไมวันนี้ตอบผิดได้เนี่ย" with dissolve
+            reika_en angrymeme_2 "You can normally multiply 10-digit numbers in your head, right? How could you get this wrong?" with dissolve
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_010.mp3"
+            reika_th  "บางทีฉันอาจจะลืมเปลี่ยนถ่านเครื่องคิดเลขรึเปล่านะ" with dissolve
+            reika_en  "Maybe I forgot to change the batteries in my calculator." with dissolve
+            yuma_th  "นี่เดี๋ยวเถอะ ฉันไม่ใช่เครื่องคิดเลขของเธอซักหน่อย!" with dissolve
+            yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
+        '[get_choice("18.10 น.","6:10 PM")]':
+            show reika normal at center with Dissolve(0.2) 
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_006.mp3"
+            reika_th doya_2 "ฉันชนะ บอกแล้วว่าเครื่องคิดเลข…ไม่สิเหรัญญิกของฉันไม่มีทางตอบผิดหรอก" with dissolve
+            reika_en doya_2 "I win. See, I told you my treasurer...I mean, calculator, would never get it wrong." with dissolve
+            yuma_th  "นี่เธอเห็นฉันเป็นเครื่องคิดเลขจริงๆ สินะ…" with dissolve
+            yuma_en  "You really do see me as an actual calculator, don't you..." with dissolve
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_007.mp3"
+            reika_th smile_2 "ก็นะเพราะคณิตศาสตร์เป็นวิชาเดียวที่คะแนนสอบของนายสูงกว่าฉันนี่นา" with dissolve
+            reika_en smile_2 "Well, math is the only subject where your test scores are higher than mine." with dissolve
+            hide reika
+            show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_003.mp3"
+            kazuma_th sad "เห้อ ทายผิดซะได้" with dissolve
+            kazuma_en sad "Ugh, of course I got it wrong." with dissolve
+        '[get_choice("18.15 น.","6:15 PM")]':
+            show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
+            kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
+            kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
+            hide kazuma
+            show reika normal at center with Dissolve(0.2) 
+            show reika normal at zoom_in,center with Dissolve(0.2) 
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
+            reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
+            reika_en angry_2 "Yuma, I'm disappointed in you." with dissolve
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
+            reika_th angrymeme_2 "ปกตินายคูณเลขในใจได้เป็นสิบหลักไม่ใช่รึไง ทำไมวันนี้ตอบผิดได้เนี่ย" with dissolve
+            reika_en angrymeme_2 "You can normally multiply 10-digit numbers in your head, right? How could you get this wrong?" with dissolve
+            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_010.mp3"
+            reika_th  "บางทีฉันอาจจะลืมเปลี่ยนถ่านเครื่องคิดเลขรึเปล่านะ" with dissolve
+            reika_en  "Maybe I forgot to change the batteries in my calculator." with dissolve
+            yuma_th  "นี่เดี๋ยวเถอะ ฉันไม่ใช่เครื่องคิดเลขของเธอซักหน่อย!" with dissolve
+            yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
+   
     yuma_th  "ว่าแต่ พวกเธอเล่นอะไรกันเนี่ย" with dissolve
     yuma_en  "But what were you all doing anyway?" with dissolve
     show reika normal at center with Dissolve(0.2) 

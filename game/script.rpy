@@ -38,6 +38,14 @@ init python:
         else:
             return "Disagree/ไม่เห็นด้วย"
 
+    def get_choice(s1,s2):
+        if persistent.language == "thai":
+            return s1
+        elif persistent.language == "eng":
+            return s2
+        else:
+            return ""
+
 # define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 # define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 
