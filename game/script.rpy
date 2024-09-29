@@ -21,6 +21,22 @@ init python:
             return "ไม่เห็นด้วย"
         else:
             return "Disagree/ไม่เห็นด้วย"
+    
+    def get_2_6_choice1():
+        if persistent.language == "eng":
+            return "Can I touch your boobs, Sempai Maya?"
+        elif persistent.language == "thai":
+            return "ผมขอจับหน่มน๊มของรุ่นพี่มายะได้ไหมครับ"
+        else:
+            return ""
+
+    def get_2_6_choice2():
+        if persistent.language == "eng":
+            return "Could you wrap your legs around my neck?"
+        elif persistent.language == "thai":
+            return "ช่วยเอาต้นขามารัดคอผมหน่อยได้ไหมครับ"
+        else:
+            return "Disagree/ไม่เห็นด้วย"
 
 # define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 # define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])

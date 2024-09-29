@@ -349,12 +349,14 @@ label s2_6:
     yuma_th  "ให้ทำอะไรก็ได้… ถ้างั้นก็…" with dissolve
     yuma_en  "I can ask for anything... So then..." with dissolve
     hide maya
-    th "CHOICE" with dissolve
-    en "CHOICE" with dissolve
-    th "1. ผมขอจับหน่มน๊มของรุ่นพี่มายะได้ไหมครับ" with dissolve
-    en "Can I touch your boobs, Sempai Maya?" with dissolve
-    th "2. ช่วยเอาต้นขามารัดคอผมหน่อยได้ไหมครับ" with dissolve
-    en "Could you wrap your legs around my neck?" with dissolve
+    menu:
+        "[get_2_6_choice1()]":
+            th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
+            en "Are you crazy?! Who would ask for something that weird?!" with dissolve
+        "[get_2_6_choice2()]":
+            th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
+            en "Are you crazy?! Who would ask for something that weird?!" with dissolve
+
     th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
     en "Are you crazy?! Who would ask for something that weird?!" with dissolve
     th "คนที่คิดอะไรแผลงๆ แบบนั้นได้คงเพี้ยนไปแล้วแน่ๆ" with dissolve
