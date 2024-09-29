@@ -5,7 +5,22 @@
 
 define en = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define th = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+init python:
+    def get_agree_text():
+        if persistent.language == "eng":
+            return "Agree"
+        elif persistent.language == "thai":
+            return "เห็นด้วย"
+        else:
+            return "Agree/เห็นด้วย"
 
+    def get_disagree_text():
+        if persistent.language == "eng":
+            return "Disagree"
+        elif persistent.language == "thai":
+            return "ไม่เห็นด้วย"
+        else:
+            return "Disagree/ไม่เห็นด้วย"
 
 # define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 # define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])

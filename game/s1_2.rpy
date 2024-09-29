@@ -437,14 +437,14 @@ label s1_2:
     maya_th  "นายน่ะคิดยังไง เห็นด้วยกับการยกเลิกการจำหน่ายน้ำอัดลมในโรงเรียนหรือไม่" with dissolve
     maya_en  "What do you think? Do you agree with banning soda sales in school or not?" with dissolve
     menu:
-        "Agree":
+        "[get_agree_text()]":
             yuma_th  "ผมคิดว่าควรยกเลิกการจำหน่ายน้ำอัดลม"
             yuma_en  "I think we should ban soda sales."
             yuma_th  "ปัญหาไม่ใช่เรื่องใครอยากดื่มก็ดื่ม ใครไม่อยากดื่มก็ไม่ต้องดื่ม แต่เป็นเรื่องของสภาพแวดล้อมภายในโรงเรียนต่างหาก"
             yuma_en  "The problem isn't about who wants to drink and who doesn't want to drink. It's about the environment within the school." with dissolve
             yuma_th  "การที่นักเรียนเห็นน้ำอัดลมตลอดเวลา จะทำให้นักเรียนคุ้นชินกับการดื่มน้ำอัดลม และมองว่าน้ำอัดลมเป็นสิ่งที่เข้าถึงง่าย ส่งผลให้มีแนวโน้มดื่มน้ำอัดลมมากขึ้น" with dissolve
             yuma_en  "When students see soda all the time, it makes them familiar with drinking soda and view it as easily accessible, resulting in a tendency to drink more soda." with dissolve
-        "Disagree":
+        "[get_disagree_text()]":
             yuma_th  "นั่นสินะ ไม่ปฏิเสธว่าน้ำอัดลมส่งผลเสียต่อสุขภาพ"
             yuma_en  "That's true. I don't deny that soda has negative effects on health."
             yuma_th  "แต่ช่วงสอบหรือเวลาที่เหนื่อย บางทีก็รู้สึกว่าอยากหาอะไรดื่มเพื่อให้กระปี้กระเป่ามากขึ้น"
