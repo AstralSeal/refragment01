@@ -278,11 +278,13 @@ label s1_1:
     en "Originally, our father didn't want to go abroad until he received an offer from a large multinational company." with dissolve
     th "ด้วยเงินทุนสนับสนุนนี้ พวกเราจึงมีชีวิตสุขสบายกว่าครอบครัวอื่น" with dissolve
     en "With this financial support, we live more comfortably than other families." with dissolve
-    show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
+    show yuno_c wow at zoom_in_yuno,center with Dissolve(1.0) 
     play sound "audio/sfx/レベルアップ.mp3"
     play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_022.mp3"
+    show shine
     yuno_c_th wow "เย้ กดกาชาได้แมวน้ำหายากระดับ SSR แล้ว ขอโพสต์อวดลงกลุ่มก่อน" with dissolve
     yuno_c_en wow "Yay! I got a rare SSR seal in the gacha. Let me post and brag about it in the group first." with dissolve
+    hide shine
     play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_023.mp3"
     yuno_c_th hehe "ตัวนี้ดีไหมคะ กดสุ่มเล่นๆ รอบเดียวแล้วได้เลย แฮชแท็ก สายฟรี" with dissolve
     yuno_c_en hehe "How's this one? I got it on my first random pull. Hashtag F2P." with dissolve
@@ -334,8 +336,10 @@ label s1_1:
     yuma_en  "Not to mention—" with dissolve
     show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
     # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
+    show angry
     yuno_c_th hee "พูดมากน่ารำคาญ ทีพี่เองยังซ่อนแผ่นเกมโป๊ไว้ใต้เตียง ลองนับดูสิว่าเป็นเงินเท่าไหร่" with dissolve
     yuno_c_en hee "You talk too much. It's annoying. You're the one hiding erotic game discs under your bed. Try counting how much money that is." with dissolve
+    hide angry
     yuma_th  "เกมโป๊ซื้อรอบเดียวจบ ไม่เหมือนเกมกาชาที่ต้องเติมเรื่อยๆ ไม่มีวันสิ้นสุด" with dissolve
     yuma_en  "Erotic games are a one-time purchase. Unlike gacha games that require constant topping up with no end." with dissolve
     yuma_th  "อีกอย่าง พี่แอบเกมโป๊ไว้ที่ตู้หนังสือด้านใน หลังตำราแคลคูลัส ไม่ได้เก็บไว้ใต้เตียงสักหน่อย" with dissolve
