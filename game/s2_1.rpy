@@ -108,8 +108,10 @@ label s2_1:
     yuma_th  "มีอะไรเหรอ" with dissolve
     yuma_en  "What is it?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_013.mp3"
+    show shine
     yuno_c_th wow "พี่ไม่ลองคาบขนมปังแล้ววิ่งไปโรงเรียนดูล่ะ" with dissolve
     yuno_c_en wow "Why don't you try running to school with a piece of toast in your mouth?" with dissolve
+    hide shine
     th "ยูโนะพูดด้วยท่าทีขี้เล่น ดวงตาเป็นประกาย" with dissolve
     en "Yuno says playfully, her eyes sparkling." with dissolve
     yuma_th  "พี่ไม่ใช่นางเอกการ์ตูนตาหวานสักหน่อย" with dissolve
@@ -286,8 +288,10 @@ label s2_1:
     yuma_en  "The late worm avoids being caught by the bird." with dissolve
     show akane normal at zoom_in,center with Dissolve(0.2) 
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_019.mp3"
+    show angry
     akane_th angrymeme "รุ่น~พี่~ยู~ มะ~" with dissolve
     akane_en angrymeme "Senior Yu~ ma~" with dissolve
+    hide angry
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_020.mp3"
     akane_th  "บางทีโรงเรียนในนรกอาจจะอนุญาตให้มาสายก็ได้นะ สนใจลองดูสักหน่อยมั้ย" with dissolve
     akane_en  "Maybe schools in hell allow tardiness. Want to try it out?" with dissolve

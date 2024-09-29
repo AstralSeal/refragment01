@@ -324,8 +324,10 @@ label s2_6:
     show maya normal at zoom_in,center with Dissolve(0.2) 
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_024.mp3"
     hide student card with dissolve
+    show excited
     maya_th hurt "เรื่องนั้น!!!" with dissolve
     maya_en hurt "About that!!!" with dissolve
+    hide excited
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_025.mp3"
     maya_th onegai "ชะ… ช่วยเก็บไว้เป็นความลับได้ไหม อย่าบอกใครนะ" with dissolve
     maya_en onegai "P-please keep it a secret, okay? Don't tell anyone." with dissolve
@@ -371,8 +373,10 @@ label s2_6:
     yuma_th  "รุ่นพี่ช่วยมาเป็นคู่รักให้ผมซักหนึ่งวันได้ไหมครับ" with dissolve
     yuma_en  "Sempai, could you pretend to be my girlfriend for a day?" with dissolve
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_027.mp3"
+    show surprise
     maya_th hurt "เอ๋?!! คู่รัก คู่รักงั้นเหรอ" with dissolve
     maya_en hurt "What?!! Girlfriend? Really?" with dissolve
+    hide surprise
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_028.mp3"
     maya_th ah "14…" with dissolve
     maya_en ah "14..." with dissolve
@@ -426,8 +430,10 @@ label s2_6:
     flying_seal_th  "กรุณาหยิบเครื่องดื่มของท่าน" with dissolve
     flying_seal_en  "Please take your drink." with dissolve
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_039.mp3"
+    show aware
     maya_th ah_2 "อ๊ะ นมสตรอเบอรี่ปั่นหวาน 140\% ได้แล้ว" with dissolve
     maya_en ah_2 "Ah, my sweet strawberry milk with 140\% sweetness is ready." with dissolve
+    hide aware
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_040.mp3"
     maya_th  "โอเค ไว้เจอกันใหม่นะ บ๊ายบาย ยูคุง ไว้เดี๋ยวจะติดต่อไปนะ" with dissolve
     maya_en  "Okay, see you later then. Bye bye, Yu-kun. I'll be in touch." with dissolve
@@ -441,8 +447,10 @@ label s2_6:
     yuma_th  "คือว่า… ตู้แมวน้ำบินไม่มีคุณป้าชงเครื่องดื่มอยู่ด้านในตู้หรอกนะครับ" with dissolve
     yuma_en  "Well... There's no auntie inside the seal vending machine brewing drinks." with dissolve
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_042.mp3"
+    show dot
     maya_th pout "……" with dissolve
     maya_en pout "......" with dissolve
+    hide dot
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_043.mp3"
     maya_th  "เรื่องแค่นั้นใครๆ ก็รู้ไม่ใช่เหรอ" with dissolve
     maya_en  "Doesn't everyone already know that?" with dissolve

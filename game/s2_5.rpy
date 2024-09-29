@@ -4,8 +4,10 @@ label s2_5:
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5
     show yuno_c normal at center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_001.mp3"
+    show laught
     yuno_c_th smile4 "กลับมาแล้วเหรอ จะรับน้องสาว น้องสาว หรือว่าน้องสาวดีล่ะ" with dissolve
     yuno_c_en smile4 "You're back! Do you want your little sister, your little sister, or your little sister?" with dissolve
+    hide laught
     yuma_th  "เดี๋ยวสิ มันต้องพูดว่าจะกินข้าว อาบน้ำ หรือว่าฉัน ไม่ใช่เหรอ" with dissolve
     yuma_en  "Wait, isn't it supposed to be dinner, bath, or me?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_002.mp3"
@@ -106,8 +108,10 @@ label s2_5:
     yuma_th  "เพื่อยูโนะพี่ทำได้ทุกอย่าง ให้ไปนอนรอคิวตอนตีสี่ก็ทำได้" with dissolve
     yuma_en  "For Yuno, I'd do anything. I'd even go line up at 4am if needed." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_020.mp3"
+    show shine
     yuno_c_th blank_2 "คนที่เข้าร่วมกิจกรรมต้องเป็นคู่รักกัน" with dissolve
     yuno_c_en blank_2 "The event participants have to be a couple." with dissolve
+    hide shine
     yuma_th  "เมื่อกี้ว่าไงนะ พูดอีกทีสิ" with dissolve
     yuma_en  "What did you say just now? Say it again." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_021.mp3"

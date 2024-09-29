@@ -105,8 +105,10 @@ label s2_4:
     show risa normal at zoom_in,center
     play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_013.mp3"
     hide fertilization_censor with dissolve
+    show angry
     risa_th angry "แต่ไม่ใช่ในรูปแบบการ์ตูนลามกแบบนี้!" with dissolve
     risa_en angry "But not in the form of this lewd manga!" with dissolve
+    hide angry
     th "อ้าว ไหงเป็นงั้น ผมอุตส่าห์ตั้งใจทำอย่างสุดฝีมือเลยนะ" with dissolve
     en "Huh? Why not? I went to such great lengths to make this." with dissolve
     show risa normal at center with Dissolve(0.2) 
@@ -119,8 +121,10 @@ label s2_4:
     yuma_th  "เรื่องอะไรหรอครับ ถ้าให้ดูแลครูริสะที่ไม่มีใครคอยดูแลตอนแก่เพราะยังหาแฟนไม่ได้จนแก่ ผมคงต้องขอปฏิเสธล่วงหน้านะครับ" with dissolve
     yuma_en  "What is it? If it's looking after you, Ms. Risa, in your old age after failing to find a boyfriend...I'm going to have to refuse in advance." with dissolve
     play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_016.mp3"
+    show angry
     risa_th angry "ครูก็ไม่อยากเจอหน้าเด็กอย่างเธอไปจนแก่หรอกย่ะ" with dissolve
     risa_en angry "Like I'd want a kid like you visiting me when I'm old!" with dissolve
+    hide angry
     play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_017.mp3"
     risa_th serious "ครูอยากให้เธอช่วยดูแลเรกะหน่อย" with dissolve
     risa_en serious "I want you to help look out for Rega a bit." with dissolve
@@ -453,8 +457,10 @@ label s2_4:
     yuma_th  "นั่นสินะ" with dissolve
     yuma_en  "I see." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_016.mp3"
+    show surpise
     reika_th aru "เดี๋ยวสิยูมะ นายมาจากไหนเนี่ย!?" with dissolve
     reika_en aru "Wait, Yuma, where did you come from?!" with dissolve
+    hide surpise
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_017.mp3"
     reika_th angrymeme_2 "แล้วก็แอบมาอ่านหนังสือของคนอื่นแบบนี้มัน มันเสียมารยาทนะยะ" with dissolve
     reika_en angrymeme_2 "And reading someone else's magazine over their shoulder like this is...is bad manners!" with dissolve
@@ -670,8 +676,10 @@ label s2_4:
     yuma_th  "ฉันเองก็ไม่คิดเหมือนกันว่าจะได้เจอเธอที่ร้านเครื่องประดับแบบนี้" with dissolve
     yuma_en  "I could say the same, I never expected to run into you at an accessories store like this." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_4/akane_2_4_009.mp3"
+    show moyamoya
     akane_th angry "ทำไมคะ? เห็นแบบนี้ หนูก็เป็นผู้หญิงเหมือนกันนะคะ" with dissolve
     akane_en angry "Why is that? Appearances aside, I'm a girl too, you know." with dissolve
+    hide moyamoya
     play sound "audio/voice/akane/chapter2/chapter2_4/akane_2_4_010.mp3"
     akane_th sad "อย่างที่คิดเลย ต่างหูพวกนี้คงน่ารักเกินไป ไม่เหมาะกับหนูสินะคะ" with dissolve
     akane_en sad "Just as I thought, these earrings are probably too cute. They wouldn't suit me." with dissolve
