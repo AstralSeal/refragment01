@@ -409,10 +409,12 @@ label s1_4:
     reika_en ah_2 "Ah, I just remembered." with dissolve
     yuma_th  "มีอะไรเหรอครับแม่" with dissolve
     yuma_en  "What is it, mom?" with dissolve
-    show reika normal at zoom_in,center with Dissolve(1.0) 
+    show reika angrymeme_2 at zoom_in,center with Dissolve(1.0) 
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_036.mp3"
+    show angry
     reika_th angrymeme_2 "ใครเป็นแม่นายกันห้ะ" with dissolve
     reika_en angrymeme_2 "Who are you calling mom?" with dissolve
+    hide angry
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_037.mp3"
     reika_th normal_2 "ช่างเถอะ ฉันมีเรื่องสำคัญที่จะต้องบอกนายให้ได้" with dissolve
     reika_en normal_2 "Never mind. I have something important I must tell you." with dissolve
@@ -502,8 +504,10 @@ label s1_4:
     yuma_th  "เรกะโตแล้ว ไปไหนมาไหนคนเดียวได้" with dissolve
     yuma_en  "Rega's grown up. She can go places by herself." with dissolve
     play sound "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_012.mp3"
+    show angry
     yuno_c_th gambatte "มันไม่ใช่แบบนั้น ยามค่ำคืนแบบนี้ผู้ชายต้องไปส่งผู้หญิงสิ พี่ไม่เข้าใจจิตใจของผู้หญิงเลย" with dissolve
     yuno_c_en gambatte "It's not like that. At night like this, a man should escort a woman home. You don't understand women's hearts at all." with dissolve
+    hide angry
     play sound "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_013.mp3"
     yuno_c_th worry "เข้าใจที่พี่เรกะบอกแล้ว เห้อ เป็นอย่างที่พี่เรกะว่าจริงๆ ด้วย" with dissolve
     yuno_c_en worry "I understand what Senior Rega said now. Sigh, it's just as Senior Rega said." with dissolve

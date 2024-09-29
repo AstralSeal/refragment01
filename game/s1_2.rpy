@@ -344,8 +344,10 @@ label s1_2:
     yuma_th  "กินหวานมากไม่ดีต่อสุขภาพนะ แถมอาจทำให้อ้วนได้ด้วย" with dissolve
     yuma_en  "Eating too much sugar isn't good for your health. It can also make you gain weight." with dissolve
     #play sound "audio/voice/maya_0/chapter1/chapter1_2/maya_1_2_023.mp3"
+    show angry
     maya_0_th angry "พูดเรื่องน้ำหนักกับสาวน้อยแบบนี้ เสียมารยาทนะ นายไม่เข้าใจจิตใจของผู้หญิงเลยสักนิด" with dissolve
     maya_0_en angry "Talking about weight with a young girl like this is impolite. You don't understand women's hearts at all." with dissolve
+    hide angry
     yuma_th  "มันร้ายแรงขนาดนั้นเลยเหรอ?" with dissolve
     yuma_en  "Is it that serious?" with dissolve
     #play sound "audio/voice/maya_0/chapter1/chapter1_2/maya_1_2_024.mp3"
@@ -377,8 +379,10 @@ label s1_2:
     yuma_en  "I understand, Senior Shirasaki." with dissolve
     show maya normal at zoom_in,center with Dissolve(1.0) 
     #play sound "audio/voice/maya/chapter1/chapter1_2/maya_1_2_030.mp3"
+    show angry
     maya_th angry "มา-ยะ" with dissolve
     maya_en angry "Ma-ya." with dissolve
+    hide angry
     th "จู่ๆ เธอก็เน้นเสียงด้วยความหนักแน่น" with dissolve
     en "Suddenly, she emphasized with a firm tone." with dissolve
     yuma_th  "ถ้างั้นผมขอเรียกว่ารุ่นพี่มายะละกัน" with dissolve

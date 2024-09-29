@@ -76,8 +76,10 @@ label s1_3:
     yuma_en  "Then what about the mole on your butt? Why did you forbid me from telling others about it?" with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
     play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_005.mp3"
+    show excited
     reika_th angrymeme2_2 "ก็เพราะว่าเวลานายพูดแล้วมันจะทำให้คนอื่นเข้าใจผิดไงเล่า!" with dissolve
     reika_en angrymeme2_2 "That's because when you talk about it, it makes others misunderstand!" with dissolve
+    hide excited
     yuma_th  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่รึไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
     yuma_en  "But isn't our relationship like that? The kind where I can see the mole on your butt?" with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_006.mp3"
