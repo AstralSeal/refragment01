@@ -572,8 +572,10 @@ label s2_10:
     th "ผมส่งตุ๊กตาแมวน้ำพรหมลิขิต limited edition ที่ได้มาด้วยความยากลำบากให้ยูโนะ" with dissolve
     en "I handed Yuno the limited edition Seal of Destiny plush that I got with great difficulty." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_049.mp3"
+    show heart
     yuno_p_th smile4 "เย้ รักพี่ยูมะที่สุดในโลกเลย" with dissolve
     yuno_p_en smile4 "Yay! I love you the most in the world, Yuma!" with dissolve
+    hide heart
     th "รอยยิ้มของยูโนะเป็นสิ่งที่เลอค่ามากๆ ผมสัญญาว่าจะรักษารอยยิ้มนี้ไว้ไม่ให้จางหายไป" with dissolve
     en "Yuno's smile is incredibly precious. I promise to keep this smile from fading away." with dissolve
     hide yuno_p
@@ -608,8 +610,10 @@ label s2_10:
     en "I didn't want to say I went on a date with senior Maya. If I did, I'd surely face a long interrogation." with dissolve
     show yuno_p normal at zoom_in,center with Dissolve(0.2) 
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_052.mp3"
+    show angry
     yuno_p_th pout_2 "โกหก!" with dissolve
     yuno_p_en pout_2 "Liar!" with dissolve
+    hide angry
     #---- play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_053.mp3"
     yuno_p_th  "เป็นไปไม่ได้ เพราะวันนี้พี่เรกะอยู่กับหนูนี่นา จะไปเดทกับพี่ได้ไง" with dissolve
     yuno_p_en  "That's impossible. Reka was with me today. How could she go on a date with you?" with dissolve
