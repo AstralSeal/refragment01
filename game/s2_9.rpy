@@ -85,7 +85,8 @@ label s2_9:
     yuma_th  "เอ๋! ยังมีอีกหรอครับ เรื่องมากแบบนี้ระวังหาแฟนไม่ได้นะครับ" with dissolve
     yuma_en  "Huh? There's more? If you're this demanding, be careful or you might not find a boyfriend." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_009.mp3"
-    play sound "audio/sfx/thunder.mp3"
+    #to do thunder
+    # play sound "audio/sfx/thunder.mp3"
     maya_c2_th hurt "ลบ 30 คะแนน!" with dissolve
     maya_c2_en hurt "Minus 30 points!" with dissolve
     th "ไม่จริงใช่ไหม ตอนนี้คะแนนของผมคงติดลบแล้วล่ะ" with dissolve
