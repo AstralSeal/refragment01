@@ -247,6 +247,7 @@ label s2_4:
     menu :
         '[get_choice("18.00 น.","6:00 PM")]':
             show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/sfx/wrong.mp3"
             play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
             kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
             kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
@@ -266,6 +267,7 @@ label s2_4:
             yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
         '[get_choice("18.10 น.","6:10 PM")]':
             show reika normal at center with Dissolve(0.2) 
+            play sound "audio/sfx/correct.mp3"
             play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_006.mp3"
             reika_th doya_2 "ฉันชนะ บอกแล้วว่าเครื่องคิดเลข…ไม่สิเหรัญญิกของฉันไม่มีทางตอบผิดหรอก" with dissolve
             reika_en doya_2 "I win. See, I told you my treasurer...I mean, calculator, would never get it wrong." with dissolve
@@ -281,6 +283,7 @@ label s2_4:
             kazuma_en sad "Ugh, of course I got it wrong." with dissolve
         '[get_choice("18.15 น.","6:15 PM")]':
             show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/sfx/wrong.mp3"
             play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
             kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
             kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
