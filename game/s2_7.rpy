@@ -37,6 +37,7 @@ label s2_7:
     en "On second thought, even if those guys sent LINE messages instead, they'd probably just get blocked." with dissolve
     yuma_th  "ทำไมช่วงนี้มีแต่คนถูกสารภาพรักกัน เมื่อไหร่ฉันจะถูกสารภาพรักกับเค้าบ้างเนี่ย" with dissolve
     yuma_en  "Why is everyone getting confessed to lately? When will it be my turn to receive a confession?" with dissolve
+    play sound "audio/sfx/door_school.mp3"
     th "ก่อนที่ฤดูใบไม้ผลิของผมจะมาถึง คาสึมะก็เข้ามาในห้องสภานักเรียน" with dissolve
     en "Before my springtime could arrive, Kasuma entered the student council room." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
@@ -111,7 +112,8 @@ label s2_7:
     en "I'll accept being a goldfish" with dissolve
     th "กรณีตอบถูก" with dissolve
     en "If answered correctly" with dissolve
-    show kazuma normal at center with Dissolve(0.2) 
+    show kazuma normal at center with Dissolve(0.2)
+    play sound "audio/sfx/correct.mp3"
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_007.mp3"
     kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
     kazuma_en ah "That answer is... correct." with dissolve
@@ -126,6 +128,7 @@ label s2_7:
     th "กรณีตอบผิด" with dissolve
     en "If answered incorrectly" with dissolve
     show kazuma normal at center with Dissolve(0.2) 
+    play sound "audio/sfx/wrong.mp3"
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_008.mp3"
     kazuma_th angry "เป็นคำตอบที่…… ผิด มั่วสิ้นดี" with dissolve
     kazuma_en angry "That answer is... wrong. Completely off." with dissolve

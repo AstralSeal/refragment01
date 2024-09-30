@@ -85,6 +85,7 @@ label s2_9:
     yuma_th  "เอ๋! ยังมีอีกหรอครับ เรื่องมากแบบนี้ระวังหาแฟนไม่ได้นะครับ" with dissolve
     yuma_en  "Huh? There's more? If you're this demanding, be careful or you might not find a boyfriend." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_009.mp3"
+    play sound "audio/sfx/thunder.mp3"
     maya_c2_th hurt "ลบ 30 คะแนน!" with dissolve
     maya_c2_en hurt "Minus 30 points!" with dissolve
     th "ไม่จริงใช่ไหม ตอนนี้คะแนนของผมคงติดลบแล้วล่ะ" with dissolve
@@ -108,6 +109,8 @@ label s2_9:
     th "ถ้างั้น แบบนี้ต้อง—" with dissolve
     en "In that case, I should—" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
+    play sound "audio/sfx/時代劇演出1.mp3"
+    
     yuma_th  "เล็บที่นิ้วเท้าของรุ่นพี่มายะยาวขึ้นกว่าเดิม 1 มิลลิเมตรนะครับ" with dissolve
     yuma_en  "The nails on your toes have grown 1 millimeter longer than before, senior Maya." with dissolve
     #---- play sound "audio/voice/maya/chapter2/chapter2_9/maya_2_9_011.mp3"

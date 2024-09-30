@@ -101,6 +101,7 @@ label s2_8:
     th "หลังจากที่ผมตรวจแบบทดสอบของยูโนะ ก็พบว่า……" with dissolve
     en "After I checked Yuno's test, I found that..." with dissolve
     show 48 with dissolve
+    play sound "audio/sfx/レベルアップ.mp3"
     yuma_th  "48 คะแนน" with dissolve
     yuma_en  "48 points." with dissolve
     #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_010.mp3"
@@ -333,6 +334,7 @@ label s2_8:
     yuno_c_th angry_2 "เรื่องของหนู ถ้ารู้ว่าพี่จะสอนแบบนี้ หนูอ่านหนังสือเองยังจะดีกว่าอีก" with dissolve
     yuno_c_en angry_2 "That's my problem. If I knew you'd teach like this, I'd be better off reading the book myself." with dissolve
     hide yuno_c
+    play sound "audio/sfx/ドアを閉める2.mp3"
     th "พอพูดจบ ยูโนะก็เดินกลับเข้าห้องตัวเองแล้วปิดประตูดังปั้ง!" with dissolve
     en "After saying that, Yuno walked back to her room and slammed the door shut!" with dissolve
     th "………" with dissolve
