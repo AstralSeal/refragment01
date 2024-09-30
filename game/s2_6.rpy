@@ -11,6 +11,7 @@ label s2_6:
     th "ด้วยเหตุนี้ผมจึงตื่นเช้ากว่าปกติ" with dissolve
     en "For that reason, I woke up earlier than usual." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
+    play sound "audio/sfx/door_open.mp3"
     th "ยูโนะเปิดประตูเข้ามาในห้อง" with dissolve
     en "Yuno opened the door and entered my room." with dissolve
     th "ทันใดนั้นผมกับยูโนะก็สบตากัน" with dissolve
@@ -110,6 +111,7 @@ label s2_6:
     en "" with dissolve
     scene school_shoebox_morning with Dissolve(1.0)
     show old with dissolve
+    play sound "audio/sfx/dream.mp3"
     th "..." with dissolve
     en "Where did we run into Sempai Maya yesterday?" with dissolve
     show maya normal at center with Dissolve(0.2) 
@@ -429,6 +431,7 @@ label s2_6:
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_038.mp3"
     maya_th confident "ตกลง ฉันจะยอมเข้าร่วมกิจกรรมที่ห้างฯ ในฐานะคู่รักของยูคุงเอง" with dissolve
     maya_en confident "Alright, I'll agree to participate in the event at the mall as Yu-kun's girlfriend." with dissolve
+    play sound "audio/sfx/洗濯機動作終了.mp3"
     flying_seal_th  "กรุณาหยิบเครื่องดื่มของท่าน" with dissolve
     flying_seal_en  "Please take your drink." with dissolve
     #---maya play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_039.mp3"

@@ -237,6 +237,7 @@ label s2_5:
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
     scene imagine with Dissolve(1.0)
+    play sound "audio/sfx/dream.mp3"
     th "..." with dissolve
     en "" with dissolve
     show reika normal at zoom_in,center with Dissolve(0.2) 
