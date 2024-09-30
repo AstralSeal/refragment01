@@ -85,7 +85,7 @@ label s2_10:
     hide reika_pov
     show reika_pov with dissolve
     th "ฉันถือวิสาสะเข้าไปในห้องของยูมะ" with dissolve
-    play sound "audio/sfx/door.mp3"
+    play sound "audio/sfx/door_open.mp3"
     en "I took the liberty of entering Yuma's room." with dissolve
     th "เมื่อมองไปรอบข้างก็พบกับสิ่งของที่ต้องการ" with dissolve
     en "Looking around, I found what I was looking for." with dissolve
