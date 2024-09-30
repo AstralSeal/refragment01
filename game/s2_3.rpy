@@ -2,6 +2,7 @@ label s2_3:
     scene sky_summer with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-165.mp3" volume 0.5
+    play sound "audio/sfx/school_alarm.mp3"
     th "เสียงออดดังขึ้นหลังจบคาบเรียนที่ 4" with dissolve
     en "The bell rings after the fourth period ends." with dissolve
     scene school_corridor_noon with Dissolve(1.0)
@@ -14,6 +15,7 @@ label s2_3:
     scene school_councilroom_morning with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
+    play sound "audio/sfx/door_school.mp3"
     th "เมื่อเปิดประตูห้องก็พบว่าเรกะ คาสึมะ และอากาเนะอยู่ที่ห้องสภานักเรียนแล้ว" with dissolve
     en "When I open the door, I find Reka, Kasuma, and Akane already there." with dissolve
     show reika normal at center with Dissolve(0.2) 
@@ -115,6 +117,7 @@ label s2_3:
     hide akane
     th "ไหงเป็นแบบนี้ไปได้" with dissolve
     en "Someone opens the door." with dissolve
+    play sound "audio/sfx/door_school.mp3"
     th "ใครบางคนเปิดประตูห้องเข้ามา เมื่อผมหันไปก็พบครูริสะ" with dissolve
     en "When we turn, we see it's Teacher Risa." with dissolve
     show risa normal at center with Dissolve(0.2) 
@@ -213,6 +216,7 @@ label s2_3:
     en "But because voting is normal at this school, all students accept the results without issues." with dissolve
     th "แม้จะมีความคิดเห็นแตกต่างกันบ้าง แต่ทุกคนก็ยอมรับในผลลัพธ์ที่เกิดขึ้นได้" with dissolve
     en "Even with differing opinions, everyone accepts the outcome." with dissolve
+    play sound "audio/sfx/school_alarm.mp3"
     th "ดูเหมือนตอนนี้จะถึงเวลาเรียนแล้ว" with dissolve
     en "It seems it's time for class now." with dissolve
     scene blackboard with Dissolve(1.0)
