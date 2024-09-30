@@ -43,12 +43,14 @@ label s2_1:
     yuno_th  "ห้ามนอนเด็ดขาด ขืนหลับต่อละก็ไปโรงเรียนสายแน่" with dissolve
     yuno_en  "Don't you dare fall back asleep. If you do, you'll be late for school." with dissolve
     scene home_yuumabedroom_morning with Dissolve(1.0)
+    play sound "audio/sfx/ドアを閉める2.mp3"
     th "นี่เรามีน้องสาวหรือแม่คนที่สองกันแน่เนี่ย…" with dissolve
     en "I wonder if we have a little sister or a second mother..." with dissolve
     th "ยูโนะพูดทิ้งท้ายก่อนเดินออกจากห้อง" with dissolve
     en "Yuno says as she walks out of the room." with dissolve
     yuma_th  "ง่วงจัง ถ้านอนต่ออีกสัก 5 นาทีก็คงไม่เป็นอะไรหรอกมั้ง" with dissolve
     yuma_en  "I'm so sleepy. Surely another 5 minutes won't hurt." with dissolve
+    play sound "audio/sfx/家の階段を駆け上る.mp3"
     th "พอพูดจบ ผมก็ดำดิ่งเข้าสู่ห้วงนิทรา" with dissolve
     en "As soon as I say that, I drift back into sleep," with dissolve
     th "โดยที่ไม่ได้ตระหนักว่าการนอนต่อรอบท่ีสองคือจุดเริ่มต้นของหายนะ" with dissolve
@@ -134,9 +136,11 @@ label s2_1:
     scene neighborhood_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
+    play sound "audio/sfx/run.mp3"
     th "ผมรีบวิ่งสุดกำลังเพื่อไปโรงเรียนให้ทัน" with dissolve
     en "" with dissolve
     scene back_street_noon with Dissolve(1.0)
+    play sound "audio/sfx/ロボットを殴る1.mp3"
     th "ผมสะดุดหกล้มเพราะเผลอไปเตะถังเหล็กเข้าโดยบังเอิญ" with dissolve
     en "I trip and fall because I accidentally kicked a metal bin." with dissolve
     yuma_th  "โอ๊ย!" with dissolve
@@ -279,6 +283,7 @@ label s2_1:
     akane_en normal "Remember, don't let this happen again." with dissolve
     show akane normal at center with Dissolve(0.2) 
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_017.mp3"
+    play sound "audio/sfx/escape.mp3"
     akane_th angry "ถ้ารุ่นพี่ยูมะตื่นเช้าตั้งแต่แรก ก็ไม่ต้องรีบวิ่งจนกระเซอะกระเซิงและเนคไทหลุดลุ่ยแบบนี้" with dissolve
     akane_en angry "If Senior Yuma woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_018.mp3"
@@ -302,6 +307,7 @@ label s2_1:
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_021.mp3"
     akane_th serious "เข้าใจก็ดีแล้ว… อ๊ะ!" with dissolve
     akane_en serious "Good that you understand... Ah!" with dissolve
+    play sound "audio/sfx/squeeze.mp3"
     th "ทันใดนั้น อากาเนะทำสายตาเหมือนแมวที่เจอหนูวิ่งผ่านต่อหน้าต่อตา" with dissolve
     en "Suddenly, Akane's eyes look like a cat that's just spotted a mouse running by." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_022.mp3"
