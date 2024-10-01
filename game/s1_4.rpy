@@ -305,8 +305,8 @@ label s1_4:
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_024.mp3"
     #todo
     # show excited with dissolve
-    reika_th normal "เมื่อกี้นายว่ายังไงนะ" with dissolve
-    reika_en normal "What did you just say?" with dissolve
+    reika_th sadistic2_2_s "เมื่อกี้นายว่ายังไงนะ" with dissolve
+    reika_en sadistic2_2_s "What did you just say?" with dissolve
     th "แผ่นหลังผมเย็นวาบ สัมผัสได้ถึงจิตสังหารที่ย่างกรายเข้ามา" with dissolve
     en "My back turns cold. I can sense the killing intent approaching." with dissolve
     th "นี่มันบ้านของผมไม่ใช่เหรอ เรกะมาอยู่ที่นี่ได้ยังไงเนี่ย" with dissolve
@@ -319,8 +319,8 @@ label s1_4:
     yuma_th  "มันจะไปลืมได้ยังไงล่ะ" with dissolve
     yuma_en  "How can I forget about it?" with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_026.mp3"
-    reika_th normal "ดีล่ะ ถ้างั้นจะทำให้นายลืมไปตลอดกาลเลย" with dissolve
-    reika_en normal "Fine. Then I'll make you forget forever." with dissolve
+    reika_th sadistic_2_s "ดีล่ะ ถ้างั้นจะทำให้นายลืมไปตลอดกาลเลย" with dissolve
+    reika_en sadistic_2_s "Fine. Then I'll make you forget forever." with dissolve
     yuma_th  "ลืมแล้วครับ ลืมเรื่องไฝที่ก้นไปหมดแล้วคร้าบ" with dissolve
     yuma_en  "I've forgotten! I've forgotten all about the mole on your butt!" with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_027.mp3"
