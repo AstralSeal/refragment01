@@ -239,6 +239,11 @@ image reika bored_2:
     zoom 0.75
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body.png" ,(0,1700), "Sprite/reika02/reika02_Bored.png" )
+
+image akane s2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/akane/akane_bodys.png" ,(0,1700), "Sprite/akane/akane_s2.png" )
 ######## Custom ######### 
 image flyingseal01:
     "SD/flyingseal/flyingseal01.png" with dissolve
