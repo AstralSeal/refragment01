@@ -126,7 +126,7 @@ label s1_3:
     student_m_a_en  "Childhood friends? How long have you two known each other?" with dissolve
     yuma_th  "นั่นสินะ รู้จักกันมานานมากพอที่จะรู้ว่าเรกะมีไฝที่…" with dissolve
     yuma_en  "Well, long enough for me to know that Rega has a mole on her..." with dissolve
-    show reika normal at zoom_in,center with Dissolve(1.0) 
+    show reika sadistic2_2_s at zoom_in,center with Dissolve(1.0) 
     th "ขณะที่ผมกำลังพูด เรกะหันมาจ้องผมด้วยสายตาอำมหิต" with dissolve
     en "As I was speaking, Rega turned to glare at me with murderous eyes." with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_011.mp3"
