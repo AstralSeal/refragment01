@@ -262,6 +262,28 @@ image side reika shy_2:
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body_shy.png" ,(0,1700), "Sprite/reika02/reika02_shy.png" )
 
+image reika sadistic_2_s:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_s.png" ,(0,1700), "Sprite/reika01/reika01_sadistic.png" )
+
+image side reika sadistic_2_s:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_s.png" ,(0,1700), "Sprite/reika01/reika01_sadistic.png" )
+
+image reika sadistic2_2_s:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body_sadistic.png" ,(0,1700), "Sprite/reika02/reika02_sadistic.png" )
+
+image side reika sadistic2_2_s:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body_sadistic.png" ,(0,1700), "Sprite/reika02/reika02_sadistic.png" )
+
 image reika shy_shy:
     zoom 0.75
     xoffset 25
@@ -273,10 +295,6 @@ image side reika shy_shy:
     yoffset 370
     im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_shy.png" ,(0,1700), "Sprite/reika01/reika01_shy1.png" )
 
-image akane s2:
-    zoom 0.75
-    xoffset 25
-    im.Composite((1433,3100), (0,1700), "Sprite/akane/akane_bodys.png" ,(0,1700), "Sprite/akane/akane_s2.png" )
 
 image akane s2:
     zoom 0.75
@@ -284,6 +302,17 @@ image akane s2:
     im.Composite((1433,3100), (0,1700), "Sprite/akane/akane_bodys.png" ,(0,1700), "Sprite/akane/akane_s2.png" )
 
 image side akane s2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/akane/akane_bodys.png" ,(0,1700), "Sprite/akane/akane_s2.png" )
+
+image akane s2_s:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/akane/akane_bodys.png" ,(0,1700), "Sprite/akane/akane_s2.png" )
+
+image side akane s2_s:
     zoom 0.55
     xoffset -200
     yoffset 370
@@ -347,7 +376,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_4
+    jump s1_1
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve

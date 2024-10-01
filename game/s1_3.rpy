@@ -37,8 +37,8 @@ label s1_3:
     yuma_th  "ก็แค่บังเอิญน่ะ" with dissolve
     yuma_en  "It's just a coincidence." with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_002.mp3"
-    reika_th normal "เห… นายจะบอกว่ารุ่นพี่กระเถิบเอาหน้าอกเบิ้มๆ มาดันแขนเนี่ยเป็นเรื่องบังเอิญเหรอ" with dissolve
-    reika_en normal "Huh... You're saying it's a coincidence that a senior moved closer and pressed her huge breasts against your arm?" with dissolve
+    reika_th sadistic2_2_s "เห… นายจะบอกว่ารุ่นพี่กระเถิบเอาหน้าอกเบิ้มๆ มาดันแขนเนี่ยเป็นเรื่องบังเอิญเหรอ" with dissolve
+    reika_en sadistic2_2_s "Huh... You're saying it's a coincidence that a senior moved closer and pressed her huge breasts against your arm?" with dissolve
     yuma_th  "ก็… แค่… บัง… เอิญ…" with dissolve
     yuma_en  "It's... just... a... coincidence..." with dissolve
     th "ผมตอบปฏิเสธด้วยความลังเล" with dissolve
