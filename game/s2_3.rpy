@@ -227,8 +227,8 @@ label s2_3:
     risa_th ah "เอาล่ะ ถึงเวลาเรียนแล้ว ทุกคนกลับนั่งที่ให้เรียบร้อย" with dissolve
     risa_en ah "Alright, class time. Everyone, back to your seats, Teacher Risa announces." with dissolve
     play sound "audio/voice/risa/chapter2/chapter2_3/risa_2_3_009.mp3"
-    risa_th normal "ถ้าวันนี้ใครไม่ตั้งใจเรียนอีกละก็ คงจะรู้ใช่ไหมว่าจะเกิดอะไรขึ้น" with dissolve
-    risa_en normal "If anyone isn't paying attention today, you know what will happen." with dissolve
+    risa_th sadistic_s "ถ้าวันนี้ใครไม่ตั้งใจเรียนอีกละก็ คงจะรู้ใช่ไหมว่าจะเกิดอะไรขึ้น" with dissolve
+    risa_en sadistic_s "If anyone isn't paying attention today, you know what will happen." with dissolve
     th "ครูริสะก็หันมามองหน้าผมด้วยสายตาที่ดูไม่เป็นมิตรสักเท่าไร" with dissolve
     en "She turns to look at me with an unfriendly gaze." with dissolve
     scene school_classroom_noon with Dissolve(1.0)
