@@ -254,6 +254,9 @@ style quick_button:
     margin (5, 5, 5, 5)  # Adjust margin as needed (top, right, bottom, left)
 style menu_button_text is text:
     size 38
+    hover_color "#FFAB56"
+
+
     
 screen quick_menu():
     # Ensure this appears on top of other screens.
