@@ -81,8 +81,8 @@ label s2_4:
     yuma_th  "ขืนผมวาดเป็นดอกไม้สองดอกตามตำราเรียน สุดท้ายมันก็คงออกมาน่าเบื่อเหมือนเดิมนั่นแหละครับ" with dissolve
     yuma_en  "If I just drew two plain flowers like in the textbook, it would end up being just as dull as ever." with dissolve
     play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_011.mp3"
-    risa_th normal "เดี๋ยวเถอะ! นี่เธอกำลังจะบอกว่าเรื่องที่ฉันสอนมันน่าเบื่องั้นเหรอ!" with dissolve
-    risa_en normal "Hey now! Are you trying to say my lessons are boring?!" with dissolve
+    risa_th sadistic_s "เดี๋ยวเถอะ! นี่เธอกำลังจะบอกว่าเรื่องที่ฉันสอนมันน่าเบื่องั้นเหรอ!" with dissolve
+    risa_en sadistic_s "Hey now! Are you trying to say my lessons are boring?!" with dissolve
     yuma_th  "ใจเย็นก่อนครับครูริสะ ฟังที่ผมกำลังจะอธิบายให้จบก่อนสิครับ" with dissolve
     yuma_en  "Calm down Ms. Risa, hear me out first." with dissolve
     yuma_th  "หลังจากนั้นผมเลยเกิดไอเดียว่าถ้าเราใช้วิธีเปรียบเทียบกับสิ่งที่ทุกคนรู้อยู่แล้วอย่างเช่นการผสมพันธุ์ของมนุษย์ มันน่าจะทำให้เข้าใจง่ายขึ้น" with dissolve

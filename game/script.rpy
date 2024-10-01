@@ -240,6 +240,39 @@ image reika bored_2:
     xoffset 25
     im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body.png" ,(0,1700), "Sprite/reika02/reika02_Bored.png" )
 
+image reika shy_2_shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_shy.png" ,(0,1700), "Sprite/reika01/reika01_shy2.png" )
+
+image side reika shy_2_shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_shy.png" ,(0,1700), "Sprite/reika01/reika01_shy2.png" )
+
+image reika shy_2:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body_shy.png" ,(0,1700), "Sprite/reika02/reika02_shy.png" )
+
+image side reika shy_2:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika02/reika02_body_shy.png" ,(0,1700), "Sprite/reika02/reika02_shy.png" )
+
+image reika shy_shy:
+    zoom 0.75
+    xoffset 25
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_shy.png" ,(0,1700), "Sprite/reika01/reika01_shy1.png" )
+
+image side reika shy_shy:
+    zoom 0.55
+    xoffset -200
+    yoffset 370
+    im.Composite((1433,3100), (0,1700), "Sprite/reika01/reika01_body_shy.png" ,(0,1700), "Sprite/reika01/reika01_shy1.png" )
+
 image akane s2:
     zoom 0.75
     xoffset 25
@@ -314,7 +347,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s2_1
+    jump s2_4
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
