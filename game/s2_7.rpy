@@ -41,10 +41,10 @@ label s2_7:
     th "ก่อนที่ฤดูใบไม้ผลิของผมจะมาถึง คาสึมะก็เข้ามาในห้องสภานักเรียน" with dissolve
     en "Before my springtime could arrive, Kasuma entered the student council room." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_001.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_002.mp3"
     kazuma_th normal "มาแล้ว ขอโทษที มีธุระนิดหน่อย" with dissolve
     kazuma_en normal "I'm here. Sorry, I had a small errand to run." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_002.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_003.mp3"
     kazuma_th ah "ฉันมีเรื่องสำคัญจะบอกทุกคน" with dissolve
     kazuma_en ah "I have something important to tell everyone." with dissolve
     hide kazuma
@@ -55,7 +55,7 @@ label s2_7:
     hide reika
     show kazuma normal at left
     show akane normal at right with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_003.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_004.mp3"
     kazuma_th confident "ใช่แล้ว ถูกต้อง" with dissolve
     kazuma_en confident "Yes, that's right." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_001.mp3"
@@ -71,7 +71,7 @@ label s2_7:
     reika_en cold_2 "Yuma, do you really not remember?" with dissolve
     hide reika
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_004.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_005.mp3"
     kazuma_th eh "ไม่อยากเชื่อ นายนี่ความจำปลาทองชัดๆ" with dissolve
     kazuma_en eh "I can't believe it. You've got the memory of a goldfish." with dissolve
     hide kazuma
@@ -94,10 +94,10 @@ label s2_7:
     #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_007.mp3"
     reika_th angry_2 "การคำนวณกับการจดจำมันเป็นคนละเรื่องกัน" with dissolve
     reika_en angry_2 "Calculation and memory are two different things." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_005.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_006.mp3"
     kazuma_th smile "ถ้าเดี๋ยวฉันจะช่วยตัดสินให้เอง" with dissolve
     kazuma_en smile "I'll help settle this right now." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_006.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_007.mp3"
     kazuma_th ah "ยูมะ ตอนที่เรกะพูดแถลงบนเวที นายจำได้ไหมว่าสารเคมีอะไรในน้ำอัดลมที่กัดกร่อนฟันและเป็นอันตรายต่อร่างกาย" with dissolve
     kazuma_en ah "Yuma, when Rega was giving her speech on stage, do you remember what chemical in soda she said erodes teeth and is harmful to the body?" with dissolve
     hide reika
@@ -114,7 +114,7 @@ label s2_7:
     en "If answered correctly" with dissolve
     show kazuma normal at center with Dissolve(0.2)
     play sound "audio/sfx/correct.mp3"
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_007.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_008.mp3"
     kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
     kazuma_en ah "That answer is... correct." with dissolve
     hide kazuma
@@ -130,7 +130,7 @@ label s2_7:
     en "If answered incorrectly" with dissolve
     show kazuma normal at center with Dissolve(0.2) 
     play sound "audio/sfx/wrong.mp3"
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_008.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_009.mp3"
     kazuma_th angry "เป็นคำตอบที่…… ผิด มั่วสิ้นดี" with dissolve
     kazuma_en angry "That answer is... wrong. Completely off." with dissolve
     hide kazuma
@@ -148,7 +148,7 @@ label s2_7:
     #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
     reika_th normal "ยูมะเดอะปลาทอง" with dissolve
     reika_en normal "Yuma the Goldfish" with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_009.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
     kazuma_th normal "ยูมะเดอะปลาทอง" with dissolve
     kazuma_en normal "Yuma the Goldfish" with dissolve
     th "บุ๋งๆ" with dissolve
@@ -191,10 +191,10 @@ label s2_7:
     stop music
     play music "audio/bgm/MusMus-BGM-143.mp3" volume 0.5
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_011.mp3"
     kazuma_th normal "นี่แหละปัญหา รอบนี้ฝ่ายเสนอญัตติท้าโต้วาทีกับสภานักเรียนโดยตรงเลย" with dissolve
     kazuma_en normal "That's the problem. This time, the group proposing the motion is challenging the student council directly." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_011.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_012.mp3"
     kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า ‘สุริยันสาดแสง’ น่ะ " with dissolve
     kazuma_en  "I heard it's a student group called 'Radiant Sun' or something." with dissolve
     hide kazuma
@@ -223,18 +223,18 @@ label s2_7:
     yuma_en  "Are you guys ignoring me?!" with dissolve
     hide reika
     show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_012.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_013.mp3"
     kazuma_th ah "เท่าที่ทราบ สุริยันสาดแสงเป็นกลุ่มนักเรียนหัวก้าวหน้าที่ต้องการเปลี่ยนแปลงโรงเรียนแบบก้าวกระโดด" with dissolve
     kazuma_en ah "As far as I know, Radiant Sun is a progressive student group that wants to make drastic changes to the school." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_013.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_014.mp3"
     kazuma_th  "สโลแกนคือทำให้โรงเรียนเจิดจ้าราวกับดวงตะวัน อะไรสักอย่างทำนองนี้" with dissolve
     kazuma_en  "Their slogan is something like 'Make the school shine as bright as the sun'." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_014.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_015.mp3"
     kazuma_th  "ได้ข่าวว่ารอบหน้าจะลงสมัครเลือกตั้งประธานนักเรียนด้วย" with dissolve
     kazuma_en  "I heard they're planning to run for student council president next time." with dissolve
     yuma_th  "สรุปคือว่าที่คู่แข่งของพวกเราในอนาคตสินะ" with dissolve
     yuma_en  "So they're our future rivals, huh?" with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_015.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_016.mp3"
     kazuma_th serious "ในเมื่อเจ้าพวกนั้นกล้าท้าชนสภานักเรียน เดี๋ยวฉันจะเป็นตัวแทนฝ่ายค้านให้เอง" with dissolve
     kazuma_en serious "" with dissolve
     th "การโต้วาทีไม่ใช่เรื่องที่พบได้บ่อย โดยเฉพาะอย่างยิ่งการท้าชนกับสภานักเรียน" with dissolve
@@ -249,7 +249,7 @@ label s2_7:
     show kazuma normal at center with Dissolve(0.2) 
     yuma_th  "ฉันเชื่อใจนายนะ คาสึมะ" with dissolve
     yuma_en  "I trust you, Kasuma." with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_016.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_017.mp3"
     kazuma_th confident "ฉันไม่คิดจะแพ้ให้กับเจ้าพวกนั้นอยู่แล้ว วางใจได้เลย" with dissolve
     kazuma_en confident "I never intended to lose to them anyway. You can count on me." with dissolve
     th "คาสึมะยอมรับคำท้าและอาสาเป็นตัวแทนฝ่ายค้าน" with dissolve

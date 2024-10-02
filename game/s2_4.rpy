@@ -629,7 +629,7 @@ label s2_4:
     yuma_th  "มีโปรโมชั่นแรกเข้าด้วย?! ว่าแต่ทำไมต้องเป็นถึงมือโกลด้วยล่ะ" with dissolve
     yuma_en  "A sign-up bonus too?! But why goalie gloves of all things?" with dissolve
     #problem
-    # play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_020.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_020.mp3"
     kazuma_th confident "นายเป็นตัวรับมุกในสภานักเรียนอยู่แล้ว น่าจะเหมาะกับการรับลูกบอลเหมือนกัน" with dissolve
     kazuma_en confident "You're already the guy who fields the jokes in student council. Fielding balls should suit you too." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_021.mp3"

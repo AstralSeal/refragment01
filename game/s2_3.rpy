@@ -89,7 +89,7 @@ label s2_3:
     show kazuma normal at left
     show reika normal at right with Dissolve(0.2) 
     # problem
-    # play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_003.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_3/kazuma_2_3_003.mp3"
     kazuma_th normal "สมาชิกสภานักเรียนต้องได้รับความเห็นชอบจากนักเรียนหมู่มาก" with dissolve
     kazuma_en normal "Student council members need approval from the majority of students, Kasuma answers." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_3/reika_2_3_010.mp3"
