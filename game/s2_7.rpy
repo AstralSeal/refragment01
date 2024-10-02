@@ -55,7 +55,7 @@ label s2_7:
     hide reika
     show kazuma normal at left
     show akane normal at right with Dissolve(0.2) 
-    # play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_003.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_003.mp3"
     kazuma_th confident "ใช่แล้ว ถูกต้อง" with dissolve
     kazuma_en confident "Yes, that's right." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_001.mp3"
@@ -118,8 +118,9 @@ label s2_7:
     kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
     kazuma_en ah "That answer is... correct." with dissolve
     hide kazuma
-    show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
+    show reika normal at center with Dissolve(0.2)
+    #missing
+    ##play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
     reika_th sad2 "รอดไปนะ" with dissolve
     reika_en sad2 "You dodged that one." with dissolve
     yuma_th  "มันแน่อยู่แล้ว ฝีมือระดับฉัน" with dissolve

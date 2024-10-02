@@ -11,7 +11,7 @@ label s2_8:
     yuma_th  "กลับมาแล้วครับ" with dissolve
     yuma_en  "I'm back, I said." with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_001.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_001.mp3"
     yuno_c_th panic4_2 "เกิดเรื่องใหญ่แล้ว เมย์เดย์ เมย์เดย์ ต้องการความช่วยเหลือด่วน" with dissolve
     yuno_c_en panic4_2 "A big problem has occurred! Mayday, mayday! We need urgent help!" with dissolve
     th "ยูโนะพูดด้วยความกระวนกระวายแบบเดียวกับตอนเล่นเกมแนว FPS" with dissolve
@@ -20,19 +20,19 @@ label s2_8:
     yuma_en  "What happened?" with dissolve
     th "ผมถามด้วยความเป็นห่วง" with dissolve
     en "I asked with concern." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_002.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_002.mp3"
     yuno_c_th panic3_2 "ตอนนี้เข้าช่วงสอบแล้ว พี่ช่วยหนูทบทวนบทเรียนวิชาคณิตศาสตร์หน่อยสิ" with dissolve
     yuno_c_en panic3_2 "It's exam season now. Can you help me review my math lessons?" with dissolve
     yuma_th  "นึกว่าเรื่องใหญ่โตอะไร ถ้าเจอแมลงสาบในห้องน้ำก็ว่าไปอย่าง" with dissolve
     yuma_en  "I thought it was something major. If you found a cockroach in the bathroom, that would be different." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_003.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_003.mp3"
     yuno_c_th panic2_2 "อย่าพูดชื่อนั้นให้ได้ยินนะ หนูไม่อยากนึกถึงมัน!" with dissolve
     yuno_c_en panic2_2 "Don't say that name out loud! I don't want to think about it!" with dissolve
     th "ยูโนะตัวสั่น สีหน้าบ่งบอกว่าหวาดกลัวสุดขีด" with dissolve
     en "Yuno shuddered, her face showing extreme fear." with dissolve
     yuma_th  "ระหว่างคณิตศาสตร์กับแมลงสาบ อะไรน่ากลัวกว่ากัน" with dissolve
     yuma_en  "Between math and cockroaches, which is scarier?" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_004.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_004.mp3"
     show shine
     yuno_c_th confident "ครูสอนคณิตศาสตร์ที่เป็นแมลงสาบ" with dissolve
     yuno_c_en confident "A math teacher who's a cockroach." with dissolve
@@ -41,7 +41,7 @@ label s2_8:
     yuma_en  "If something like that really existed, I'd be scared too." with dissolve
     yuma_th  "เอาเป็นว่าเดี๋ยวพี่ช่วยติวสอบให้ ขออาบน้ำก่อนนะ" with dissolve
     yuma_en  "Anyway, I'll help you study later. Let me take a shower first." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_005.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_005.mp3"
     yuno_c_th smile4 "เย้ รักพี่ที่สุดเลย" with dissolve
     yuno_c_en smile4 "Yay! I love you so much, big bro!" with dissolve
     th "ยูโนะเดินไปที่ห้องรับแขกด้วยความดีใจ" with dissolve
@@ -61,10 +61,10 @@ label s2_8:
     en "This isn't too difficult. Your big brother will take care of it!" with dissolve
     yuma_th  "ก่อนอื่น ลองทำแบบฝึกหัดก่อนเรียนเพื่อทดสอบความรู้กันก่อนนะ" with dissolve
     yuma_en  "First, let's do some pre-study exercises to test your knowledge." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_006.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_006.mp3"
     yuno_c_th question "เอ๋? ต้องทำแบบฝึกหัดด้วยเหรอเนี่ย" with dissolve
     yuno_c_en question "Huh? Do I have to do exercises too?" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_007.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_007.mp3"
     yuno_c_th cry2 "แง้ พี่ใจร้ายที่สุด เอาเวลาเล่นเกมของหนูคืนมาเลยนะ!" with dissolve
     yuno_c_en cry2 "Waaah, you're so mean! Give me back my gaming time!" with dissolve
     th "พอรู้ว่าต้องทำแบบฝึกหัด ยูโนะก็ทักท้วงขึ้นมาทันที" with dissolve
@@ -77,7 +77,7 @@ label s2_8:
     yuma_en "We're just getting started. Don't give up so soon." with dissolve
     yuma_th  "ลองนึกถึงตอนเล่นเกมก็ได้ ก่อนที่จะไปตะลุยดันเจี้ยนก็ต้องผ่านด่านแรก Tutorial ก่อน" with dissolve
     yuma_en  "Try to think of it like playing a game. Before diving into a dungeon, you have to clear the tutorial level first." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_008.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_008.mp3"
     yuno_c_th endure "ก็ได้ หนูจะลองทำแบบฝึกหัดก่อนก็ได้" with dissolve
     yuno_c_en endure "Fine, I'll try the pre-study exercises." with dissolve
     th "ยูโนะพูดอย่างไม่เต็มใจนัก แต่เธอก็ยินยอมทำแบบทดสอบก่อนเรียนอย่างขมักเขม้น" with dissolve
@@ -92,7 +92,7 @@ label s2_8:
     th "ผ่านไป 15 นาที ยูโนะก็ทำแบบทดสอบเสร็จ" with dissolve
     en "15 minutes later, Yuno finished the pre-test." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_009.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_009.mp3"
     yuno_c_th badass "เสร็จแล้ว! เป็นยังไงบ้าง" with dissolve
     yuno_c_en badass "I'm done! How did I do?" with dissolve
     th "ยูโนะพูดด้วยสีหน้ามั่นใจ" with dissolve
@@ -104,26 +104,26 @@ label s2_8:
     play sound "audio/sfx/レベルアップ.mp3"
     yuma_th  "48 คะแนน" with dissolve
     yuma_en  "48 points." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_010.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_010.mp3"
     yuno_c_th confident "ไม่เลวเลยนี่ แค่ครั้งแรกก็ได้คะแนนเกือบผ่านแล้ว" with dissolve
     yuno_c_en confident "Not bad. You almost passed on your first try." with dissolve
     yuma_th  "ไม่เลวที่ไหนกันเล่า เกือบผ่านแปลว่ายังไม่ผ่านนะ!?" with dissolve
     yuma_en  "What do you mean 'not bad'? 'Almost passed' means I didn't pass!" with dissolve
     hide 48 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_011.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_011.mp3"
     yuno_c_th angry_2 "พี่เอาแบบทดสอบอะไรมาให้หนูทำก็ไม่รู้ ยากแบบนี้ใครจะไปทำได้" with dissolve
     yuno_c_en angry_2 "I don't know what kind of test you gave me, but it was so hard. Who could even do this?" with dissolve
     yuma_th  "เท่าที่ลองตรวจแบบทดสอบ ดูเหมือนว่าโจทย์ประยุกต์ที่ต้องพลิกแพลงสูตรยังตอบผิดอยู่" with dissolve
     yuma_en  "From what I can see, you're still getting the applied problems wrong, the ones where you need to manipulate formulas." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_012.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_012.mp3"
     yuno_c_th blank_2 "ก็หนูไม่เข้าใจนี่นา วิชาคณิตศาสตร์เทอมนี้ดันมีแต่เรื่องสมการกำลังสองอะไรไม่รู้ ยากจะตาย" with dissolve
     yuno_c_en blank_2 "I just don't understand! This term's math is all about quadratic equations or something. It's so hard!" with dissolve
     yuma_th  "การสอบมีเวลาจำกัด ถ้าไม่ใช้สูตรก็มีโอกาสที่จะทำข้อสอบไม่ทัน" with dissolve
     yuma_en  "Exams have time limits. If you don't use formulas, you might not finish in time." with dissolve
     yuma_th  "ถึงสูตรจะยาวและจำยาก แต่ถ้าจำได้รับรองว่าสอบผ่านแน่นอน" with dissolve
     yuma_en  "Even if the formulas are long and hard to remember, if you can memorize them, you're sure to pass." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_013.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_013.mp3"
     yuno_c_th panic2_2 "ขืนต้องจำสูตรพวกนี้หนูคงตายก่อนสอบเสร็จแน่เลย" with dissolve
     yuno_c_en panic2_2 "If I have to memorize these formulas, I'll probably die before the exam is over!" with dissolve
     yuma_th  "ไม่ขนาดนั้นหรอก เดี๋ยวพี่ช่วยสอนให้" with dissolve
@@ -131,12 +131,12 @@ label s2_8:
     yuma_th  "ก่อนอื่น ลองเขียนสูตรให้พี่ดูหน่อยสิ" with dissolve
     yuma_en  "First, try writing out the formula for me." with dissolve
     hide yuno_c
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_014.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_014.mp3"
     hide 48
     show sleep_note07 with dissolve
     yuno_c_th smile_2 "นี่ไง พึ่งเรียนมาวันนี้เลย เป็นไงล่ะ" with dissolve
     yuno_c_en smile_2 "Here it is. I just learned it today. How's that?" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_015.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_015.mp3"
     yuno_c_th confident_2 "เชื่อหนูสิ หนูเป็นเทพวิชาคณิตศาสตร์" with dissolve
     yuno_c_en confident_2 "Trust me, I'm a math genius." with dissolve
     th "ยูโนะพูดด้วยสีหน้ามั่นใจเต็มพิกัดเหมือนตอนกดกาชาได้ SSR" with dissolve
@@ -147,14 +147,14 @@ label s2_8:
     yuma_en  "Wrong! This is the perfect square formula. And you forgot +2xy." with dissolve
     hide sleep_note07 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_016.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_016.mp3"
     yuno_c_th panic2_2 "มุแง้" with dissolve
     yuno_c_en panic2_2 "Muwah!" with dissolve
     th "ยูโนะทำท่าตกใจ ราวกับโดนคริติคอลฮิตเข้าเต็มๆ" with dissolve
     en "Yuno looked shocked, as if she'd been hit by a critical attack." with dissolve
     yuma_th  "ช่วยไม่ได้ ถ้างั้นคงต้องเริ่มปูพื้นฐานใหม่หมดเลยสินะ" with dissolve
     yuma_en  "Can't be helped. Looks like we'll have to start from the basics again." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_017.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_017.mp3"
     yuno_c_th cry2 "แง้ ไม่เอา น่าเบื่อจะแย่อยู่แล้ว ขืนเรียนต่อไปหนูหลับชัวร์เลย" with dissolve
     yuno_c_en cry2 "No way! It's so boring already. If we keep studying, I'll definitely fall asleep." with dissolve
     th "ยูโนะมักแสดงนิสัยเอาแต่ใจตัวเองตอนที่ทุกอย่างไม่เป็นไปตามที่เธอคิดไว้" with dissolve
@@ -166,15 +166,15 @@ label s2_8:
     en "Calm down, Yuma. Take a deep breath." with dissolve
     scene bg036n19201080 with Dissolve(1.0)
     show kazuma normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_001.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_001.mp3"
     hide sleep_note07
     show old with dissolve
     kazuma_th smile "แรงจูงใจมีสองแบบ ได้แก่ แรงจูงใจภายนอกและแรงจูงใจภายใน" with dissolve
     kazuma_en smile "There are two types of motivation: extrinsic and intrinsic." with dissolve
-    #---- play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_002.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_002.mp3"
     kazuma_th normal "แรงจูงใจภายนอกคือการทำอะไรบางอย่างเพื่อเป้าหมายที่จับต้องได้ เช่น เงิน ของรางวัล การเลื่อนตำแหน่ง" with dissolve
     kazuma_en normal "Extrinsic motivation is doing something for tangible rewards, like money, prizes, or promotions." with dissolve
-    #---- play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_003.mp3"
+    play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_003.mp3"
     kazuma_th  "แรงจูงใจภายในคือการทำอะไรบางอย่างจากความต้องการส่วนตัว เช่น ความสนุก ความอยากรู้อยากเห็น" with dissolve
     kazuma_en  "Intrinsic motivation is doing something out of personal desire, like for fun or curiosity." with dissolve
     hide kazuma
@@ -191,7 +191,7 @@ label s2_8:
     show yuno_c normal at center with Dissolve(0.2) 
     yuma_th  "ถ้าทำแบบฝึกหัดนี้ได้ เดี๋ยวพี่จะเลี้ยงพุดดิ้งสตรอเบอร์รี่ให้สองถ้วยเลย!" with dissolve
     yuma_en  "If you can solve this exercise, I'll treat you to two strawberry puddings!" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_018.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_018.mp3"
     yuno_c_th smile_2 "สองถ้วยเลยเหรอ?! เย้ พี่ใจดีที่สุด เริ่มข้อแรกเลย Let’s go!" with dissolve
     yuno_c_en smile_2 "Two puddings?! Yay! You're the best, big bro! Let's start with the first problem. Let's go!" with dissolve
     th "การสร้างแรงจูงใจภายนอกอย่างของรางวัลได้ผลดีผิดคาด" with dissolve
@@ -219,7 +219,7 @@ label s2_8:
     yuma_en  "If the sides of a right triangle are x, x+2, and x+3 as shown in the figure, what is the perimeter of the triangle?" with dissolve
     yuma_th  "เอาล่ะโจทย์ข้อแรกเริ่มได้!" with dissolve
     yuma_en  "Alright, first problem!" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_019.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_019.mp3"
     yuno_c_th confident "ข้อนี้หนูพอทำได้อยู่นะ" with dissolve
     yuno_c_en confident "I think I can do this one." with dissolve
     yuma_th  "ถ้างั้นข้อนี้พี่ให้เวลา 10 นาที เดี๋ยวจะกลับมาดู" with dissolve
@@ -234,7 +234,7 @@ label s2_8:
     show yuno_c normal at center with Dissolve(0.2) 
     yuma_th  "เป็นไงบ้าง ทำได้มั้ย ขอดูหน่อยซิ" with dissolve
     yuma_en  "How was it? Could you do it? Let me see." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_020.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_020.mp3"
     yuno_c_th angry "พี่ลองดูเอาเองก็แล้วกัน" with dissolve
     yuno_c_en angry "You can look for yourself." with dissolve
     th "ยูโนะยื่นสมุดคำตอบมาให้ผมดู" with dissolve
@@ -250,7 +250,7 @@ label s2_8:
     en "But after writing the equation, there was only blank paper, with nothing else written." with dissolve
     yuma_th  "ทำไมมีแต่สมการล่ะ แล้วคำตอบกับขั้นตอนที่เหลือหายไปไหน" with dissolve
     yuma_en  "Why is there only an equation? Where's the rest of the answer and steps?" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_021.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_021.mp3"
     yuno_c_th serious_2 "คำตอบที่เหลือ รวมถึงความรู้สึกของหนูอยู่ในหน้าถัดไป" with dissolve
     yuno_c_en serious_2 "The rest of the answer, including my feelings, are on the next page." with dissolve
     th "ผมพลิกกระดาษไปหน้าถัดไปตามที่ยูโนะบอก" with dissolve
@@ -271,15 +271,15 @@ label s2_8:
     yuma_th  "นี่มันอะไรกันเนี่ย" with dissolve
     yuma_en  "What's this all about?" with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_022.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_022.mp3"
     yuno_c_th angry_2 "พี่นี่ความรู้สึกช้าจังเลย ก็ตามที่เห็นนั่นแหละ " with dissolve
     yuno_c_en angry_2 "Big bro, you're so slow to understand. It's exactly what you see." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_023.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_023.mp3"
     yuno_c_th  "สมการของพี่ไม่เห็นแยกตัวประกอบได้เลย แล้วจะไปทำได้ไงเนี่ย?" with dissolve
     yuno_c_en  "I couldn't factor your equation at all. How am I supposed to solve it?" with dissolve
     yuma_th  "ก็ใช้สูตรแก้ไง ไม่ใช่สมการทุกข้อที่จะใช้วิธีแยกตัวประกอบได้ซักหน่อย" with dissolve
     yuma_en  "You use the formula, of course. Not every equation can be solved by factoring." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_024.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_024.mp3"
     yuno_c_th angry "สูตรยาวทะลุโลกแบบนั้นใครจะไปจำได้" with dissolve
     yuno_c_en angry "Who could remember such a long formula that goes on forever?" with dissolve
     yuma_th  "สูตรไม่ได้ยากขนาดนั้น มีแค่นี้เอง นี่ไง" with dissolve
@@ -290,15 +290,15 @@ label s2_8:
     yuma_en  "Just substitute the numbers in front of the X variable for a, b, c in the formula, and you're done." with dissolve
     yuma_th  "จำสูตรแค่นี้ไม่เห็นยากเลย ทีไอเท็มในเกมมีเป็นร้อยยังจำได้" with dissolve
     yuma_en  "Remembering this formula isn't hard at all. You can remember hundreds of items in games." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_025.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_025.mp3"
     yuno_c_th angry_2 "อะไรล่ะนั่น พี่อธิบายอะไรไม่เห็นเข้าใจเลย ไม่ต่างจากครูที่สอนหนูเลยสักนิด" with dissolve
     yuno_c_en angry_2 "What's that? I don't understand anything you're explaining. You're no different from my teachers." with dissolve
     yuma_th  "ทั้งหมดคือการนำสมการเส้นตรงพื้นฐานมาย้ายข้างเท่านั้นแหละ" with dissolve
     yuma_en  "It's all just taking the basic linear equation ax^2+bx+c = 0 and rearranging it." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_026.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_026.mp3"
     yuno_c_th angry "ย้ายข้างอะไร สุดท้ายคนที่เก่งคณิตก็มีแต่พวกความจำดี คนที่จำอะไรไม่ได้อย่างหนูคงหมดหวังแล้วล่ะ" with dissolve
     yuno_c_en angry "Rearranging what? In the end, only people with good memory are good at math. Someone like me who can't remember anything is hopeless." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_027.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_027.mp3"
     yuno_c_th serious "เอาแต่สอนให้ท่องจำ ถ้าไม่รู้ที่มาแล้วจะไปทำได้ยังไงกัน" with dissolve
     yuno_c_en serious "Just teaching to memorize, how can I do it if I don't know where it comes from?" with dissolve
     yuma_th  "ไม่ต้องไปรู้มันหรอกยูโนะ การพิสูจน์สูตรมันยากกว่าท่องจำซะอีก" with dissolve
@@ -315,22 +315,22 @@ label s2_8:
     en "Yuno's current knowledge probably wouldn't allow her to understand these formula proofs, but I was getting annoyed and wrote it out as she asked." with dissolve
     hide yuma_sensei22 with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_028.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_028.mp3"
     yuno_c_th angry_2 "แบบนี้มันยากกว่าเดิมอีก ใครจะไปทำได้" with dissolve
     yuno_c_en angry_2 "This is even harder than before. Who could possibly do this?" with dissolve
     yuma_th  "อะไรกันเล่า ก็เธอเป็นคนบอกให้พี่อธิบายที่มาของสูตร พี่ก็ทำให้แล้วไง" with dissolve
     yuma_en  "What do you mean? You're the one who told me to explain where the formula came from. I did what you asked." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_029.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_029.mp3"
     yuno_c_th serious_2 "ภาษาเอเลี่ยนชัดๆ พี่รู้เรื่องของพี่อยู่คนเดียวนั่นแหละ" with dissolve
     yuno_c_en serious_2 "This is clearly alien language. You're the only one who understands what you're talking about." with dissolve
     yuma_th  "ใช่ เข้าใจแล้วสินะว่าทำไมพี่ถึงบอกว่าให้จำสูตรไปเลย แค่ตั้งใจเรียนแล้วจำๆไปก็พอ" with dissolve
     yuma_en  "Yes, now you understand why I said to just memorize the formula. Just pay attention in class and memorize it, that's enough." with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_030.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_030.mp3"
     yuno_c_th angry "หา!? หนูตั้งใจเรียนสุดๆ แล้วนะ วิธีการสอนของพี่มันห่วยแตกต่างหาก!" with dissolve
     yuno_c_en angry "What?! I've been paying attention in class! It's your teaching method that sucks!" with dissolve
     yuma_th  "ขืนยังเอาแต่ใจตัวเองแบบนี้ ต่อไปจะทำข้อสอบได้ยังไงกัน" with dissolve
     yuma_en  "If you keep being this stubborn, how will you ever pass the exam?" with dissolve
-    #---- play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_031.mp3"
+    play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_031.mp3"
     yuno_c_th angry_2 "เรื่องของหนู ถ้ารู้ว่าพี่จะสอนแบบนี้ หนูอ่านหนังสือเองยังจะดีกว่าอีก" with dissolve
     yuno_c_en angry_2 "That's my problem. If I knew you'd teach like this, I'd be better off reading the book myself." with dissolve
     hide yuno_c
