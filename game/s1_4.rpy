@@ -439,7 +439,8 @@ label s1_4:
     stop music
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
     show reika onegai_2 at zoom_in,center
-    play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
+    #missing
+    # play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
     reika_th angrymeme_2 "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
     reika_en angrymeme_2 "When are you going to pay me back?!!!" with dissolve
     yuma_th  "เอ๋?!" with dissolve
@@ -567,4 +568,5 @@ label s1_4:
     en "Well, whatever the voting results are, I'll still have to do paperwork." with dissolve
     th "คิดมากไปก็ปวดหัว รีบทำรายงานส่งคุณครูริสะแล้วก็เข้านอนดีกว่า……" with dissolve
     en "Thinking too much gives me a headache. I'd better hurry and finish the report for Teacher Risa and go to bed......" with dissolve
+    jump s2_1
     return
