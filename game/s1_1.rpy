@@ -3,6 +3,8 @@ label s1_1:
     stop music
     play music "audio/bgm/MusMus-BGM-CP05.mp3" volume 0.5
     play sound "audio/sfx/学校の廊下を歩く.mp3"
+    $ achievement.grant("START_CH01")
+    $ achievement.sync()
     th "โถงทางเดินหน้าห้องเรียนชโลมด้วยสีส้มจากแสงอาทิตย์ยามเย็น" with dissolve
     en "The hallway in front of the classroom was bathed in the orange light of the evening sun." with dissolve
     th "แม้จะเป็นทัศนียภาพที่คุ้นชินและพบเห็นได้เป็นประจำทุกวัน" with dissolve

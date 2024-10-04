@@ -246,6 +246,9 @@ label s2_4:
     en "Hint - You can look back at previous messages by pressing the Backlog button" with dissolve
     menu :
         '[get_choice("18.00 น.","6:00 PM")]':
+            python:
+                achievement.grant("CHOICE_CH02_WRONGANSWER")
+                achievement.sync()
             show kazuma normal at center with Dissolve(0.2) 
             play sound "audio/sfx/wrong.mp3"
             play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"
@@ -265,6 +268,9 @@ label s2_4:
             yuma_th  "นี่เดี๋ยวเถอะ ฉันไม่ใช่เครื่องคิดเลขของเธอซักหน่อย!" with dissolve
             yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
         '[get_choice("18.10 น.","6:10 PM")]':
+            python:
+                achievement.grant("CHOICE_CH02_CORRECTANSWER")
+                achievement.sync()
             show reika normal at center with Dissolve(0.2) 
             play sound "audio/sfx/correct.mp3"
             play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_006.mp3"
@@ -281,6 +287,9 @@ label s2_4:
             kazuma_th sad "เห้อ ทายผิดซะได้" with dissolve
             kazuma_en sad "Ugh, of course I got it wrong." with dissolve
         '[get_choice("18.15 น.","6:15 PM")]':
+            python:
+                achievement.grant("CHOICE_CH02_WRONGANSWER")
+                achievement.sync()
             show kazuma normal at center with Dissolve(0.2) 
             play sound "audio/sfx/wrong.mp3"
             play sound "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_004.mp3"

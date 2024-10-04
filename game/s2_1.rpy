@@ -3,6 +3,8 @@ label s2_1:
     stop music
     play music "audio/bgm/Sunrise.mp3" volume 0.5
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_001.mp3"
+    $ achievement.grant("START_CH02")
+    $ achievement.sync()
     show wakeup24 with dissolve
     yuno_th  "ยู…มะ…" with dissolve
     yuno_en  "Yu... ma..." with dissolve
