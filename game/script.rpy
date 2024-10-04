@@ -6,6 +6,13 @@
 define en = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define th = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 init python:
+    # Steam Achievements
+    achievement.register("START_GAME")
+    achievement.register("START_CH01")
+    achievement.register("START_CH02")
+    achievement.register("CHOICE_CH02_CORRECTANSWER")
+    achievement.register("CHOICE_CH02_WRONGANSWER")
+
     def get_agree_text():
         if persistent.language == "eng":
             return "Agree"
@@ -376,6 +383,9 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
+    python:
+	    achievement.grant("START_GAME")
+	    achievement.sync()
     jump s1_1
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
