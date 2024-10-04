@@ -266,7 +266,7 @@ screen quick_menu():
         hbox:
             spacing 10  # Space between buttons
             xalign 0.95
-            yalign 1.0
+            yalign 1.005
 
             style_prefix "quick"
 
