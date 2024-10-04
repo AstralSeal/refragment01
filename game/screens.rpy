@@ -219,11 +219,20 @@ style c_choice:
         background Frame("images/screen/choice_idle.png")
         hover_background Frame("images/screen/choice_hover.png")
         top_padding 18
-        left_padding 100
         bottom_padding 18
         yminimum 80 # default y size of the button image with no text
         # ymaximum 70
-        xminimum 800 # default x size of the button image with no text
+        xminimum 800
+        color  "#000000"
+style c_choice_text is choice_button_text:
+    color "#000000"
+    hover_color "#000000"
+    selected_color "#000000"
+
+style choice_button_text:
+    color "#000000"
+    hover_color "#000000"
+    selected_color "#000000" 
 
 style choice_vbox is vbox
 style choice_button is button
