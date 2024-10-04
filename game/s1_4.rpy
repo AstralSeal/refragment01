@@ -568,5 +568,5 @@ label s1_4:
     th "คิดมากไปก็ปวดหัว รีบทำรายงานส่งคุณครูริสะแล้วก็เข้านอนดีกว่า……" with dissolve
     en "Thinking too much gives me a headache. I'd better hurry and finish the report for Teacher Risa and go to bed......" with dissolve
     scene black with Dissolve(1.0)
-    jump s2_1
+    jump cutscene_1
     return

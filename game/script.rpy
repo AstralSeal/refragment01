@@ -173,6 +173,7 @@ image fb3_5 = im.Scale("cg/fb3_5.png",1920,1080)
 image fb3_6 = im.Scale("cg/fb3_6.png",1920,1080)
 image cg3 = im.Scale("cg/cg3.png",1920,1080)
 
+
 # image reika normal :
 #     zoom 0.75
 #     xoffset 25
