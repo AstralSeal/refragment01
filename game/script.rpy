@@ -377,7 +377,7 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    jump s2_4
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
     # reika angry1 "Word2" with dissolve
@@ -488,3 +488,30 @@ image wakaru:
 image spotlight:
     "emotion/spotlight.png"
 
+
+screen map_screen:
+    add "screen_new/choice_mall/choice_mall_bg.png"  
+
+    imagebutton auto "screen_new/choice_mall/akane_choice_%s.png":
+            focus_mask True
+            action [Hide("map_screen"),Jump("s2_4_akane")]
+
+    imagebutton auto "screen_new/choice_mall/reika_choice_%s.png":
+            focus_mask True
+            action [Hide("map_screen"),Jump("s2_4_reika")]
+
+    imagebutton auto "screen_new/choice_mall/kazuma_choice_%s.png":
+            focus_mask True
+            action [Hide("map_screen"),Jump("s2_4_kazuma")]
+
+    imagebutton auto "screen_new/choice_mall/risa_choice_%s.png":
+            focus_mask True
+            action [Hide("map_screen"),Jump("s2_4_risa")]
+
+label mall_map:
+    $ renpy.config.skipping = False
+    $ _skipping = False
+    window hide
+    show screen map_screen with dissolve
+    
+    $ renpy.pause(hard=True)
