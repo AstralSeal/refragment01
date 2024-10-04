@@ -252,8 +252,7 @@ label s2_4:
             kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
             kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
             hide kazuma
-            show reika normal at center with Dissolve(0.2) 
-            show reika normal at zoom_in,center with Dissolve(0.2) 
+            show reika angry_2 at zoom_in,center with Dissolve(0.2) 
             play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
             reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
             reika_en angry_2 "Yuma, I'm disappointed in you." with dissolve
@@ -288,8 +287,7 @@ label s2_4:
             kazuma_th smile "ฮ่าๆๆ บอกแล้วว่าจู่ๆ ไปถามแบบนี้ยูมะคิดไม่ทันหรอก" with dissolve
             kazuma_en smile "Haha, see, I told you if you suddenly ask something like that, Yuma wouldn't be able to figure it out in time." with dissolve
             hide kazuma
-            show reika normal at center with Dissolve(0.2) 
-            show reika normal at zoom_in,center with Dissolve(0.2) 
+            show reika angry_2 at zoom_in,center with Dissolve(0.2) 
             play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
             reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
             reika_en angry_2 "Yuma, I'm disappointed in you." with dissolve
@@ -301,7 +299,7 @@ label s2_4:
             reika_en  "Maybe I forgot to change the batteries in my calculator." with dissolve
             yuma_th  "นี่เดี๋ยวเถอะ ฉันไม่ใช่เครื่องคิดเลขของเธอซักหน่อย!" with dissolve
             yuma_en  "Hey now, I'm not your personal calculator!" with dissolve
-   
+    hide kazuma
     yuma_th  "ว่าแต่ พวกเธอเล่นอะไรกันเนี่ย" with dissolve
     yuma_en  "But what were you all doing anyway?" with dissolve
     show reika normal at center with Dissolve(0.2) 
