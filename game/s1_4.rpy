@@ -70,7 +70,7 @@ label s1_4:
     yuma_th  "อีกแล้ว…? ว่าแต่ครั้งที่แล้วมันเรื่องอะไรล่ะ?" with dissolve
     yuma_en  "Again...? What was the last one about?" with dissolve
     hide akane
-    show reika normal at center with Dissolve(1.0) 
+    show reika hee at center with Dissolve(1.0) 
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_005.mp3"
     reika_th hee "นายนี่นะ จำอะไรได้บ้าง" with dissolve
     reika_en hee "You... What do you even remember?" with dissolve
@@ -253,8 +253,7 @@ label s1_4:
     yuma_en  "Reinforcement of 1 person, full force, coming." with dissolve
     th "ถ้าโชคชะตาลิขิตให้เรกะเกิดมาเป็นผู้นำแล้วละก็บางทีผมคงเกิดมาเป็นเบ๊รับใช้ละมั้ง" with dissolve
     en "If fate destined Rega to be born a leader, then maybe I was born to be a servant." with dissolve
-    th "ทำตัดฉากสีดำ" with dissolve
-    en "Scene transition to black" with dissolve
+    scene black with Dissolve(1.0)
     scene home_entrance_evening with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
