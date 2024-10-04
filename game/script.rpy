@@ -222,7 +222,8 @@ label splashscreen:
     #     jump title2
     # if persistent.common_end_pass == True:
     #     jump title3
-
+    $ achievement.grant("START_GAME")
+    $ achievement.sync()
     jump title1
     return
 
@@ -384,8 +385,6 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    $ achievement.grant("START_GAME")
-    $ achievement.sync()
     jump s1_1
    
     # show reika normal with dissolve
