@@ -568,5 +568,6 @@ label s1_4:
     en "Well, whatever the voting results are, I'll still have to do paperwork." with dissolve
     th "คิดมากไปก็ปวดหัว รีบทำรายงานส่งคุณครูริสะแล้วก็เข้านอนดีกว่า……" with dissolve
     en "Thinking too much gives me a headache. I'd better hurry and finish the report for Teacher Risa and go to bed......" with dissolve
+    scene black with Dissolve(1.0)
     jump s2_1
     return

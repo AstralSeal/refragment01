@@ -493,12 +493,13 @@ label s1_2:
     yuma_en  "I'm sorry. I'll make sure to warn her next time." with dissolve
     show akane normal at zoom_in,center with Dissolve(1.0) 
     play sound "audio/voice/akane/chapter1/chapter1_2/akane_1_2_009.mp3"
-    akane_th normal "อย่าให้หนูรู้นะว่ารุ่นพี่แกล้งทำเป็นมองไม่เห็นเพราะโดนยัยนั่นหว่านเสน่ห์ใส่น่ะ" with dissolve
-    akane_en normal "Don't let me find out that you pretended not to see because you were charmed by her." with dissolve
+    akane_th s2 "อย่าให้หนูรู้นะว่ารุ่นพี่แกล้งทำเป็นมองไม่เห็นเพราะโดนยัยนั่นหว่านเสน่ห์ใส่น่ะ" with dissolve
+    akane_en s2 "Don't let me find out that you pretended not to see because you were charmed by her." with dissolve
     th "ถึงว่า เมื่อสักครู่นี้รุ่นพี่มายะจะรีบวิ่งหนีไปเพราะเห็นอากาเนะสินะ" with dissolve
     en "I see. So Senior Maya ran away in a hurry earlier because she saw Akane." with dissolve
     hide akane
     th "วันนี้มันอะไรกันเนี่ย วุ่นวายชะมัด" with dissolve
     en "What's with today? It's so chaotic." with dissolve
+    scene black with Dissolve(1.0)
     jump s1_3
     return
