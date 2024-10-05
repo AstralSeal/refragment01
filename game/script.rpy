@@ -389,7 +389,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_6
+    jump s2_3
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
@@ -539,7 +539,7 @@ label mall_map:
 
     $ renpy.config.skipping = False
     $ _skipping = False
-    window hide
+    # window hide
     show screen map_screen with dissolve
     
     $ renpy.pause(hard=True)

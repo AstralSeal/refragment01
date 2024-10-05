@@ -658,16 +658,16 @@ label s2_4_reika:
     scene bg038n19201080 with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
-    yuma_th  "ลองไปหาเรกะดีกว่า" with dissolve
-    yuma_en  "I decided to look for Rega." with dissolve
-    th "ปกติเรกะมักจะแวะไปที่ร้านหนังสือเป็นประจำ" with dissolve
-    en "Rega usually stops by the bookstore regularly." with dissolve
-    th "เธอชอบอ่านหนังสือภาษาอังกฤษยากๆ ที่ผมอ่านไม่ออก แต่รอบนี้เธอกลับทำสิ่งที่ผิดคาดอย่างมาก" with dissolve
+    yuma_th  "ลองไปหาเรกะดีกว่า" 
+    yuma_en  "I decided to look for Rega." 
+    th "ปกติเรกะมักจะแวะไปที่ร้านหนังสือเป็นประจำ" 
+    en "Rega usually stops by the bookstore regularly." 
+    th "เธอชอบอ่านหนังสือภาษาอังกฤษยากๆ ที่ผมอ่านไม่ออก แต่รอบนี้เธอกลับทำสิ่งที่ผิดคาดอย่างมาก" 
     en "She likes reading difficult English books that I can't understand. But this time, she did something completely unexpected." with dissolve
     show reika normal at center with Dissolve(0.2) 
-    th "เธอหยิบนิตยสารยอดฮิตในหมู่เด็กผู้หญิงวัยรุ่นขึ้นมาอ่าน" with dissolve
-    en "She picked up a teen girl magazine, hugely popular with female students." with dissolve
-    yuma_th  "เรกะสนใจของแบบนี้ด้วยเหรอ ลองอ่านตามบ้างดีกว่า" with dissolve
+    th "เธอหยิบนิตยสารยอดฮิตในหมู่เด็กผู้หญิงวัยรุ่นขึ้นมาอ่าน" 
+    en "She picked up a teen girl magazine, hugely popular with female students." 
+    yuma_th  "เรกะสนใจของแบบนี้ด้วยเหรอ ลองอ่านตามบ้างดีกว่า" 
     yuma_en  "Rega's into this kind of thing too? Let me take a peek." with dissolve
     show reika normal at zoom_in,center with Dissolve(0.2) 
     yuma_th  "คอลัมน์ทายดวงด้านความรักจากกรุ๊ปเลือด" with dissolve
@@ -684,10 +684,8 @@ label s2_4_reika:
     yuma_th  "นั่นสินะ" with dissolve
     yuma_en  "I see." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_016.mp3"
-    show surpise
     reika_th aru "เดี๋ยวสิยูมะ นายมาจากไหนเนี่ย!?" with dissolve
     reika_en aru "Wait, Yuma, where did you come from?!" with dissolve
-    hide surpise
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_017.mp3"
     reika_th angrymeme_2 "แล้วก็แอบมาอ่านหนังสือของคนอื่นแบบนี้มัน มันเสียมารยาทนะยะ" with dissolve
     reika_en angrymeme_2 "And reading someone else's magazine over their shoulder like this is...is bad manners!" with dissolve
