@@ -385,7 +385,11 @@ init python:
     def prepare(s):
         return s.lower().replace(" ", "").replace("_","").replace("-","")
 label start:
-    jump s1_1
+    $ reika_mall_pass = False
+    $ akane_mall_pass = False
+    $ kazuma_mall_pass = False
+    $ risa_mall_pass = False
+    jump s2_4
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
@@ -501,23 +505,38 @@ image spotlight:
 screen map_screen:
     add "screen_new/choice_mall/choice_mall_bg.png"  
 
-    imagebutton auto "screen_new/choice_mall/akane_choice_%s.png":
+    if not akane_mall_pass:
+        imagebutton auto "screen_new/choice_mall/akane_choice_%s.png":
             focus_mask True
             action [Hide("map_screen"),Jump("s2_4_akane")]
+    else:
+        imagebutton idle "akane_choice_disable"
 
-    imagebutton auto "screen_new/choice_mall/reika_choice_%s.png":
+    if not reika_mall_pass:
+        imagebutton auto "screen_new/choice_mall/reika_choice_%s.png":
             focus_mask True
             action [Hide("map_screen"),Jump("s2_4_reika")]
+    else:
+        imagebutton idle "reika_choice_disable"
 
-    imagebutton auto "screen_new/choice_mall/kazuma_choice_%s.png":
+    if not kazuma_mall_pass:
+        imagebutton auto "screen_new/choice_mall/kazuma_choice_%s.png":
             focus_mask True
             action [Hide("map_screen"),Jump("s2_4_kazuma")]
+    else:
+        imagebutton idle "kazuma_choice_disable"
 
-    imagebutton auto "screen_new/choice_mall/risa_choice_%s.png":
+    if not risa_mall_pass:
+        imagebutton auto "screen_new/choice_mall/risa_choice_%s.png":
             focus_mask True
             action [Hide("map_screen"),Jump("s2_4_risa")]
+    else:
+        imagebutton idle "risa_choice_disable"
 
 label mall_map:
+    if akane_mall_pass and reika_mall_pass and kazuma_mall_pass and risa_mall_pass:
+        jump s2_4_2
+
     $ renpy.config.skipping = False
     $ _skipping = False
     window hide
