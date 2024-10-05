@@ -8,7 +8,7 @@ label s2_10:
     en "Even though it's a holiday, I was called over by Yuno." with dissolve
     th "ดูเหมือนยูโนะกำลังโกรธยูมะอีกแล้ว" with dissolve
     en "It seems Yuno is angry with Yuma again." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_001.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_001.mp3"
     reika_c_th ah_2 "สรุปแล้ว ยูมะได้ช่วยติววิชาคณิตศาสตร์ให้มั้ย" with dissolve
     reika_c_en ah_2 "So, did Yuma help tutor you in math?" with dissolve
     show reika_c normal at left
@@ -16,7 +16,7 @@ label s2_10:
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_001.mp3"
     yuno_c_th angry_2 "ตอนแรกก็ติวด้วยกันอยู่หรอก แต่ว่าพี่น่ะสิ สอนอะไรก็ไม่รู้ ไม่เห็นเข้าใจเลย" with dissolve
     yuno_c_en angry_2 "At first we were studying together, but my brother, I don't know what he was teaching. I didn't understand at all." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_002.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_002.mp3"
     reika_c_th ah "ลองให้โอกาสยูมะอีกสักครั้งเถอะนะ" with dissolve
     reika_c_en ah "Try giving Yuma another chance, okay?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_002.mp3"
@@ -37,7 +37,7 @@ label s2_10:
     en "I should try to calm Yuno down." with dissolve
     show reika_c normal at left
     show yuno_c normal at right with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_003.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_003.mp3"
     reika_c_th smile_2 "นี่ยูโนะถ้าเกิดว่าไม่อยากติวกับยูมะ ถ้างั้นไปติวกับพี่ไหม?" with dissolve
     reika_c_en smile_2 "Hey Yuno, if you don't want to study with Yuma, how about studying with me instead?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_003.mp3"
@@ -51,28 +51,28 @@ label s2_10:
     en "I don't really intend to teach Yuno alone. I'm actually planning to teach both siblings." with dissolve
     show reika_c normal at left
     show yuno_c normal at right with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_004.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_004.mp3"
     reika_c_th ah "การสอนของยูมะมันห่วยขนาดนั้นเลยหรอ" with dissolve
     reika_c_en ah "Is Yuma's teaching that bad?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_004.mp3"
     yuno_c_th gambatte "ใช่ พี่ยูมะน่ะสิ สอนอะไรก็ไม่รู้ ไม่เห็นเข้าใจเลย" with dissolve
     yuno_c_en gambatte "Yes, my brother, I don't know what he was teaching. I didn't understand at all." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_005.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_005.mp3"
     reika_c_th serious_2 "ไม่จริงหรอกนะ ยูโนะเองก็รู้ไม่ใช่เหรอว่ายูมะตั้งใจมากแค่ไหน" with dissolve
     reika_c_en serious_2 "That's not true. You know how hard Yuma tries, don't you, Yuno?" with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_006.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_006.mp3"
     reika_c_th ah_2 "การที่ยูมะสอนไม่เข้าใจ ไม่ใช่เพราะยูโนะไม่เก่งหรอก แต่เป็นเพราะหมอนั่นไม่รู้ว่าจะถ่ายทอดให้คนอื่นเข้าใจเนื้อหายังไงต่างหาก" with dissolve
     reika_c_en ah_2 "The reason Yuma's teaching isn't understandable isn't because you're not smart, but because he doesn't know how to convey the content to make others understand." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_005.mp3"
     yuno_c_th onegai_2 "แล้วพี่เรกะรู้ได้ยังไงว่าพี่ตั้งใจสอนแล้ว" with dissolve
     yuno_c_en onegai_2 "How do you know my brother tried hard to teach?" with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_007.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_007.mp3"
     reika_c_th smile "เมื่อก่อนพี่เคยให้ยูมะช่วยสอนเหมือนกัน เห็นแบบนั้นแต่หมอนั่นก็ตั้งใจสอนสุดๆ จนน่าขนลุกเลยนะ" with dissolve
     reika_c_en smile "Before, I had Yuma help me with tutoring too. Seeing that, that guy tried his hardest to teach, it was even a bit creepy." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_006.mp3"
     yuno_c_th worry "เห้อ แบบนั้นก็สมเป็นพี่อยู่หรอก…" with dissolve
     yuno_c_en worry "Sigh, that's just like him..." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_008.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_008.mp3"
     reika_c_th smile_2 "ไหนๆก็ไหนๆแล้ว ถ้าอยากรู้ว่าหมอนั้นตั้งใจแค่ไหนล่ะก็ไปแอบดูกันหน่อยไหมล่ะ?" with dissolve
     reika_c_en smile_2 "Since we're here anyway, if you want to know how hard that guy tried, why don't we go take a peek?" with dissolve
     th "ถ้าเกิดว่าเข้าไปในห้องของหมอนั่นจะต้องได้เห็นแน่ๆ" with dissolve
@@ -90,12 +90,12 @@ label s2_10:
     th "เมื่อมองไปรอบข้างก็พบกับสิ่งของที่ต้องการ" with dissolve
     en "Looking around, I found what I was looking for." with dissolve
     show reika_c normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_009.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_009.mp3"
     reika_c_th ah "เห็นมั้ย มีหนังสืออ้างอิงเต็มไปหมด" with dissolve
     reika_c_en ah "See? There are reference books everywhere." with dissolve
     th "บนโต๊ะของยูมะเต็มไปด้วยกองเอกสารและหนังสืออ้างอิงเรียงรายเต็มไปหมด" with dissolve
     en "Yuma's desk is full of stacks of documents and reference books spread out all over." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_010.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_010.mp3"
     reika_c_th smile "ถึงยูมะเป็นคนที่ชอบตื่นสายและเฉื่อยชาอยู่บ้าง แต่ถ้าตั้งใจทำอะไรก็จะทุ่มเทจนถึงที่สุด" with dissolve
     reika_c_en smile "Even though Yuma likes to sleep in and can be lazy at times, when he sets his mind to something, he gives it his all." with dissolve
     th "ยูมะเองก็มีส่วนที่พยายามโดยที่ไม่มีใครมองเห็น" with dissolve
@@ -113,7 +113,7 @@ label s2_10:
     th "ฉันชี้กระดาษทดที่เรียงระเกะระกะอยู่บนโต๊ะของยูมะ" with dissolve
     en "I point to the scattered scratch paper on Yuma's desk." with dissolve
     show reika_c normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_011.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_011.mp3"
     reika_c_th ah_2 "นี่ไง ดูเหมือนว่าหมอนั่นพยายามคิดวิธีการสอนแบบใหม่เพื่อยูโนะโดยเฉพาะเลยนะ" with dissolve
     reika_c_en ah_2 "Look, it seems that guy was trying to come up with a new teaching method specifically for Yuno." with dissolve
     hide reika_c
@@ -246,10 +246,10 @@ label s2_10:
     yuno_c_en  "Because I'm stupid, I made my brother go through so much trouble." with dissolve
     hide yuno_c
     show reika_c normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_012.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_012.mp3"
     reika_c_th yasashi_2 "ไม่ใช่หรอกยูโนะ อย่าด้อยค่าตัวเองไปเลย และที่สำคัญ…" with dissolve
     reika_c_en yasashi_2 "That's not true, Yuno. Don't put yourself down like that. And more importantly..." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_013.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_013.mp3"
     reika_c_th smile_2 "การทำตัวงี่เง่ากับพี่ชายแค่ไหนก็ได้น่ะ เป็นสิทธิพิเศษของน้องสาวนะ" with dissolve
     reika_c_en smile_2 "Acting silly with your big brother as much as you want is a little sister's special privilege, you know." with dissolve
     hide reika_c
@@ -285,7 +285,7 @@ label s2_10:
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_023.mp3"
     yuno_p_th serious_2 "ไม่มี! แล้วก็พี่ออกไปข้างนอกมาไหนล่ะของฝากสำหรับหนู" with dissolve
     yuno_p_en serious_2 "No! And where did you go outside? Where's my souvenir?" with dissolve
-    yuma_th  "นี่ไงพุดดิ้งสตรอว์เบอร์รีของโปรดยูโนะ" with dissolve
+    yuma_th  "นี่ไงพุดดิ้งสตรอเบอร์รี่ของโปรดยูโนะ" with dissolve
     yuma_en  "Here's your favorite strawberry pudding, Yuno." with dissolve
     th "ยูโนะรีบรับพุดดิ้งมาไว้ในมืออย่างรวดเร็ว" with dissolve
     en "Yuno quickly took the pudding into her hands." with dissolve
@@ -357,11 +357,13 @@ label s2_10:
     yuma_th  "ดูเหมือนจะได้ผลสินะ" with dissolve
     yuma_en  "Looks like it worked, huh?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_028.mp3"
-    yuno_p_th panic4_2_shy "ใครจะไปชอบท่าแบบนี้กันเล่า ไม่ใช่แม่ซักหน่อย!" with dissolve
-    yuno_p_en panic4_2_shy "Who would like a move like that? I'm not Mom!" with dissolve
+    #todo shy
+    yuno_p_th panic4_2 "ใครจะไปชอบท่าแบบนี้กันเล่า ไม่ใช่แม่ซักหน่อย!" with dissolve
+    yuno_p_en panic4_2 "Who would like a move like that? I'm not Mom!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_029.mp3"
-    yuno_p_th onegai_2_shy "แต่ว่า…จะยกโทษให้ก็ได้" with dissolve
-    yuno_p_en onegai_2_shy "But... I'll forgive you." with dissolve
+    yuno_p_th onegai_2 "แต่ว่า…จะยกโทษให้ก็ได้" with dissolve
+        #todo shy
+    yuno_p_en onegai_2 "But... I'll forgive you." with dissolve
     yuma_th  "จริงหรอ?" with dissolve
     yuma_en  "Really?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_030.mp3"

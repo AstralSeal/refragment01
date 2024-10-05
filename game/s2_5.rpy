@@ -39,15 +39,15 @@ label s2_5:
     en "I can't believe it, my little sister is sulking again." with dissolve
     th "ต้องใช้ท่าไม้ตายซะแล้ว" with dissolve
     en "Time to use my secret weapon." with dissolve
-    yuma_th  "ยูโนะ พี่ซื้อพุดดิ้งสตรอเบอรี่มาฝาก" with dissolve
+    yuma_th  "ยูโนะ พี่ซื้อพุดดิ้งสตรอเบอร์รี่มาฝาก" with dissolve
     yuma_en  "Yuno, I bought you a strawberry pudding." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_006.mp3"
-    yuno_c_th blank_2 "คิดว่าหนูเป็นผู้หญิงใจง่ายที่แค่ซื้อพุดดิ้งสตรอเบอรี่แล้วจะหายงอนงั้นเหรอ" with dissolve
+    yuno_c_th blank_2 "คิดว่าหนูเป็นผู้หญิงใจง่ายที่แค่ซื้อพุดดิ้งสตรอเบอร์รี่แล้วจะหายงอนงั้นเหรอ" with dissolve
     yuno_c_en blank_2 "You think I'm some simple-minded girl who will stop being mad just because you bought a strawberry pudding?" with dissolve
     yuma_th  "จะเอามั้ย" with dissolve
     yuma_en  "Want it?" with dissolve
-    th "ผมหยิบพุดดิ้งสตรอเบอรี่ที่เก็บไว้ในตู้เย็นออกมา" with dissolve
+    th "ผมหยิบพุดดิ้งสตรอเบอร์รี่ที่เก็บไว้ในตู้เย็นออกมา" with dissolve
     en "I took out the strawberry pudding I had stored in the fridge." with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_007.mp3"
@@ -65,11 +65,11 @@ label s2_5:
     yuno_c_th  "รักพี่ที่สุดในโลกเลย" with dissolve
     yuno_c_en  "I love you the most in the world!" with dissolve
     hide yuno
-    th "แม้ว่าพุดดิ้งสตรอเบอรี่เป็นขนมหวานราคาถูกที่ซื้อได้จากร้านสะดวกซื้อ" with dissolve
+    th "แม้ว่าพุดดิ้งสตรอเบอร์รี่เป็นขนมหวานราคาถูกที่ซื้อได้จากร้านสะดวกซื้อ" with dissolve
     en "Although strawberry pudding is a cheap dessert you can buy at the convenience store," with dissolve
-    th "แต่สำหรับยูโนะ พุดดิ้งสตรอเบอรี่คือ the best ของกินที่อร่อยที่สุดในโลก" with dissolve
+    th "แต่สำหรับยูโนะ พุดดิ้งสตรอเบอร์รี่คือ the best ของกินที่อร่อยที่สุดในโลก" with dissolve
     en "to Yuno, strawberry pudding is the best, most delicious food in the world." with dissolve
-    th "หลังจากที่ยูโนะกินพุดดิ้งสตรอเบอรี่เสร็จ เธอก็พูดด้วยสีหน้ายิ้มแย้มอย่างชื่นมื่น" with dissolve
+    th "หลังจากที่ยูโนะกินพุดดิ้งสตรอเบอร์รี่เสร็จ เธอก็พูดด้วยสีหน้ายิ้มแย้มอย่างชื่นมื่น" with dissolve
     en "After finishing the pudding, Yuno spoke with a beaming smile on her face." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_011.mp3"
@@ -314,5 +314,6 @@ label s2_5:
     th "หลังจากนั้นฉันก็นอนกอดพีสุเกะ และฝันถึงผู้ชายคนหนึ่งที่หน้าตาเหมือนยูมะ…" with dissolve
     en "After that, I slept hugging Piske, dreaming of a boy who looked just like Yuma..." with dissolve
     hide reika_pov with dissolve
+    scene black with Dissolve(1.0)
     jump s2_6
     return

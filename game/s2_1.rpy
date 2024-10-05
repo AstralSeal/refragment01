@@ -261,7 +261,7 @@ label s2_1:
     akane_en angry "No need, I'll tie it for you." with dissolve
     th "เอ๊ะ วันนี้มาแปลกนะเนี่ย" with dissolve
     en "Huh? This is unusual." with dissolve
-    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะจะผูกเนคไทให้" with dissolve
+    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้" with dissolve
     en "The super-strict disciplinary committee member Akane is going to tie my tie?" with dissolve
     th "ไอ้นั่นสินะ ที่เขาเรียกกันว่าแฟนเซอร์วิส" with dissolve
     en "Isn't this what they call fan service?" with dissolve
@@ -322,5 +322,6 @@ label s2_1:
     en "As soon as she finishes speaking, Akane runs to block the late student." with dissolve
     th "ขืนอยู่ต่อผมอาจจะโดนลูกหลงไปด้วย ด้วยเหตุนี้ผมจึงอาสัยจังหวะชุลมุนรีบเดินเข้าอาคารเรียน" with dissolve
     en "If I stay any longer, I might get caught in the crossfire. So, I take advantage of the commotion to quickly enter the school building." with dissolve
+    scene black with Dissolve(1.0)
     jump s2_2
     return

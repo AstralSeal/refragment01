@@ -432,102 +432,6 @@ label s2_4:
     th "อืม… ไปหาใครดีนะ" with dissolve
     en "Hmm... Who should I go find?" with dissolve
     jump mall_map
-    
-    scene life_shoppingmallbuilding_night_lighton with Dissolve(1.0)
-    stop music
-    play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
-    th "หลังจากที่ผมออกมาจากประตูเพียงไม่นานเรกะก็เดินออกมา" with dissolve
-    en "Shortly after I exited, Rega came out too." with dissolve
-    show reika normal at center with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_035.mp3"
-    reika_th cold_2 "นี่นายดักรอฉันอยู่หรอ เป็นสโตกเกอร์รึไง" with dissolve
-    reika_en cold_2 "Were you waiting here to ambush me? What are you, a stalker?" with dissolve
-    yuma_th  "เดี๋ยวสิเธอไม่คิดว่าฉันเป็นสุภาพบุรุษที่ไม่สามารถทนเห็นผู้หญิงเดินกลับบ้านคนเดียวได้บ้างเหรอ" with dissolve
-    yuma_en  "Hey now, don't you think I'm enough of a gentleman to not let a girl walk home alone?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_036.mp3"
-    reika_th chito "นายเนี่ยนะ" with dissolve
-    reika_en chito "You, a gentleman?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_037.mp3"
-    reika_th hee "ไม่ใช่ว่านายกลัวถูกดักตีเลยรอให้ฉันกลับบ้านด้วยรึไง" with dissolve
-    reika_en hee "More like you were scared of getting beat up, so you waited for me to walk home with you." with dissolve
-    yuma_th  "เอาน่า ไหนๆบ้านพวกเราสองคนก็กลับทางเดียวกันนี่นา" with dissolve
-    yuma_en  "Oh come on, we're heading the same way home anyway." with dissolve
-    yuma_th  "กลับด้วยกันก็ไม่เห็นเป็นไรนี่จะได้ไม่เหงาด้วย" with dissolve
-    yuma_en  "Walking back together isn't a big deal. Plus it's less lonely." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_038.mp3"
-    reika_th ah_2 "ฉันไม่เหงาหรอกปกติเวลาเดินกลับบ้านฉันชอบฟังเพลงไปด้วย" with dissolve
-    reika_en ah_2 "I don't get lonely. I usually listen to music when I walk home." with dissolve
-    th "นี่ผมคิดถูกจริงๆแล้วใช่ไหมเนี่ยที่รอกลับบ้านพร้อมเรกะ" with dissolve
-    en "I made the right call waiting to walk home with Rega, didn't I." with dissolve
-    scene neighborhood_morning with Dissolve(1.0)
-    stop music
-    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
-    show reika normal at zoom_in,center with Dissolve(0.2) 
-    yuma_th "นี่ เรกะ เธอคิดยังไงกับเรื่องการยกเลิกจำหน่ายน้ำอัดลมเหรอ" with dissolve
-    yuma_en "Hey Rega, what do you think about the school banning soda sales?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_039.mp3"
-    reika_th cold_2 "อย่าบอกนะว่านายเสียใจที่ไม่มีน้ำอัดลมขายแล้ว" with dissolve
-    reika_en cold_2 "Don't tell me you're sad they don't sell soda anymore." with dissolve
-    yuma_th  "ไม่ใช่สักหน่อย แค่บังเอิญเห็นตู้กดน้ำตรงนั้นเลยคิดถึงเรื่องผลโหวตขึ้นมาต่างหาก" with dissolve
-    yuma_en  "Nothing like that. I just happened to see a vending machine and it made me think of the voting results, that's all." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_040.mp3"
-    reika_th ah "อ๋อ เหตุการณ์สมัยก่อนที่นายร้องไห้เพราะหยอดเหรียญแล้วกดน้ำไม่ได้นะเหรอ" with dissolve
-    reika_en ah "Oh, you mean that time when we were kids and you cried because you put in coins but the button didn't work?" with dissolve
-    yuma_th  "หนวกหูน่า เธอเป็นคนแก่หรือไง เอาแต่พูดถึงเรื่องในอดีต" with dissolve
-    yuma_en  "Shut up. What are you, an old geezer? Always bringing up stuff from the past." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_041.mp3"
-    reika_th smile "ลองคิดดูแล้วตอนเด็กก็สนุกดีนะ" with dissolve
-    reika_en smile "Come to think of it, we had a lot of fun as kids." with dissolve
-    yuma_th  "แล้วตอนนี้ชีวิตไม่สนุกเหรอ" with dissolve
-    yuma_en  "And life isn't fun now?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_042.mp3"
-    reika_th angry_2 "ไม่ใช่แบบนั้นสักหน่อย แต่พอโตขึ้น ความรับผิดชอบยิ่งมากขึ้น เอาแต่เล่นสนุกทั้งวันเหมือนเมื่อก่อนไม่ได้แล้ว" with dissolve
-    reika_en angry_2 "That's not it. But as you get older, you have more responsibilities. You can't just play around all day like before." with dissolve
-    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่ายจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
-    yuma_en  "Huh. Hard to believe the kid who couldn't sleep without hugging his stuffed rabbit grew up to be a student council president admired by everyone." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_043.mp3"
-    reika_th chito "ว่าแต่คนอื่น นายก็กลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็กเลยนี่" with dissolve
-    reika_en chito "Speaking of, you've always been scared of public speaking, even as a kid." with dissolve
-    yuma_th  "เงียบไปเลย ถ้าฉันไม่กลัว ป่านนี้ได้เป็นประธานนักเรียนไปแล้ว ไม่มาเป็นเหรัญญิกให้เธอหรอก" with dissolve
-    yuma_en  "Quiet, you. If I wasn't scared, I'd be student council president by now instead of being treasurer for you." with dissolve
-    hide reika
-    th "คงไม่ใช่เรื่องแปลกที่คนเราจะมีบาดแผลในใจซักอย่างหรือสองอย่าง" with dissolve
-    en "I guess it's not unusual for people to have a wound or two in their hearts." with dissolve
-    th "ทั้งปมปัญหาใหญ่หลวง ทั้งความชอกช้ำในจิตใจ ทั้งความทรงจำเลวร้ายที่อยากลืม" with dissolve
-    en "Major issues, emotional scars, painful memories they want to forget." with dissolve
-    th "ผมกลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็ก" with dissolve
-    en "I've been afraid of public speaking since I was little." with dissolve
-    th "และนี่คงเป็นเหตุผลให้ผมเลือกตำแหน่งเหรัญญิกที่เน้นการอ่านและคำนวณข้อมูล ไม่ต้องออกไปพูดต่อหน้าคนจำนวนมาก" with dissolve
-    en "That's why I chose the treasurer role that focuses on reading and calculating data. I don't have to go up and talk in front of a crowd." with dissolve
-    scene home_yuumahouse_night with Dissolve(1.0)
-    stop music
-    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
-    show reika normal at center with Dissolve(0.2) 
-    th "หลังจากที่เราสองคนคุยกันถึงเรื่องในอดีต รู้ตัวอีกทีผมก็มาหยุดอยู่หน้าบ้านของตัวเองแล้ว" with dissolve
-    en "After chatting about the past for a while, before I knew it, I had stopped in front of my own house." with dissolve
-    yuma_th  "ถึงบ้านแล้วเหรอเนี่ยฉันยังรู้สึกยังมีเรื่องอยากคุยกับเธออีกหลายเรื่องเลย" with dissolve
-    yuma_en  "We're home already? I feel like there's still so much I want to talk with you about." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_044.mp3"
-    reika_th hee_2 "งั้นเหรอ ส่วนฉันกำลังดีใจที่จะได้หลุดพ้นจากเรื่องแก๊งนักเลงของนายซักที" with dissolve
-    reika_en hee_2 "Is that so? Well I'm just glad to finally escape your delinquent gang stories." with dissolve
-    yuma_th  "แก๊งนักเลงที่ไหนกัน แก๊งราชามังกรทมิฬ ผู้ปกป้องเมืองแห่งนี้ต่างหากต่างหาก" with dissolve
-    yuma_en  "What delinquent gang? The Dark Dragon Kings who protect this town, that's who!" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_045.mp3"
-    reika_th bored_2 "ทั้งๆที่เวลามีเรื่องทีไรก็ร้องไห้กลับมาให้ฉันทำแผลให้ทุกครั้งแท้ๆ" with dissolve
-    reika_en bored_2 "Even though every time you got in trouble, you came crying to me to patch you up." with dissolve
-    yuma_th  "มะ..ไม่ใช่ซักหน่อย" with dissolve
-    yuma_en  "Th-that's not true at all!" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_046.mp3"
-    reika_th smile "ถ้างั้นฉันไปก่อนแล้วนะท่านหัวหน้าแก๊ง" with dissolve
-    reika_en smile "In that case, I'll be going now, Mr. Gang Leader." with dissolve
-    yuma_th  "อื้ม ไว้เจอกันใหม่นะเรกะ" with dissolve
-    yuma_en  "Yeah. See you later, Rega." with dissolve
-    hide reika
-    th "หลังจากโบกมือลาเรกะก็เดินหายลับไปจากสายตาของผม" with dissolve
-    en "After waving goodbye, Rega walked off and disappeared from my sight." with dissolve
-    th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
-    en "Yuno must be waiting for me by now. I better hurry inside." with dissolve
-    jump s2_5
     return
 
 label s2_4_kazuma:
@@ -610,6 +514,7 @@ label s2_4_kazuma:
     hide kazuma
     th "ผมตอบปฏิเสธและรีบหนีออกมาก่อนที่จะกลายเป็นสมาชิกชมรมกีฬา" with dissolve
     en "I declined and quickly fled before I could get roped into joining a sports club." with dissolve
+    $ kazuma_mall_pass = True
     jump mall_map
 
 label s2_4_akane:
@@ -745,6 +650,7 @@ label s2_4_akane:
     en "After Akane paid, the two of us went our separate ways out of the store." with dissolve
     th "ทำไมบรรดาสาวๆ ในสภานักเรียนถึงโหดร้ายกับผมจังนะ……" with dissolve
     en "Why are the girls in student council so harsh on me..." with dissolve
+    $ akane_mall_pass = True
     jump mall_map
 label s2_4_reika:
 
@@ -752,16 +658,16 @@ label s2_4_reika:
     scene bg038n19201080 with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
-    yuma_th  "ลองไปหาเรกะดีกว่า" with dissolve
-    yuma_en  "I decided to look for Rega." with dissolve
-    th "ปกติเรกะมักจะแวะไปที่ร้านหนังสือเป็นประจำ" with dissolve
-    en "Rega usually stops by the bookstore regularly." with dissolve
-    th "เธอชอบอ่านหนังสือภาษาอังกฤษยากๆ ที่ผมอ่านไม่ออก แต่รอบนี้เธอกลับทำสิ่งที่ผิดคาดอย่างมาก" with dissolve
+    yuma_th  "ลองไปหาเรกะดีกว่า" 
+    yuma_en  "I decided to look for Rega." 
+    th "ปกติเรกะมักจะแวะไปที่ร้านหนังสือเป็นประจำ" 
+    en "Rega usually stops by the bookstore regularly." 
+    th "เธอชอบอ่านหนังสือภาษาอังกฤษยากๆ ที่ผมอ่านไม่ออก แต่รอบนี้เธอกลับทำสิ่งที่ผิดคาดอย่างมาก" 
     en "She likes reading difficult English books that I can't understand. But this time, she did something completely unexpected." with dissolve
     show reika normal at center with Dissolve(0.2) 
-    th "เธอหยิบนิตยสารยอดฮิตในหมู่เด็กผู้หญิงวัยรุ่นขึ้นมาอ่าน" with dissolve
-    en "She picked up a teen girl magazine, hugely popular with female students." with dissolve
-    yuma_th  "เรกะสนใจของแบบนี้ด้วยเหรอ ลองอ่านตามบ้างดีกว่า" with dissolve
+    th "เธอหยิบนิตยสารยอดฮิตในหมู่เด็กผู้หญิงวัยรุ่นขึ้นมาอ่าน" 
+    en "She picked up a teen girl magazine, hugely popular with female students." 
+    yuma_th  "เรกะสนใจของแบบนี้ด้วยเหรอ ลองอ่านตามบ้างดีกว่า" 
     yuma_en  "Rega's into this kind of thing too? Let me take a peek." with dissolve
     show reika normal at zoom_in,center with Dissolve(0.2) 
     yuma_th  "คอลัมน์ทายดวงด้านความรักจากกรุ๊ปเลือด" with dissolve
@@ -778,10 +684,8 @@ label s2_4_reika:
     yuma_th  "นั่นสินะ" with dissolve
     yuma_en  "I see." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_016.mp3"
-    show surpise
     reika_th aru "เดี๋ยวสิยูมะ นายมาจากไหนเนี่ย!?" with dissolve
     reika_en aru "Wait, Yuma, where did you come from?!" with dissolve
-    hide surpise
     play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_017.mp3"
     reika_th angrymeme_2 "แล้วก็แอบมาอ่านหนังสือของคนอื่นแบบนี้มัน มันเสียมารยาทนะยะ" with dissolve
     reika_en angrymeme_2 "And reading someone else's magazine over their shoulder like this is...is bad manners!" with dissolve
@@ -880,6 +784,7 @@ label s2_4_reika:
     reika_en angry_2 "Geez, I've wasted so much time on you that I didn't get to look for the books I actually wanted to read." with dissolve
     th "หลังจากนั้นเรกะก็ไล่ผมออกจากร้านหนังสือ" with dissolve
     en "After that, Rega chased me out of the bookstore." with dissolve
+    $ reika_mall_pass = True
     jump mall_map
 label s2_4_risa:
     $ _skipping = True
@@ -1011,4 +916,104 @@ label s2_4_risa:
     en "......." with dissolve
     th "หลังจากที่เลือกช้อยส์ครบ 4 คน" with dissolve
     en "After selecting all 4 choices" with dissolve
+    $ risa_mall_pass = True
     jump mall_map
+
+label s2_4_2:
+    scene black with Dissolve(1.0)
+    scene life_shoppingmallbuilding_night_lighton with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
+    th "หลังจากที่ผมออกมาจากประตูเพียงไม่นานเรกะก็เดินออกมา" with dissolve
+    en "Shortly after I exited, Rega came out too." with dissolve
+    show reika normal at center with Dissolve(0.2) 
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_035.mp3"
+    reika_th cold_2 "นี่นายดักรอฉันอยู่หรอ เป็นสโตกเกอร์รึไง" with dissolve
+    reika_en cold_2 "Were you waiting here to ambush me? What are you, a stalker?" with dissolve
+    yuma_th  "เดี๋ยวสิเธอไม่คิดว่าฉันเป็นสุภาพบุรุษที่ไม่สามารถทนเห็นผู้หญิงเดินกลับบ้านคนเดียวได้บ้างเหรอ" with dissolve
+    yuma_en  "Hey now, don't you think I'm enough of a gentleman to not let a girl walk home alone?" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_036.mp3"
+    reika_th chito "นายเนี่ยนะ" with dissolve
+    reika_en chito "You, a gentleman?" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_037.mp3"
+    reika_th hee "ไม่ใช่ว่านายกลัวถูกดักตีเลยรอให้ฉันกลับบ้านด้วยรึไง" with dissolve
+    reika_en hee "More like you were scared of getting beat up, so you waited for me to walk home with you." with dissolve
+    yuma_th  "เอาน่า ไหนๆบ้านพวกเราสองคนก็กลับทางเดียวกันนี่นา" with dissolve
+    yuma_en  "Oh come on, we're heading the same way home anyway." with dissolve
+    yuma_th  "กลับด้วยกันก็ไม่เห็นเป็นไรนี่จะได้ไม่เหงาด้วย" with dissolve
+    yuma_en  "Walking back together isn't a big deal. Plus it's less lonely." with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_038.mp3"
+    reika_th ah_2 "ฉันไม่เหงาหรอกปกติเวลาเดินกลับบ้านฉันชอบฟังเพลงไปด้วย" with dissolve
+    reika_en ah_2 "I don't get lonely. I usually listen to music when I walk home." with dissolve
+    th "นี่ผมคิดถูกจริงๆแล้วใช่ไหมเนี่ยที่รอกลับบ้านพร้อมเรกะ" with dissolve
+    en "I made the right call waiting to walk home with Rega, didn't I." with dissolve
+    scene neighborhood_morning with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
+    show reika normal at zoom_in,center with Dissolve(0.2) 
+    yuma_th "นี่ เรกะ เธอคิดยังไงกับเรื่องการยกเลิกจำหน่ายน้ำอัดลมเหรอ" with dissolve
+    yuma_en "Hey Rega, what do you think about the school banning soda sales?" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_039.mp3"
+    reika_th cold_2 "อย่าบอกนะว่านายเสียใจที่ไม่มีน้ำอัดลมขายแล้ว" with dissolve
+    reika_en cold_2 "Don't tell me you're sad they don't sell soda anymore." with dissolve
+    yuma_th  "ไม่ใช่สักหน่อย แค่บังเอิญเห็นตู้กดน้ำตรงนั้นเลยคิดถึงเรื่องผลโหวตขึ้นมาต่างหาก" with dissolve
+    yuma_en  "Nothing like that. I just happened to see a vending machine and it made me think of the voting results, that's all." with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_040.mp3"
+    reika_th ah "อ๋อ เหตุการณ์สมัยก่อนที่นายร้องไห้เพราะหยอดเหรียญแล้วกดน้ำไม่ได้นะเหรอ" with dissolve
+    reika_en ah "Oh, you mean that time when we were kids and you cried because you put in coins but the button didn't work?" with dissolve
+    yuma_th  "หนวกหูน่า เธอเป็นคนแก่หรือไง เอาแต่พูดถึงเรื่องในอดีต" with dissolve
+    yuma_en  "Shut up. What are you, an old geezer? Always bringing up stuff from the past." with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_041.mp3"
+    reika_th smile "ลองคิดดูแล้วตอนเด็กก็สนุกดีนะ" with dissolve
+    reika_en smile "Come to think of it, we had a lot of fun as kids." with dissolve
+    yuma_th  "แล้วตอนนี้ชีวิตไม่สนุกเหรอ" with dissolve
+    yuma_en  "And life isn't fun now?" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_042.mp3"
+    reika_th angry_2 "ไม่ใช่แบบนั้นสักหน่อย แต่พอโตขึ้น ความรับผิดชอบยิ่งมากขึ้น เอาแต่เล่นสนุกทั้งวันเหมือนเมื่อก่อนไม่ได้แล้ว" with dissolve
+    reika_en angry_2 "That's not it. But as you get older, you have more responsibilities. You can't just play around all day like before." with dissolve
+    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่ายจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
+    yuma_en  "Huh. Hard to believe the kid who couldn't sleep without hugging his stuffed rabbit grew up to be a student council president admired by everyone." with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_043.mp3"
+    reika_th chito "ว่าแต่คนอื่น นายก็กลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็กเลยนี่" with dissolve
+    reika_en chito "Speaking of, you've always been scared of public speaking, even as a kid." with dissolve
+    yuma_th  "เงียบไปเลย ถ้าฉันไม่กลัว ป่านนี้ได้เป็นประธานนักเรียนไปแล้ว ไม่มาเป็นเหรัญญิกให้เธอหรอก" with dissolve
+    yuma_en  "Quiet, you. If I wasn't scared, I'd be student council president by now instead of being treasurer for you." with dissolve
+    hide reika
+    th "คงไม่ใช่เรื่องแปลกที่คนเราจะมีบาดแผลในใจซักอย่างหรือสองอย่าง" with dissolve
+    en "I guess it's not unusual for people to have a wound or two in their hearts." with dissolve
+    th "ทั้งปมปัญหาใหญ่หลวง ทั้งความชอกช้ำในจิตใจ ทั้งความทรงจำเลวร้ายที่อยากลืม" with dissolve
+    en "Major issues, emotional scars, painful memories they want to forget." with dissolve
+    th "ผมกลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็ก" with dissolve
+    en "I've been afraid of public speaking since I was little." with dissolve
+    th "และนี่คงเป็นเหตุผลให้ผมเลือกตำแหน่งเหรัญญิกที่เน้นการอ่านและคำนวณข้อมูล ไม่ต้องออกไปพูดต่อหน้าคนจำนวนมาก" with dissolve
+    en "That's why I chose the treasurer role that focuses on reading and calculating data. I don't have to go up and talk in front of a crowd." with dissolve
+    scene home_yuumahouse_night with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
+    show reika normal at center with Dissolve(0.2) 
+    th "หลังจากที่เราสองคนคุยกันถึงเรื่องในอดีต รู้ตัวอีกทีผมก็มาหยุดอยู่หน้าบ้านของตัวเองแล้ว" with dissolve
+    en "After chatting about the past for a while, before I knew it, I had stopped in front of my own house." with dissolve
+    yuma_th  "ถึงบ้านแล้วเหรอเนี่ยฉันยังรู้สึกยังมีเรื่องอยากคุยกับเธออีกหลายเรื่องเลย" with dissolve
+    yuma_en  "We're home already? I feel like there's still so much I want to talk with you about." with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_044.mp3"
+    reika_th hee_2 "งั้นเหรอ ส่วนฉันกำลังดีใจที่จะได้หลุดพ้นจากเรื่องแก๊งนักเลงของนายซักที" with dissolve
+    reika_en hee_2 "Is that so? Well I'm just glad to finally escape your delinquent gang stories." with dissolve
+    yuma_th  "แก๊งนักเลงที่ไหนกัน แก๊งราชามังกรทมิฬ ผู้ปกป้องเมืองแห่งนี้ต่างหากต่างหาก" with dissolve
+    yuma_en  "What delinquent gang? The Dark Dragon Kings who protect this town, that's who!" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_045.mp3"
+    reika_th bored_2 "ทั้งๆที่เวลามีเรื่องทีไรก็ร้องไห้กลับมาให้ฉันทำแผลให้ทุกครั้งแท้ๆ" with dissolve
+    reika_en bored_2 "Even though every time you got in trouble, you came crying to me to patch you up." with dissolve
+    yuma_th  "มะ..ไม่ใช่ซักหน่อย" with dissolve
+    yuma_en  "Th-that's not true at all!" with dissolve
+    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_046.mp3"
+    reika_th smile "ถ้างั้นฉันไปก่อนแล้วนะท่านหัวหน้าแก๊ง" with dissolve
+    reika_en smile "In that case, I'll be going now, Mr. Gang Leader." with dissolve
+    yuma_th  "อื้ม ไว้เจอกันใหม่นะเรกะ" with dissolve
+    yuma_en  "Yeah. See you later, Rega." with dissolve
+    hide reika
+    th "หลังจากโบกมือลาเรกะก็เดินหายลับไปจากสายตาของผม" with dissolve
+    en "After waving goodbye, Rega walked off and disappeared from my sight." with dissolve
+    th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
+    en "Yuno must be waiting for me by now. I better hurry inside." with dissolve
+    scene black with Dissolve(1.0)
+    jump s2_5
