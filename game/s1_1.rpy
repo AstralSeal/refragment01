@@ -314,13 +314,13 @@ label s1_1:
     show yuno_c normal at center with Dissolve(1.0) 
     yuma_th  "ทำไมถึงต้องเล่นเกมกาชาที่ทุกอย่างขึ้นอยู่กับการสุ่มด้วย เล่นเกมอื่นที่จ่ายเงินซื้อตัวละครไปเลยไม่ดีกว่าเหรอ" with dissolve
     yuma_en  "Why play a gacha game where everything depends on random chance? Isn't it better to play other games where you can directly buy characters with money?" with dissolve
-    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
+    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
     yuno_c_th confident2 "พี่เนี่ยน้า~ ไม่เข้าใจเกมเมอร์ยุคใหม่เลยสักนิด" with dissolve
     yuno_c_en confident2 "Oh, big brother~ You really don't understand modern gamers at all." with dissolve
-    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
+    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
     yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน ‘อวด’ ได้ไงล่ะ" with dissolve
     yuno_c_en  "Gacha games are popular because you can 'show off'." with dissolve
-    # play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
+    play sound "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
     yuno_c_th badass "ถ้าจ่ายเงินซื้อของทุกอย่างที่ต้องการได้ มันจะไปมีค่าอะไร" with dissolve
     yuno_c_en badass "If you could just pay money to buy everything you want, where's the value in that?" with dissolve
     th "ดูเหมือนว่าน้องสาวของผมติดกับดักการตลาดเข้าเต็มๆ" with dissolve
