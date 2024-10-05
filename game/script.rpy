@@ -389,7 +389,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_7
+    jump s2_10
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
