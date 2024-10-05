@@ -102,58 +102,52 @@ label s2_7:
     kazuma_en ah "Yuma, when Rega was giving her speech on stage, do you remember what chemical in soda she said erodes teeth and is harmful to the body?" with dissolve
     hide reika
     hide kazuma
-    th "CHOICE" with dissolve
-    en "CHOICE" with dissolve
-    th "กรดซัลฟิวริก" with dissolve
-    en "Sulfuric acid" with dissolve
-    th "กรดคาร์บอนิก" with dissolve
-    en "Carbonic acid" with dissolve
-    th "ยอมเป็นปลาทองก็ได้" with dissolve
-    en "I'll accept being a goldfish" with dissolve
-    th "กรณีตอบถูก" with dissolve
-    en "If answered correctly" with dissolve
-    show kazuma normal at center with Dissolve(0.2)
-    play sound "audio/sfx/correct.mp3"
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_008.mp3"
-    kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
-    kazuma_en ah "That answer is... correct." with dissolve
-    hide kazuma
-    show reika normal at center with Dissolve(0.2)
-    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
-    reika_th sad2 "รอดไปนะ" with dissolve
-    reika_en sad2 "You dodged that one." with dissolve
-    yuma_th  "มันแน่อยู่แล้ว ฝีมือระดับฉัน" with dissolve
-    yuma_en  "Of course. That's my level of skill." with dissolve
-    hide reika
-    th "กรณีตอบผิด" with dissolve
-    en "If answered incorrectly" with dissolve
-    show kazuma normal at center with Dissolve(0.2) 
-    play sound "audio/sfx/wrong.mp3"
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_009.mp3"
-    kazuma_th angry "เป็นคำตอบที่…… ผิด มั่วสิ้นดี" with dissolve
-    kazuma_en angry "That answer is... wrong. Completely off." with dissolve
-    hide kazuma
-    show reika normal at center with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
-    reika_th hee "ยูมะ ความจำของนายแพ้ปลาทองแล้วนะ" with dissolve
-    reika_en hee "Yuma, your memory is worse than a goldfish's now." with dissolve
-    yuma_th  "พลาดนิดเดียวเอง หยวนๆหน่อยไม่ได้รึไง" with dissolve
-    yuma_en  "I was just off by a bit. Can't you cut me some slack?" with dissolve
-    hide reika
-    th "กรณีเลือกชอยส์สุดท้าย" with dissolve
-    en "If the last choice is selected" with dissolve
-    show kazuma normal at left
-    show reika normal at right with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
-    reika_th normal "ยูมะเดอะปลาทอง" with dissolve
-    reika_en normal "Yuma the Goldfish" with dissolve
-    play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
-    kazuma_th normal "ยูมะเดอะปลาทอง" with dissolve
-    kazuma_en normal "Yuma the Goldfish" with dissolve
-    th "บุ๋งๆ" with dissolve
-    en "Blub blub" with dissolve
-    th "เดี๋ยวก่อน ชื่อของผมเปลี่ยนเป็นยูมะเดอะปลาทองตอนไหนเนี่ย" with dissolve
-    en "Wait a minute, when did my name change to Yuma the Goldfish?" with dissolve
+    menu :
+        '[get_choice("กรดซัลฟิวริก","Sulfuric acid")]':
+            show kazuma normal at center with Dissolve(0.2) 
+            play sound "audio/sfx/wrong.mp3"
+            play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_009.mp3"
+            kazuma_th angry "เป็นคำตอบที่…… ผิด มั่วสิ้นดี" with dissolve
+            kazuma_en angry "That answer is... wrong. Completely off." with dissolve
+            hide kazuma
+            show reika normal at center with Dissolve(0.2) 
+            play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
+            reika_th hee "ยูมะ ความจำของนายแพ้ปลาทองแล้วนะ" with dissolve
+            reika_en hee "Yuma, your memory is worse than a goldfish's now." with dissolve
+            yuma_th  "พลาดนิดเดียวเอง หยวนๆหน่อยไม่ได้รึไง" with dissolve
+            yuma_en  "I was just off by a bit. Can't you cut me some slack?" with dissolve
+            hide reika
+        
+        '[get_choice("กรดคาร์บอนิก","Carbonic acid")]':
+            show kazuma normal at center with Dissolve(0.2)
+            play sound "audio/sfx/correct.mp3"
+            play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_008.mp3"
+            kazuma_th ah "เป็นคำตอบที่…… ถูกต้อง" with dissolve
+            kazuma_en ah "That answer is... correct." with dissolve
+            hide kazuma
+
+            show reika normal at center with Dissolve(0.2)
+            play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
+            reika_th sad2 "รอดไปนะ" with dissolve
+            reika_en sad2 "You dodged that one." with dissolve
+            yuma_th  "มันแน่อยู่แล้ว ฝีมือระดับฉัน" with dissolve
+            yuma_en  "Of course. That's my level of skill." with dissolve
+            hide reika
+        '[get_choice("ยอมเป็นปลาทองก็ได้","I will accept being a goldfish")]':
+            show kazuma normal at left
+            show reika normal at right
+            play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
+            reika_th normal "ยูมะเดอะปลาทอง" with dissolve
+            reika_en normal "Yuma the Goldfish" with dissolve
+            play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
+            kazuma_th normal "ยูมะเดอะปลาทอง" with dissolve
+            kazuma_en normal "Yuma the Goldfish" with dissolve
+            th "บุ๋งๆ" with dissolve
+            en "Blub blub" with dissolve
+            th "เดี๋ยวก่อน ชื่อของผมเปลี่ยนเป็นยูมะเดอะปลาทองตอนไหนเนี่ย" with dissolve
+            en "Wait a minute, when did my name change to Yuma the Goldfish?" with dissolve
+            hide kazuma
+            hide reika
     show reika normal at center with Dissolve(0.2) 
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_011.mp3"
     reika_th normal_2 "ถ้างั้นอากาเนะ ฝากอธิบายให้ที" with dissolve
