@@ -293,7 +293,7 @@ label s2_8:
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_025.mp3"
     yuno_c_th angry_2 "อะไรล่ะนั่น พี่อธิบายอะไรไม่เห็นเข้าใจเลย ไม่ต่างจากครูที่สอนหนูเลยสักนิด" with dissolve
     yuno_c_en angry_2 "What's that? I don't understand anything you're explaining. You're no different from my teachers." with dissolve
-    yuma_th  "ทั้งหมดคือการนำสมการเส้นตรงพื้นฐานมาย้ายข้างเท่านั้นแหละ" with dissolve
+    yuma_th  "ทั้งหมดคือการนำสมการกำลังสองพื้นฐานมาย้ายข้างเท่านั้นแหละ" with dissolve
     yuma_en  "It's all just taking the basic quadratic equation ax^2+bx+c = 0 and rearranging it." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_026.mp3"
     yuno_c_th angry "ย้ายข้างอะไร สุดท้ายคนที่เก่งคณิตก็มีแต่พวกความจำดี คนที่จำอะไรไม่ได้อย่างหนูคงหมดหวังแล้วล่ะ" with dissolve
@@ -323,7 +323,7 @@ label s2_8:
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_029.mp3"
     yuno_c_th serious_2 "ภาษาเอเลี่ยนชัดๆ พี่รู้เรื่องของพี่อยู่คนเดียวนั่นแหละ" with dissolve
     yuno_c_en serious_2 "This is clearly alien language. You're the only one who understands what you're talking about." with dissolve
-    yuma_th  "ใช่ เข้าใจแล้วสินะว่าทำไมพี่ถึงบอกว่าให้จำสูตรไปเลย แค่ตั้งใจเรียนแล้วจำๆไปก็พอ" with dissolve
+    yuma_th  "ใช่ เข้าใจแล้วสินะว่าทำไมพี่ถึงบอกว่าให้จำสูตรไปเลย แค่ตั้งใจเรียนแล้วจำๆ ไปก็พอ" with dissolve
     yuma_en  "Yes, now you understand why I said to just memorize the formula. Just pay attention in class and memorize it, that's enough." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_030.mp3"
     yuno_c_th angry "หา!? หนูตั้งใจเรียนสุดๆ แล้วนะ วิธีการสอนของพี่มันห่วยแตกต่างหาก!" with dissolve

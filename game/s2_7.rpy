@@ -10,13 +10,13 @@ label s2_7:
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_001.mp3"
     reika_th cold_2 "เห้อ จดหมายสารภาพรักอีกแล้ว พักหลังนี้มีมาเยอะชะมัด" with dissolve
     reika_en cold_2 "Sigh, another love confession letter. There have been quite a few lately." with dissolve
-    th "ทำไมช่วงนี้คนรอบๆตัวผมถึงมีคนมาสารภาพรักด้วยเยอะชะมัด" with dissolve
+    th "ทำไมช่วงนี้คนรอบๆ ตัวผมถึงมีคนมาสารภาพรักด้วยเยอะชะมัด" with dissolve
     en "Why are so many people around me getting confessed to these days?" with dissolve
     th "นี่คงเป็นข้อดีของการที่น้องสาวของผมเรียนโฮมสคูลสินะ เลยไม่มีพวกมดปลวกมาไต่ตอม" with dissolve
     en "I guess this is one of the benefits of my sister being homeschooled. No pests swarming around her." with dissolve
     th "ผมคงทนไม่ไหวแน่ถ้าต้องเห็นพวกผู้ชายมารุมสารภาพรักยูโนะ" with dissolve
     en "I definitely couldn't handle seeing guys crowd around Yuno to confess their love." with dissolve
-    yuma_th  "มีคนชอบเยอะ เธอไม่ดีใจรึไง" with dissolve
+    yuma_th  "มีคนชอบเยอะ เธอไม่ดีใจหรือไง" with dissolve
     yuma_en  "With so many admirers, aren't you happy?" with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_002.mp3"
     reika_th hee_2 "ไม่ล่ะ อีกอย่างยุคนี้ใครเขาใช้กระดาษกัน เทรนด์อนุรักษ์สิ่งแวดล้อมกำลังมาแรง" with dissolve
@@ -114,7 +114,7 @@ label s2_7:
             play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
             reika_th hee "ยูมะ ความจำของนายแพ้ปลาทองแล้วนะ" with dissolve
             reika_en hee "Yuma, your memory is worse than a goldfish's now." with dissolve
-            yuma_th  "พลาดนิดเดียวเอง หยวนๆหน่อยไม่ได้รึไง" with dissolve
+            yuma_th  "พลาดนิดเดียวเอง หยวนๆ หน่อยไม่ได้หรือไง" with dissolve
             yuma_en  "I was just off by a bit. Can't you cut me some slack?" with dissolve
             hide reika
         

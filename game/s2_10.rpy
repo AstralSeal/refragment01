@@ -73,7 +73,7 @@ label s2_10:
     yuno_c_th worry "เห้อ แบบนั้นก็สมเป็นพี่อยู่หรอก…" with dissolve
     yuno_c_en worry "Sigh, that's just like him..." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_10/reika_2_10_008.mp3"
-    reika_c_th smile_2 "ไหนๆก็ไหนๆแล้ว ถ้าอยากรู้ว่าหมอนั้นตั้งใจแค่ไหนล่ะก็ไปแอบดูกันหน่อยไหมล่ะ?" with dissolve
+    reika_c_th smile_2 "ไหนๆ ก็ไหนๆ แล้ว ถ้าอยากรู้ว่าหมอนั้นตั้งใจแค่ไหนล่ะก็ไปแอบดูกันหน่อยไหมล่ะ?" with dissolve
     reika_c_en smile_2 "Since we're here anyway, if you want to know how hard that guy tried, why don't we go take a peek?" with dissolve
     th "ถ้าเกิดว่าเข้าไปในห้องของหมอนั่นจะต้องได้เห็นแน่ๆ" with dissolve
     en "If we go into his room, we're sure to see it." with dissolve
@@ -167,7 +167,7 @@ label s2_10:
     en "If I looked back at it now, I'd probably think it doesn't even look human. Who has a chin that pointed?" with dissolve
     th "แต่ฉันก็เอามันให้พี่ชายดูด้วยความมั่นใจ" with dissolve
     en "But I showed it to my big brother with confidence." with dissolve
-    yuma_th  "ว้าวหล่อสุดๆไปเลย คางแหลมเฟี้ยว" with dissolve
+    yuma_th  "ว้าวหล่อสุดๆ ไปเลย คางแหลมเฟี้ยว" with dissolve
     yuma_en  "Wow, super handsome! The pointed chin is so cool!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_014.mp3"
     hide yuno_draw01
@@ -232,7 +232,7 @@ label s2_10:
     show shimai with dissolve
     th "พอยูโนะได้เห็นรูปแล้วก็น้ำตาไหลลงมา ดูเหมือนรูปนั้นจะเป็นรูปที่มีความหมายสำหรับทั้งสองคนอย่างนั้นสินะ" with dissolve
     en "When Yuno saw the picture, tears started flowing down. It seems that picture had a special meaning for both of them." with dissolve
-    th "ฉันจึงค่อยๆเอามือไปลูบหลังยูโนะ พอได้ทำแบบนี้แล้วรู้สึกเหมือนตัวเองเป็นพี่สาวขึ้นมาเลยนะ" with dissolve
+    th "ฉันจึงค่อยๆ เอามือไปลูบหลังยูโนะ พอได้ทำแบบนี้แล้วรู้สึกเหมือนตัวเองเป็นพี่สาวขึ้นมาเลยนะ" with dissolve
     en "So I gently patted Yuno's back. Doing this made me feel like I was really being a big sister." with dissolve
     th "สักพักหนึ่งหลังจากที่หยุดร้องไห้ ยูโนะพูดขึ้นมาว่า" with dissolve
     en "After a while, when she stopped crying, Yuno said," with dissolve
@@ -280,7 +280,7 @@ label s2_10:
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_022.mp3"
     yuno_p_th normal "ยืนทำอะไรอยู่เนี่ย กลับมาแล้วก็รีบเข้ามาสิ" with dissolve
     yuno_p_en normal "What are you standing there for? Come in quickly if you're back." with dissolve
-    yuma_th  "วันนี้ไม่มี ‘เย้ ในที่สุดพี่ก็กลับมาแล้ว รอตั้งนาน ’ แล้วหรอ" with dissolve
+    yuma_th  "วันนี้ไม่มี ‘เย้ ในที่สุดพี่ก็กลับมาแล้ว รอตั้งนาน’ แล้วเหรอ" with dissolve
     yuma_en  "No 'Yay, big brother is finally back, I've been waiting so long' today?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_023.mp3"
     yuno_p_th serious_2 "ไม่มี! แล้วก็พี่ออกไปข้างนอกมาไหนล่ะของฝากสำหรับหนู" with dissolve
@@ -314,7 +314,7 @@ label s2_10:
     en "What should I say..." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-125.mp3" volume 0.5
-    th "ช่วยไม่ได้ คงต้องทำไอนั่นจริงๆสินะ" with dissolve
+    th "ช่วยไม่ได้ คงต้องทำไอนั่นจริงๆ สินะ" with dissolve
     en "Can't be helped, I guess I'll have to do that." with dissolve
     th "คงต้องถึงเวลาของท่าไม้ตายที่พ่อเคยสอนแล้วสินะ" with dissolve
     en "It must be time for that killer move Dad taught me." with dissolve
@@ -352,7 +352,7 @@ label s2_10:
     th "….ทำไมยูโนะถึงเงียบไปล่ะเนี่ย" with dissolve
     en "...Why did Yuno go quiet?" with dissolve
     show yuno_p normal at center with Dissolve(0.2) 
-    th "พอผมหันไปก็เจอยูโนะกำลังหน้าแดงอยู่ สงสัยท่าไม้ตายนี้จะใช้ได้ผลกับผู้หญิงบ้านคุซากะจริงๆสินะ" with dissolve
+    th "พอผมหันไปก็เจอยูโนะกำลังหน้าแดงอยู่ สงสัยท่าไม้ตายนี้จะใช้ได้ผลกับผู้หญิงบ้านคุซากะจริงๆ สินะ" with dissolve
     en "When I looked up, I saw Yuno blushing. Maybe this killer move really does work on Kusaka women." with dissolve
     yuma_th  "ดูเหมือนจะได้ผลสินะ" with dissolve
     yuma_en  "Looks like it worked, huh?" with dissolve
@@ -367,7 +367,7 @@ label s2_10:
     yuma_th  "จริงหรอ?" with dissolve
     yuma_en  "Really?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_030.mp3"
-    yuno_p_th angry "จริงสิ แล้วก็ลุกขึ้นมาซักทีเถอะน่า ไม่อายคนอื่นเค้ารึไง?" with dissolve
+    yuno_p_th angry "จริงสิ แล้วก็ลุกขึ้นมาซักทีเถอะน่า ไม่อายคนอื่นเค้าหรือไง" with dissolve
     yuno_p_en angry "Yes, now get up already. Aren't you embarrassed in front of others?" with dissolve
     yuma_th  "ยูโนะไม่ได้อยากให้พี่ทำแบบนี้เหรอ?" with dissolve
     yuma_en  "Didn't you want me to do this, Yuno?" with dissolve
@@ -418,7 +418,7 @@ label s2_10:
     yuma_en  "First, let's start with the perfect square formula." with dissolve
     hide yuma_sensei03
     show yuma_sensei04 with dissolve
-    yuma_th  "กำลังสองสมบูรณ์จะมีอยู่ 2 สูตรหลักๆด้วยกัน ตามนี้" with dissolve
+    yuma_th  "กำลังสองสมบูรณ์จะมีอยู่ 2 สูตรหลักๆ ด้วยกัน ตามนี้" with dissolve
     yuma_en  "There are mainly two perfect square formulas, like this:" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_037.mp3"
     yuno_p_th ah_2 "สูตรนี้หนูจำได้แล้ว แต่ไม่รู้ว่ามันจะใช้ยังไงนะสิ ก็ตัวหลังในสูตรมันต้องเป็นบวกไม่ใช่เหรอ แต่ในโจทย์ข้อนี้มันเป็นลบนี่นา แบบนี้จะใช้สูตรได้จริงๆ เหรอ" with dissolve
@@ -530,9 +530,9 @@ label s2_10:
     th "เป็นไงล่ะ ชื่อเท่ใช่มั้ยล่ะ" with dissolve
     en "How about it? Cool name, right?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_041.mp3"
-    yuno_p_th worry_2 "อ่าวไม่ได้ชื่อสูตร SS1S-663 หรอ?" with dissolve
+    yuno_p_th worry_2 "อ่าวไม่ได้ชื่อสูตร SS1S-663 หรอ" with dissolve
     yuno_p_en worry_2 "Oh, isn't it called the SS1S-663 formula?" with dissolve
-    yuma_th  "ห้ะ นี่เธอไปเอาเลขแปลกๆนั่นมาจากไหนเนี่ย?" with dissolve
+    yuma_th  "ห้ะ นี่เธอไปเอาเลขแปลกๆ นั่นมาจากไหนเนี่ย" with dissolve
     yuma_en  "Huh? Where did you get that strange number from?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_042.mp3"
     yuno_p_th onegai_2 "ก็หนูเห็นมันเขียนอยู่บนห้องพี่นี่นา นึกว่าจะใช่ซะอีก" with dissolve
@@ -556,12 +556,12 @@ label s2_10:
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_046.mp3"
     yuno_p_th blank_2 "หนูไม่สนใจวันครบรอบที่พี่ไม่สไลด์หนอนมาหนึ่งสัปดาห์หรืออะไรแบบนั้นหรอกนะ" with dissolve
     yuno_p_en blank_2 "I don't care about the anniversary of you not sliding like a worm for a week or something like that." with dissolve
-    yuma_th  "ใช่ที่ไหนเล่า วันนี้มีงานเกมที่เธอเล่นไม่ใช่รึไง" with dissolve
+    yuma_th  "ใช่ที่ไหนเล่า วันนี้มีงานเกมที่เธอเล่นไม่ใช่หรือไง" with dissolve
     yuma_en  "That's not it. Isn't there an event for that game you play today?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_047.mp3"
     yuno_p_th angry_2 "เอ๋! แบบนี้พี่ก็แอบไปเที่ยวกับสาวมานะสิ" with dissolve
     yuno_p_en angry_2 "Eh! So you went out with a girl, didn't you?" with dissolve
-    yuma_th  "ก็ยูโนะไม่ใช่รึไงที่บอกให้พี่ไปน่ะ!" with dissolve
+    yuma_th  "ก็ยูโนะไม่ใช่หรือไงที่บอกให้พี่ไปน่ะ!" with dissolve
     yuma_en  "Wasn't it you who told me to go?!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_048.mp3"
     yuno_p_th ah "แล้วพี่ได้ตุ๊กตามาด้วยมั้ย" with dissolve

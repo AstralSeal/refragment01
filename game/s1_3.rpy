@@ -80,7 +80,7 @@ label s1_3:
     reika_th angrymeme2_2 "ก็เพราะว่าเวลานายพูดแล้วมันจะทำให้คนอื่นเข้าใจผิดไงเล่า!" with dissolve
     reika_en angrymeme2_2 "That's because when you talk about it, it makes others misunderstand!" with dissolve
     hide excited
-    yuma_th  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่รึไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
+    yuma_th  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่หรือไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
     yuma_en  "But isn't our relationship like that? The kind where I can see the mole on your butt?" with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_3/reika_1_3_006.mp3"
     reika_th angry2_2 "นายหยุดพูดเรื่องไฝที่ก้นซักทีได้ไหม ในสมองนาย ความทรงจำที่มีร่วมกันของพวกเรามันมีอยู่แค่เรื่องเดียวหรือไงห้ะ" with dissolve
