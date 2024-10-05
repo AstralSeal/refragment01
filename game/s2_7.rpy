@@ -7,7 +7,7 @@ label s2_7:
     en "It's lunchtime now. We've all gathered in the student council room." with dissolve
     scene school_councilroom_morning with Dissolve(1.0)
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_001.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_001.mp3"
     reika_th cold_2 "เห้อ จดหมายสารภาพรักอีกแล้ว พักหลังนี้มีมาเยอะชะมัด" with dissolve
     reika_en cold_2 "Sigh, another love confession letter. There have been quite a few lately." with dissolve
     th "ทำไมช่วงนี้คนรอบๆตัวผมถึงมีคนมาสารภาพรักด้วยเยอะชะมัด" with dissolve
@@ -18,14 +18,14 @@ label s2_7:
     en "I definitely couldn't handle seeing guys crowd around Yuno to confess their love." with dissolve
     yuma_th  "มีคนชอบเยอะ เธอไม่ดีใจรึไง" with dissolve
     yuma_en  "With so many admirers, aren't you happy?" with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_002.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_002.mp3"
     reika_th hee_2 "ไม่ล่ะ อีกอย่างยุคนี้ใครเขาใช้กระดาษกัน เทรนด์อนุรักษ์สิ่งแวดล้อมกำลังมาแรง" with dissolve
     reika_en hee_2 "Nah. Besides, who uses paper these days? The eco-friendly trend is all the rage now." with dissolve
     yuma_th  "การเขียนจดหมายต้องเลือกเฟ้นซองจดหมายและกระดาษ บรรจงเลือกสีและคิด" with dissolve
     yuma_en  "Writing a letter requires carefully selecting the envelope and paper, choosing colors thoughtfully, and meticulously crafting each word into characters. " with dissolve
     yuma_th  "ถักทอถ้อยความเรียบเรียงเป็นตัวอักษรทีละตัว สิ่งเหล่านี้เป็นเสน่ห์ที่ดิจิทัลทำไม่ได้นะ" with dissolve
     yuma_en  "These are charms that digital can't replicate." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_003.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_003.mp3"
     reika_th bored_2 "ย่อยทิ้งให้หมด" with dissolve
     reika_en bored_2 "Just shred them all." with dissolve
     th "พอพูดจบ เรกะก็โยนจดหมายรักเข้าเครื่องทำลายเอกสารทันทีโดยไม่ลังเล" with dissolve
@@ -49,7 +49,7 @@ label s2_7:
     kazuma_en ah "I have something important to tell everyone." with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_004.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_004.mp3"
     reika_th ah "อย่าบอกนะว่าเรื่องโต้วาที" with dissolve
     reika_en ah "Don't tell me it's about the debate." with dissolve
     hide reika
@@ -66,7 +66,7 @@ label s2_7:
     hide kazuma
     hide akane
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_005.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_005.mp3"
     reika_th cold_2 "ยูมะ นายจำไม่ได้จริงๆ เหรอ" with dissolve
     reika_en cold_2 "Yuma, do you really not remember?" with dissolve
     hide reika
@@ -85,13 +85,13 @@ label s2_7:
     yuma_en  "Culum Brown, a marine biologist from Australia, experimented and found that goldfish can have memories lasting years." with dissolve
     yuma_th  "อีกงานวิจัยจากประเทศอิสราเอลได้ข้อสรุปว่าปลาทองมีความสามารถในการเรียนรู้และมีความจำที่ดีมากเหมือนกัน" with dissolve
     yuma_en  "Another study from Israel concluded that goldfish have excellent learning abilities and memory too." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_006.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_006.mp3"
     reika_th cold_2 "ก็ได้ ถึงปลาทองจะมีความจำดีเลิศ แต่นายก็ความจำไม่ดีเหมือนเดิม" with dissolve
     reika_en cold_2 "Fine. Even if goldfish have excellent memory, yours is still just as bad." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_7/yuno_2_7_001.mp3"
     yuno_th  "อย่ามาดูถูกกันนะ ฉันคูณเลขในใจได้ 10 หลักเชียวนะ" with dissolve
     yuno_en  "Don't look down on me. I can do 10-digit multiplication in my head, you know." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_007.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_007.mp3"
     reika_th angry_2 "การคำนวณกับการจดจำมันเป็นคนละเรื่องกัน" with dissolve
     reika_en angry_2 "Calculation and memory are two different things." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_006.mp3"
@@ -119,8 +119,7 @@ label s2_7:
     kazuma_en ah "That answer is... correct." with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2)
-    #missing
-    ##play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_008.mp3"
     reika_th sad2 "รอดไปนะ" with dissolve
     reika_en sad2 "You dodged that one." with dissolve
     yuma_th  "มันแน่อยู่แล้ว ฝีมือระดับฉัน" with dissolve
@@ -135,7 +134,7 @@ label s2_7:
     kazuma_en angry "That answer is... wrong. Completely off." with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
     reika_th hee "ยูมะ ความจำของนายแพ้ปลาทองแล้วนะ" with dissolve
     reika_en hee "Yuma, your memory is worse than a goldfish's now." with dissolve
     yuma_th  "พลาดนิดเดียวเอง หยวนๆหน่อยไม่ได้รึไง" with dissolve
@@ -145,7 +144,7 @@ label s2_7:
     en "If the last choice is selected" with dissolve
     show kazuma normal at left
     show reika normal at right with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
     reika_th normal "ยูมะเดอะปลาทอง" with dissolve
     reika_en normal "Yuma the Goldfish" with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
@@ -156,7 +155,7 @@ label s2_7:
     th "เดี๋ยวก่อน ชื่อของผมเปลี่ยนเป็นยูมะเดอะปลาทองตอนไหนเนี่ย" with dissolve
     en "Wait a minute, when did my name change to Yuma the Goldfish?" with dissolve
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_011.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_011.mp3"
     reika_th normal_2 "ถ้างั้นอากาเนะ ฝากอธิบายให้ที" with dissolve
     reika_en normal_2 "In that case, Akane, please explain." with dissolve
     hide reika
@@ -199,24 +198,24 @@ label s2_7:
     kazuma_en  "I heard it's a student group called 'Radiant Sun' or something." with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_012.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_012.mp3"
     reika_th tense "สุริยันสาดแสง? ชื่อประหลาดดีนะ" with dissolve
     reika_en tense "Radiant Sun? That's a weird name." with dissolve
     yuma_th  "ชื่อโคตรเท่ อย่างกะฉายาในเกมออนไลน์สมัยก่อนเลย" with dissolve
     yuma_en  "The name's super cool, like an old-school online game nickname." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"
     reika_th worry "คงจะมีแต่นายละมั้งที่คิดว่าชื่อแบบนี้มันเท่ ยูมะ" with dissolve
     reika_en worry "I think you're the only one who thinks that kind of name is cool, Yuma." with dissolve
     yuma_th  "เธอมีปัญหากับเซนส์การตั้งชื่อของฉันหรือไง" with dissolve
     yuma_en  "Do you have a problem with my sense of naming?" with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_014.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_014.mp3"
     reika_th ah "ถ้าอย่างนั้น นายลองตั้งชื่อกลุ่มดูบ้างสิ" with dissolve
     reika_en ah "If that's the case, why don't you try naming a group?" with dissolve
     yuma_th "Dark Flame Conqueror" with dissolve
     yuma_en "Dark Flame Conqueror" with dissolve
     th "หลังจากที่ผมประกาศชื่อที่เท่ที่สุดเท่าที่คิดออกมาได้ ห้องสภานักเรียนก็ตกอยู่ในความเงียบงัน" with dissolve
     en "After I announced what I thought was the coolest name I could come up with, the student council room fell into silence." with dissolve
-    #play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_015.mp3"
+    play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_015.mp3"
     reika_th ah_2 "คาสึมะ พอรู้ไหมว่ากลุ่มสุริยันสาดแสงเป็นใครมาจากไหน" with dissolve
     reika_en ah_2 "Kasuma, do you know who this Radiant Sun group is or where they're from?" with dissolve
     yuma_th  "นี่เมินกันเหรอ!" with dissolve
