@@ -920,7 +920,7 @@ label s2_4_risa:
     jump mall_map
 
 label s2_4_2:
-        
+    scene black with Dissolve(1.0)
     scene life_shoppingmallbuilding_night_lighton with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
@@ -1015,4 +1015,5 @@ label s2_4_2:
     en "After waving goodbye, Rega walked off and disappeared from my sight." with dissolve
     th "ป่านนี้ยูโนะคงรอผมอยู่แน่นอนรีบเดินเข้าบ้านดีกว่า" with dissolve
     en "Yuno must be waiting for me by now. I better hurry inside." with dissolve
+    scene black with Dissolve(1.0)
     jump s2_5

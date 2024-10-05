@@ -374,5 +374,6 @@ label s2_8:
     en "And what should I wear tomorrow..." with dissolve
     th "สุดท้ายผมก็คิดหาวิธีสอนคณิตศาสตร์ยูโนะจนเผลอหลับไปในที่สุด" with dissolve
     en "In the end, I fell asleep while trying to think of ways to teach Yuno math." with dissolve
+    scene black with Dissolve(1.0)
     jump s2_9
     return

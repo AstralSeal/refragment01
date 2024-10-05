@@ -810,5 +810,6 @@ label s2_9:
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
     th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอรี่จากร้านดังในห้าง" with dissolve
     en "I walked home with a strawberry pudding from the famous shop in the mall." with dissolve
+    scene black with Dissolve(1.0)
     jump s2_10
     return

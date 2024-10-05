@@ -131,5 +131,6 @@ label s2_2:
     en "My curiosity is starting to get the better of me." with dissolve
     th "เอาไว้โอกาสหน้าลองถามรุ่นพี่มายะตรงๆ เลยดีกว่า" with dissolve
     en "I'll try asking Senior Maya directly next time I get the chance." with dissolve
+    scene black with Dissolve(1.0)
     jump s2_3
     return

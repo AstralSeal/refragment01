@@ -357,11 +357,13 @@ label s2_10:
     yuma_th  "ดูเหมือนจะได้ผลสินะ" with dissolve
     yuma_en  "Looks like it worked, huh?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_028.mp3"
-    yuno_p_th panic4_2_shy "ใครจะไปชอบท่าแบบนี้กันเล่า ไม่ใช่แม่ซักหน่อย!" with dissolve
-    yuno_p_en panic4_2_shy "Who would like a move like that? I'm not Mom!" with dissolve
+    #todo shy
+    yuno_p_th panic4_2 "ใครจะไปชอบท่าแบบนี้กันเล่า ไม่ใช่แม่ซักหน่อย!" with dissolve
+    yuno_p_en panic4_2 "Who would like a move like that? I'm not Mom!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_029.mp3"
-    yuno_p_th onegai_2_shy "แต่ว่า…จะยกโทษให้ก็ได้" with dissolve
-    yuno_p_en onegai_2_shy "But... I'll forgive you." with dissolve
+    yuno_p_th onegai_2 "แต่ว่า…จะยกโทษให้ก็ได้" with dissolve
+        #todo shy
+    yuno_p_en onegai_2 "But... I'll forgive you." with dissolve
     yuma_th  "จริงหรอ?" with dissolve
     yuma_en  "Really?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_030.mp3"
