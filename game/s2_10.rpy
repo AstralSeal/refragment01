@@ -285,7 +285,7 @@ label s2_10:
     play sound "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_023.mp3"
     yuno_p_th serious_2 "ไม่มี! แล้วก็พี่ออกไปข้างนอกมาไหนล่ะของฝากสำหรับหนู" with dissolve
     yuno_p_en serious_2 "No! And where did you go outside? Where's my souvenir?" with dissolve
-    yuma_th  "นี่ไงพุดดิ้งสตรอว์เบอร์รีของโปรดยูโนะ" with dissolve
+    yuma_th  "นี่ไงพุดดิ้งสตรอเบอร์รี่ของโปรดยูโนะ" with dissolve
     yuma_en  "Here's your favorite strawberry pudding, Yuno." with dissolve
     th "ยูโนะรีบรับพุดดิ้งมาไว้ในมืออย่างรวดเร็ว" with dissolve
     en "Yuno quickly took the pudding into her hands." with dissolve

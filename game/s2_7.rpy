@@ -174,10 +174,10 @@ label s2_7:
     akane_en  "They can also present counterarguments to refute the other side's views, under the condition that personal attacks are forbidden." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_008.mp3"
     akane_th  "หลังการปะทะคารมเสร็จสิ้น นักเรียนทุกคนจะโหวตลงคะแนนทันที" with dissolve
-    akane_en  "After the verbal clash concludes, all students vote immediately." with dissolve
+    akane_en  "After the debate concludes, all students vote immediately." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_009.mp3"
-    akane_th  "ครั้งที่แล้วชมรมบาสเกตบอลกับชมรมดนตรีเสนอโต้วาทีเพราะต้องการใช้โรงยิมเพื่อฝึกซ้อมในวันและเวลาเดียวกัน ผลสุดท้ายชมรมดนตรีชนะไปด้วยคะแนนเสียง 52" with dissolve
-    akane_en  "Last time, the basketball club and the music club proposed a debate because they wanted to use the gym for practice on the same day and time. In the end, the music club won with 52 votes." with dissolve
+    akane_th  "ครั้งที่แล้วชมรมบาสเกตบอลกับชมรมดนตรีเสนอโต้วาทีเพราะต้องการใช้โรงยิมเพื่อฝึกซ้อมในวันและเวลาเดียวกัน ผลสุดท้ายชมรมดนตรีชนะไปด้วยคะแนนเสียง 52:48" with dissolve
+    akane_en  "Last time, the basketball club and the music club proposed a debate because they wanted to use the gym for practice on the same day and time. In the end, the music club won with 52%." with dissolve
     hide akane
     yuma_th  "แล้วครั้งนี้เป็นประเด็นเรื่องอะไร กับใครล่ะ" with dissolve
     yuma_en  "So what's the issue this time, and who's involved?" with dissolve

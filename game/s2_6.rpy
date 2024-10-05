@@ -65,7 +65,7 @@ label s2_6:
     yuma_th  "นานๆ ทีฉันเองก็มาเช้าได้เหมือนกันนะ" with dissolve
     yuma_en  "Even I can make it to school early once in a while, you know." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_6/akane_2_6_004.mp3"
-    akane_th confident "ในที่สุดก็เข้าใจแล้วสินะคะ สมาชิกนักเรียนต้องเป็นแบบอย่างที่ดีให้กับนักเรียนทุกคน" with dissolve
+    akane_th confident "ในที่สุดก็เข้าใจแล้วสินะคะ สมาชิกสภานักเรียนต้องเป็นแบบอย่างที่ดีให้กับนักเรียนทุกคน" with dissolve
     akane_en confident "So you finally understand. Student council members need to set a good example for all the students." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_6/akane_2_6_005.mp3"
     akane_th ah "ว่าแล้วก็มาช่วยงาน—" with dissolve
@@ -436,7 +436,7 @@ label s2_6:
     flying_seal_en  "Please take your drink." with dissolve
     play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_039.mp3"
     show aware
-    maya_th ah_2 "อ๊ะ นมสตรอเบอรี่ปั่นหวาน 140\% ได้แล้ว" with dissolve
+    maya_th ah_2 "อ๊ะ นมสตรอเบอร์รี่ปั่นหวาน 140\% ได้แล้ว" with dissolve
     maya_en ah_2 "Ah, my sweet strawberry milk with 140\% sweetness is ready." with dissolve
     hide aware
     play sound "audio/voice/maya/chapter2/chapter2_6/maya_2_6_040.mp3"

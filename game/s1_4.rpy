@@ -363,7 +363,7 @@ label s1_4:
     reika_th normal_2 "ยูโนะฝากให้แวะซื้อของที่ร้านสะดวกซื้อน่ะ" with dissolve
     reika_en normal_2 "Yuno asked me to stop by the convenience store." with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_029.mp3"
-    reika_th  "ฉันซื้อบัตรเติมเงินเกม Seal Impact และก็พุดดิ้งสตรอเบอรี่ให้ยูโนะเรียบร้อยแล้ว" with dissolve
+    reika_th  "ฉันซื้อบัตรเติมเงินเกม Seal Impact และก็พุดดิ้งสตรอเบอร์รี่ให้ยูโนะเรียบร้อยแล้ว" with dissolve
     reika_en  "I bought a Seal Impact game card and strawberry pudding for Yuno." with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_030.mp3"
     reika_th angry_2 "นายก็หัดอ่าน LIME ซะบ้างนะ" with dissolve
@@ -482,7 +482,7 @@ label s1_4:
     yuma_th  "ขอเป็นพรุ่งนี้ละกัน" with dissolve
     yuma_en  "Can it be tomorrow?" with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_047.mp3"
-    reika_th  "ก็ได้ อย่าลืมจ่ายเงินด้วยล่ะ ส่วนค่าพุดดิ้งสตรอเบอรี่ไม่ต้อง ถือว่าเป็นของขวัญให้ยูโนะก็แล้วกัน" with dissolve
+    reika_th  "ก็ได้ อย่าลืมจ่ายเงินด้วยล่ะ ส่วนค่าพุดดิ้งสตรอเบอร์รี่ไม่ต้อง ถือว่าเป็นของขวัญให้ยูโนะก็แล้วกัน" with dissolve
     reika_en  "Alright. Don't forget to pay. As for the strawberry pudding, don't worry about it. Consider it a gift for Yuno." with dissolve
     th "พอพูดจบเรกะก็เดินจากไป" with dissolve
     en "After saying that, Rega leaves." with dissolve

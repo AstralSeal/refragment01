@@ -294,7 +294,7 @@ label s2_8:
     yuno_c_th angry_2 "อะไรล่ะนั่น พี่อธิบายอะไรไม่เห็นเข้าใจเลย ไม่ต่างจากครูที่สอนหนูเลยสักนิด" with dissolve
     yuno_c_en angry_2 "What's that? I don't understand anything you're explaining. You're no different from my teachers." with dissolve
     yuma_th  "ทั้งหมดคือการนำสมการเส้นตรงพื้นฐานมาย้ายข้างเท่านั้นแหละ" with dissolve
-    yuma_en  "It's all just taking the basic linear equation ax^2+bx+c = 0 and rearranging it." with dissolve
+    yuma_en  "It's all just taking the basic quadratic equation ax^2+bx+c = 0 and rearranging it." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_026.mp3"
     yuno_c_th angry "ย้ายข้างอะไร สุดท้ายคนที่เก่งคณิตก็มีแต่พวกความจำดี คนที่จำอะไรไม่ได้อย่างหนูคงหมดหวังแล้วล่ะ" with dissolve
     yuno_c_en angry "Rearranging what? In the end, only people with good memory are good at math. Someone like me who can't remember anything is hopeless." with dissolve

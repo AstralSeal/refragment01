@@ -808,7 +808,7 @@ label s2_9:
     en "Should I consult Reka? No, I can't rely on Reka all the time." with dissolve
     yuma_th  "เอาล่ะ ต้องลองดู เป็นไงเป็นกัน" with dissolve
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
-    th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอรี่จากร้านดังในห้าง" with dissolve
+    th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอร์รี่จากร้านดังในห้าง" with dissolve
     en "I walked home with a strawberry pudding from the famous shop in the mall." with dissolve
     scene black with Dissolve(1.0)
     jump s2_10
