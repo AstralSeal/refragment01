@@ -106,7 +106,7 @@ define risa_th = Character("ริสะ", image ="risa" , color="#F0F8FF", who_
 define yuno_p_th = Character("ยูโนะ", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define yuno_c_th = Character("ยูโนะ", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 
-define student_m_2_th = Character("student_m_2_th" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
+define student_m_2_th = Character("นักเรียกชาย" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define staff_th = Character("พนักงาน" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 define speaker_th = Character("พิธีกร" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
@@ -140,7 +140,7 @@ define risa_en = Character("Risa", image ="risa" , color="#F0F8FF", who_outlines
 define yuno_p_en = Character("Yuno", image ="yuno_p" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_c_en = Character("Yuno", image ="yuno_c" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
-define student_m_2_en = Character("student_m_2" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define student_m_2_en = Character("Male Student" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define staff_en = Character("Staff" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define speaker_en = Character("Speaker" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 #########################################
@@ -389,7 +389,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_10
+    jump s2_6
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
