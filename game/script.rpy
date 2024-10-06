@@ -379,6 +379,12 @@ image sunset4 = im.Scale("bg/sunset4.png",1920,1080)
 transform zoom_in:
     zoom 1.5
     yoffset 420
+transform left_50:
+    xoffset 50
+transform emotion_zoom:
+    yoffset -50
+    xoffset 100
+
 
 transform zoom_in_yuno:
     zoom 1.5
@@ -393,7 +399,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_10
+    jump s1_1
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
