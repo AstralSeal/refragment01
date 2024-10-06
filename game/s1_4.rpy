@@ -17,7 +17,7 @@ label s1_4:
     student_m_b_en  "Can't be helped. I'll eagerly await the day our male friendship grows stronger." with dissolve
     yuma_th  "เว่อร์ไปไหมนั่น" with dissolve
     yuma_en  "Isn't that a bit dramatic?" with dissolve
-    student_m_b_th  "ก็ช่วยไม่ได้ ในเมื่อยูมะไม่ว่าง พวกเราสองคนไปฟิตกล้ามล่วงหน้ากันดึกว่า" with dissolve
+    student_m_b_th  "ก็ช่วยไม่ได้ ในเมื่อยูมะไม่ว่าง พวกเราสองคนไปฟิตกล้ามล่วงหน้ากันดีกว่า" with dissolve
     student_m_b_en  "Well, since Yuma isn't available, the two of us will go pump iron in advance." with dissolve
     student_m_a_th  "เอ๋ แต่ว่าฉันก็ไม่อยากไปเล่นกล้าม" with dissolve
     student_m_a_en  "Eh? But I don't want to work out either." with dissolve
@@ -368,7 +368,7 @@ label s1_4:
     play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_030.mp3"
     reika_th angry_2 "นายก็หัดอ่าน LIME ซะบ้างนะ" with dissolve
     reika_en angry_2 "You should check your LINE messages sometimes." with dissolve
-    yuma_th  "ขอโทษด้วยครับ ครั้งหน้าจะไม่ลืมอีกแล้วว" with dissolve
+    yuma_th  "ขอโทษด้วยครับ ครั้งหน้าจะไม่ลืมอีกแล้ว" with dissolve
     yuma_en  "I'm sorry. I won't forget next time." with dissolve
     th "ผมวุ่นกับงานสภานักเรียน ไม่ได้เช็คข้อความ LIME จึงทำให้พลาดข้อความจากยูโนะ" with dissolve
     en "I was busy with student council work and didn't check my LINE messages, so I missed Yuno's message." with dissolve
@@ -439,7 +439,7 @@ label s1_4:
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
     show reika onegai_2 at zoom_in,center
     #missing
-    # play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
+    play sound "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
     reika_th angrymeme_2 "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
     reika_en angrymeme_2 "When are you going to pay me back?!!!" with dissolve
     yuma_th  "เอ๋?!" with dissolve

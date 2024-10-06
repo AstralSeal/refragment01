@@ -123,7 +123,7 @@ label s1_2:
     reika_th  "โรงเรียนซิลเวอร์ซีลเป็นโรงเรียนเอกชนที่มีนักเรียนกว่า 1,400 คน" with dissolve
     reika_en  "Silver Seal School is a private school with over 1,400 students." with dissolve
     play sound "audio/voice/reika/chapter1/chapter1_2/reika_1_2_005.mp3"
-    reika_th  "ด้วยความร่วมมือจากภาครัฐและภาคเอกชนหลายแห่ง โรงเรียนนี้จึงกลายเป็นโรงเรียนต้นแบบที่ส่งเสริมประชาธิปไตยเต็มรูปแบบภายใต้แนวคิด ‘ประชาธิปไตยระดับชาติ ล้วนมีรากฐานมาจากห้องเรียน" with dissolve
+    reika_th  "ด้วยความร่วมมือจากภาครัฐและภาคเอกชนหลายแห่ง โรงเรียนนี้จึงกลายเป็นโรงเรียนต้นแบบที่ส่งเสริมประชาธิปไตยเต็มรูปแบบภายใต้แนวคิด 'ประชาธิปไตยระดับชาติ' ล้วนมีรากฐานมาจากห้องเรียน" with dissolve
     reika_en  "With cooperation from various public and private sectors, this school has become a model school that fully promotes democracy under the concept 'National democracy has its roots in the classroom.'" with dissolve
     student_m_a_th  "น่าเบื่อจัง ฟังมาสิบรอบแล้ว" with dissolve
     student_m_a_en  "How boring. I've heard this ten times already." with dissolve
