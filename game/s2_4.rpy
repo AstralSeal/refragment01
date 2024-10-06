@@ -85,7 +85,7 @@ label s2_4:
     risa_en sadistic_s "Hey now! Are you trying to say my lessons are boring?!" with dissolve
     yuma_th  "ใจเย็นก่อนครับครูริสะ ฟังที่ผมกำลังจะอธิบายให้จบก่อนสิครับ" with dissolve
     yuma_en  "Calm down Ms. Risa, hear me out first." with dissolve
-    yuma_th  "หลังจากนั้นผมเลยเกิดไอเดียว่าถ้าเราใช้วิธีเปรียบเทียบกับสิ่งที่ทุกคนรู้อยู่แล้วอย่างเช่นการผสมพันธุ์ของมนุษย์ มันน่าจะทำให้เข้าใจง่ายขึ้น" with dissolve
+    yuma_th  "หลังจากนั้นผมเลยเกิดไอเดียว่าถ้าเราใช้วิธีเปรียบเทียบกับสิ่งที่ทุกคนรู้อยู่แล้วอย่างเช่น\nการผสมพันธุ์ของมนุษย์ มันน่าจะทำให้เข้าใจง่ายขึ้น" with dissolve
     yuma_en  "After that, I got the idea that if we compare it to something everyone already knows, like human reproduction, it would be easier to understand." with dissolve
     yuma_th  "ยกตัวอย่างเช่นตอนที่น้ำหวานจากเกสรตัวเมียมากระตุ้นให้เกสรตัวผู้งอกหลอดเรณู" with dissolve
     yuma_en  "For example, when the nectar from the female stigma stimulates the male anther to grow a pollen tube," with dissolve
@@ -96,7 +96,7 @@ label s2_4:
     th "ครูริสะเงียบและทำหน้าครุ่นคิดอย่างจริงจังอยู่พักหนึ่ง และพูดขึ้นมาว่า…" with dissolve
     en "Ms. Risa went quiet and made a very serious pondering face for a while. Then she spoke up..." with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_012.mp3"
-    risa_th normal "ที่เธอพูดมาก็มีเหตุผล การอธิบายด้วยการเปรียบเทียบกับสิ่งที่รู้อยู่แล้วทำให้เข้าใจง่านขึ้น" with dissolve
+    risa_th normal "ที่เธอพูดมาก็มีเหตุผล การอธิบายด้วยการเปรียบเทียบกับสิ่งที่รู้อยู่แล้วทำให้เข้าใจง่ายขึ้น" with dissolve
     risa_en normal "What you're saying makes sense. Explaining by comparing to familiar concepts does make it easier to grasp." with dissolve
     yuma_th  "ในที่สุดครูก็เห็นถึงความสุดยอดของผมแล้วสินะครับ" with dissolve
     yuma_en  "So you finally see how brilliant I am, right?" with dissolve
@@ -914,8 +914,6 @@ label s2_4_risa:
     hide risa
     th "………" with dissolve
     en "......." with dissolve
-    th "หลังจากที่เลือกช้อยส์ครบ 4 คน" with dissolve
-    en "After selecting all 4 choices" with dissolve
     $ risa_mall_pass = True
     jump mall_map
 

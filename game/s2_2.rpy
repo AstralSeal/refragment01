@@ -54,6 +54,7 @@ label s2_2:
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_008.mp3"
     maya_th wink "ฉันขอตัวก่อน ไว้เจอกันใหม่นะ ยูคุง~☆" with dissolve
     maya_en wink "I've got to go. See you later, Yu-kun~☆" with dissolve
+    hide maya
     play sound "audio/sfx/家の階段を駆け上る.mp3"
     th "พอพูดจบ รุ่นพี่มายะก็รีบวิ่งขึ้นบันไดไปอย่างรวดเร็ว" with dissolve
     en "As soon as she finishes speaking, Senior Maya hurriedly runs up the stairs," with dissolve
