@@ -342,8 +342,8 @@ label s2_10:
     en "This is the 'High-speed Spinning Jump Somersault Bow' technique." with dissolve
     show yuno_p normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_027.mp3"
-    yuno_p_th cry2_shy "นี่มันท่าน่าขยะแขยงของพ่อนี่นา พี่จะมาทำทำไมเนี่ย!" with dissolve
-    yuno_p_en cry2_shy "This is Dad's disgusting move! Why are you doing this?!" with dissolve
+    yuno_p_th cry2 "นี่มันท่าน่าขยะแขยงของพ่อนี่นา พี่จะมาทำทำไมเนี่ย!" with dissolve
+    yuno_p_en cry2 "This is Dad's disgusting move! Why are you doing this?!" with dissolve
     yuma_th  "ให้โอกาสพี่อีกครั้งด้วยเถอะ ครั้งนี้พี่สัญญาว่าพี่จะทำให้ยูโนะเป็นเทพแห่งคณิตศาสตร์ให้ได้เลย!" with dissolve
     yuma_en  "Please give your brother another chance. This time, I promise I'll make you a math goddess!" with dissolve
     hide yuno_p
@@ -351,7 +351,7 @@ label s2_10:
     play music "audio/bgm/MusMus-BGM-105a.mp3" volume 0.5
     th "….ทำไมยูโนะถึงเงียบไปล่ะเนี่ย" with dissolve
     en "...Why did Yuno go quiet?" with dissolve
-    show yuno_p normal at center with Dissolve(0.2) 
+    show yuno_p cry2 at center with Dissolve(0.2) 
     th "พอผมหันไปก็เจอยูโนะกำลังหน้าแดงอยู่ สงสัยท่าไม้ตายนี้จะใช้ได้ผลกับผู้หญิงบ้านคุซากะจริงๆ สินะ" with dissolve
     en "When I looked up, I saw Yuno blushing. Maybe this secret technique really does work on Kuzaka family." with dissolve
     yuma_th  "ดูเหมือนจะได้ผลสินะ" with dissolve
