@@ -459,8 +459,8 @@ label s1_2:
     maya_th smile_2 "อย่างนี้นี่เอง ที่นายพูดมาก็มีเหตุผล เข้าใจแล้ว" with dissolve
     maya_en smile_2 "I see. What you said makes sense. I understand now." with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_042.mp3"
-    maya_th hurt_2 "แย่แล้ว จู่ๆ ก็สัมผัสได้ถึงจิตสังหาร comment - ทำ font ตัวเล็กลง / หรี่เสียงให้ต่ำกว่าปกติ" with dissolve
-    maya_en hurt_2 "Oh no, suddenly I can sense killing intent. comment - Make the font smaller / lower the voice pitch below normal" with dissolve
+    maya_th hurt_2 "{size=-14}แย่แล้ว จู่ๆ ก็สัมผัสได้ถึงจิตสังหาร{/size}" with dissolve
+    maya_en hurt_2 "{size=-14}Oh no, suddenly I can sense killing intent.{/size}" with dissolve
     th "รุ่นพี่มายะพูดพึมพำอะไรสักอย่าง" with dissolve
     en "Senior Maya mumbled something." with dissolve
     yuma_th  "เมื่อกี้เธอว่าอะไรนะ" with dissolve
