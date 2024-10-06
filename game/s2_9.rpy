@@ -215,7 +215,7 @@ label s2_9:
     staff_en  "If both of them pass our test, we'll consider them a real couple." with dissolve
     yuma_th  "เข้าใจแล้ว" with dissolve
     yuma_en  "I understand." with dissolve
-    th "ผมตอบกลับอย่างเหนื่อยใจ ทั้งๆที่วันนี้คิดว่าแค่มีรุ่นพี่มายะมาด้วยแล้วจะไม่มีอะไรยุ่งยากแล้วแท้ๆเชียว" with dissolve
+    th "ผมตอบกลับอย่างเหนื่อยใจ ทั้งๆ ที่วันนี้คิดว่าแค่มีรุ่นพี่มายะมาด้วยแล้วจะไม่มีอะไรยุ่งยากแล้วแท้ๆ เชียว" with dissolve
     en "I replied wearily. Even though I thought that just having senior Maya with us today would make things less complicated." with dissolve
     staff_th  "ภารกิจแรก เชื่อมจิตพิชิตหัวใจ" with dissolve
     staff_en  "First mission: Connect hearts, conquer love." with dissolve
@@ -265,7 +265,7 @@ label s2_9:
     en "What kind of question is this?" with dissolve
     th "เทรนด์สมัยใหม่ในยุคนี้คือ Double Income, No Kids คู่รักไม่จำเป็นต้องมีลูกสักหน่อย" with dissolve
     en "The modern trend is Double Income, No Kids. Couples don't necessarily need to have children." with dissolve
-    th "ทั้งๆที่เห็นอยู่ชัดๆว่าพวกเรายังเป็นนักเรียน คู่รักวัยเรียนปกติต้องตั้งชื่อลูกด้วยเหรอ" with dissolve
+    th "ทั้งๆที่เห็นอยู่ชัดๆ ว่าพวกเรายังเป็นนักเรียน คู่รักวัยเรียนปกติต้องตั้งชื่อลูกด้วยเหรอ" with dissolve
     en "It's obvious we're still students. Do normal student couples usually think about naming their children?" with dissolve
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
     en "Stay calm, Yuma. Keep your cool." with dissolve
@@ -756,7 +756,7 @@ label s2_9:
     yuma_th  "เดี๋ยวผมเดินไปส่งนะครับ" with dissolve
     yuma_en  "I'll walk you home." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_078.mp3"
-    maya_c2_th smile "ดีมาก บวกเพิ่ม 30 คะแนน แต่ไม่เป็นไรหรอกบ้านฉันอยู่ใกล้ๆนี้เอง" with dissolve
+    maya_c2_th smile "ดีมาก บวกเพิ่ม 30 คะแนน แต่ไม่เป็นไรหรอกบ้านฉันอยู่ใกล้ๆ นี้เอง" with dissolve
     maya_c2_en smile "Great, plus 30 points. But it's okay, my house is nearby." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_079.mp3"
     maya_c2_th  " ไว้เจอกันใหม่ที่โรงเรียนนะ ยูคุง~" with dissolve
@@ -769,7 +769,7 @@ label s2_9:
     hide maya_c2
     th "ถึงจะเป็นคนที่เอาแต่ใจแต่พออยู่ด้วยแล้วก็รู้สึกสบายใจอย่างบอกไม่ถูก" with dissolve
     en "Even though she's a bit selfish, being with her feels comfortable in a way I can't explain." with dissolve
-    th "แต่ว่าทั้งๆที่บ้านใกล้ยังจะมาสายอีกนะ..." with dissolve
+    th "แต่ว่าทั้งๆ ที่บ้านใกล้ยังจะมาสายอีกนะ..." with dissolve
     en "But even though her house is close, she still comes late..." with dissolve
     th "เอาเถอะ วันนี้เราก็ได้ตุ๊กตามาแล้วแถมเดทวันนี้ก็สนุกด้วย ถ้างั้นรีบกลับบ้านดีกว่า" with dissolve
     en "Oh well, today we got the doll and the date was fun too. I should hurry home." with dissolve

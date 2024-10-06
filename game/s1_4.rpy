@@ -475,7 +475,7 @@ label s1_4:
     yuma_en  "!!!" with dissolve
     th "โคตรแพง!!!" with dissolve
     en "That's so expensive!!!" with dissolve
-    th "เงินมากขนาดนั้น ถ้าเอาไปซื้อหนังสือลามกละก็ได้หลายเล่มเลยไม่ใช่รึไง" with dissolve
+    th "เงินมากขนาดนั้น ถ้าเอาไปซื้อหนังสือลามกละก็ได้หลายเล่มเลยไม่ใช่หรือไง" with dissolve
     en "With that much money, you could buy quite a few porn magazines, couldn't you?" with dissolve
     th "เดี๋ยวสิ นี่ยูโนะเติมเงินเยอะขนาดนั้นเลยเหรอ" with dissolve
     en "Wait, did Yuno top up that much?" with dissolve

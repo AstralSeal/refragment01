@@ -177,7 +177,7 @@ label s2_6:
     hide maya
     hide border
     show border with dissolve
-    th "ชายหนุ่มคนนั้นยังดึงดันที่จะสารภาพรักกับรุ่นพี่มายะทั้งๆที่เผลอพูดสิ่งที่อยู่ในใจออกมาแล้ว" with dissolve
+    th "ชายหนุ่มคนนั้นยังดึงดันที่จะสารภาพรักกับรุ่นพี่มายะทั้งๆ ที่เผลอพูดสิ่งที่อยู่ในใจออกมาแล้ว" with dissolve
     en "The young man stubbornly insisted on confessing his love to Sempai Maya, even though he accidentally blurted out what was on his mind." with dissolve
     th "ไม่คิดเลยว่าจะมาเจอเหตุการณ์อะไรแบบนี้ตั้งแต่เช้า" with dissolve
     en "I never imagined I'd witness something like this first thing in the morning." with dissolve
@@ -344,7 +344,7 @@ label s2_6:
     maya_en onegai_2 "I'm begging you. I'll do anything, just don't tell anyone else." with dissolve
     th "‘ ให้ทำอะไรก็ได้ ’ งั้นเหรอ" with dissolve
     en "Do anything, you say?" with dissolve
-    th "นี่มันประโยคต้องห้ามที่ไม่ว่ายังไงก็ห้ามพูดเด็ดขาดในการ์ตูนเรต 18+ เลยไม่ใช่รึไง" with dissolve
+    th "นี่มันประโยคต้องห้ามที่ไม่ว่ายังไงก็ห้ามพูดเด็ดขาดในการ์ตูนเรต 18+ เลยไม่ใช่หรือไง" with dissolve
     en "That's the forbidden phrase you should never, ever say in 18+ manga no matter what." with dissolve
     th "ถ้าอย่างนั้นก็ไม่เกรงใจละนะ" with dissolve
     en "In that case, I won't hold back." with dissolve
