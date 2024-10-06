@@ -504,7 +504,7 @@ label s1_4:
     yuma_th  "เรกะโตแล้ว ไปไหนมาไหนคนเดียวได้" with dissolve
     yuma_en  "Rega's grown up. She can go places by herself." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_012.mp3"
-    show angry
+    show angry at left_50
     yuno_c_th gambatte "มันไม่ใช่แบบนั้น ยามค่ำคืนแบบนี้ผู้ชายต้องไปส่งผู้หญิงสิ พี่ไม่เข้าใจจิตใจของผู้หญิงเลย" with dissolve
     yuno_c_en gambatte "It's not like that. At night like this, a man should escort a woman home. You don't understand women's hearts at all." with dissolve
     hide angry

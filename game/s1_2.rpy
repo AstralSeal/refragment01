@@ -344,7 +344,7 @@ label s1_2:
     yuma_th  "กินหวานมากไม่ดีต่อสุขภาพนะ แถมอาจทำให้อ้วนได้ด้วย" with dissolve
     yuma_en  "Eating too much sugar isn't good for your health. It can also make you gain weight." with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_023.mp3"
-    show angry
+    show angry at emotion_zoom
     maya_0_th angry "พูดเรื่องน้ำหนักกับสาวน้อยแบบนี้ เสียมารยาทนะ นายไม่เข้าใจจิตใจของผู้หญิงเลยสักนิด" with dissolve
     maya_0_en angry "Talking about weight with a young girl like this is impolite. You don't understand women's hearts at all." with dissolve
     hide angry
