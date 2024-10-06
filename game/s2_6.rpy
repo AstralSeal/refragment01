@@ -358,9 +358,6 @@ label s2_6:
         "[get_2_6_choice2()]":
             th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
             en "Are you crazy?! Who would ask for something that weird?!" with dissolve
-
-    th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
-    en "Are you crazy?! Who would ask for something that weird?!" with dissolve
     th "คนที่คิดอะไรแผลงๆ แบบนั้นได้คงเพี้ยนไปแล้วแน่ๆ" with dissolve
     en "Anyone who could come up with something that bizarre must be insane." with dissolve
     th "เพียงเท่านี้ทุกอย่างก็เป็นไปตามแผนที่วางไว้" with dissolve
