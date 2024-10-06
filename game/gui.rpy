@@ -237,11 +237,14 @@ define gui.choice_button_text_insensitive_color = '#8888887f'
 define gui.slot_button_width = 414
 define gui.slot_button_height = 309
 define gui.slot_button_borders = Borders(15, 15, 15, 15)
-define gui.slot_button_text_size = 21
-define gui.slot_button_text_xalign = 0.5
-define gui.slot_button_text_idle_color = gui.idle_small_color
-define gui.slot_button_text_selected_idle_color = gui.selected_color
-define gui.slot_button_text_selected_hover_color = gui.hover_color
+define gui.slot_button_text_size = 35
+define gui.slot_button_text_xalign = 0.8
+define gui.slot_button_text_yalign = 0.7
+#define gui.slot_button_text_idle_color = gui.idle_small_color
+define gui.slot_button_text_idle_color = "#000000"
+define gui.slot_button_text_hover_color = "#000000"
+define gui.slot_button_text_selected_idle_color = "#000000"
+define gui.slot_button_text_selected_hover_color = "#000000"
 
 ## The width and height of thumbnails used by the save slots.
 define config.thumbnail_width = 384
