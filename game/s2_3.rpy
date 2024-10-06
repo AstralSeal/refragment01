@@ -161,7 +161,7 @@ label s2_3:
     yuma_en  "Where are we going? I ask." with dissolve
     show risa normal at center with Dissolve(0.2) 
     voice "audio/voice/risa/chapter2/chapter2_3/risa_2_3_005.mp3"
-    risa_th smile "ถ้าอย่างนั้น เย็นวันนี้เวลา 18:30 น. เจอกันที่ห้างฯ โอเคไหม" with dissolve
+    risa_th smile "ถ้าอย่างนั้น เย็นวันนี้เวลา 6 โมงครึ่ง เจอกันที่ห้างฯ โอเคไหม" with dissolve
     risa_en smile "How about meeting at the mall at 6:30 PM? Is that okay?" with dissolve
     hide risa
     show reika smile_2 at center with Dissolve(0.2) 
