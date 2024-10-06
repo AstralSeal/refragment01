@@ -83,14 +83,14 @@ label s2_7:
     yuma_en  "Goldfish don't actually have short memories like everyone thinks." with dissolve
     yuma_th  "คูลัม บราวน์ นักชีววิทยาทางทะเลจากประเทศออสเตรเลียได้ทดลองว่าปลาทองมีความทรงจำยาวนานเป็นปี" with dissolve
     yuma_en  "Culum Brown, a marine biologist from Australia, experimented and found that goldfish can have memories lasting years." with dissolve
-    yuma_th  "อีกงานวิจัยจากประเทศอิสราเอลได้ข้อสรุปว่าปลาทองมีความสามารถในการเรียนรู้และมีความจำที่ดีมากเหมือนกัน" with dissolve
+    yuma_th  "อีกงานวิจัยจากประเทศอิสราเอลได้ข้อสรุปว่าปลาทองมีความสามารถในการเรียนรู้\nและมีความจำที่ดีมากเหมือนกัน" with dissolve
     yuma_en  "Another study from Israel concluded that goldfish have excellent learning abilities and memory too." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_006.mp3"
     reika_th cold_2 "ก็ได้ ถึงปลาทองจะมีความจำดีเลิศ แต่นายก็ความจำไม่ดีเหมือนเดิม" with dissolve
     reika_en cold_2 "Fine. Even if goldfish have excellent memory, yours is still just as bad." with dissolve
-    voice "audio/voice/yuno/chapter2/chapter2_7/yuno_2_7_001.mp3"
-    yuno_th  "อย่ามาดูถูกกันนะ ฉันคูณเลขในใจได้ 10 หลักเชียวนะ" with dissolve
-    yuno_en  "Don't look down on me. I can do 10-digit multiplication in my head, you know." with dissolve
+
+    yuma_th  "อย่ามาดูถูกกันนะ ฉันคูณเลขในใจได้ 10 หลักเชียวนะ" with dissolve
+    yuma_en  "Don't look down on me. I can do 10-digit multiplication in my head, you know." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_007.mp3"
     reika_th angry_2 "การคำนวณกับการจดจำมันเป็นคนละเรื่องกัน" with dissolve
     reika_en angry_2 "Calculation and memory are two different things." with dissolve
