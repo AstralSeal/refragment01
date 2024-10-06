@@ -216,7 +216,7 @@ label s2_10:
     en "At that time, I didn't understand why he needed to draw a heart, but it became a really good memory." with dissolve
     th "ตอนนั้นฉันได้พยายามหลายสิ่งหลายอย่างเพื่อที่จะได้รับคำชมจากพี่" with dissolve
     en "Back then, I tried many things to get praise from my brother." with dissolve
-    th "พอคิดดูแล้วจัวฉันเองก็อาจจต้องการที่จะได้เป็นคนพิเศษของใครซักคนก็ได้…" with dissolve
+    th "พอคิดดูแล้วตัวฉันเองก็อาจจต้องการที่จะได้เป็นคนพิเศษของใครซักคนก็ได้…" with dissolve
     en "Thinking about it now, maybe I just wanted to be someone special to someone..." with dissolve
     th "พอคิดถึงตอนนั้นแล้วน้ำตามันก็ไหลออกมาไม่หยุด" with dissolve
     en "Thinking about that time, tears started flowing non-stop." with dissolve
