@@ -139,8 +139,8 @@ label s2_5:
     en "Finishing her sentence, Yuno took out a game disc." with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_026.mp3"
-    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The picture of cafe au lait?" with dissolve
-    yuno_c_en hehe "Here, this game you like to play. What was it called again... The Picture of Cafe au Lait?" with dissolve
+    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The picture of café au lait?" with dissolve
+    yuno_c_en hehe "Here, this game you like to play. What was it called again... The picture of café au lait?" with dissolve
     yuma_th  "เดี๋ยวก่อน ไปเอามาจากไหน" with dissolve
     yuma_en  "Wait, where did you get that?!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_027.mp3"
@@ -158,8 +158,8 @@ label s2_5:
     yuno_c_en smug_2 "I know everything about you, don't worry. But let's put that aside for now. While waiting for you to come home, I already finished playing this game." with dissolve
     scene cafe_au_lait with Dissolve(1.0)
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_030.mp3"
-    yuno_c_th  "เดอะพิกเจอร์ออฟคาเฟ่โอเล่ ในเกมนี้พระเอกกำลังวาดรูปสำหรับส่งประกวด แต่จู่ๆ เด็กสาวรุ่นน้องวิ่งมาชนและเผลอทำกาแฟหกใส่รูปที่พระเอกวาด การพบพานครั้งนี้ก่อกำเนิดฟักฟูมเป็นความรัก" with dissolve
-    yuno_c_en  "In The Picture of Cafe au Lait, the protagonist is painting for a contest, but suddenly a younger girl bumps into him and accidentally spills coffee on his painting. This fated encounter blossoms into love." with dissolve
+    yuno_c_th  "The picture of café au lait ในเกมนี้พระเอกกำลังวาดรูปสำหรับส่งประกวด แต่จู่ๆ เด็กสาวรุ่นน้องวิ่งมาชนและเผลอทำกาแฟหกใส่รูปที่พระเอกวาด การพบพานครั้งนี้ก่อกำเนิดฟักฟูมเป็นความรัก" with dissolve
+    yuno_c_en  "In The picture of café au lait, the protagonist is painting for a contest, but suddenly a younger girl bumps into him and accidentally spills coffee on his painting. This fated encounter blossoms into love." with dissolve
     hide yuno_c
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_031.mp3"
     yuno_c_th  "......และในตอนท้ายทั้งสองคนก็มีความสัมพันธ์แนบแน่นชิดกาย" with dissolve
@@ -177,15 +177,15 @@ label s2_5:
     yuno_c_th serious "ช่างเถอะ สิ่งที่หนูจะบอกก็คือพี่ลองทำแบบพระเอกเกมนี้ดูสิ ได้แฟนเป็นรุ่นน้องก็ไม่เลวนะ" with dissolve
     yuno_c_en serious "Anyway, what I'm saying is, why don't you try doing what the game protagonist did? Getting a younger girlfriend wouldn't be so bad." with dissolve
     yuma_th  "พี่วาดรูปไม่เป็น จะไปหาเด็กสาวรุ่นน้องมาจากไหน" with dissolve
-    yuma_en  "I can't paint. Where am I supposed to find a younger girl?" with dissolve
+    yuma_en  "I can't draw. Where am I supposed to find a girl?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_034.mp3"
     yuno_c_th smile "พี่ก็แก้โจทย์คณิตศาสตร์ก็ได้ ขณะกำลังพิสูจน์ทฤษฎีบทสุดท้ายของแฟร์มา จู่ๆ ก็มีสาวน้อยปริศนาวิ่งชนและเผลอทำกาแฟหกใส่กระดาษทด" with dissolve
     yuno_c_en smile "You could solve math problems then. While proving Fermat's Last Theorem, suddenly a mysterious young girl bumps into you and spills coffee on your scratch paper." with dissolve
     yuma_th  "ไอเดียบรรเจิดนี่ น่าจะเอาไปบอกค่ายเกมให้ทำเป็นเกมภาค 2" with dissolve
-    yuma_en  "Brilliant idea! You should pitch that to the game company for a sequel." with dissolve
+    yuma_en  "Brilliant idea! You should pitch that to the game studio for a sequel." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_035.mp3"
     yuno_c_th angry_2 "ไม่ได้ สิ้นคิดเกินไป เดี๋ยวก็ถูกผู้เล่นด่าว่าเอาของเก่ามารีไซเคิลหรอก" with dissolve
-    yuno_c_en angry_2 "No way, too derivative. Players would complain we're just recycling old content." with dissolve
+    yuno_c_en angry_2 "No, it’s too cliché. Players would complain that we’re just reusing old content." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_036.mp3"
     yuno_c_th confident_2 "บางครั้งไอเดียดีๆ ก็เกิดจากเรื่องไม่คาดฝัน ไอสไตน์ยังนั่งคิดทฤษฎีแรงโน้มถ่วงได้จากการนั่งใต้ต้นแอปเปิ้ล" with dissolve
     yuno_c_en confident_2 "Sometimes great ideas come from unexpected places. Even Einstein came up with the theory of gravity while sitting under an apple tree." with dissolve
@@ -197,7 +197,7 @@ label s2_5:
     yuma_th  "ยูโนะ อย่าเชื่อทุกสิ่งทุกอย่างที่เขียนบนอินเทอร์เน็ตสิ" with dissolve
     yuma_en  "Yuno, don't believe everything you read on the internet." with dissolve
     th "บางครั้งน้องสาวของผมเชื่อว่า meme หรือข่าวแปลกๆ เป็นเรื่องจริง" with dissolve
-    en "Sometimes my little sister believes memes or weird news stories are real." with dissolve
+    en "Sometimes my sister believes memes or weird satirical news publication." with dissolve
     th "ทั้งๆ ที่ปัจจุบันคนเราสามารถเข้าถึงข้อมูลต่างๆ ได้มากขึ้นแต่ก็มีคนไม่น้อยที่มักจะไปหลงเชื่อว่าข่าวปลอมเป็นเรื่องจริง" with dissolve
     en "Even though people have greater access to information nowadays, quite a few still end up believing fake news is real." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_038.mp3"
@@ -208,7 +208,7 @@ label s2_5:
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
     play sound "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_039.mp3"
     yuno_c_th yasashi "ขอร้องนะพี่จ๋า นะ นะ นะ~" with dissolve
-    yuno_c_en yasashi "Please, big brother? Please please please" with dissolve
+    yuno_c_en yasashi "Please, Onii-chan? Please please please" with dissolve
     th "พอถูกยูโนะอ้อนแบบนี้ผมไม่เคยปฎิเสธได้เลยซักที ให้ตายเถอะ" with dissolve
     en "When Yuno begs me like this, I can never refuse. Dammit." with dissolve
     yuma_th  "ก็ได้ พี่จะลองคิดดูแล้วกัน" with dissolve
@@ -233,7 +233,7 @@ label s2_5:
     th "แต่เมื่อไม่มียูโนะแบบนี้ ผมจะไปหาแฟนสาวมาจากไหนกันล่ะเนี่ย" with dissolve
     en "But without Yuno, where am I supposed to find a girlfriend?" with dissolve
     yuma_th  "ถ้าลองขอร้องเรกะจะเป็นยังไงกันนะ" with dissolve
-    yuma_en  "I wonder what would happen if I tried asking Rega." with dissolve
+    yuma_en  "I wonder what would happen if I tried asking Reika." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
     scene imagine with Dissolve(1.0)
@@ -258,17 +258,17 @@ label s2_5:
     stop music
     play music "audio/bgm/MusMus-BGM-127.mp3" volume 0.5
     th "ไม่ดีๆ ไม่เข้าท่าอย่างแรง เรกะไม่มีทางมาด้วยกันกับเราหรอกมั้ง" with dissolve
-    en "No good, that's way off. There's no way Rega would go along with this." with dissolve
+    en "No good, that's way off. There's no way Reika would go along with this." with dissolve
     th "จริงสิ ยูโนะบอกว่าบางครั้งไอเดียก็เกิดจากเรื่องไม่คาดฝัน…?" with dissolve
     en "That's right, Yuno said sometimes ideas come from unexpected places...?" with dissolve
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
-    en "Calm down Yuma, keep your cool." with dissolve
+    en "Calm down Yuuma, keep your cool." with dissolve
     th "การนับเลขทำให้จิตใจสงบได้ 1.73205080" with dissolve
     en "Counting helps settle the mind. 1.73205080..." with dissolve
     th "เท่าที่นึกออก ผู้หญิงที่เรารู้จักก็มีแค่อากาเนะกับรุ่นพี่มายะ" with dissolve
-    en "As far as girls I know, there's only Akane and Sempai Maya." with dissolve
+    en "As far as girls I know, there's only Akane and Maya-senpai." with dissolve
     th "จริงสิ รุ่นพี่มายะไง" with dissolve
-    en "That's it, Sempai Maya!" with dissolve
+    en "That's it, Maya-senpai!" with dissolve
     th "เรายังมี ‘ไอนั่น’อยู่นี่นา" with dissolve
     en "We still have 'that' option too..." with dissolve
     th "…." with dissolve
@@ -279,24 +279,24 @@ label s2_5:
     show reika_p normal at zoom_in,center with Dissolve(0.2) 
     show reika_pov with dissolve
     th "หลังจากที่อาบน้ำเสร็จ ฉันก็คุยกับ ‘พีสุเกะ’ ตุ๊กตากระต่ายตัวโปรดของฉัน" with dissolve
-    en "After taking a bath, I chatted with Piske, my favorite stuffed rabbit." with dissolve
+    en "After taking a bath, I chatted with Pii-suke, my favorite stuffed rabbit." with dissolve
     th "สำหรับคนอื่นอาจจะเป็นแค่ตุ๊กตากระต่าย" with dissolve
     en "To others it may just be a stuffed rabbit," with dissolve
     th "แต่สำหรับฉัน พีสุเกะเป็นเพื่อนรักร่วมทุกข์ร่วมสุขที่ไม่มีสิ่งใดมาแทนที่ได้" with dissolve
-    en "but to me, Piske is an irreplaceable friend through thick and thin." with dissolve
+    en "but to me, Pii-suke is an irreplaceable friend that has been with me through thick and thin." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_005.mp3"
     reika_p_th smile_2 "นี่ พีสุเกะ รู้หรือเปล่า วันนี้ยูมะยืนรอกลับบ้านพร้อมฉันด้วย" with dissolve
-    reika_p_en smile_2 "Hey Piske, did you know? Today Yuma waited to walk home with me." with dissolve
+    reika_p_en smile_2 "Hey Pii-suke, did you know? Today Yuuma waited to walk home with me." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_006.mp3"
     reika_p_th fin_2 "ยูมะบอกว่าจะไม่มีวันปล่อยให้ผู้หญิงที่ทั้งสวยทั้งน่ารักแบบฉันเดินกลับบ้านคนเดียวตอนกลางคืนได้ล่ะ" with dissolve
-    reika_p_en fin_2 "Yuma said he would never let a beautiful, cute girl like me walk home alone at night." with dissolve
+    reika_p_en fin_2 "Yuuma said he would never let a beautiful, cute girl like me walk home alone at night." with dissolve
     th "ถึงคำว่า ‘ผู้หญิงที่ทั้งสวยทั้งน่ารัก’ ฉันเติมเพิ่มมาเองก็เถอะ" with dissolve
     en "I may have added the 'beautiful and cute' part myself," with dissolve
     th "แต่ฉันมั่นใจว่ายูมะต้องคิดแบบนี้แน่ๆ" with dissolve
-    en "but I'm sure that's what Yuma was thinking." with dissolve
+    en "but I'm sure that's what Yuuma was thinking." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_007.mp3"
     reika_p_th fun_2 "ระหว่างกลับบ้าน ยูมะบอกว่าจำเรื่องของพีสุเกะได้ด้วยนะ" with dissolve
-    reika_p_en fun_2 "On the way home, Yuma said he still remembers you too, Piske." with dissolve
+    reika_p_en fun_2 "On the way home, Yuuma said he still remembers you too, Pii-suke." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_008.mp3"
     reika_p_th angry_2 "แต่ว่าตอนนี้ต่อให้ไม่มีพีสุเกะ ฉันก็นอนด้วยตัวคนเดียวได้" with dissolve
     reika_p_en angry_2 "But now, even without you, I can sleep by myself." with dissolve
@@ -308,11 +308,11 @@ label s2_5:
     reika_p_en  "..." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_5/reika_2_5_011.mp3"
     reika_p_th pout3_2 "แต่คืนนี้ขอนอนกอดพีสุเกะสักหน่อย คงไม่เป็นอะไรนะ" with dissolve
-    reika_p_en pout3_2 "But just for tonight, it's okay to cuddle with you, right Piske?" with dissolve
+    reika_p_en pout3_2 "But just for tonight, it's okay to cuddle with you, right Pii-suke?" with dissolve
     hide reika_p
     scene black with Dissolve(1.0)
     th "หลังจากนั้นฉันก็นอนกอดพีสุเกะ และฝันถึงผู้ชายคนหนึ่งที่หน้าตาเหมือนยูมะ…" with dissolve
-    en "After that, I slept hugging Piske, dreaming of a boy who looked just like Yuma..." with dissolve
+    en "After that, I slept hugging Pii-suke, dreaming of a boy who looked just like Yuuma..." with dissolve
     hide reika_pov with dissolve
     scene black with Dissolve(1.0)
     jump s2_6

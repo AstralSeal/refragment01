@@ -29,7 +29,7 @@ label s2_7:
     reika_th bored_2 "ย่อยทิ้งให้หมด" with dissolve
     reika_en bored_2 "Just shred them all." with dissolve
     th "พอพูดจบ เรกะก็โยนจดหมายรักเข้าเครื่องทำลายเอกสารทันทีโดยไม่ลังเล" with dissolve
-    en "As soon as she finished speaking, Rega tossed the love letters into the paper shredder without hesitation." with dissolve
+    en "As soon as she finished speaking, Reika tossed the love letters into the paper shredder without hesitation." with dissolve
     hide reika
     th "ถ้าพวกผู้ชายที่ส่งจดหมายรักมาเห็นเข้าจะรู้สึกอย่างไรกันนะ" with dissolve
     en "I wonder how the guys who sent those love letters would feel if they saw this." with dissolve
@@ -39,7 +39,7 @@ label s2_7:
     yuma_en  "Why is everyone getting confessed to lately? When will it be my turn to receive a confession?" with dissolve
     play sound "audio/sfx/door_school.mp3"
     th "ก่อนที่ฤดูใบไม้ผลิของผมจะมาถึง คาสึมะก็เข้ามาในห้องสภานักเรียน" with dissolve
-    en "Before my springtime could arrive, Kasuma entered the student council room." with dissolve
+    en "Before my grogous moment could arrive, Kazuma entered the student council room." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_002.mp3"
     kazuma_th normal "มาแล้ว ขอโทษที มีธุระนิดหน่อย" with dissolve
@@ -68,7 +68,7 @@ label s2_7:
     show reika normal at center with Dissolve(0.2) 
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_005.mp3"
     reika_th cold_2 "ยูมะ นายจำไม่ได้จริงๆ เหรอ" with dissolve
-    reika_en cold_2 "Yuma, do you really not remember?" with dissolve
+    reika_en cold_2 "Yuuma, do you really not remember?" with dissolve
     hide reika
     show kazuma normal at center with Dissolve(0.2) 
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_005.mp3"
@@ -99,7 +99,7 @@ label s2_7:
     kazuma_en smile "I'll help settle this right now." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_007.mp3"
     kazuma_th ah "ยูมะ ตอนที่เรกะพูดแถลงบนเวที นายจำได้ไหมว่าสารเคมีอะไรในน้ำอัดลมที่กัดกร่อนฟันและเป็นอันตรายต่อร่างกาย" with dissolve
-    kazuma_en ah "Yuma, when Rega was giving her speech on stage, do you remember what chemical in soda she said erodes teeth and is harmful to the body?" with dissolve
+    kazuma_en ah "Yuuma, do you remember what chemical in soft drinks erodes teeth and is harmful to the body when Reika was giving her speech on stage?" with dissolve
     hide reika
     hide kazuma
     menu :
@@ -113,7 +113,7 @@ label s2_7:
             show reika normal at center with Dissolve(0.2) 
             play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_009.mp3"
             reika_th hee "ยูมะ ความจำของนายแพ้ปลาทองแล้วนะ" with dissolve
-            reika_en hee "Yuma, your memory is worse than a goldfish's now." with dissolve
+            reika_en hee "Yuuma, your memory is worse than a goldfish's now." with dissolve
             yuma_th  "พลาดนิดเดียวเอง หยวนๆ หน่อยไม่ได้หรือไง" with dissolve
             yuma_en  "I was just off by a bit. Can't you cut me some slack?" with dissolve
             hide reika
@@ -138,14 +138,14 @@ label s2_7:
             show reika normal at right
             play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_010.mp3"
             reika_th normal "ยูมะเดอะปลาทอง" with dissolve
-            reika_en normal "Yuma the Goldfish" with dissolve
+            reika_en normal "Yuuma the Goldfish" with dissolve
             play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_010.mp3"
             kazuma_th normal "ยูมะเดอะปลาทอง" with dissolve
-            kazuma_en normal "Yuma the Goldfish" with dissolve
+            kazuma_en normal "Yuuma the Goldfish" with dissolve
             th "บุ๋งๆ" with dissolve
             en "Blub blub" with dissolve
             th "เดี๋ยวก่อน ชื่อของผมเปลี่ยนเป็นยูมะเดอะปลาทองตอนไหนเนี่ย" with dissolve
-            en "Wait a minute, when did my name change to Yuma the Goldfish?" with dissolve
+            en "Wait a minute, when did my name change to 'Yuuma the Goldfish'?" with dissolve
             hide kazuma
             hide reika
     show reika normal at center with Dissolve(0.2) 
@@ -159,16 +159,16 @@ label s2_7:
     akane_en normal "Silver Seal Private School is a place where all students can participate in proposing various policies." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_003.mp3"
     akane_th  "โดยปกตินักเรียนจะเสนอญัตติ จากนั้นสภานักเรียนเปิดให้ทุกคนโหวตลงคะแนน ซึ่งข้อเสนอที่ได้รับคะแนนเสียงข้างมากจะถูกนำไปปฏิบัติจริง" with dissolve
-    akane_en  "Normally, students submit motions, then the student council opens voting for everyone. Proposals that receive a majority vote are implemented." with dissolve
+    akane_en  "Normally, students submit motions, then the student council puts these motions to a vote. Proposals that receive a majority vote are then implemented." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_004.mp3"
     akane_th  "แต่บางครั้งก็มีนักเรียนสองกลุ่มนำเสนอญัตติที่ขัดแย้งกันเองพร้อมกัน" with dissolve
     akane_en  "But sometimes two groups of students present conflicting motions simultaneously." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_005.mp3"
     akane_th  "หากเกิดกรณีเช่นนี้ ทางสภานักเรียนจะเปิดเวทีพิเศษให้ทั้งสองฝ่ายแสดงจุดยืนของตัวเอง เรียกว่าการโต้วาที" with dissolve
-    akane_en  "When this happens, the student council sets up a special platform for both sides to present their positions, called a debate." with dissolve
+    akane_en  "When this happens, the student council sets up a debate for both sides to present their positions." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_006.mp3"
     akane_th  "แต่ละฝ่ายสามารถนำเสนอข้อดี โน้มน้าวโน้มน้าวให้ทุกคนเห็นคล้อยตามความคิดของตัวเองได้" with dissolve
-    akane_en  "Each side can present the pros of their argument, persuading everyone to agree with their perspective." with dissolve
+    akane_en  "Each side can present their arguments, persuading others to agree with their perspective." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_007.mp3"
     akane_th  "อีกทั้งสามารถนำเสนอข้อโต้แย้งที่หักล้างความคิดเห็นของอีกฝ่ายได้ ภายใต้เงื่อนไขห้ามโจมตีบุคคลตรงๆ" with dissolve
     akane_en  "They can also present counterarguments to refute the other side's views, under the condition that personal attacks are forbidden." with dissolve
@@ -177,7 +177,7 @@ label s2_7:
     akane_en  "After the debate concludes, all students vote immediately." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_7/akane_2_7_009.mp3"
     akane_th  "ครั้งที่แล้วชมรมบาสเกตบอลกับชมรมดนตรีเสนอโต้วาทีเพราะต้องการใช้โรงยิมเพื่อฝึกซ้อมในวันและเวลาเดียวกัน ผลสุดท้ายชมรมดนตรีชนะไปด้วยคะแนนเสียง 52:48" with dissolve
-    akane_en  "Last time, the basketball club and the music club proposed a debate because they wanted to use the gym for practice on the same day and time. In the end, the music club won with 52%." with dissolve
+    akane_en  "Last time, the basketball club and the music club proposed a debate because they wanted to use the gym for practice on the same day and time. In the end, the music club won with 52\%." with dissolve
     hide akane
     yuma_th  "แล้วครั้งนี้เป็นประเด็นเรื่องอะไร กับใครล่ะ" with dissolve
     yuma_en  "So what's the issue this time, and who's involved?" with dissolve
@@ -189,14 +189,14 @@ label s2_7:
     kazuma_en normal "That's the problem. This time, the group proposing the motion is challenging the student council directly." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_012.mp3"
     kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า ‘สุริยันสาดแสง’ น่ะ " with dissolve
-    kazuma_en  "I heard it's a student group called 'Radiant Sun' or something." with dissolve
+    kazuma_en  "I heard it's a student group called 'The Radiant Dawn'" with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_012.mp3"
     reika_th tense "สุริยันสาดแสง? ชื่อประหลาดดีนะ" with dissolve
-    reika_en tense "Radiant Sun? That's a weird name." with dissolve
+    reika_en tense "The Radiant Dawn? That's a weird name." with dissolve
     yuma_th  "ชื่อโคตรเท่ อย่างกะฉายาในเกมออนไลน์สมัยก่อนเลย" with dissolve
-    yuma_en  "The name's super cool, like an old-school online game nickname." with dissolve
+    yuma_en  "The name's super cool, like an old-school MMORPG game username." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"
     reika_th worry "คงจะมีแต่นายละมั้งที่คิดว่าชื่อแบบนี้มันเท่ ยูมะ" with dissolve
     reika_en worry "I think you're the only one who thinks that kind of name is cool, Yuma." with dissolve
@@ -211,14 +211,14 @@ label s2_7:
     en "After I announced what I thought was the coolest name I could come up with, the student council room fell into silence." with dissolve
     play sound "audio/voice/reika/chapter2/chapter2_7/reika_2_7_015.mp3"
     reika_th ah_2 "คาสึมะ พอรู้ไหมว่ากลุ่มสุริยันสาดแสงเป็นใครมาจากไหน" with dissolve
-    reika_en ah_2 "Kasuma, do you know who this Radiant Sun group is or where they're from?" with dissolve
+    reika_en ah_2 "Kazuma, do you know where The Radiant Dawn are from?" with dissolve
     yuma_th  "นี่เมินกันเหรอ!" with dissolve
     yuma_en  "Are you guys ignoring me?!" with dissolve
     hide reika
     show kazuma normal at center with Dissolve(0.2) 
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_013.mp3"
     kazuma_th ah "เท่าที่ทราบ สุริยันสาดแสงเป็นกลุ่มนักเรียนหัวก้าวหน้าที่ต้องการเปลี่ยนแปลงโรงเรียนแบบก้าวกระโดด" with dissolve
-    kazuma_en ah "As far as I know, Radiant Sun is a progressive student group that wants to make drastic changes to the school." with dissolve
+    kazuma_en ah "As far as I know, The Radiant Dawn is a progressive student group that wants to make drastic changes to the school." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_014.mp3"
     kazuma_th  "สโลแกนคือทำให้โรงเรียนเจิดจ้าราวกับดวงตะวัน อะไรสักอย่างทำนองนี้" with dissolve
     kazuma_en  "Their slogan is something like 'Make the school shine as bright as the sun'." with dissolve
@@ -241,17 +241,17 @@ label s2_7:
     en "No, we have to believe in the student council's abilities. We must get through this." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
     yuma_th  "ฉันเชื่อใจนายนะ คาสึมะ" with dissolve
-    yuma_en  "I trust you, Kasuma." with dissolve
+    yuma_en  "I trust you, Kazuma." with dissolve
     play sound "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_017.mp3"
     kazuma_th confident "ฉันไม่คิดจะแพ้ให้กับเจ้าพวกนั้นอยู่แล้ว วางใจได้เลย" with dissolve
     kazuma_en confident "I never intended to lose to them anyway. You can count on me." with dissolve
     th "คาสึมะยอมรับคำท้าและอาสาเป็นตัวแทนฝ่ายค้าน" with dissolve
-    en "Kasuma accepted the challenge and volunteered to be the opposition representative." with dissolve
+    en "Kazuma accepted the challenge and volunteered to be the opposition representative." with dissolve
     th "พอเห็นแบบนั้นแล้วผมรู้สึกโล่งใจที่ไม่ต้องขึ้นไปพูดกลางที่สาธารณะแบบนั้น" with dissolve
     en "Seeing that, I felt relieved that I didn't have to speak in public like that." with dissolve
     hide kazuma
     th "แถมถ้าคาสึมะลงคนมือเอง ก็คงไม่มีอะไรน่าเป็นห่วง" with dissolve
-    en "Plus, with Kasuma taking the lead, there's probably nothing to worry about." with dissolve
+    en "Plus, with Kazuma taking the lead, there's probably nothing to worry about." with dissolve
     scene black with Dissolve(1.0)
     jump s2_8
     return

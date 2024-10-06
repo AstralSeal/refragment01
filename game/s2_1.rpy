@@ -7,10 +7,10 @@ label s2_1:
     $ achievement.sync()
     show wakeup24 with dissolve
     yuno_th  "ยู…มะ…" with dissolve
-    yuno_en  "Yu... ma..." with dissolve
+    yuno_en  "Yuu... ma..." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_002.mp3"
     yuno_th  "ยูมะ ตื่นได้แล้ว!" with dissolve
-    yuno_en  "Yuma, time to wake up!" with dissolve
+    yuno_en  "Yuuma, time to wake up!" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_003.mp3"
     hide wakeup24
     show wakeup01 with dissolve
@@ -43,11 +43,11 @@ label s2_1:
     yuno_en  "There's a new update for Seal Impact today. I won't have time to wake you up again." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_007.mp3"
     yuno_th  "ห้ามนอนเด็ดขาด ขืนหลับต่อละก็ไปโรงเรียนสายแน่" with dissolve
-    yuno_en  "Don't you dare fall back asleep. If you do, you'll be late for school." with dissolve
+    yuno_en  "Don't even think about going back to sleep, or you'll end up being late for school." with dissolve
     scene home_yuumabedroom_morning with Dissolve(1.0)
     play sound "audio/sfx/ドアを閉める2.mp3"
     th "นี่เรามีน้องสาวหรือแม่คนที่สองกันแน่เนี่ย…" with dissolve
-    en "I wonder if we have a little sister or a second mother..." with dissolve
+    en "You're sounding way too much like a mom!" with dissolve
     th "ยูโนะพูดทิ้งท้ายก่อนเดินออกจากห้อง" with dissolve
     en "Yuno says as she walks out of the room." with dissolve
     yuma_th  "ง่วงจัง ถ้านอนต่ออีกสัก 5 นาทีก็คงไม่เป็นอะไรหรอกมั้ง" with dissolve
@@ -89,7 +89,7 @@ label s2_1:
     yuno_c_en hee "Of course. Why would I lie?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_010.mp3"
     yuno_c_th teehee "อีกอย่าง รู้มั้ยว่าวันนี้เกม Seal Impact มีอัพเดตใหม่ หนูต้องรีบเล่นก่อนคนอื่น" with dissolve
-    yuno_c_en teehee "Besides, did you know Seal Impact has a new update today? I need to play before everyone else." with dissolve
+    yuno_c_en teehee "Besides, I did told you Seal Impact has a new update today. I need to play before everyone else." with dissolve
     th "ช่วงหลังมานี้น้องสาวของผมเริ่มรักเกมมากกว่าผมแล้วหรือเปล่าเนี่ย…" with dissolve
     en "I wonder if my little sister has started to love games more than me lately..." with dissolve
     yuma_th  "ช่างเถอะ พี่ไปก่อนละนะ" with dissolve
@@ -119,7 +119,7 @@ label s2_1:
     th "ยูโนะพูดด้วยท่าทีขี้เล่น ดวงตาเป็นประกาย" with dissolve
     en "Yuno says playfully, her eyes sparkling." with dissolve
     yuma_th  "พี่ไม่ใช่นางเอกการ์ตูนตาหวานสักหน่อย" with dissolve
-    yuma_en  "I'm not some wide-eyed anime heroine." with dissolve
+    yuma_en  "I'm not the heroine in a shoujo manga." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_014.mp3"
     yuno_c_th crymeme2 "ชิ พี่ไม่รักหนูแล้วใช่มั้ย หนูอุตส่าห์เตรียมอาหารเช้าไว้แล้ว" with dissolve
     yuno_c_en crymeme2 "Hmph. Don't you love me anymore? I even prepared breakfast for you." with dissolve
@@ -150,7 +150,7 @@ label s2_1:
     yuma_th  "ให้ตายสิ คนยิ่งรีบอยู่" with dissolve
     yuma_en  "Damn it, I'm in such a hurry." with dissolve
     th "ตอนนี้ชุดนักเรียนของผมเปรอะเปื้อนฝุ่นตามถนน แถมเนคไทก็หลุดลุ่ย" with dissolve
-    en "Now my school uniform is covered in street dust, and my tie is all messed up." with dissolve
+    en "My school uniform is covered in street dust, and my tie is all messed up." with dissolve
     th "ช่างมัน ตอนนี้ยังไม่จำเป็นต้องใส่ใจเรื่องเล็กๆ น้อยๆ แบบนี้" with dissolve
     en "Never mind. There's no need to worry about little things like this right now." with dissolve
     th "รีบไปโรงเรียนก่อนดีกว่า" with dissolve
@@ -165,9 +165,9 @@ label s2_1:
     th "แต่ถ้ามัวแต่เดินเอ้อระเหยเหมือนทุกที สายแน่นอนหนึ่งร้อยเปอร์เซ็นต์" with dissolve
     en "If I had dawdled like usual, I'd be late for sure." with dissolve
     th "ด้วยเหตุนี้ผมจึงวิ่งอย่างสุดกำลัง จนมาถึงโรงเรียนในเวลา 8:29 น. ทันเวลาอย่างฉิวเฉียด" with dissolve
-    en "That's why I ran with all my might, arriving at school at 8:29 AM, just in the nick of time." with dissolve
+    en "That’s why I sprinted with all my might and made it to school at 8:29 AM, just in time." with dissolve
     th "หากมาช้ากว่านี้เพียงแค่หนึ่งนาทีจะถือว่ามาสาย" with dissolve
-    en "If I had been even a minute later, I would have been considered late." with dissolve
+    en "If I had been even a minute slower, I would have been considered late." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-125.mp3" volume 0.5
     hide wakeup07
@@ -207,16 +207,16 @@ label s2_1:
     th "อิวาโนะ อากาเนะ กรรมการฝ่ายระเบียบวินัย เธออยู่มัธยมปลายชั้นปีหนึ่ง" with dissolve
     en "Iwano Akane, member of the Disciplinary Committee. She's a first-year high school student." with dissolve
     th "ทำหน้าที่สอดส่องดูแลความเรียบร้อยภายในโรงเรียน" with dissolve
-    en "Her job is to oversee and maintain order within the school." with dissolve
+    en "She adheres strictly to every single rule." with dissolve
     th "เธอเป็นยึดมั่นในกฎระเบียบตามตัวอักษรทุกกระเบียดนิ้ว" with dissolve
     en "She adheres strictly to every letter of the rules." with dissolve
     th "ถ้าเห็นคนทำผิดกฎก็จะพุ่งเข้าไปตักเตือนทันที ไม่ว่าอีกฝ่ายเป็นใครก็ตาม" with dissolve
-    en "If she sees someone breaking a rule, she'll rush over to scold them, no matter who they are." with dissolve
+    en "If she sees anyone breaking a rule, she'll rush over to scold them, no matter who they are." with dissolve
     th "แม้กระทั่งรุ่นพี่ปีสองและปีสามต่างก็เกรงกลัวและยอมสยบให้กับเธอ" with dissolve
     en "Even second and third-year seniors fear and submit to her." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_005.mp3"
     akane_th  "รุ่นพี่ยูมะ พอไม่มีงานสภานักเรียนก็มาสายเลยนะ!" with dissolve
-    akane_en  "Senior Yuma, when there's no student council work, you're late!" with dissolve
+    akane_en  "Yuuma-senpai, when there's no student council work, you're late!" with dissolve
     th "อากาเนะตะโกนเสียงดังลั่น นักเรียนทุกคนที่อยู่บริเวณหน้าโรงเรียนต่างมองมาที่พวกเรา" with dissolve
     en "Akane shouts loudly. Every student at the school entrance turns to look at us." with dissolve
     yuma_th  "อากาเนะ ใจเย็นๆ ก่อน" with dissolve
@@ -235,7 +235,7 @@ label s2_1:
     show akane normal at zoom_in,center with Dissolve(0.2) 
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_008.mp3"
     akane_th look2 "ก็ได้ รอบนี้ถือว่ารุ่นพี่ยูมะมาทันเวลา แต่อย่าให้มีครั้งถัดไปอีกนะ เข้า-ใจ-ไหม" with dissolve
-    akane_en look2 "Fine, this time I'll consider Senior Yuma on time. But don't let there be a next time, un-der-stand?" with dissolve
+    akane_en look2 "Fine, this time I'll consider Yuuma-senpai on time. But don't let there be a next time, un-der-stand?" with dissolve
     yuma_th  "ครับ เข้าใจแล้วครับ" with dissolve
     yuma_en  "Yes, I understand." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_009.mp3"
@@ -248,7 +248,7 @@ label s2_1:
     akane_en  "Good grief. Lately, the male students seem to think wearing a loose tie looks cool." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_011.mp3"
     akane_th serious "เสื้อผ้าที่ไม่เรียบร้อยเปรียบเสมือนจิตใจที่ยุ่งเหยิง" with dissolve
-    akane_en serious "Untidy clothes reflect a chaotic mind." with dissolve
+    akane_en serious "The state of your clothes reflects the state of your mind." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_012.mp3"
     akane_th  "รุ่นพี่เป็นสมาชิกสภานักเรียน ต้องเป็นตัวอย่างที่ดีให้กับนักเรียนคนอื่นสิ" with dissolve
     akane_en  "You're a member of the student council. You should set a good example for other students." with dissolve
@@ -261,15 +261,15 @@ label s2_1:
     akane_en angry "No need, I'll tie it for you." with dissolve
     th "เอ๊ะ วันนี้มาแปลกนะเนี่ย" with dissolve
     en "Huh? This is unusual." with dissolve
-    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้" with dissolve
-    en "The super-strict disciplinary committee member Akane is going to tie my tie?" with dissolve
+    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้ ...ไม่อยากเชื่อเลย" with dissolve
+    en "The super-strict disciplinary committee member Akane is going to tie my tie? ...Impossible" with dissolve
     th "ไอ้นั่นสินะ ที่เขาเรียกกันว่าแฟนเซอร์วิส" with dissolve
     en "Isn't this what they call fan service?" with dissolve
     yuma_th  "เธอผูกเนคไทเป็นด้วยเหรอเนี่ย" with dissolve
     yuma_en  "Do you even know how to tie a tie?" with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_014.mp3"
     akane_th look "ผูกเป็นเพราะมีคนที่แต่งตัวไม่เรียบร้อยอย่างรุ่นพี่อยู่ไงคะ" with dissolve
-    akane_en look "I learned because there are people like you who can't dress properly, Senior." with dissolve
+    akane_en look "I learned because there are people like you who can't dress properly, Senpai." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_015.mp3"
     akane_th s2 "…แล้วก็ถือโอกาสไว้ลงโทษคนทำผิดกฏในเวลาเดียวกันด้วย!" with dissolve
     akane_en s2 "...And it's also a chance to punish rule-breakers at the same time!" with dissolve
@@ -287,7 +287,7 @@ label s2_1:
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_017.mp3"
     play sound "audio/sfx/escape.mp3"
     akane_th angry "ถ้ารุ่นพี่ยูมะตื่นเช้าตั้งแต่แรก ก็ไม่ต้องรีบวิ่งจนกระเซอะกระเซิงและเนคไทหลุดลุ่ยแบบนี้" with dissolve
-    akane_en angry "If Senior Yuma woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
+    akane_en angry "If Yuuma-senpai woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_018.mp3"
     akane_th  "จำไว้ นกที่ตื่นเช้าจับหนอนกินได้ก่อนใคร" with dissolve
     akane_en  "Remember, the early bird catches the worm." with dissolve
@@ -297,11 +297,11 @@ label s2_1:
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_019.mp3"
     show angry
     akane_th angrymeme "รุ่น~พี่~ยู~ มะ~" with dissolve
-    akane_en angrymeme "Senior Yu~ ma~" with dissolve
+    akane_en angrymeme "Sen~ pai~!!!" with dissolve
     hide angry
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_020.mp3"
     akane_th  "บางทีโรงเรียนในนรกอาจจะอนุญาตให้มาสายก็ได้นะ สนใจลองดูสักหน่อยมั้ย" with dissolve
-    akane_en  "Maybe schools in hell allow tardiness. Want to try it out?" with dissolve
+    akane_en  "Maybe schools in hell allow tardiness. Want me to send you there?" with dissolve
     th "อากาเนะกำเนคไทของผมไว้แน่น ผมสัมผัสได้ว่าเธอพร้อมออกแรงอย่างเต็มที่" with dissolve
     en "Akane grips my tie tightly. I can feel she's ready to use her full strength." with dissolve
     yuma_th  "ขอโทษ! เข้าใจแล้วค้าบ รอบหน้าจะไม่มาสายอีกแล้ว" with dissolve
@@ -317,7 +317,7 @@ label s2_1:
     akane_en s2 "Stop right there, boy! Where are you rushing to? You're late for school." with dissolve
     hide akane
     student_m_a_th  "งานเข้า นึกว่าจะรอดแล้วเชียว" with dissolve
-    student_m_a_en  "Trouble's brewing. I thought I was in the clear." with dissolve
+    student_m_a_en  "Dammit. I thought I was in the clear." with dissolve
     th "พอพูดจบ อากาเนะก็วิ่งไปขวางนักเรียนที่มาสาย" with dissolve
     en "As soon as she finishes speaking, Akane runs to block the late student." with dissolve
     th "ขืนอยู่ต่อผมอาจจะโดนลูกหลงไปด้วย ด้วยเหตุนี้ผมจึงอาสัยจังหวะชุลมุนรีบเดินเข้าอาคารเรียน" with dissolve

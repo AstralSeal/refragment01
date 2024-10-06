@@ -60,7 +60,7 @@ label s2_8:
     th "ของแค่นี้ไม่ยาก เดี๋ยวพี่ชายคนนี้จัดให้!" with dissolve
     en "This isn't too difficult. Your big brother will take care of it!" with dissolve
     yuma_th  "ก่อนอื่น ลองทำแบบฝึกหัดก่อนเรียนเพื่อทดสอบความรู้กันก่อนนะ" with dissolve
-    yuma_en  "First, let's do some pre-study exercises to test your knowledge." with dissolve
+    yuma_en  "First, let's a quick placement test to gauge your knowledge." with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_006.mp3"
     yuno_c_th question "เอ๋? ต้องทำแบบฝึกหัดด้วยเหรอเนี่ย" with dissolve
     yuno_c_en question "Huh? Do I have to do exercises too?" with dissolve
@@ -163,7 +163,7 @@ label s2_8:
     en "What should we do..." with dissolve
     hide yuno_c
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
-    en "Calm down, Yuma. Take a deep breath." with dissolve
+    en "Calm down, Yuuma. Take a deep breath." with dissolve
     scene bg036n19201080 with Dissolve(1.0)
     show kazuma normal at center with Dissolve(0.2) 
     play sound "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_001.mp3"
@@ -206,7 +206,7 @@ label s2_8:
     hide old
     show yuma_sensei00 with dissolve
     yuma_th  "ถ้าอย่างนั้น ครูยูมะจะเริ่มการสอนแล้วนะ" with dissolve
-    yuma_en  "Alright then, Teacher Yuma will start the lesson now." with dissolve
+    yuma_en  "Alright then, Yuuma-sensei will start the lesson now." with dissolve
     yuma_th  "โจทย์ข้อแรกเป็นการแก้สมการแบบง่าย ข้อนี้มีรูปเรขาคณิตที่ยูโนะถนัดด้วยนะ" with dissolve
     yuma_en  "The first problem is a simple equation. This one has geometry, which you're good at, Yuno." with dissolve
     th "ยูโนะไม่ถนัดเรื่องสมการหรือการคำนวณที่ซับซ้อน" with dissolve
@@ -365,7 +365,7 @@ label s2_8:
     yuma_th  "ดูเหมือนจะดึกแล้ว เตรียมเข้านอนดีกว่า" with dissolve
     yuma_en  "It seems to be late. I should prepare for bed." with dissolve
     th "พรุ่งนี้เรานัดรุ่นพี่มายะให้เข้าร่วมงานอีเวนท์เกม Seal Impact ไว้ด้วย แต่จะปล่อยยูโนะไว้แบบนี้ก็ไม่ได้" with dissolve
-    en "Tomorrow, we arranged for senior Maya to join the Seal Impact game event, but I can't leave Yuno like this." with dissolve
+    en "Tomorrow, we asked Maya-senpai to join the Seal Impact game event, but I can't leave Yuno like this." with dissolve
     th "แต่ถ้าทุกอย่างไปได้สวย บางทีตุ๊กตาที่ได้รับมาอาจจะใช้ง้อยูโนะสำเร็จก็ได้" with dissolve
     en "But if everything goes well, maybe the doll I received could be used to make up with Yuno." with dissolve
     th "ถึงอย่างนั้นผมก็กังวลใจอยู่ดี" with dissolve
