@@ -85,7 +85,7 @@ label s2_8:
     hide yuno_c
     th "ท่าทางจริงจังแบบนี้ แสดงว่าพอทำได้อยู่สินะ สมกับที่เป็นน้องสาวของเรา" with dissolve
     en "With this serious attitude, it seems she can handle it somewhat. As expected of my little sister." with dissolve
-    scene nightsky1 with Dissolve(1.0)
+    scene NightSky2 with Dissolve(1.0)
     th "……" with dissolve
     en "......" with dissolve
     scene home_livingroom_night with Dissolve(1.0)
