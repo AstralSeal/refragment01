@@ -52,8 +52,8 @@ label s2_2:
     th "จู่ๆ รุ่นพี่มายะก็หยุดพูดอย่างกะทันหัน" with dissolve
     en "Suddenly, Senior Maya stops talking abruptly." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_008.mp3"
-    maya_th wink "ฉันขอตัวก่อน ไว้เจอกันใหม่นะ ยูคุง~☆" with dissolve
-    maya_en wink "I've got to go. See you later, Yu-kun~☆" with dissolve
+    maya_th wink "ฉันขอตัวก่อน ไว้เจอกันใหม่นะ ยูคุง~" with dissolve
+    maya_en wink "I've got to go. See you later, Yu-kun~" with dissolve
     hide maya
     play sound "audio/sfx/家の階段を駆け上る.mp3"
     th "พอพูดจบ รุ่นพี่มายะก็รีบวิ่งขึ้นบันไดไปอย่างรวดเร็ว" with dissolve

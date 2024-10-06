@@ -169,8 +169,8 @@ label s2_5:
     scene home_livingroom_night with Dissolve(1.0)
     show yuno_c normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_032.mp3"
-    yuno_c_th teehee "เทะเฮะ~☆" with dissolve
-    yuno_c_en teehee "Teehee☆" with dissolve
+    yuno_c_th teehee "เทะเฮะ~" with dissolve
+    yuno_c_en teehee "Teehee" with dissolve
     yuma_th  "ไม่ต้องมา ‘เทะเฮะ’ เลย" with dissolve
     yuma_en  "Don't you 'teehee' me!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_033.mp3"
