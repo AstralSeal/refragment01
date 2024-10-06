@@ -111,7 +111,7 @@ define staff_th = Character("พนักงาน" , color="#F0F8FF", who_outli
 define speaker_th = Character("พิธีกร" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
-define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define yuma_en = Character("Yuuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_0_en = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define flying_seal_en = Character("Flying Seal Vending Machine ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
