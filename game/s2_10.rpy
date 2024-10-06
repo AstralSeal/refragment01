@@ -669,4 +669,6 @@ label s2_10:
     en "Oh man, what a mischievous little sister." with dissolve
     th "บางทีผมอาจจะตามใจน้องสาวตัวเองมากเกินไปละมั้ง" with dissolve
     en "Maybe I've been spoiling my little sister too much." with dissolve
+    scene black with dissolve
+    jump endding
     return

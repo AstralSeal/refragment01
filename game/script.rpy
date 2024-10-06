@@ -180,6 +180,14 @@ image fb3_5 = im.Scale("cg/fb3_5.png",1920,1080)
 image fb3_6 = im.Scale("cg/fb3_6.png",1920,1080)
 image cg3 = im.Scale("cg/cg3.png",1920,1080)
 
+label endding:
+    stop music
+    $renpy.pause(1, hard=True)
+    scene white with Dissolve(2.0)
+    play movie "ending.mp4"
+    $renpy.pause(60, hard=True)
+    jump title1
+    return
 
 # image reika normal :
 #     zoom 0.75
@@ -218,10 +226,6 @@ label splashscreen:
     pause 2
     scene warning with Dissolve(1.0)
     pause 2
-    # if persistent.true_end_pass == True:
-    #     jump title2
-    # if persistent.common_end_pass == True:
-    #     jump title3
     $ achievement.grant("START_GAME")
     $ achievement.sync()
     jump title1
@@ -389,7 +393,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_3
+    jump s2_10
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
