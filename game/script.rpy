@@ -389,7 +389,7 @@ label start:
     $ akane_mall_pass = False
     $ kazuma_mall_pass = False
     $ risa_mall_pass = False
-    jump s2_4
+    jump s2_3
    
     # show reika normal with dissolve
     # reika normal "Word1" with dissolve
@@ -451,6 +451,9 @@ image laught:
     "emotion/laught2.png"
     pause 0.5
     repeat
+transform offset_laught:
+    xoffset 30
+
 
 image panic:
     "emotion/panic1.png"

@@ -4,7 +4,7 @@ label s2_5:
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5
     show yuno_c normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_001.mp3"
-    show laught
+    show laught at offset_laught
     yuno_c_th smile4 "กลับมาแล้วเหรอ จะรับน้องสาว น้องสาว หรือว่าน้องสาวดีล่ะ" with dissolve
     yuno_c_en smile4 "You're back! Do you want your little sister, your little sister, or your little sister?" with dissolve
     hide laught
