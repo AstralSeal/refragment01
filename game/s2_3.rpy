@@ -212,7 +212,7 @@ label s2_3:
     student_f_b_en  "But I think it's a good thing to make soda less accessible at school. It might help many students quit drinking soda." with dissolve
     th "ดูเหมือนว่าความคิดเห็นแบ่งเป็นสองฝั่งชัดเจน มีทั้งคนที่เห็นด้วยและไม่เห็นด้วยกับการยกเลิกจำหน่ายน้ำอัดลม" with dissolve
     en "Opinions are clearly divided, with both supporters and opponents of the soda ban." with dissolve
-    th "แต่เพราะการโหวตเป็นเรื่องปกติของโรงเรียนแห่งนี้นักเรียนทุกคนจึงยอมรับผลลัพธ์ที่เกิดขึ้นได้โดยไม่มีปัญหา" with dissolve
+    th "แต่เพราะการโหวตเป็นเรื่องปกติของโรงเรียนแห่งนี้นักเรียนทุกคนจึงยอมรับผลลัพธ์ที่เกิดขึ้นได้\nโดยไม่มีปัญหา" with dissolve
     en "But because voting is normal at this school, all students accept the results without issues." with dissolve
     th "แม้จะมีความคิดเห็นแตกต่างกันบ้าง แต่ทุกคนก็ยอมรับในผลลัพธ์ที่เกิดขึ้นได้" with dissolve
     en "Even with differing opinions, everyone accepts the outcome." with dissolve
