@@ -745,7 +745,7 @@ label s2_9:
     yuma_th  "เดิมทีที่เรามาเที่ยวกันวันนี้ก็เพราะน้องสาวของผมไม่ใช่หรอครับ" with dissolve
     yuma_en  "But the reason we came out today was because of my little sister, wasn't it?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_076.mp3"
-    maya_c2_th pout "ซิสค่อออน" with dissolve
+    maya_c2_th pout "ซิสค่อนชะมัด" with dissolve
     maya_c2_en pout "Sis-con!" with dissolve
     th "หลังจากต่อล้อต่อเถียงกับรุ่นพี่มายะก็ได้เวลาที่จะแยกย้ายกัน" with dissolve
     en "After bantering with Maya-senpai, it was time to part ways." with dissolve
