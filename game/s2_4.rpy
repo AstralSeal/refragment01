@@ -836,7 +836,7 @@ label s2_4_risa:
     risa_th angry "น่ารำคาญจังนะนายเนี่ย ไม่มีความกระตือรือร้นเลยหรือไงนะเธอเนี่ย" with dissolve
     risa_en angry "You're so annoying. Do you have no enthusiasm?" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_040.mp3"
-    risa_th  "หยุดอ้างนู่นอ้างนี้แล้วทำให้พวกเธอหันมามองนายให้ได้ซะสิ" with dissolve
+    risa_th  "หยุดอ้างนู่นอ้างนี้แล้วทำให้พวกเธอหันมามองนายให้ได้สิ" with dissolve
     risa_en  "Quit making excuses and do something to get them to notice you." with dissolve
     play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_041.mp3"
     risa_th serious "แสดงความต้องการของนายออกมาให้เห็นหน่อย โชว์มุมเท่ๆ ให้เห็นจนตกหลุมรักแล้วก็จัดการรวบหัวรวบหางซะเลย" with dissolve
