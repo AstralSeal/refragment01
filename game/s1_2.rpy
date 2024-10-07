@@ -28,7 +28,7 @@ label s1_2:
     en "As for this girl, although she seems well-behaved," with dissolve
     th "แต่ว่าถ้าเป็นเรื่องกฎระเบียบแล้วละก็..." with dissolve
     en "If someone try to breaks a rule, ..." with dissolve
-    scene akane with Dissolve(1.0)
+    show akane with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-125.mp3" volume 0.5
     voice "audio/voice/akane/chapter1/chapter1_2/akane_1_2_003.mp3"
@@ -42,6 +42,7 @@ label s1_2:
     en "She is responsible for enforcing school rules among the students." with dissolve
     th "แม้เป็นนักเรียนชั้นปีหนึ่ง แต่ความเคร่งครัดของเธอทำให้นักเรียนชั้นปีสูงกว่าเกรงกลัวเธออย่างมาก" with dissolve
     en "Despite being a first-year student, her straitlaced demeanor terrifies the second-year and third-year students." with dissolve
+    hide akane
     scene school_front_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-107.mp3" volume 0.5
@@ -104,7 +105,7 @@ label s1_2:
     student_m_a_en  "I heard that last week someone confessed to her but was rejected without mercy." with dissolve
     student_m_b_th  "สมกับที่ได้ฉายา ‘ราชินีไร้เทียมทาน’ ผู้มีจิตใจแข็งแกร่งดั่งป้อมปราการเหล็ก ไม่มีใครทำให้ใจเธอหวั่นไหวได้แม้แต่คนเดียว" with dissolve
     student_m_b_en  "Befitting her nickname 'The Formidable Queen' with a heart as strong as an iron fortress, no one can make her heart waver even a bit." with dissolve
-    scene podium00 with Dissolve(1.0)
+    show podium00 with Dissolve(1.0)
     # to do 
     #play sound "audio/sfx/歓声と拍手1.mp3"
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_001.mp3"
@@ -118,7 +119,8 @@ label s1_2:
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_003.mp3"
     reika_th  "ดังนั้นฉันขอเล่าประวัติภูมิหลังทั้งหมดอีกครั้งหนึ่ง และถือเป็นการทบทวนสำหรับคนที่ทราบแล้ว" with dissolve
     reika_en  "Therefore, I'd like to recount the entire background once again, and consider it a review for those who already know." with dissolve
-    scene podium01 with Dissolve(1.0)
+    hide podium00
+    show podium01 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_004.mp3"
     reika_th  "โรงเรียนซิลเวอร์ซีลเป็นโรงเรียนเอกชนที่มีนักเรียนกว่า 1,400 คน" with dissolve
     reika_en  "Silverseal Private Academy is a private school with over 1,400 students." with dissolve
@@ -134,14 +136,16 @@ label s1_2:
     akane_en  "Hey, over there! Knock it off with the noise, you're bothering everyone!" with dissolve
     student_m_b_th  "ขอโทษครับ" with dissolve
     student_m_b_en  "Sorry, ma'am." with dissolve
-    scene podium04 with Dissolve(1.0)
+    hide podium01
+    show podium04 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_006.mp3"
     reika_th  "ที่ผ่านมา หลายโรงเรียนชูจุดเด่นว่าเป็นโรงเรียนส่งเสริมประชาธิปไตย แต่สุดท้ายแล้วไม่มีอะไรเกิดขึ้น" with dissolve
     reika_en  "In the past, many schools boasted about promoting democracy, but in the end, nothing happened." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_007.mp3"
     reika_th  "เพราะจัดการเลือกตั้งเป็นพิธีกรรมเท่านั้น สุดท้ายคนที่ตัดสินทุกอย่างคือคุณครูและบอร์ดบริหารโรงเรียน" with dissolve
     reika_en  "Because elections were just a formality, the teachers and the school board ultimately made all the decisions." with dissolve
-    scene podium00 with Dissolve(1.0)
+    hide podium04
+    show podium00 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_008.mp3"
     reika_th  "แต่โรงเรียนซิลเวอร์ซีลของเราจะไม่เป็นแบบนั้น ที่นี่อำนาจสูงสุดอยู่ที่นักเรียนอย่างแท้จริง" with dissolve
     reika_en  "But our Silverseal Private Academy won't be like that. Here, the ultimate power truly lies with the students." with dissolve
@@ -151,7 +155,8 @@ label s1_2:
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_010.mp3"
     reika_th  "ทุกคนมี 1 สิทธิ์ 1 เสียงเท่ากันในการกำหนดทิศทางของโรงเรียนอย่างแท้จริง" with dissolve
     reika_en  "Everyone has one vote, equally determining the direction of the school." with dissolve
-    scene podium01 with Dissolve(1.0)
+    hide podium00
+    show podium01 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_011.mp3"
     reika_th  "สำหรับญัตติในวันนี้ ผู้ยื่นเสนอคือสมาคมศิษย์เก่า" with dissolve
     reika_en  "For today's motion, the proposer is from the Alumni Association." with dissolve
@@ -192,7 +197,7 @@ label s1_2:
     play sound "audio/sfx/歓声と拍手1.mp3"
     student_m_a_th  "โอ้ คนจริง ขอคารวะตัวแทนหมู่บ้านของพวกเรา" with dissolve
     student_m_a_en  "Wow, you're the real deal. He is truly bold and fearless man." with dissolve
-    scene podium00 with Dissolve(1.0)
+    show podium00 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_021.mp3"
     reika_th  "สเปคผู้ชายที่ชอบเหรอ... อันดับแรกคือไม่ใช่คนแบบนายล่ะนะ" with dissolve
     reika_en  "The type of guy I like? ... First of all, not someone like you." with dissolve
@@ -206,7 +211,8 @@ label s1_2:
     student_m_b_en  "Ugh!" with dissolve
     student_m_a_th  "เห้ย ทำใจดีๆ ไว้ วิญญาณหลุดออกจากร่างไปซะแล้ว" with dissolve
     student_m_a_en  "Hey, hang in there. His soul just left his body." with dissolve
-    scene podium00 with Dissolve(1.0)
+    hide podium00
+    show podium00 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_024.mp3"
     reika_th  "ดูเหมือนว่าคงไม่มีคำถามแล้วนะ ถ้างั้นก็แยกย้ายกลับเข้าห้องเรียนได้" with dissolve
     reika_en  "It seems there are no more questions. In that case, you may return to your classrooms." with dissolve
