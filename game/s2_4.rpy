@@ -660,6 +660,7 @@ label s2_4_reika:
     play music "audio/bgm/MusMus-BGM-cp04.mp3" volume 0.5
     yuma_th  "ลองไปหาเรกะดีกว่า" 
     yuma_en  "I decided to look for Reika." 
+    scene minchieri_bookstore with Dissolve(1.0)
     th "ปกติเรกะมักจะแวะไปที่ร้านหนังสือเป็นประจำ" 
     en "Reika usually stops by the bookstore regularly." 
     th "เธอชอบอ่านหนังสือภาษาอังกฤษยากๆ ที่ผมอ่านไม่ออก แต่รอบนี้เธอกลับทำสิ่งที่ผิดคาดอย่างมาก" 
