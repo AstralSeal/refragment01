@@ -3,7 +3,7 @@ label s1_4:
     stop music
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5
     th "ในที่สุดก็ถึงเวลาเลิกเรียน" with dissolve
-    en "At last, it's time for school to end." with dissolve
+    en "At last, school is over." with dissolve
     scene school_classroom_evening with Dissolve(1.0)
     student_m_a_th  "เห้อ ในที่สุดก็เลิกเรียนสักที" with dissolve
     student_m_a_en  "Phew, finally classes are over." with dissolve
@@ -14,23 +14,23 @@ label s1_4:
     student_m_a_th  "อีกแล้วงั้นเหรอเนี่ย" with dissolve
     student_m_a_en  "Again?" with dissolve
     student_m_b_th  "ช่วยไม่ได้ ฉันจะรอวันที่มิตรภาพลูกผู้ชายของพวกเราแน่นแฟ้นขึ้นอย่างใจจดใจจ่อ" with dissolve
-    student_m_b_en  "Can't be helped. I'll eagerly await the day our male friendship grows stronger." with dissolve
+    student_m_b_en  "It can't be helped. I'll eagerly await the day our male friendship grows stronger." with dissolve
     yuma_th  "เว่อร์ไปไหมนั่น" with dissolve
     yuma_en  "Isn't that a bit dramatic?" with dissolve
     student_m_b_th  "ก็ช่วยไม่ได้ ในเมื่อยูมะไม่ว่าง พวกเราสองคนไปฟิตกล้ามล่วงหน้ากันดีกว่า" with dissolve
-    student_m_b_en  "Well, since Yuma isn't available, the two of us will go pump iron in advance." with dissolve
+    student_m_b_en  "Well, since Yuuma isn't available, the two of us will go pump iron in advance." with dissolve
     student_m_a_th  "เอ๋ แต่ว่าฉันก็ไม่อยากไปเล่นกล้าม" with dissolve
     student_m_a_en  "Eh? But I don't want to work out either." with dissolve
     student_m_b_th  "พูดอะไรของนาย ผู้ชายก็ต้องกล้ามใหญ่ๆ สิ พวกสาวๆ ถึงจะชอบ" with dissolve
     student_m_b_en  "What are you saying? Men need big muscles. That's what the girls like." with dissolve
     th "เพื่อนรักของผมทั้งสองคนเก็บกระเป๋า เดินออกจากห้องเรียนเพื่อมุ่งหน้าสู้เส้นทางลูกผู้ชาย" with dissolve
-    en "My two best friends pack their bags and leave the classroom, heading towards the path of manhood." with dissolve
+    en "My friends pack their bags and leave the classroom, heading towards the path of manhood." with dissolve
     yuma_th  "เห้อ..เอาล่ะถ้างั้นก็คงถึงเวลาของฉันบ้างแล้วสินะ" with dissolve
-    yuma_en  "Sigh... Well, I guess it's my turn now." with dissolve
+    yuma_en  "Well, I guess it's my turn now." with dissolve
     show reika normal at center with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_001.mp3"
     reika_th annoy "ถอนหายใจอะไรกัน ไม่อยากไปทำงานสภานักเรียนกับฉันขนาดนั้นเลยหรือ" with dissolve
-    reika_en annoy "What are you sighing about? Do you dislike doing student council work with me that much?" with dissolve
+    reika_en annoy "Why are you sighing? Do you dislike doing student council work with me that much?" with dissolve
     yuma_th  "เปล่าสักหน่อย" with dissolve
     yuma_en  "Not at all." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_002.mp3"
@@ -48,17 +48,17 @@ label s1_4:
     play music "audio/bgm/MusMus-BGM-143.mp3" volume 0.5
     show akane normal at center with Dissolve(1.0) 
     th "เมื่อเปิดประตูเข้าห้องสภานักเรียนก็พบกับอากาเนะ" with dissolve
-    en "When we open the door to the student council room, we find Akane." with dissolve
+    en "Opening the door to the student council room, we find Akane." with dissolve
     th "เธอกำลังเปิดกล่องจดหมายอยู่" with dissolve
     en "She's opening the mailbox." with dissolve
     yuma_th  "อ้าว วันนี้มีแค่อากาเนะคนเดียวเหรอ คาสึมะแอบอู้สินะ" with dissolve
-    yuma_en  "Oh, is it just Akane today? Kasuma must be slacking off." with dissolve
+    yuma_en  "Oh, is it just Akane today? Kazuma must be slacking off." with dissolve
     hide akane
     show reika normal at left with Dissolve(1.0) 
     show akane normal at right with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_003.mp3"
     reika_th normal_2 "คาสึมะไปเตรียมเรื่องการโหวตในวันพรุ่งนี้ต่างหาก ไม่ใช่ทุกคนจะเป็นแบบนายซักหน่อย" with dissolve
-    reika_en normal_2 "Kasuma went to prepare for tomorrow's voting. Not everyone is like you." with dissolve
+    reika_en normal_2 "Kazuma went to prepare for tomorrow's voting. Not everyone is like you." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_004.mp3"
     reika_th  "ว่าแต่อากาเนะ วันนี้มีปัญหาร้องเรียนอะไรบ้างไหม" with dissolve
     reika_en  "By the way, Akane, are there any complaints today?" with dissolve
@@ -85,7 +85,7 @@ label s1_4:
     th "ทำให้นักเรียนที่ต้องการหนังสือไม่สามารถยืมต่อได้" with dissolve
     en "This prevents other students who need the books from borrowing them." with dissolve
     th "ซึ่งจากรายการที่แนบมา มีอยู่ประมาณ 20 คน" with dissolve
-    en "According to the attached list, there are about 20 such students." with dissolve
+    en "AAccording to the attached list, there are about 20 students." with dissolve
     yuma_th  "โห แต่ละคนเลยกำหนดคืนหนังสือมาเกินหนึ่งเดือนแล้วทั้งนั้นเลย แบบนี้มันนักเบี้ยวตัวฉกาจชัดๆ" with dissolve
     yuma_en  "Wow, all of them are over a month past the return date. These are clearly notorious defaulters." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_002.mp3"
@@ -107,21 +107,21 @@ label s1_4:
     yuma_th  "แบบนี้ยากชะมัด" with dissolve
     yuma_en  "This is quite difficult." with dissolve
     th "ระหว่างที่พวกเราพูดกันอยู่ เรกะก็เสนอขึ้นมา" with dissolve
-    en "While we're talking, Rega makes a suggestion." with dissolve
+    en "While we're talking, Reika makes a suggestion." with dissolve
     hide reika
     hide akane
     show reika normal at center with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_006.mp3"
     reika_th normal_2 "ยูมะ การขึ้นราคาค่าปรับที่นายเสนอมาก็ไม่ผิด เพียงแต่ยังแก้ปัญหาไม่ตรงจุด" with dissolve
-    reika_en normal_2 "Yuma, your proposal to increase the fine isn't wrong, but it doesn't address the root of the problem." with dissolve
+    reika_en normal_2 "Yuuma, your idea to increase the fine isn't wrong, but it doesn't address the root of the problem." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_007.mp3"
     reika_th  "การแก้ปัญหาไม่ว่าเรื่องอะไรก็ตาม เราควรทำ Root Cause Analysis เป็นอันดับแรก" with dissolve
     reika_en  "When solving any problem, we should do a Root Cause Analysis first." with dissolve
     yuma_th  "รูทคอส… root? cos? สมการอะไรล่ะนั่น" with dissolve
-    yuma_en  "Root cause... root? cos? What kind of equation is that?" with dissolve
+    yuma_en  "Root cos... Square root with cosine? What kind of equation is that?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_008.mp3"
     reika_th ah "ไม่ใช่วิชาคณิตศาสตร์สักหน่อย นายจะคำนวณโจทย์คณิตอย่างเดียวไม่ได้นะยูมะ" with dissolve
-    reika_en ah "It's not mathematics. You can't just calculate math problems all the time, Yuma." with dissolve
+    reika_en ah "It's not mathematics. You can't just calculate math problems all the time, Yuuma." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_009.mp3"
     reika_th  "Root Cause Analysis คือการวิเคราะห์ถึงต้นตอของปัญหาที่แท้จริง ทำให้แก้ปัญหาได้ตรงจุดถึงแก่นแท้" with dissolve
     reika_en  "Root Cause Analysis is analyzing the true source of the problem, allowing us to solve the issue at its core." with dissolve
@@ -174,19 +174,19 @@ label s1_4:
     reika_en ah "That's part of it, but what rich people care about most is their 'reputation'." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_020.mp3"
     reika_th  "ภาพลักษณ์เป็นเรื่องที่สำคัญมาก ดังนั้นรู้ใช่ไหมว่าต้องทำอะไร" with dissolve
-    reika_en  "Image is very important. So, do you know what we need to do?" with dissolve
+    reika_en  "To them, their image is very important. So, do you know what we need to do?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_021.mp3"
     reika_th  "ลองคิดดูสิว่าตอนเดินมา นายเห็นอะไรที่หน้าประตูห้อง" with dissolve
     reika_en  "Think about what you saw in front of the door when you walked in." with dissolve
     hide reika
     th "เรกะชี้ไปที่หน้าประตูห้อง เธอคงหมายถึงลำโพงสินะ" with dissolve
-    en "Rega points to the front of the door. She must be referring to the speakers." with dissolve
+    en "Reika points to the front of the door. She must be referring to the speakers." with dissolve
     show reika normal at center with Dissolve(1.0) 
     yuma_th  "ประกาศรายชื่อคนที่ไม่ได้นำหนังสือมาคืนเหรอ" with dissolve
     yuma_en  "Announce the names of people who haven't returned books?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_022.mp3"
     reika_th  "ใช่แล้ว ลองนึกภาพว่าถ้าถูกประกาศชื่อว่าไม่ยอมคืนหนังสือบ่อยๆ จนกลายเป็น Talk of The Town ละก็ ต่อให้มีเงินล้นฟ้าก็ต้องทนไม่ไหวบ้างแหละ" with dissolve
-    reika_en  "That's right. Imagine if your name was announced frequently for not returning books, becoming the talk of the town. Even if you had money to burn, you couldn't stand it." with dissolve
+    reika_en  "That's right. Imagine if your name was frequently announced for failing to return library books, and you became the subject of gossip. Even if you had money to burn, you wouldn't be able to stand it." with dissolve
     yuma_th  "แบบนี้นี่เอง" with dissolve
     yuma_en  "I see now." with dissolve
     hide reika
@@ -198,13 +198,13 @@ label s1_4:
     yuma_en  "By 'never forget', you mean they won't forget to return books, right?" with dissolve
     hide akane
     th "จริงอย่างที่เรกะว่า นักเรียนในโรงเรียนนี้ส่วนมากเป็นพวกคนมีฐานะที่ห่วงภาพลักษณ์ทางสังคม ถ้าหากถูกประกาศชื่อว่าไม่คืนหนังสือทุกวันล่ะก็คงทนไม่ไหวแน่" with dissolve
-    en "As Rega said, most students in this school are well-off people who care about their social image. If their names were announced daily for not returning books, they probably couldn't stand it." with dissolve
+    en "As Reika said, most students in this school are well-off people who care about their social image. If their names were announced daily for not returning books, they probably wouldn't be able to stand it." with dissolve
     th "แถมการที่สภานักเรียนออกหน้าเองก็ยังช่วยตัดปัญหาที่ชมรมห้องสมุดจะถูกโจมตีด้วย" with dissolve
-    en "Moreover, having the student council take the lead also helps avoid problems with the library club being attacked." with dissolve
+    en "Moreover, having the student council take the blame also helps avoid problems with the library club being criticized." with dissolve
     th "ตั้งแต่สมัยก่อนแล้วไม่ว่าจะมีปัญหาแบบไหนเรกะก็สามารถแก้ได้ภายในเวลาไม่นานเสมอ บางทีเรกะอาจจะเป็นคนที่เกิดมาเพื่อเป็นผู้นำโดยแท้จริงเลยก็ได้" with dissolve
-    en "Since long ago, no matter what problem arose, Rega could always solve it in no time. Maybe Rega was truly born to be a leader." with dissolve
+    en "Since long ago, no matter what problem arose, Reika could always solve it in no time. Maybe Reika was truly born to be a leader." with dissolve
     th "ถ้าผมพยายามมากกว่านี้ผมเองจะเป็นเหมือนเรกะได้ไหมนะ" with dissolve
-    en "I wonder if I tried harder, could I become like Rega?" with dissolve
+    en "I wonder if I tried harder, could I become like Reika?" with dissolve
     play sound "audio/sfx/携帯電話のバイブレーション1.mp3"
     th "หลังจากที่จัดการเอกสารเสร็จ พวกเราเก็บกระเป๋าเตรียมตัวกลับบ้าน ทันใดนั้นก็เกิดเหตุไม่คาดฝันขึ้น" with dissolve
     en "After we finished with the documents, we packed our bags preparing to go home. Suddenly, an unexpected event occurred." with dissolve
@@ -212,7 +212,7 @@ label s1_4:
     en "Who's calling at this time? I have a bad feeling about this." with dissolve
     show kazuma_phone with dissolve
     yuma_th  "นั่นไง คาสึมะจริงๆ ด้วย" with dissolve
-    yuma_en  "See, it's really Kasuma." with dissolve
+    yuma_en  "See, it's really Kazuma." with dissolve
     th "เจ้าหมอนี่โทรมาแต่เรื่องงาน ไม่มีเรื่องอื่นแน่นอน" with dissolve
     en "This guy only calls about work. It's never anything else." with dissolve
     yuma_th  "ฮัลโหล เป็นไงบ้าง นับผลโหวตเสร็จหรือยัง" with dissolve
@@ -225,16 +225,16 @@ label s1_4:
     voice "audio/voice/kazuma/chapter1/chapter1_4/kazuma_1_4_002.mp3"
     hide kazuma_phone with dissolve
     kazuma_th  "การนับผลโหวตใช้เวลามากกว่าที่ประเมินไว้ ต้องการกำลังเสริมด่วน" with dissolve
-    kazuma_en  "The vote counting is taking longer than expected. We need urgent reinforcements." with dissolve
+    kazuma_en  "The vote counting is taking longer than expected. I need your help now." with dissolve
     show reika normal at left with Dissolve(1.0) 
     show akane normal at right with Dissolve(1.0) 
     th "ผมหันไปรอบข้าง พบว่าเรกะกับอากาเนะยืนโบกมือลาด้วยความยิ้มแย้มแจ่มใส" with dissolve
-    en "I turn around and find Rega and Akane standing there, waving goodbye with bright smiles." with dissolve
+    en "I turn around and find Reika and Akane standing there, waving goodbye with bright smiles." with dissolve
     yuma_th  "เดี๋ยวสิ ขืนให้นับกันแค่สองคนแบบนี้ต้องนับกันถึงเช้าแน่" with dissolve
-    yuma_en  "Wait a minute, if only two people count like this, it'll take until morning." with dissolve
+    yuma_en  "Wait a minute, only me and Kazuma?... it'll take until morning." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_023.mp3"
     reika_th smile "สู้ๆ นะ ขอให้ใช้ค่ำคืนอย่างมีความสุขกับคาสึมะ" with dissolve
-    reika_en smile "Good luck! Hope you have a happy evening with Kasuma." with dissolve
+    reika_en smile "Good luck! Hope you have a happy evening with Kazuma." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_008.mp3"
     akane_th smile "พวกเราไปก่อนนะ" with dissolve
     akane_en smile "We're going now." with dissolve
@@ -245,14 +245,14 @@ label s1_4:
     show akane normal at zoom_in,center with Dissolve(1.0) 
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_009.mp3"
     akane_th smug "ใครจะยอมพลาดโอกาสที่จะได้กลับบ้านกับรุ่นพี่เรกะสองต่อสองกันล่ะ แต่ก็เป็นกำลังใจให้นะคะ" with dissolve
-    akane_en smug "Who would miss the chance to walk home alone with Senior Rega? But we're cheering for you." with dissolve
+    akane_en smug "Who would miss the chance to walk home alone with Reika-senpai? But we're cheering for you." with dissolve
     yuma_th  "ให้ตายเถอะ ก็ได้" with dissolve
-    yuma_en  "Oh, for goodness sake. Fine." with dissolve
+    yuma_en  "Oh, for goodness sake. Fine, I'll do it." with dissolve
     hide akane
     yuma_th  "กำลังเสริม 1 นายถ้วน กำลังไป" with dissolve
-    yuma_en  "Reinforcement of 1 person, full force, coming." with dissolve
+    yuma_en  "Reinforcement of 1 person, coming." with dissolve
     th "ถ้าโชคชะตาลิขิตให้เรกะเกิดมาเป็นผู้นำแล้วละก็บางทีผมคงเกิดมาเป็นเบ๊รับใช้ละมั้ง" with dissolve
-    en "If fate destined Rega to be born a leader, then maybe I was born to be a servant." with dissolve
+    en "If fate destined Reika to be born a leader, then maybe I was born to be a servant." with dissolve
     scene black with Dissolve(1.0)
     scene home_entrance_evening with Dissolve(1.0)
     stop music
@@ -278,25 +278,25 @@ label s1_4:
     yuma_th  "คำว่านานที่ว่าเนี่ยยังไม่ถึง 12 ชั่วโมงเลยนะ" with dissolve
     yuma_en  "The 'so long' you mentioned isn't even 12 hours." with dissolve
     th "บางทีถ้ายูโนะมีหาง ป่านนี้คงแกว่งระริกระรี้เหมือนสุนัขตอนดีใจ" with dissolve
-    en "Sometimes I think if Yuno had a tail, it would be wagging happily like a dog's right now." with dissolve
+    en "If Yuno had had a tail, she would've wagged it a lot." with dissolve
     yuma_th  "บทเรียนวันนี้เป็นยังไงบ้าง" with dissolve
     yuma_en  "How were your lessons today?" with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(1.0) 
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_002.mp3"
     yuno_c_th confident_2 "ไม่มีปัญหา ส.บ.ม.ย.ห." with dissolve
-    yuno_c_en confident_2 "No problem. S.B.M.Y.H." with dissolve
+    yuno_c_en confident_2 "This is fine. Things are going to be okay." with dissolve
     yuma_th  "ไปเอาคำศัพท์แปลกๆ มาจากอินเทอร์เน็ตอีกแล้ว ว่าแต่มันไม่เก่าไปหน่อยเหรอ" with dissolve
-    yuma_en  "You're using strange abbreviations from the internet again. But isn't that one a bit outdated?" with dissolve
+    yuma_en  "Oh, this meme is quite outdated. The ironic phrase 'This is fine' means things are not really that fine at all, right?" with dissolve
     hide yuno_c
     scene home_livingroom_night with Dissolve(1.0)
     show yuno_c normal at center with Dissolve(1.0) 
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_003.mp3"
     yuno_c_th ah_2 "ที่โรงเรียนเป็นยังไงบ้าง" with dissolve
-    yuno_c_en ah_2 "How was school?" with dissolve
-    yuma_th  "เป็นหนึ่งวันที่วุ่นวายเอาเรื่อง ไหนจะสภานักเรียน ไหนจะนโยบายใหม่ ไหนจะรุ่นพี่สาวสาว ไหนจะเรื่องไฝที่ก้นของ-" with dissolve
-    yuma_en  "It was a chaotic day. There was student council work, new policies, senior girls, and the mole on Rega's bu-" with dissolve
+    yuno_c_en ah_2 "Nah, by the way, how was school?" with dissolve
+    yuma_th  "เป็นหนึ่งวันที่วุ่นวายเอาเรื่อง ไหนจะสภานักเรียน ไหนจะนโยบายใหม่ ไหนจะรุ่นพี่มายะ ไหนจะเรื่องไฝที่ก้นของ-" with dissolve
+    yuma_en  "It was a chaotic day. There was student council work, new policies, Maya-senpai, and the mole on Reika's bu-" with dissolve
     th "ขณะที่ผมพูด เรกะก็เดินเข้ามาจากด้านหลัง" with dissolve
-    en "As I'm speaking, Rega walks in from behind." with dissolve
+    en "As I'm speaking, Reika walks in from behind." with dissolve
     hide yuno_c
     stop music
     play music "audio/bgm/MusMus-BGM-087.mp3" volume 0.5
@@ -307,9 +307,9 @@ label s1_4:
     reika_th sadistic2_2_s "เมื่อกี้นายว่ายังไงนะ" with dissolve
     reika_en sadistic2_2_s "What did you just say?" with dissolve
     th "แผ่นหลังผมเย็นวาบ สัมผัสได้ถึงจิตสังหารที่ย่างกรายเข้ามา" with dissolve
-    en "My back turns cold. I can sense the killing intent approaching." with dissolve
+    en "I break into a cold sweat and feel a sense of foreboding." with dissolve
     th "นี่มันบ้านของผมไม่ใช่เหรอ เรกะมาอยู่ที่นี่ได้ยังไงเนี่ย" with dissolve
-    en "Isn't this my house? How did Rega get here?" with dissolve
+    en "Isn't this my house? How did Reika get here?" with dissolve
     yuma_th  "นี่เธอมายังไงเนี่ย!!!" with dissolve
     yuma_en  "How did you get here?!!!" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_025.mp3"
@@ -342,21 +342,21 @@ label s1_4:
     show yuno_c normal at center with Dissolve(1.0) 
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_005.mp3"
     yuno_c_th ah "หนูเรียกพี่เรกะมาเอง" with dissolve
-    yuno_c_en ah "I called Senior Rega here myself." with dissolve
+    yuno_c_en ah "I called Reika-oneechan here myself." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_006.mp3"
     yuno_c_th crymeme2 "ตอนเช้าหนูส่ง LIME ไปหาพี่ พี่ไม่ยอมตอบหนูเลยเสียใจ" with dissolve
-    yuno_c_en crymeme2 "This morning I sent you a LINE message, but you didn't reply. I felt sad." with dissolve
+    yuno_c_en crymeme2 "TThis morning I sent you a LIME message, but you didn't reply. I felt sad." with dissolve
     yuma_th  "ไหน ขอเช็คดูก่อน" with dissolve
     yuma_en  "Let me check." with dissolve
     yuma_th  "จริงด้วย" with dissolve
     yuma_en  "It's true." with dissolve
     th "ยูโนะส่งข้อความ LIME มาหาช่วงเช้าตอนที่กำลังสอนรุ่นพี่มายะใช้ตู้แมวน้ำบิน" with dissolve
-    en "Yuno sent a LINE message in the morning when I was teaching Senior Maya how to use the Flying Seal vending machine." with dissolve
+    en "Yuno sent a LIME message in the morning when I was teaching Maya-senpai how to use the Flying Seal vending machine." with dissolve
     th "ตอนนั้นกำลังยุ่งอยู่ ด้วยเหตุนี้ข้อความจึงยังไม่ถูกเปิดอ่าน" with dissolve
     en "I was busy then, so the message wasn't read." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_007.mp3"
     yuno_c_th blank_2 "พี่ไม่ยอมตอบ หนูเลย LIME หาพี่เรกะแทน" with dissolve
-    yuno_c_en blank_2 "You didn't reply, so I LINEd Senior Rega instead." with dissolve
+    yuno_c_en blank_2 "You didn't reply, so I send LIME message to Reika-oneechan instead." with dissolve
     hide yuno_c
     show reika normal at center with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_028.mp3"
@@ -367,7 +367,7 @@ label s1_4:
     reika_en  "I bought a Seal Impact game card and strawberry pudding for Yuno." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_030.mp3"
     reika_th angry_2 "นายก็หัดอ่าน LIME ซะบ้างนะ" with dissolve
-    reika_en angry_2 "You should check your LINE messages sometimes." with dissolve
+    reika_en angry_2 "You should check your LIME messages periodically." with dissolve
     yuma_th  "ขอโทษด้วยครับ ครั้งหน้าจะไม่ลืมอีกแล้ว" with dissolve
     yuma_en  "I'm sorry. I won't forget next time." with dissolve
     th "ผมวุ่นกับงานสภานักเรียน ไม่ได้เช็คข้อความ LIME จึงทำให้พลาดข้อความจากยูโนะ" with dissolve
@@ -397,11 +397,11 @@ label s1_4:
     yuma_en  "Yes, ma'am. I won't let your kindness go to waste." with dissolve
     hide reika
     th "เรกะเป็นเพื่อนสมัยเด็กที่บ้านอยู่ใกล้กันและสนิทกันตั้งแต่เด็ก เธอมักจะแวะมาเที่ยวเล่นและทำอาหารให้พวกเราที่อยู่กันแค่สองคนบ่อยๆ" with dissolve
-    en "Rega is a childhood friend who lives nearby and has been close to us since we were kids. She often comes over to play and cook for us two who live alone." with dissolve
+    en "Reika is a childhood friend who lives nearby and has been close to us since we were kids. She often comes over to play and cook for us two, since we live alone." with dissolve
     th "เรกะคอยแนะนำเรื่องการดูแลยูโนะด้วย เพราะผมกับคุณพ่อไม่มีความรู้เรื่องการใช้ชีวิตของเด็กสาววัยรุ่นสักเท่าไหร่ ตอนที่ซื้อบราให้ยูโนะครั้งแรก ถ้าไม่ได้เรกะผมเองก็คงเลือกซื้อให้ไม่ถูกเหมือนกัน" with dissolve
-    en "Rega also advises on how to take care of Yuno, because my dad and I don't know much about teenage girls' lives. When we first bought a bra for Yuno, if it wasn't for Rega, I probably wouldn't have known how to choose one." with dissolve
+    en "Reika also advises me on how to take care of Yuno, because my dad and I don't know much about teenage girls' lives. When we first bought a bra for Yuno, if it weren't for Reika, I probably wouldn't have known how to choose one." with dissolve
     th "ถ้าคุณแม่ของผมยังมีชีวิตอยู่บางทีก็อาจจะเหมือนกับเรกะก็ได้ สำหรับผมนอกจากยูโนะแล้ว เรกะเป็นเหมือนส่วนหนึ่งของครอบครัวผมไปแล้ว" with dissolve
-    en "If my mom were still alive, she might be like Rega. For me, besides Yuno, Rega has become like part of my family." with dissolve
+    en "If my mom were still alive, she might have been like Reika. For me, besides Yuno, Reika has become like part of my family." with dissolve
     show reika normal at center with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_035.mp3"
     reika_th ah_2 "อ๊ะ พึ่งนึกขึ้นได้" with dissolve
@@ -427,7 +427,7 @@ label s1_4:
     # play sound "audio/sfx/wink.mp3"
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_038.mp3"
     reika_th onegai_2 "ยูมะ…" with dissolve
-    reika_en onegai_2 "Yuma..." with dissolve
+    reika_en onegai_2 "Yuuma..." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_039.mp3"
     reika_th  "ฉัน…" with dissolve
     reika_en  "I..." with dissolve
@@ -441,7 +441,7 @@ label s1_4:
     #missing
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_041.mp3"
     reika_th angrymeme_2 "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
-    reika_en angrymeme_2 "When are you going to pay me back?!!!" with dissolve
+    reika_en angrymeme_2 "Where's my money?!" with dissolve
     yuma_th  "เอ๋?!" with dissolve
     yuma_en  "Eh?!" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_042.mp3"
@@ -453,12 +453,12 @@ label s1_4:
     yuma_th  "เอ๋?!!!!!!!" with dissolve
     yuma_en  "Eh?!!!!!!!" with dissolve
     th "สมองของผมประมวลผลไม่ทันเพราะความเป็นจริงทับซ้อนกับความฝันในเช้าวันนี้พอดี" with dissolve
-    en "My brain can't process this because reality is overlapping with my dream from this morning." with dissolve
+    en "Wait, this was the exact dream I had earlier..." with dissolve
     th "ฝันเมื่อเช้านี้เป็นลางบอกเหตุสินะว่าผมจะต้องติดหนี้เรกะในตอนนี้" with dissolve
-    en "The dream this morning must have been a premonition that I would end up owing Rega money now." with dissolve
+    en "The dream this morning must have been a premonition that I would end up owing Reika money now." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_044.mp3"
     reika_th onegai_2 "ฮัลโหล ยูมะ อยู่ไหม" with dissolve
-    reika_en onegai_2 "Hello? Yuma? Are you there?" with dissolve
+    reika_en onegai_2 "Hello? Yuuma? Are you there?" with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-021.mp3" volume 0.5
     yuma_th  "โทษที เผลอคิดนอกเรื่องไปหน่อย เมื่อกี้ว่าอะไรนะ" with dissolve
@@ -474,35 +474,35 @@ label s1_4:
     yuma_th  "!!!" with dissolve
     yuma_en  "!!!" with dissolve
     th "โคตรแพง!!!" with dissolve
-    en "That's so expensive!!!" with dissolve
+    en "That's a lot of money!!!" with dissolve
     th "เงินมากขนาดนั้น ถ้าเอาไปซื้อหนังสือลามกละก็ได้หลายเล่มเลยไม่ใช่หรือไง" with dissolve
-    en "With that much money, you could buy quite a few porn magazines, couldn't you?" with dissolve
+    en "With that much money, you could buy tons of magazines, couldn't you?" with dissolve
     th "เดี๋ยวสิ นี่ยูโนะเติมเงินเยอะขนาดนั้นเลยเหรอ" with dissolve
     en "Wait, did Yuno top up that much?" with dissolve
     yuma_th  "ขอเป็นพรุ่งนี้ละกัน" with dissolve
     yuma_en  "Can it be tomorrow?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_047.mp3"
     reika_th  "ก็ได้ อย่าลืมจ่ายเงินด้วยล่ะ ส่วนค่าพุดดิ้งสตรอเบอร์รี่ไม่ต้อง ถือว่าเป็นของขวัญให้ยูโนะก็แล้วกัน" with dissolve
-    reika_en  "Alright. Don't forget to pay. As for the strawberry pudding, don't worry about it. Consider it a gift for Yuno." with dissolve
+    reika_en  "Alright. Don't forget to pay up. Don't worry about the strawberry pudding. Consider it a gift for Yuno." with dissolve
     th "พอพูดจบเรกะก็เดินจากไป" with dissolve
-    en "After saying that, Rega leaves." with dissolve
+    en "After saying that, Reika leaves." with dissolve
     hide reika
     show yuno_c normal at center with Dissolve(1.0) 
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_009.mp3"
     yuno_c_th ah_2 "พี่เรกะไปแล้วเหรอ" with dissolve
-    yuno_c_en ah_2 "Did Senior Rega leave already?" with dissolve
+    yuno_c_en ah_2 "Did Reika-oneechan leave already?" with dissolve
     yuma_th  "พึ่งออกจากบ้านไปเมื่อกี้นี้เลย" with dissolve
     yuma_en  "She just left a moment ago." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_010.mp3"
     yuno_c_th blank_2 "เฮ้อ พี่เนี่ยนะ~" with dissolve
-    yuno_c_en blank_2 "Sigh... You, brother~" with dissolve
+    yuno_c_en blank_2 "Jeez... Onii-chan~" with dissolve
     th "ยูโนะทำหน้าเอือมระอาใส่ผม" with dissolve
     en "Yuno gives me an exasperated look." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_011.mp3"
     yuno_c_th pout_2 "มัวยืนบื้ออยู่ทำไม เดินไปส่งพี่เรกะเป็นเพื่อนด้วยสิ" with dissolve
-    yuno_c_en pout_2 "Why are you standing there like an idiot? Go walk Senior Rega home." with dissolve
+    yuno_c_en pout_2 "Why are you standing there like an idiot? Go walk Reika-oneechan home." with dissolve
     yuma_th  "เรกะโตแล้ว ไปไหนมาไหนคนเดียวได้" with dissolve
-    yuma_en  "Rega's grown up. She can go places by herself." with dissolve
+    yuma_en  "Reika has grown up. She can go places by herself." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_012.mp3"
     show angry at left_50
     yuno_c_th gambatte "มันไม่ใช่แบบนั้น ยามค่ำคืนแบบนี้ผู้ชายต้องไปส่งผู้หญิงสิ พี่ไม่เข้าใจจิตใจของผู้หญิงเลย" with dissolve
@@ -510,18 +510,18 @@ label s1_4:
     hide angry
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_013.mp3"
     yuno_c_th worry "เข้าใจที่พี่เรกะบอกแล้ว เห้อ เป็นอย่างที่พี่เรกะว่าจริงๆ ด้วย" with dissolve
-    yuno_c_en worry "I understand what Senior Rega said now. Sigh, it's just as Senior Rega said." with dissolve
+    yuno_c_en worry "I understand what Reika-oneechan said now. Jeez, it's just as Reika-oneechan said." with dissolve
     yuma_th  "เรกะเล่าอะไรให้ฟังเหรอ" with dissolve
-    yuma_en  "What did Rega tell you?" with dissolve
+    yuma_en  "What did Reika tell you?" with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_014.mp3"
     yuno_c_th shout "ตอนนี้ไม่ใช่เวลามาถามเรื่องนั้น รีบวิ่งตามพี่เรกะไปสิ!" with dissolve
-    yuno_c_en shout "Now's not the time to ask about that. Hurry and run after Senior Rega!" with dissolve
+    yuno_c_en shout "Now's not the time to ask about that. Hurry and run after Reika-oneechan!" with dissolve
     hide yuno_c
     th "พอพูดจบ ยูโนะก็ผลักผมออกจากประตูบ้านทันที" with dissolve
     en "After saying that, Yuno pushes me out the front door." with dissolve
     scene home_entrance_night with Dissolve(1.0)
     th "หลังจากนั้นผมก็ออกมาส่งเรกะหน้าบ้าน" with dissolve
-    en "After that, I go out to see Rega off at the front of the house." with dissolve
+    en "After that, I go out to see Reika off at the front of the house." with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_048.mp3"
     reika_th smile "ยูโนะจังดูดีขึ้นนะ" with dissolve
@@ -558,15 +558,15 @@ label s1_4:
     th "เป็นหนึ่งวันที่วุ่นวายเอาเรื่องเลย" with dissolve
     en "It's been quite a chaotic day." with dissolve
     th "ไหนจะงานสภานักเรียน ไหนจะรุ่นพี่ดาวเด่นประจำโรงเรียน ปัญหาห้องสมุด" with dissolve
-    en "From student council work, to the school's star senior, to library problems." with dissolve
+    en "Student council work, Maya-senpai, and library problems." with dissolve
     th "จะว่าไป การโหวตควรเป็นเรื่องของนักเรียนไม่ใช่เหรอ" with dissolve
     en "Come to think of it, shouldn't voting be a matter for students?" with dissolve
     th "สมาคมศิษย์เก่าเข้ามายุ่งเกี่ยวอะไรด้วย" with dissolve
     en "Why is the Alumni Association getting involved?" with dissolve
     th "ช่างเถอะ ไม่ว่าผลโหวตจะเป็นอย่างไร ผมก็ต้องทำงานเอกสารอยู่ดี" with dissolve
-    en "Well, whatever the voting results are, I'll still have to do paperwork." with dissolve
+    en "Whatever. Regardless of the voting results, I'll still have paperwork to do." with dissolve
     th "คิดมากไปก็ปวดหัว รีบทำรายงานส่งคุณครูริสะแล้วก็เข้านอนดีกว่า……" with dissolve
-    en "Thinking too much gives me a headache. I'd better hurry and finish the report for Teacher Risa and go to bed......" with dissolve
+    en "Thinking about it too much gives me a headache. I'd better hurry and finish the report for Risa-sensei and go to bed......" with dissolve
     scene black with Dissolve(1.0)
     jump cutscene_1
     return

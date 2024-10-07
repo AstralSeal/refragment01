@@ -351,7 +351,7 @@ label s2_9:
     th "แต่ไม่ว่ายังไง เราก็ต้องตอบคำถามข้อนี้ให้ได้" with dissolve
     en "But no matter what, we have to answer this question." with dissolve
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
-    en "Stay calm, Yuma. Keep your cool." with dissolve
+    en "Stay calm, Yuuma. Keep your cool." with dissolve
     th "รุ่นพี่มายะสูง 166 เซนติเมตร" with dissolve
     en "Maya-senpai is 166 centimeters tall." with dissolve
     th "เทียบอัตราส่วนกับลำตัวแล้วควรจะมีขนาดเท่ากับ…" with dissolve
@@ -424,7 +424,7 @@ label s2_9:
     maya_c2_th  "นี่ ยูคุง พวกเราโพสท่าอะไรกันดี" with dissolve
     maya_c2_en  "Hey, Yuu-kun, what pose should we do?" with dissolve
     yuma_th  "รุ่นพี่จะทำท่าอะไรก็ได้ครับ ส่วนผมจะยืนนิ่งๆ เหมือนตอนถ่ายรูปติดบัตรนักเรียนแล้วกัน" with dissolve
-    yuma_en  "You can do whatever you want, senior. I'll just stand still like I'm taking a photo for my student ID." with dissolve
+    yuma_en  "You can do whatever you want. I'll just stand still like I'm taking a photo for my student ID." with dissolve
     th "ใช่แล้ว นี่คือท่าถ่ายรูปที่สืบทอดมาตั้งแต่ต้นตระกูลของผม" with dissolve
     en "That's right, this is the photo pose that's been passed down since the beginning of my family line." with dissolve
     th "ยืนตัวตรงนิ่งสงบเหมือนดั่งต้นไม้ประกอบฉากหลังที่ไม่มีใครเหลียวแล" with dissolve
@@ -482,14 +482,14 @@ label s2_9:
     maya_c2_th  "ถ่ายออกมาได้ไม่เลวเหมือนกันนะเนี่ย" with dissolve
     maya_c2_en  "It didn't turn out too bad, huh?" with dissolve
     yuma_th  "ก็เพราะรุ่นพี่ดูแต่หน้าของฝั่งรุ่นพี่ไงครับ รุ่นพี่ลองดูหน้าฝั่งผมบ้างสิครับ" with dissolve
-    yuma_en  "That's because you're only looking at your side, senior. Try looking at my side too." with dissolve
+    yuma_en  "That's because you're only looking at your side. Try looking at my side too." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_036.mp3"
     maya_c2_th  "อย่ามัวแต่สนใจเรื่องหยุมหยิมน่า เรามารีบแต่งรูปกันเถอะ ด้านหลังมีคนรอคิวอีกเยอะ" with dissolve
     maya_c2_en  "Don't fuss over the small details. Let's hurry and edit the photo, there are a lot of people waiting behind us." with dissolve
     hide purikura08
     show purikura09 with dissolve
     th "หลังพูดจบ รุ่นพี่ก็ใส่สติกเกอร์ที่เป็นรูปชื่อของเราสองคนลงไป" with dissolve
-    en "After saying that, senior put stickers with our names on the photo." with dissolve
+    en "After saying that, She put stickers with our names on the photo." with dissolve
     th "นี่สินะ ผู้เชี่ยวชาญด้านความรักที่เขาล่ำรือกัน" with dissolve
     en "So this is the love expert they talk about, huh?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_037.mp3"
@@ -575,7 +575,7 @@ label s2_9:
     maya_c2_th fun "ฮ่าฮ่า แค่ล้อเล่นน่ะ แต่ก็ไม่แน่ ในอนาคตอาจจะได้รับฉายานี้จริงๆ ก็ได้" with dissolve
     maya_c2_en fun "Haha, I'm just kidding. But who knows, you might actually get that title in the future." with dissolve
     yuma_th  "ถ้าเกิดผมมีฉายานั้นผมจะสงสัยรุ่นพี่เป็นคนแรกเลย" with dissolve
-    yuma_en  "If I ever get that title, I'll suspect you first, senior." with dissolve
+    yuma_en  "If I ever get that title, I'll suspect you first." with dissolve
     th "รุ่นพี่มายะยิ้มด้วยท่าทางซุกซนขี้เล่น ตั้งใจหยอกล้อผมสินะ" with dissolve
     en "Maya-senpai smiled with a playful, mischievous look. She must be teasing me." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_049.mp3"
@@ -626,7 +626,7 @@ label s2_9:
     yuma_th  "จะว่าไป ผมสังเกตว่ารุ่นพี่กระดี๊กระด๊าตอนเลือกซื้อเสื้อผ้า" with dissolve
     yuma_en  "By the way, I noticed you get really excited when shopping for clothes." with dissolve
     yuma_th  "รุ่นพี่ชอบเกี่ยวกับเรื่องแฟชั่นหรอครับ" with dissolve
-    yuma_en  "Are you into fashion, senior?" with dissolve
+    yuma_en  "Are you into fashion, Maya-senpai?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_054.mp3"
     maya_c2_th smile_2 "ใช่แล้วจ้ะ" with dissolve
     maya_c2_en smile_2 "That's right!" with dissolve

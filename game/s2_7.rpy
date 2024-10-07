@@ -199,7 +199,7 @@ label s2_7:
     yuma_en  "The name's super cool, like an old-school MMORPG game username." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"
     reika_th worry "คงจะมีแต่นายละมั้งที่คิดว่าชื่อแบบนี้มันเท่ ยูมะ" with dissolve
-    reika_en worry "I think you're the only one who thinks that kind of name is cool, Yuma." with dissolve
+    reika_en worry "I think you're the only one who thinks that kind of name is cool, Yuuma." with dissolve
     yuma_th  "เธอมีปัญหากับเซนส์การตั้งชื่อของฉันหรือไง" with dissolve
     yuma_en  "Do you have a problem with my sense of naming?" with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_014.mp3"

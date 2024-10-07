@@ -213,7 +213,7 @@ label s2_1:
     th "ถ้าเห็นคนทำผิดกฎก็จะพุ่งเข้าไปตักเตือนทันที ไม่ว่าอีกฝ่ายเป็นใครก็ตาม" with dissolve
     en "If she sees anyone breaking a rule, she'll rush over to scold them, no matter who they are." with dissolve
     th "แม้กระทั่งรุ่นพี่ปีสองและปีสามต่างก็เกรงกลัวและยอมสยบให้กับเธอ" with dissolve
-    en "Even second and third-year seniors fear and submit to her." with dissolve
+    en "Even second and third-year students fear and submit to her." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_005.mp3"
     akane_th  "รุ่นพี่ยูมะ พอไม่มีงานสภานักเรียนก็มาสายเลยนะ!" with dissolve
     akane_en  "Yuuma-senpai, when there's no student council work, you're late!" with dissolve
@@ -269,7 +269,7 @@ label s2_1:
     yuma_en  "Do you even know how to tie a tie?" with dissolve
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_014.mp3"
     akane_th look "ผูกเป็นเพราะมีคนที่แต่งตัวไม่เรียบร้อยอย่างรุ่นพี่อยู่ไงคะ" with dissolve
-    akane_en look "I learned because there are people like you who can't dress properly, Senior." with dissolve
+    akane_en look "I learned because there are people like you who can't dress properly." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_015.mp3"
     akane_th s2 "…แล้วก็ถือโอกาสไว้ลงโทษคนทำผิดกฏในเวลาเดียวกันด้วย!" with dissolve
     akane_en s2 "...And it's also a chance to punish rule-breakers at the same time!" with dissolve
@@ -287,7 +287,7 @@ label s2_1:
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_017.mp3"
     play sound "audio/sfx/escape.mp3"
     akane_th angry "ถ้ารุ่นพี่ยูมะตื่นเช้าตั้งแต่แรก ก็ไม่ต้องรีบวิ่งจนกระเซอะกระเซิงและเนคไทหลุดลุ่ยแบบนี้" with dissolve
-    akane_en angry "If Senior Yuma woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
+    akane_en angry "If Yuuma-senpai woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_018.mp3"
     akane_th  "จำไว้ นกที่ตื่นเช้าจับหนอนกินได้ก่อนใคร" with dissolve
     akane_en  "Remember, the early bird catches the worm." with dissolve
