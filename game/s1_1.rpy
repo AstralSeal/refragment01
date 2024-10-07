@@ -19,7 +19,7 @@ label s1_1:
     en "If there is nothing to do, I go straight home once classes end." with dissolve
     th "แต่เย็นวันนี้แตกต่างออกไป เพราะมีนัดหมายสำคัญที่อาจเปลี่ยนชีวิตผมไปตลอดกาล" with dissolve
     en "However, this evening was different, because I had an important appointment that could change my life forever." with dissolve
-    scene reika_hand02 with Dissolve(1.0)
+    show reika_hand02 with Dissolve(1.0)
     play sound "audio/sfx/教室の戸を開ける.mp3"
     th "เมื่อผมเปิดประตูเข้าไปก็พบกับเด็กผู้หญิงคนหนึ่ง" with dissolve
     en "When I opened the door, I was greeted by a girl was already in the room." with dissolve
@@ -27,17 +27,20 @@ label s1_1:
     en "Her black hair swayed gracefully in the gentle breeze coming through the classroom window." with dissolve
     th "แสงอาทิตย์ยามเย็นเผยให้เห็นถึงใบหน้าที่แดงระเรื่อ" with dissolve
     en "The evening sunlight revealed her flushed face." with dissolve
-    scene reika_hand03
+    hide reika_show02
+    show reika_hand03 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_001.mp3"
     reika_th  "ขอโทษนะที่เรียกมาตอนเย็นแบบนี้"
     reika_en  "Sorry for calling you here so late," with dissolve
     th "เธอพูดด้วยน้ำเสียงอ่อนหวานละมุนหู แตกต่างจากปกติที่แข็งกร้าวและดุดัน" with dissolve
     en "She said gently, different from her usual fierce tone." with dissolve
-    scene reika_hand02 with Dissolve(1.0)
+    hide reika_show03
+    show reika_hand02 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_002.mp3"
     reika_th  "ฉันตัดสินใจได้แล้ว" with dissolve
     reika_en  "I've made up my mind." with dissolve
-    scene reika_hand04 with Dissolve(1.0)
+    hide reika_show02
+    show reika_hand04 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_003.mp3"
     reika_th  "วันนี้ฉันมีเรื่องสำคัญที่จะต้องบอกนายให้ได้" with dissolve
     reika_en  "Today I have something very important to tell you." with dissolve
@@ -45,7 +48,8 @@ label s1_1:
     en "Her eyes were brimming with strong passion." with dissolve
     th "ในที่สุดก็มาถึงแล้วสินะ ช่วงเวลาของฉัน" with dissolve
     en "Finally, my moment has come." with dissolve
-    scene reika_hand03 with Dissolve(1.0)
+    hide reika_show04
+    show reika_hand02 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_004.mp3"
     reika_th  "ยูมะ…" with dissolve
     reika_en  "Yuuma..." with dissolve
@@ -62,7 +66,8 @@ label s1_1:
     en "It's time to enjoy the prime of youth." with dissolve
     th "เอาเลย สารภาพรักกับฉันซะสิ!" with dissolve
     en "Come on, if you love me, then say so!" with dissolve
-    scene reika_hand08 with Dissolve(1.0)
+    hide reika_show02
+    show reika_hand08 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_007.mp3"
     reika_th  "เมื่อไหร่นายจะคืนเงินฉัน!!!" with dissolve
     reika_en  "Where's my money?!" with dissolve
@@ -76,7 +81,8 @@ label s1_1:
     reika_en  "Don't change the subject. You owe me money. Just give me my money back!" with dissolve
     yuma_th  "เดี๋ยวสิ เมื่อกี้นี้ต้องเป็นการสารภาพรักไม่ใช่เหรอ" with dissolve
     yuma_en  "Wait a minute, wasn't this supposed to be a love confession?" with dissolve
-    scene reika_hand07 with Dissolve(1.0)
+    hide reika_show08
+    show reika_hand07 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_009.mp3"
     reika_th  "หา? ฉันเนี่ยนะจะสารภาพรักคนอย่างนาย นี่นายยังสติดีอยู่หรือเปล่า" with dissolve
     reika_en  "Me? confessing love to someone like you? Are you out of your mind?" with dissolve
@@ -85,6 +91,7 @@ label s1_1:
     yuma_th  "ม่ายยยยยยยยยย!" with dissolve
     yuma_en  "Nooooooooo!" with dissolve
     scene home_yuumabedroom_morning with Dissolve(1.0)
+    hide reika_hand07
     yuma_th  "ความฝัน?" with dissolve
     yuma_en  "A dream?" with dissolve
     yuma_th  "ตกใจแทบแย่" with dissolve
