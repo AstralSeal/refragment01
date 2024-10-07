@@ -109,7 +109,7 @@ label s1_1:
     en "......" with dissolve
     th "………" with dissolve
     en "........." with dissolve
-    scene wakeup24 with Dissolve(1.0)
+    show wakeup24 with Dissolve(1.0)
     stop music
     play music "audio/bgm/Sunrise.mp3" volume 0.5
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_001.mp3"
@@ -126,13 +126,15 @@ label s1_1:
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_004.mp3"
     yuno_0_th  "......ตื่นได้แล้ว!" with dissolve
     yuno_0_en  "......Wake up!" with dissolve
-    scene wakeup01 with Dissolve(1.0)
+    hide wakeup24
+    show wakeup01 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_005.mp3"
     yuno_0_th  "......ได้เวลาไปโรงเรียนแล้ว!" with dissolve
     yuno_0_en  "......It's time for school!" with dissolve
     th "ใครบางคนเขย่าตัวผม" with dissolve
     en "Someone was shaking me." with dissolve
-    scene wakeup03 with Dissolve(1.0)
+    hide wakeup01
+    show wakeup03 with Dissolve(1.0)
     th "จะนอนไปถึงไหน ได้เวลาตื่นนอนแล้ว" with dissolve
     en "How long are you going to sleep? It's time to wake up." with dissolve
     yuma_th  "ขออีก 5 นาที" with dissolve
@@ -147,13 +149,15 @@ label s1_1:
     en "Three..." with dissolve
     th "หลังจากที่ผมหลับตาได้สามวินาที ใครบางคนเขย่าตัวผมอีกรอบ" with dissolve
     en "After I sleep for three whole sconds, someone tried to wake me up again." with dissolve
-    scene wakeup06 with Dissolve(1.0)
+    hide wakeup03
+    show wakeup06 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_006.mp3"
     yuno_0_th  "ห้านาทีไม่มีจริงหรอกน่า รีบตื่นได้แล้ว" with dissolve
     yuno_0_en  "There's no such thing as five more minutes. Just wake up already." with dissolve
     yuma_th  "โปรดปลุกฉันในอีก 5 นาทีข้างหน้า" with dissolve
     yuma_en  "Please wake me up in 5 minutes." with dissolve
-    scene wakeup04 with Dissolve(1.0)
+    hide wakeup06
+    show  wakeup04 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_007.mp3"
     yuno_0_th  "ขออภัย ในฐานะโมเดลปัญญาประดิษฐ์ด้านภาษา ฉันไม่เข้าใจคำสั่งของคุณ" with dissolve
     yuno_0_en  "I’m sorry, but as an AI language model, I don't understand your command." with dissolve
@@ -163,7 +167,8 @@ label s1_1:
     en "When I wake up, I saw the girl looking down at me." with dissolve
     yuma_th  "ยูโนะ…?" with dissolve
     yuma_en  "Yuno...?" with dissolve
-    scene wakeup15 with Dissolve(1.0)
+    hide wakeup04
+    show wakeup15 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_008.mp3"
     yuno_th  "คำตอบถูกต้อง อรุณสวัสดิ์พี่จ๋า" with dissolve
     yuno_en  "Correct answer. Good morning, Onii-chan!" with dissolve
@@ -177,7 +182,8 @@ label s1_1:
     en "She was heavy enough that I couldn't move." with dissolve
     yuma_th  "ยูโนะ ช่วยลุกหน่อยสิ พี่ขยับตัวไม่ได้" with dissolve
     yuma_en  "Yuno, get off of my legs. I couldn't move." with dissolve
-    scene wakeup00 with Dissolve(1.0)
+    hide wakeup15
+    show wakeup00 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_009.mp3"
     yuno_th  "สัญญาก่อนสิว่าพี่จะรีบตื่น" with dissolve
     yuno_en  "I won't move until you get up." with dissolve
@@ -185,7 +191,8 @@ label s1_1:
     en "said Yuno nonchalantly. She didn't make any efforts to get off my legs." with dissolve
     yuma_th  "เข้าใจแล้ว ยอมตื่นแล้ว" with dissolve
     yuma_en  "Fine, I'll get up now." with dissolve
-    scene wakeup08 with Dissolve(1.0)
+    hide wakeup00
+    show wakeup08 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_010.mp3"
     yuno_th  "ก่อนหน้านี้พี่บอกว่าขออีก 5 นาทีใช่ไหม ตอนนี้ยังเหลืออีก 2 นาที 16 วินาที จะอยู่แบบนี้ต่อไปอีกสักหน่อยก็ได้นะ" with dissolve
     yuno_en  "You want 5 more minutes, right? There are 2 minutes and 16 seconds left. It's alright if we stayed like this a bit longer." with dissolve
@@ -197,17 +204,20 @@ label s1_1:
     en "Though, she had the softness you would expect of a girl." with dissolve
     th "บางที…อยู่ต่อแบบนี้อีกสักหน่อยก็ไม่เลวเหมือนกันนะ" with dissolve
     en "Staying like this a bit longer wouldn't be so bad either." with dissolve
-    scene wakeup13 with Dissolve(1.0)
+    hide wakeup08
+    show wakeup13 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_011.mp3"
     yuno_th  "หืม? ทำไมพี่เงียบไปล่ะ" with dissolve
     yuno_en  "Hmm~? Why did you suddenly go quiet?" with dissolve
-    scene wakeup21 with Dissolve(1.0)
+    hide wakeup13
+    show wakeup21 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_012.mp3"
     yuno_th  "หรือว่ากำลังหลงเสน่ห์น้องสาวสุดน่ารักคนนี้จนทนไม่ไหวแล้ว ว้าย~~" with dissolve
     yuno_en  "Or could it be that you've fallen for your cute little sister and can't take it anymore? Oh my~~" with dissolve
     th "ผมก็ไม่ปฏิเสธหรอกนะว่ายูโนะน่ารัก แต่พูดคำว่าน่ารักออกมาด้วยตัวเองนี่มันก็กระไรอยู่นะ" with dissolve
     en "I won't deny that Yuno is cute, but calling yourself cute... that's a bit much." with dissolve
-    scene wakeup19 with Dissolve(1.0)
+    hide wakeup21
+    show wakeup19 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_013.mp3"
     yuno_th  "จะว่าไป พี่ฝันถึงอะไรเหรอ" with dissolve
     yuno_en  "So, Onii-chan, what kind of dreams were you having today?" with dissolve
@@ -217,37 +227,44 @@ label s1_1:
     yuma_en  "Nothing special. Just some ordinary random stuff." with dissolve
     th "ขืนตอบตามความจริงคงโดนถามอีกยาว บอกปัดไปก่อนดีกว่า" with dissolve
     en "I tried to avoid the subject so she wouldn't badger me." with dissolve
-    scene wakeup20 with Dissolve(1.0)
+    hide wakeup19
+    show wakeup20 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_014.mp3"
     yuno_th  "จริงเหรอ ต่อให้เป็นความฝันธรรมด๊าธรรมดา หนูก็สนใจและอยากรู้เหมือนกันนะ" with dissolve
     yuno_en  "Oh? I'm curious about what kind of ordinary thing happpened to you, so tell me about it." with dissolve
     th "จู่ๆ เธอก็แสดงท่าทางไม่สบอารมณ์ จ้องมองมาที่ผมด้วยสายตาทิ่มแทง อีกทั้งกดน้ำหนักลงไปที่ขามากกว่าเดิม" with dissolve
     en "Yuno didn't look convinced. Squinting ever more and with her eyes never leaving my face, she put more of her weight onto me." with dissolve
-    scene wakeup07 with Dissolve(1.0)
+    hide wakeup20
+    show wakeup07 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_015.mp3"
     yuno_th  "ท่าทางแบบนี้ พี่แอบฝันถึงผู้หญิงคนอื่นใช่มั้ย?!" with dissolve
     yuno_en  "It seems like there was another woman in your dream, right?!" with dissolve
-    scene wakeup06 with Dissolve(1.0)
+    hide wakeup07
+    show wakeup06 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_016.mp3"
     yuno_th  "ทำไมผู้หญิงในฝันคนนั้นถึงไม่ใช่หนูล่ะ!" with dissolve
     yuno_en  "Why wasn't I in it?!" with dissolve
     yuma_th  "กะ... ก็มันเป็นความฝันนี่นา จะให้ทำยังไงล่ะ" with dissolve
     yuma_en  "I-It's a dream. Don't ask for the impossible!" with dissolve
-    scene wakeup05 with Dissolve(1.0)
+    hide wakeup06
+    show wakeup05 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_017.mp3"
     yuno_th  "แค่ฝันถึงน้องสาวสุดที่รัก เรื่องง่ายๆ แค่นี้ทำไมจะทำไม่ได้" with dissolve
     yuno_en  "But wouldn't it be possible for you to make me appear in a dream, Onii-chan?" with dissolve
-    scene wakeup03 with Dissolve(1.0)
+    hide wakeup05
+    show wakeup03 with Dissolve(1.0)
     th "เธอยื่นหน้าเข้ามาใกล้เรื่อยๆ จนแทบจะสัมผัสได้ถึงลมหายใจ" with dissolve
     en "Yuno leaned into me. Our bodies were practically on top of each other. She was so close I could feel her breath." with dissolve
     th "น้ำหนักกดลงมาที่หน้าอกผมจนหายใจลำบาก" with dissolve
     en "It was painful and hard to breathe." with dissolve
-    scene wakeup00 with Dissolve(1.0)
+    hide wakeup03
+    show wakeup00 with Dissolve(1.0)
     play sound "audio/sfx/目覚まし時計のアラーム.mp3"
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_018.mp3"
     yuno_th  "อ๊ะ ครบ 5 นาทีแล้ว หมดเวลาสนุกแล้วสิ" with dissolve
     yuno_en  "Oh, It has already been 5 minutes. Time's up." with dissolve
-    scene wakeup03 with Dissolve(1.0)
+    hide wakeup00
+    show wakeup03 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_019.mp3"
     yuno_th  "รีบแต่งตัวและตามมาที่โต๊ะอาหาร ห้ามหลับต่อเด็ดขาดนะ!" with dissolve
     yuno_en  "Breakfast is ready, hurry up. Don't going back to sleep!" with dissolve
