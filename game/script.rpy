@@ -181,12 +181,17 @@ image fb3_6 = im.Scale("cg/fb3_6.png",1920,1080)
 image cg3 = im.Scale("cg/cg3.png",1920,1080)
 
 label endding:
+    $ achievement.grant("END_DEMO")
+    $ achievement.sync()
+    $ renpy.block_rollback()
     stop music
     $renpy.pause(1, hard=True)
     scene white with Dissolve(2.0)
+    $ renpy.block_rollback()
     play movie "ending.mp4"
-    $renpy.pause(60, hard=True)
-    jump title1
+    $renpy.pause(63, hard=True)
+    $ renpy.end_replay()
+    jump s2_11
     return
 
 # image reika normal :
