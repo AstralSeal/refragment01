@@ -170,7 +170,7 @@ label s1_4:
     yuma_th  "กลัวว่าเงินที่มีอยู่จะหมดลงเหรอ" with dissolve
     yuma_en  "Are they afraid their money will run out?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_019.mp3"
-    reika_th ah "นั่นก็ส่วนหนึ่ง แต่สิ่งที่คนรวยห่วงที่สุดคือ ‘ชื่อเสียง’ ต่างหาก" with dissolve
+    reika_th ah "นั่นก็ส่วนหนึ่ง แต่สิ่งที่คนรวยห่วงที่สุดคือ 'ชื่อเสียง' ต่างหาก" with dissolve
     reika_en ah "That's part of it, but what rich people care about most is their 'reputation'." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_020.mp3"
     reika_th  "ภาพลักษณ์เป็นเรื่องที่สำคัญมาก ดังนั้นรู้ใช่ไหมว่าต้องทำอะไร" with dissolve

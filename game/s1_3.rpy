@@ -192,7 +192,7 @@ label s1_3:
     en "But there are still quite a few boys who try to win Reika's heart," with dissolve
     th "เพราะมองว่าเป็นเรื่องที่ท้าทายและเป็นไปได้ยาก" with dissolve
     en "seeing it as a challenge and difficult task." with dissolve
-    th "สมกับที่ได้รับฉายา ‘ราชินีไร้เทียมทาน’" with dissolve
+    th "สมกับที่ได้รับฉายา 'ราชินีไร้เทียมทาน'" with dissolve
     en "Befitting her nickname 'The Formidable Queen'." with dissolve
     hide reika
     scene blackboard with Dissolve(1.0)

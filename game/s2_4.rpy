@@ -53,7 +53,7 @@ label s2_4:
     risa_th  "ไม่ว่าจะดูยังไงมันก็เป็นการ์ตูนลามกชัดๆ เลย" with dissolve
     risa_en  "No matter how you look at it, this is clearly just lewd manga." with dissolve
     yuma_th  "พูดอะไรแบบนั้นครับ ผมแค่นำเสนอรายงานในรูปแบบการ์ตูนเพื่อให้น่าสนใจยิ่งขึ้น" with dissolve
-    yuma_en  "What are you saying, teacher? I merely presented the report in manga format to make it more engaging." with dissolve
+    yuma_en  "What are you saying, Risa-sensei? I merely presented the report in manga format to make it more engaging." with dissolve
     yuma_th  "ถึงจะเป็นการ์ตูนแบบนี้ แต่ผมใส่เนื้อหาที่อาจารย์สอนในคาบเรียนเมื่อวานครบถ้วนทุกหัวข้อเลยนะครับ" with dissolve
     yuma_en  "It may be manga, but I included every single topic you covered in yesterday's lesson." with dissolve
     yuma_th  "อย่างเช่นขั้นตอนการแบ่งเซลล์จากไมโครสปอร์ไปเป็นละอองเรณู ก็มีภาพประกอบทั้งขั้นตอน Meiosis และ Mitosis" with dissolve
@@ -62,10 +62,10 @@ label s2_4:
     risa_th question "ปัญหามันไม่ได้อยู่เนื้อหา ปัญหามันอยู่ที่รูปที่เธอวาดต่างหาก" with dissolve
     risa_en question "The problem isn't with the content. The problem is with the pictures you drew!" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_008.mp3"
-    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า ‘ฉันจะต้องผสมเกสรให้ได้!’ เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
+    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า 'ฉันจะต้องผสมเกสรให้ได้!' เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
     risa_en angry "They're way too obscene, especially the part where the pollen says 'I must pollinate at all costs!' It's clearly the work of a pervert!" with dissolve
     yuma_th  "ครูคิดมากเกินไปแล้ว ประโยคนี้มีไว้เพื่อแสดงให้ผู้อ่านเข้าใจถึงหน้าที่ของระอองเรณูครับ" with dissolve
-    yuma_en  "You're overthinking it, teacher. That line is there to help the reader understand the role of pollen grains." with dissolve
+    yuma_en  "You're overthinking it. That line is there to help the reader understand the role of pollen grains." with dissolve
     yuma_th  "อีกอย่าง ตัวละครในการ์ตูนเป็นพืช มันมีต้นไม้โรคจิตแบบที่ครูว่ามาด้วยอย่างนั้นเหรอครับ" with dissolve
     yuma_en  "Besides, the characters in the manga are plants. Are there really psycho trees like what you're suggesting?" with dissolve
     yuma_th  "หรือว่า… อาจารย์โสดมานานแล้ว เลยอิจฉาออวุลที่มีตัวผู้มาจีบกันครับ" with dissolve
@@ -349,7 +349,7 @@ label s2_4:
     akane_en normal "Thanks for the info." with dissolve
     th "คาสึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
     en "Kazuma and Akane spoke in flat, synthesized robot voices." with dissolve
-    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า ‘สุดยอดไปเลยยูมะ’ ไม่ใช่เหรอ" with dissolve
+    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า 'สุดยอดไปเลยยูมะ' ไม่ใช่เหรอ" with dissolve
     yuma_en  "Hey, shouldn't you be amazed and compliment me with something like 'That's amazing, Yuuma!'?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_006.mp3"
     kazuma_th normal "สุดยอดไปเลยยูมะ " with dissolve
@@ -709,7 +709,7 @@ label s2_4_reika:
     reika_en cold_2 "Type O's are egotistical and think other girls are into them. Just like you." with dissolve
     yuma_th  "เธอพึ่งคิดสดเมื่อกี้นี้เลยใช่มั้ยเนี่ย" with dissolve
     yuma_en  "You totally just made that up on the spot, didn't you!" with dissolve
-    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า ‘ราชินีไร้เทียมทาน’ อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
+    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า 'ราชินีไร้เทียมทาน' อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
     yuma_en  "But I never in my wildest dreams thought 'The Formidable Queen' would be interested in girly romance stuff too." with dissolve
     yuma_th  "ถ้านักเรียนคนอื่นในห้องรู้จะเป็นยังไงกันนะ" with dissolve
     yuma_en  "I wonder what the other students in our class would think if they knew." with dissolve

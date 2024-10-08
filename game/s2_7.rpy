@@ -188,7 +188,7 @@ label s2_7:
     kazuma_th normal "นี่แหละปัญหา รอบนี้ฝ่ายเสนอญัตติท้าโต้วาทีกับสภานักเรียนโดยตรงเลย" with dissolve
     kazuma_en normal "That's the problem. This time, the group proposing the motion is challenging the student council directly." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_012.mp3"
-    kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า ‘สุริยันสาดแสง’ น่ะ " with dissolve
+    kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า 'สุริยันสาดแสง' น่ะ " with dissolve
     kazuma_en  "I heard it's a student group called 'The Radiant Dawn'" with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 

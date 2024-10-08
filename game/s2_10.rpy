@@ -280,7 +280,7 @@ label s2_10:
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_022.mp3"
     yuno_p_th normal "ยืนทำอะไรอยู่เนี่ย กลับมาแล้วก็รีบเข้ามาสิ" with dissolve
     yuno_p_en normal "What are you standing there for? Come in quickly if you're back." with dissolve
-    yuma_th  "วันนี้ไม่มี ‘เย้ ในที่สุดพี่ก็กลับมาแล้ว รอตั้งนาน’ แล้วเหรอ" with dissolve
+    yuma_th  "วันนี้ไม่มี 'เย้ ในที่สุดพี่ก็กลับมาแล้ว รอตั้งนาน' แล้วเหรอ" with dissolve
     yuma_en  "No 'Yay, Onii-chan is finally back, I've been waiting so long' today?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_023.mp3"
     yuno_p_th serious_2 "ไม่มี! แล้วก็พี่ออกไปข้างนอกมาไหนล่ะของฝากสำหรับหนู" with dissolve

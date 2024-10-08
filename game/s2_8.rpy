@@ -192,7 +192,7 @@ label s2_8:
     yuma_th  "ถ้าทำแบบฝึกหัดนี้ได้ เดี๋ยวพี่จะเลี้ยงพุดดิ้งสตรอเบอร์รี่ให้สองถ้วยเลย!" with dissolve
     yuma_en  "If you can solve this exercise, I'll treat you to two strawberry puddings!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_018.mp3"
-    yuno_c_th smile_2 "สองถ้วยเลยเหรอ?! เย้ พี่ใจดีที่สุด เริ่มข้อแรกเลย Let’s go!" with dissolve
+    yuno_c_th smile_2 "สองถ้วยเลยเหรอ?! เย้ พี่ใจดีที่สุด เริ่มข้อแรกเลย Let's go!" with dissolve
     yuno_c_en smile_2 "Two puddings?! Yay! You're the best, big bro! Let's start with the first problem. Let's go!" with dissolve
     th "การสร้างแรงจูงใจภายนอกอย่างของรางวัลได้ผลดีผิดคาด" with dissolve
     en "Creating extrinsic motivation through rewards worked surprisingly well." with dissolve

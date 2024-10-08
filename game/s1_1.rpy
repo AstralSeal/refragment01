@@ -160,7 +160,7 @@ label s1_1:
     show  wakeup04 with Dissolve(1.0)
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_007.mp3"
     yuno_0_th  "ขออภัย ในฐานะโมเดลปัญญาประดิษฐ์ด้านภาษา ฉันไม่เข้าใจคำสั่งของคุณ" with dissolve
-    yuno_0_en  "I’m sorry, but as an AI language model, I don't understand your command." with dissolve
+    yuno_0_en  "I'm sorry, but as an AI language model, I don't understand your command." with dissolve
     yuma_th  "เธอเป็น AI Chatbot หรือไง?!" with dissolve
     yuma_en  "Are you an AI chatbot software?!" with dissolve
     th "เมื่อผมลืมตาขึ้นมาก็พบกับเด็กผู้หญิงคนหนึ่งจ้องมองลงมาที่ผม" with dissolve
@@ -342,7 +342,7 @@ label s1_1:
     yuno_c_th confident2 "พี่เนี่ยน้า~ ไม่เข้าใจเกมเมอร์ยุคใหม่เลยสักนิด" with dissolve
     yuno_c_en confident2 "Onii-chan, you really don't understand how gacha games work." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
-    yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน ‘อวด’ ได้ไงล่ะ" with dissolve
+    yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน 'อวด' ได้ไงล่ะ" with dissolve
     yuno_c_en  "Gacha games are popular because you can take a screenshot to brag to other players." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
     yuno_c_th badass "ถ้าจ่ายเงินซื้อของทุกอย่างที่ต้องการได้ มันจะไปมีค่าอะไร" with dissolve
@@ -371,7 +371,7 @@ label s1_1:
     yuma_th  "อีกอย่าง พี่แอบเกมโป๊ไว้ที่ตู้หนังสือด้านใน หลังตำราแคลคูลัส ไม่ได้เก็บไว้ใต้เตียงสักหน่อย" with dissolve
     yuma_en  "By the way, I hide my erotic games in the bookshelf behind the caculus textbooks." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_026.mp3"
-    yuno_c_th hehe "ฮั่นแน่! คราวหน้าขอเวลา ‘ต-ร-ว-จ-ส-อ-บ’ สักหน่อยนะพี่จ๋า~" with dissolve
+    yuno_c_th hehe "ฮั่นแน่! คราวหน้าขอเวลา ต-ร-ว-จ-ส-อ-บ สักหน่อยนะพี่จ๋า~" with dissolve
     yuno_c_en hehe "Ah ha~! Next time I'll try to i-n-s-p-e-c-t a bit, okay?" with dissolve
     th "แย่แล้ว เผลอหลุดปากจนได้ ยัยน้องสาวตัวแสบนี้ฉลาดไม่เบา" with dissolve
     en "Darn it! My tongue slipped. Stupid clever sister." with dissolve
@@ -381,7 +381,7 @@ label s1_1:
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_027.mp3"
     yuno_c_th smug2_2 "พอถูกจับได้ก็รีบหนีเลยนะ" with dissolve
     yuno_c_en smug2_2 "Are you trying to run away, huh?" with dissolve
-    th "เพราะคำว่า ‘ของมันต้องมี’ นี่แหละ ที่ทำให้สัดส่วนหนี้ครัวเรือนเพิ่มสูงขึ้นทุกปี" with dissolve
+    th "เพราะคำว่า 'ของมันต้องมี' นี่แหละ ที่ทำให้สัดส่วนหนี้ครัวเรือนเพิ่มสูงขึ้นทุกปี" with dissolve
     en "This country's average household debt has reached a record high because of this." with dissolve
     hide yuno_c
     th "จริงอยู่ที่คุณพ่อได้เงินก้อนโตจากงานวิจัยและส่งเงินมาให้ใช้อย่างไม่ขัดสนทุกเดือน" with dissolve

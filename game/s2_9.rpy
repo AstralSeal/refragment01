@@ -21,7 +21,7 @@ label s2_9:
     en "10 minutes passed." with dissolve
     th "ผมสังเกตว่าคู่รักแต่ละคู่ค่อยๆ ทยอยเดินเข้าห้างฯ จนเหลือเพียงผมกับผู้ชายอีกคน" with dissolve
     en "I noticed that the couples gradually started entering the mall, leaving only me and another man outside." with dissolve
-    th "เรามองหน้ากัน ต่างคนต่างสงสัยว่า ‘โดนเท’ หรือเปล่า" with dissolve
+    th "เรามองหน้ากัน ต่างคนต่างสงสัยว่า 'โดนเท' หรือเปล่า" with dissolve
     en "We looked at each other, both wondering if we had been stood up." with dissolve
     th "ขอร้องล่ะรุ่นพี่มายะ อย่าทิ้งผมนะ" with dissolve
     en "Please, Maya-senpai, don't abandon me." with dissolve
@@ -53,7 +53,7 @@ label s2_9:
     yuma_th  "ทั้งๆ ที่เป็นคนนัดเวลาเอง ทำไมถึงมาช้าล่ะครับ" with dissolve
     yuma_en  "Even though you set the time yourself, why are you late?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_003.mp3"
-    maya_c2_th pout "ไม่ได้นะยูคุง เวลาแบบนี้ต้องพูดว่า ‘ไม่เป็นไร เป็นห่วงแทบแย่เลย’ ต่างหาก" with dissolve
+    maya_c2_th pout "ไม่ได้นะยูคุง เวลาแบบนี้ต้องพูดว่า 'ไม่เป็นไร เป็นห่วงแทบแย่เลย' ต่างหาก" with dissolve
     maya_c2_en pout "That's not right, Yuu-kun. At times like this, you should say 'It's okay, I was really worried about you.'" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_004.mp3"
     maya_c2_th  "นายเนี่ยไม่เข้าใจจิตใจของสาวน้อยเลยสักนิด ขืนทำแบบนี้กับผู้หญิงคนอื่นมีหวังโดนโกรธแน่" with dissolve
@@ -127,7 +127,7 @@ label s2_9:
     th "ผมอุตส่าห์แสดงภาพลักษณ์ของคนช่างสังเกตขั้นสูงสุด นี่เราทำผิดพลาดตรงไหนกันนะ" with dissolve
     en "I tried my best to show the image of a highly observant person. Where did I go wrong?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_013.mp3"
-    maya_c2_th  "คำตอบคือ ‘เปลี่ยนทรงผมใหม่สินะ’ หรือไม่ก็ ‘ต่างหูสวยจังเลยนะ’" with dissolve
+    maya_c2_th  "คำตอบคือ 'เปลี่ยนทรงผมใหม่สินะ' หรือไม่ก็ 'ต่างหูสวยจังเลยนะ'" with dissolve
     maya_c2_en  "The answer should have been 'You changed your hairstyle, didn't you?' or 'Your earrings are really pretty.'" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_014.mp3"
     maya_c2_th  "ผู้หญิงจะดีใจมากเลยนะ ถ้าคู่เดทอีกฝ่ายสังเกตเห็นการเปลี่ยนแปลง" with dissolve
@@ -613,7 +613,7 @@ label s2_9:
     th "พอเดินวนครบทุกร้านก็กลับมาซื้อชุดจากร้านแรกสุดที่ดูในตอนแรก" with dissolve
     en "After circling through all the stores, she came back to buy an outfit from the very first store we looked at." with dissolve
     th "คณิตศาสตร์ยังมีบทสุดท้ายของแฟร์มา แต่การเลือกซื้อเสื้อผ้าไม่มีที่สิ้นสุด" with dissolve
-    en "Even math has Fermat's Last Theorem, but when it comes to shopping, there’s no such thing as last call." with dissolve
+    en "Even math has Fermat's Last Theorem, but when it comes to shopping, there's no such thing as last call." with dissolve
     scene life_shoppingmall1_evening with Dissolve(1.0)
     show maya_c2 normal at center with Dissolve(0.2) 
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_053.mp3"
@@ -661,7 +661,7 @@ label s2_9:
     yuma_en  "What do you mean, Maya-senpai?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_060.mp3"
     maya_c2_th ah "ฉันอยากพิสูจน์ให้ผู้คนทั้งโลกเห็นว่าเสื้อผ้าไม่ใช่แค่เรื่องความสวยงาม แต่ยังเปลี่ยนวิธีคิดของผู้สวมใส่ได้" with dissolve
-    maya_c2_en ah "I want to show the world that clothes aren’t just for looks, they can change how people think." with dissolve
+    maya_c2_en ah "I want to show the world that clothes aren't just for looks, they can change how people think." with dissolve
     hide purikura15
     show student card with dissolve
     th "สักพักหนึ่งรุ่นพี่มายะก็หยิบบัตรนักเรียนขึ้นมา" with dissolve

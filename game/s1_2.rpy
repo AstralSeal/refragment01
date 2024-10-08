@@ -103,7 +103,7 @@ label s1_2:
     student_f_a_en  "Reika-sama is so cool! As expected of our student council president." with dissolve
     student_m_a_th  "ได้ข่าวว่าสัปดาห์ก่อนมีคนสารภาพรักแต่โดนปฏิเสธแบบไม่มีเยื่อใย" with dissolve
     student_m_a_en  "I heard that last week someone confessed to her but was rejected without mercy." with dissolve
-    student_m_b_th  "สมกับที่ได้ฉายา ‘ราชินีไร้เทียมทาน’ ผู้มีจิตใจแข็งแกร่งดั่งป้อมปราการเหล็ก ไม่มีใครทำให้ใจเธอหวั่นไหวได้แม้แต่คนเดียว" with dissolve
+    student_m_b_th  "สมกับที่ได้ฉายา 'ราชินีไร้เทียมทาน' ผู้มีจิตใจแข็งแกร่งดั่งป้อมปราการเหล็ก ไม่มีใครทำให้ใจเธอหวั่นไหวได้แม้แต่คนเดียว" with dissolve
     student_m_b_en  "Befitting her nickname 'The Formidable Queen' with a heart as strong as an iron fortress, no one can make her heart waver even a bit." with dissolve
     show podium00 with Dissolve(1.0)
     # to do 
@@ -221,7 +221,7 @@ label s1_2:
     scene school_corridor_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-CP04.mp3" volume 0.5
-    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ ‘ราชินีไร้เทียมทาน’ ได้เลย" with dissolve
+    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ 'ราชินีไร้เทียมทาน' ได้เลย" with dissolve
     student_m_a_en  "It seems like our real deal guy took a critical hit. No one can rival 'The Formidable Queen.'" with dissolve
     student_m_b_th  "ไม่มีความปรานีกันบ้างเลย ว่าแต่นายน่ะ ยูมะ บอกหน่อยสิว่าคุณคุโรมิยะมีจุดอ่อนอะไรบ้าง" with dissolve
     student_m_b_en  "Not an ounce of mercy. By the way, you, Yuuma, tell me if Kuromiya-san has any weaknesses." with dissolve
@@ -396,7 +396,7 @@ label s1_2:
     show maya normal at center with Dissolve(1.0) 
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_031.mp3"
     maya_th smile_2 "ดีมาก ยูคุง" with dissolve
-    maya_en smile_2 "Good job, Yuu-kun" with dissolve
+    maya_en smile_2 "Good job, Yuu-kun." with dissolve
     yuma_th  "ยูคุง?" with dissolve
     yuma_en  "Yuu-kun?" with dissolve
     th "พึ่งเจอหน้ากันครั้งแรกก็ตั้งชื่อเล่นให้แล้ว" with dissolve
@@ -404,7 +404,7 @@ label s1_2:
     th "เผลอแป๊บเดียวก็เพิ่มค่าความสนิทได้เร็วขนาดนี้ สุดยอดไปเลย" with dissolve
     en "In the blink of an eye, our familiarity level increasing this much. How Amazing." with dissolve
     th "ช่างแตกต่างจากคนมืดมนอย่างผมลิบลับ นี่สินะสิ่งมีชีวิตที่เรียกว่าสาวแกล" with dissolve
-    en "It's so different from someone gloomy like me. So this is what they call a 'gal' (a cheerful, trendy girl), right?" with dissolve
+    en "It's so different from someone as gloomy as me. So, this is what they call a 'gal' (a cheerful and trendy girl), right?" with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_032.mp3"
     maya_th ah "จริงด้วย นึกออกแล้ว" with dissolve
     maya_en ah "Oh right, I just remembered." with dissolve
@@ -452,7 +452,7 @@ label s1_2:
             yuma_en  "When students are surrounded by soda, it makes them more familiar with it and perceive it as easily accessible, leading to a tendency to drink more." with dissolve
         "[get_disagree_text()]":
             yuma_th  "นั่นสินะ ไม่ปฏิเสธว่าน้ำอัดลมส่งผลเสียต่อสุขภาพ"
-            yuma_en  "That's true. I can’t deny that soda has negative effects on health."
+            yuma_en  "That's true. I can't deny that soda has negative effects on health."
             yuma_th  "แต่ช่วงสอบหรือเวลาที่เหนื่อย บางทีก็รู้สึกว่าอยากหาอะไรดื่มเพื่อให้กระปี้กระเป่ามากขึ้น"
             yuma_en  "But during exam periods or when we're tired, sometimes we really need a drink to help us feel more energized." with dissolve
             yuma_th  "ซึ่งไม่มีอะไรดีไปกว่าน้ำอัดลมเย็นๆ สักแก้วแล้วล่ะ"
@@ -482,7 +482,7 @@ label s1_2:
     en "After saying that, Maya-senpai quickly ran up the stairs with her drink from the Flying Seal machine." with dissolve
     hide maya
     yuma_th  "อะไรของเขากันนะ พิลึกคน" with dissolve
-    yuma_en  "What’s up with her? She’s such a strange person." with dissolve
+    yuma_en  "What's up with her? She's such a strange person." with dissolve
     th "ทันใดนั้นผมก็รู้สาเหตุที่รุ่นพี่มายะทำตัวแปลกไป" with dissolve
     en "At that moment, I realized the reason why Maya-senpai was acting weird." with dissolve
     show akane normal at center with Dissolve(1.0) 

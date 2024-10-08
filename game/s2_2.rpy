@@ -28,7 +28,7 @@ label s2_2:
     th "ต่อให้อยากเถียงก็เถียงไม่ได้ เพราะทำผิดกฎระเบียบจริงๆ" with dissolve
     en "Even if you want to argue, you can't, because you're actually breaking the rules." with dissolve
     yuma_th  "ว่าแต่มาบอกผมที่เป็นคนจากสภานักเรียนจะดีเหรอ" with dissolve
-    yuma_en  "By the way, is it okay to tell me? I’m a member of the student council committee." with dissolve
+    yuma_en  "By the way, is it okay to tell me? I'm a member of the student council committee." with dissolve
     show maya normal at center with Dissolve(0.2) 
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_004.mp3"
     maya_th hee_2 "ฉันเชื่อว่านายคงไม่เอาเรื่องนี้ไปบอกคุณกรรมการระเบียบวินัยสุดโหดแน่นอน" with dissolve

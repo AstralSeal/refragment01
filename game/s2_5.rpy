@@ -120,7 +120,7 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_022.mp3"
     yuno_c_th  "ตัวละครใหม่ในเกมเป็นคู่รักกัน ทางค่ายเกมเลยจัดกิจกรรมคู่รักให้เข้าธีมกัน" with dissolve
     yuno_c_en  "The new characters in the game are lovers, so the game company made it a couples-themed event." with dissolve
-    yuma_th  "คนที่ ‘ระยะเวลาที่ไม่มีแฟน = อายุ’ แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
+    yuma_th  "คนที่ 'ระยะเวลาที่ไม่มีแฟน = อายุ' แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
     yuma_en  "Where is someone who's been single his whole life like you going to find a girlfriend?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_023.mp3"
     yuno_c_th smug2_2 "แหม ระดับพี่ วันเดียวก็สร้างฮาเร็มได้แล้ว" with dissolve
@@ -171,7 +171,7 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_032.mp3"
     yuno_c_th teehee "เทะเฮะ~" with dissolve
     yuno_c_en teehee "Teehee" with dissolve
-    yuma_th  "ไม่ต้องมา ‘เทะเฮะ’ เลย" with dissolve
+    yuma_th  "ไม่ต้องมา 'เทะเฮะ' เลย" with dissolve
     yuma_en  "Don't you 'teehee' me!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_033.mp3"
     yuno_c_th serious "ช่างเถอะ สิ่งที่หนูจะบอกก็คือพี่ลองทำแบบพระเอกเกมนี้ดูสิ ได้แฟนเป็นรุ่นน้องก็ไม่เลวนะ" with dissolve
@@ -185,7 +185,7 @@ label s2_5:
     yuma_en  "Brilliant idea! You should pitch that to the game studio for a sequel." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_035.mp3"
     yuno_c_th angry_2 "ไม่ได้ สิ้นคิดเกินไป เดี๋ยวก็ถูกผู้เล่นด่าว่าเอาของเก่ามารีไซเคิลหรอก" with dissolve
-    yuno_c_en angry_2 "No, it’s too cliché. Players would complain that we’re just reusing old content." with dissolve
+    yuno_c_en angry_2 "No, it's too cliché. Players would complain that we're just reusing old content." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_036.mp3"
     yuno_c_th confident_2 "บางครั้งไอเดียดีๆ ก็เกิดจากเรื่องไม่คาดฝัน ไอสไตน์ยังนั่งคิดทฤษฎีแรงโน้มถ่วงได้จากการนั่งใต้ต้นแอปเปิ้ล" with dissolve
     yuno_c_en confident_2 "Sometimes great ideas come from unexpected places. Even Einstein came up with the theory of gravity while sitting under an apple tree." with dissolve
@@ -269,7 +269,7 @@ label s2_5:
     en "As far as girls I know, there's only Akane and Maya-senpai." with dissolve
     th "จริงสิ รุ่นพี่มายะไง" with dissolve
     en "That's it, Maya-senpai!" with dissolve
-    th "เรายังมี ‘ไอนั่น’อยู่นี่นา" with dissolve
+    th "เรายังมี 'ไอนั่น' อยู่นี่นา" with dissolve
     en "We still have 'that' option too..." with dissolve
     th "…." with dissolve
     en "..." with dissolve
@@ -278,7 +278,7 @@ label s2_5:
     play music "audio/bgm/MusMus-BGM-097.mp3" volume 0.5
     show reika_p normal at zoom_in,center with Dissolve(0.2) 
     show reika_pov with dissolve
-    th "หลังจากที่อาบน้ำเสร็จ ฉันก็คุยกับ ‘พีสุเกะ’ ตุ๊กตากระต่ายตัวโปรดของฉัน" with dissolve
+    th "หลังจากที่อาบน้ำเสร็จ ฉันก็คุยกับ 'พีสุเกะ' ตุ๊กตากระต่ายตัวโปรดของฉัน" with dissolve
     en "After taking a bath, I chatted with Pii-suke, my favorite stuffed rabbit." with dissolve
     th "สำหรับคนอื่นอาจจะเป็นแค่ตุ๊กตากระต่าย" with dissolve
     en "To others it may just be a stuffed rabbit," with dissolve
@@ -290,7 +290,7 @@ label s2_5:
     voice "audio/voice/reika/chapter2/chapter2_5/reika_2_5_006.mp3"
     reika_p_th fin_2 "ยูมะบอกว่าจะไม่มีวันปล่อยให้ผู้หญิงที่ทั้งสวยทั้งน่ารักแบบฉันเดินกลับบ้านคนเดียวตอนกลางคืนได้ล่ะ" with dissolve
     reika_p_en fin_2 "Yuuma said he would never let a beautiful, cute girl like me walk home alone at night." with dissolve
-    th "ถึงคำว่า ‘ผู้หญิงที่ทั้งสวยทั้งน่ารัก’ ฉันเติมเพิ่มมาเองก็เถอะ" with dissolve
+    th "ถึงคำว่า 'ผู้หญิงที่ทั้งสวยทั้งน่ารัก' ฉันเติมเพิ่มมาเองก็เถอะ" with dissolve
     en "I may have added the 'beautiful and cute' part myself," with dissolve
     th "แต่ฉันมั่นใจว่ายูมะต้องคิดแบบนี้แน่ๆ" with dissolve
     en "but I'm sure that's what Yuuma was thinking." with dissolve

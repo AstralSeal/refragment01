@@ -342,7 +342,7 @@ label s2_6:
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_026.mp3"
     maya_th onegai_2 "ขอร้องล่ะ ให้ฉันทำอะไรก็ได้ อย่าบอกคนอื่นเลย" with dissolve
     maya_en onegai_2 "I'm begging you. I'll do anything, just don't tell anyone else." with dissolve
-    th "‘ ให้ทำอะไรก็ได้ ’ งั้นเหรอ" with dissolve
+    th "'ให้ทำอะไรก็ได้' งั้นเหรอ" with dissolve
     en "Do anything, you say?" with dissolve
     th "นี่มันประโยคต้องห้ามที่ไม่ว่ายังไงก็ห้ามพูดเด็ดขาดในการ์ตูนเรต 18+ เลยไม่ใช่หรือไง" with dissolve
     en "That's the forbidden phrase you should never, ever say in adult comics no matter what." with dissolve

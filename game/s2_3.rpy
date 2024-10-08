@@ -122,7 +122,7 @@ label s2_3:
     en "As I turn around, I realize it's Risa-sensei." with dissolve
     show risa normal at center with Dissolve(0.2) 
     th "นอกจากครูริสะเป็นครูประจำชั้นห้องเรียนของผมและเรกะ เธอยังเป็นครูที่ปรึกษาของสภานักเรียนด้วย" with dissolve
-    en "Besides being the homeroom teacher for my and Reka's class, she's also the advisor for the student council." with dissolve
+    en "Besides being the homeroom teacher for my and Reika's class, she's also the advisor for the student council." with dissolve
     voice "audio/voice/risa/chapter2/chapter2_3/risa_2_3_001.mp3"
     risa_th  "ทุกคน ผลการนับคะแนนโหวตวันก่อนไปถึงไหนแล้ว" with dissolve
     risa_en  "Everyone, how far have you gotten with counting the votes from the other day?" with dissolve

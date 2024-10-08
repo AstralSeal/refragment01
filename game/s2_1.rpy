@@ -165,7 +165,7 @@ label s2_1:
     th "แต่ถ้ามัวแต่เดินเอ้อระเหยเหมือนทุกที สายแน่นอนหนึ่งร้อยเปอร์เซ็นต์" with dissolve
     en "If I had dawdled like usual, I'd be late for sure." with dissolve
     th "ด้วยเหตุนี้ผมจึงวิ่งอย่างสุดกำลัง จนมาถึงโรงเรียนในเวลา 8:29 น. ทันเวลาอย่างฉิวเฉียด" with dissolve
-    en "That’s why I sprinted with all my might and made it to school at 8:29 AM, just in time." with dissolve
+    en "That's why I sprinted with all my might and made it to school at 8:29 AM, just in time." with dissolve
     th "หากมาช้ากว่านี้เพียงแค่หนึ่งนาทีจะถือว่ามาสาย" with dissolve
     en "If I had been even a minute slower, I would have been considered late." with dissolve
     stop music
