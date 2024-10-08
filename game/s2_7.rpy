@@ -34,7 +34,7 @@ label s2_7:
     th "ถ้าพวกผู้ชายที่ส่งจดหมายรักมาเห็นเข้าจะรู้สึกอย่างไรกันนะ" with dissolve
     en "I wonder how the guys who sent those love letters would feel if they saw this." with dissolve
     th "คิดอีกที ต่อให้เจ้าพวกนั้นส่งแชท LIME ไปก็คงโดน Block แน่นอน" with dissolve
-    en "On second thought, even if those guys sent LINE messages instead, they'd probably just get blocked." with dissolve
+    en "On second thought, even if those guys sent LIME messages instead, they'd probably just get blocked." with dissolve
     yuma_th  "ทำไมช่วงนี้มีแต่คนถูกสารภาพรักกัน เมื่อไหร่ฉันจะถูกสารภาพรักกับเค้าบ้างเนี่ย" with dissolve
     yuma_en  "Why is everyone getting confessed to lately? When will it be my turn to receive a confession?" with dissolve
     play sound "audio/sfx/door_school.mp3"
@@ -221,7 +221,7 @@ label s2_7:
     kazuma_en ah "As far as I know, The Radiant Dawn is a progressive student group that wants to make drastic changes to the school." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_014.mp3"
     kazuma_th  "สโลแกนคือทำให้โรงเรียนเจิดจ้าราวกับดวงตะวัน อะไรสักอย่างทำนองนี้" with dissolve
-    kazuma_en  "Their slogan is something like 'Make the school shine as bright as the sun'." with dissolve
+    kazuma_en  "Their slogan is something like 'Make the school shine as bright as the sun.'" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_015.mp3"
     kazuma_th  "ได้ข่าวว่ารอบหน้าจะลงสมัครเลือกตั้งประธานนักเรียนด้วย" with dissolve
     kazuma_en  "I heard they're planning to run for student council president next time." with dissolve
@@ -236,7 +236,7 @@ label s2_7:
     th "เรียกได้ว่าไม่เคยมีมาก่อนตั้งแต่ประวัติศาสตร์การก่อตั้งโรงเรียนแห่งนี้" with dissolve
     en "You could say it's unprecedented in the history of this school's establishment." with dissolve
     th "แสดงว่ากลุ่มสุริยันสาดแสงพวกนั้นต้องมีไพ่ตายอยู่ในมือแน่นอน" with dissolve
-    en "That means this Radiant Sun group must have an ace up their sleeve." with dissolve
+    en "That means The Radiant Dawn must have a hidden trump card." with dissolve
     th "ไม่สิ เราต้องเชื่อมั่นในความสามารถของสภานักเรียน เราต้องผ่านไปได้" with dissolve
     en "No, we have to believe in the student council's abilities. We must get through this." with dissolve
     show kazuma normal at center with Dissolve(0.2) 

@@ -459,8 +459,6 @@ label s1_2:
             yuma_en  "And nothing beats a cold glass of soda."
             yuma_th "เพราะฉะนั้นผมคิดว่าควรจำหน่ายน้ำอัดลมต่อไป" with dissolve
             yuma_en "Therefore, I think we should continue selling soda." with dissolve
-    th "......" with dissolve
-    en "......" with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_041.mp3"
     maya_th smile_2 "อย่างนี้นี่เอง ที่นายพูดมาก็มีเหตุผล เข้าใจแล้ว" with dissolve
     maya_en smile_2 "I see. What you said makes sense. I understand now." with dissolve

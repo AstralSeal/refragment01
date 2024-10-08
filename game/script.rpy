@@ -32,7 +32,7 @@ init python:
     
     def get_2_6_choice1():
         if persistent.language == "eng":
-            return "Can I touch your boobs, Sempai Maya?"
+            return "Please let me touch your melons"
         elif persistent.language == "thai":
             return "ผมขอจับหน่มน๊มของรุ่นพี่มายะได้ไหมครับ"
         else:
@@ -40,7 +40,7 @@ init python:
 
     def get_2_6_choice2():
         if persistent.language == "eng":
-            return "Could you wrap your legs around my neck?"
+            return "Please wrap your legs around my neck"
         elif persistent.language == "thai":
             return "ช่วยเอาต้นขามารัดคอผมหน่อยได้ไหมครับ"
         else:

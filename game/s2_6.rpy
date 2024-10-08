@@ -90,7 +90,7 @@ label s2_6:
     th "ก่อนอื่น ผมต้องตามหารุ่นพี่มายะให้เจอ" with dissolve
     en "First of all, I need to find Maya-senpai." with dissolve
     th "เนื่องจากไม่ได้แลกเบอร์โทรหรือ LIME เอาไว้ ผมต้องตามหารุ่นพี่มายะให้เจอ" with dissolve
-    en "Since we haven't exchanged phone numbers or LINE IDs, I have to look for her in person." with dissolve
+    en "Since we haven't exchanged phone numbers or LIME IDs, I have to look for her in person." with dissolve
     yuma_th  "รุ่นพี่มายะอยู่ไหนกันนะ" with dissolve
     yuma_en  "Where could Maya-senpai be?" with dissolve
     yuma_th  "ลานน้ำพุ… ไม่อยู่" with dissolve
@@ -164,11 +164,11 @@ label s2_6:
     student_m_2_th  "ถ้างั้นผมขอเข้าเรื่องเลยนะครับ" with dissolve
     student_m_2_en  "In that case, I'll get straight to the point." with dissolve
     student_m_2_th  "รุ่นพี่ชิราซากิ ผมชอบคุณมาตลอด" with dissolve
-    student_m_2_en  "Sempai Shirasaki, I've always liked you." with dissolve
+    student_m_2_en  "Shirasaki-senpai, I've always liked you." with dissolve
     student_m_2_th  "ทั้งหุ่นดี ทั้งหน้าอกใหญ่" with dissolve
-    student_m_2_en  "You have a great body and big boobs." with dissolve
+    student_m_2_en  "You have a great body and big breasts." with dissolve
     student_m_2_th  "(รุ่นพี่เป็นคนที่หน้าตาดี หุ่นดี อ่อนโยน และคอยคิดถึงคนอื่นอยู่เสมอ)" with dissolve
-    student_m_2_en  "(Sempai is good-looking, has a nice figure, is kind, and always thinks of others.)" with dissolve
+    student_m_2_en  "(Shirasaki-Senpai is good-looking, has a nice figure, is kind, and always thinks of others.)" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_003.mp3"
     maya_th consider "คำพูดกับความคิดมันสลับกันรึเปล่านะ" with dissolve
     maya_en consider "Did he mix up his spoken words and thoughts?" with dissolve
@@ -197,7 +197,7 @@ label s2_6:
     th "คงมีประสบการณ์การปฏิเสธมาบ่อยแล้วสินะ" with dissolve
     en "She must have a lot of experience rejecting people by now." with dissolve
     student_m_2_th  "รุ่นพี่มีแฟนอยู่แล้วหรอครับ" with dissolve
-    student_m_2_en  "Do you already have a boyfriend, Sempai?" with dissolve
+    student_m_2_en  "Do you already have a boyfriend?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_005.mp3"
     maya_th smile_2 "ไม่ใช่แบบนั้นหรอกจ๊ะ" with dissolve
     maya_en smile_2 "It's not like that." with dissolve
@@ -228,7 +228,7 @@ label s2_6:
     th "พอพูดจบ รุ่นพี่มายะก็ก้าวเท้าออกไป" with dissolve
     en "Finishing his words, Maya-senpai turned to leave." with dissolve
     student_m_2_th  "รุ่นพี่ครับ ผมยังไม่ตัดใจจากรุ่นพี่หรอกนะครับ" with dissolve
-    student_m_2_en  "Sempai, I'm not giving up on you yet!" with dissolve
+    student_m_2_en  "Senpai, I'm not giving up on you yet!" with dissolve
     th "นักเรียนชายพูดด้วยน้ำเสียงดูท่าทางผิดหวัง แต่ก็ยังไม่ยอมแพ้" with dissolve
     en "The male student spoke in a disappointed tone, but was still unwilling to give in." with dissolve
     hide maya
@@ -268,7 +268,7 @@ label s2_6:
     show maya normal at center with Dissolve(0.2) 
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_014.mp3"
     maya_th smile3 "จะว่าไปตู้แมวน้ำบินนี่มันสะดวกชะมัด ฉันไปอยู่ที่ไหนมาเนี่ย" with dissolve
-    maya_en smile3 "Come to think of it, this seal vending machine is super convenient. Where have I been?" with dissolve
+    maya_en smile3 "Come to think of it, this Flying Seal vending machine is super convenient. Where have I been?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_015.mp3"
     maya_th  "ชอบตรงที่เลือกระดับความหวานได้นี่แหละ เลือกระดับความหวานเต็มพิกัด 140\% ไปเลย" with dissolve
     maya_en  "I especially like that you can choose the sweetness level. Let's max it out to 140\%!" with dissolve
@@ -284,7 +284,7 @@ label s2_6:
     maya_en hee2_2 "N-no, it's nothing. I was just lost in thought." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_018.mp3"
     maya_th smile "ว่าแต่ฉันต้องขอบคุณนายมากเลยนะที่สอนวิธีใช้เจ้าเครื่องนี้ พอใช้เป็นแล้วรู้สึกว่าสะดวกมากเลย" with dissolve
-    maya_en smile "But I really have to thank you for teaching me how to use this machine. Now that I know how, it's so handy." with dissolve
+    maya_en smile "But I really have to thank you for teaching me how to use this vending machine. It's so convenience." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_019.mp3"
     maya_th angry "เสียอย่างเดียว รอเครื่องดื่มนานไปหน่อย" with dissolve
     maya_en angry "The only downside is it takes a while for the drink to come out." with dissolve
@@ -292,10 +292,10 @@ label s2_6:
     yuma_en  "It's not that long. You're just in too much of a hurry." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_020.mp3"
     maya_th hurt "นั่นไง ยูคุงปกป้องตู้แมวน้ำบินอีกแล้วนะ" with dissolve
-    maya_en hurt "There you go again, defending the seal vending machine." with dissolve
+    maya_en hurt "There you go again, you try to defend the Flying Seal vending machine." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_021.mp3"
     maya_th angry "แถมวันนี้เราเจอกันที่หน้าตู้แมวน้ำบินอีกครั้ง ยูคุงเป็นพนักงานของบริษัทตู้แมวน้ำบินสินะ" with dissolve
-    maya_en angry "And we ran into each other in front of the seal machine again. You must work for the seal vending machine company, right?" with dissolve
+    maya_en angry "And we ran into each other in front of the machine again. You are Flying Seal vending machine staff, right?" with dissolve
     yuma_th  "จะเป็นแบบนั้นได้ยังไงละครับ" with dissolve
     yuma_en  "How could that be?" with dissolve
     th "ดูเหมือนรุ่นพี่มายะจะพยายามยัดเยียดตำแหน่งเซลล์แมนขายตู้แมวน้ำบินให้ผมตลอดเลย" with dissolve
@@ -334,18 +334,18 @@ label s2_6:
     maya_th onegai "ชะ… ช่วยเก็บไว้เป็นความลับได้ไหม อย่าบอกใครนะ" with dissolve
     maya_en onegai "P-please keep it a secret, okay? Don't tell anyone." with dissolve
     th "ท่าทีของรุ่นพี่มายะแตกต่างไปจากเดิม ผมสัมผัสได้ว่ารุ่นพี่มายะกำลังประหม่าอยู่" with dissolve
-    en "Maya-senpai's demeanor changed. I could sense she was flustered." with dissolve
+    en "I could tell Maya-senpai was both perplexed and flustered." with dissolve
     th "เข้าทางเลย ไอ้นั่นสินะ ปลอมตัวมาเป็นสายลับในโรงเรียนแน่เลย ดีล่ะ" with dissolve
-    en "Perfect. That must be it. She's definitely an undercover agent at this school. Alright then." with dissolve
+    en "Perfect. That must be it. She's definitely an undercover agent who infiltrates the school. Alright then..." with dissolve
     yuma_th  "ไม่ให้บอกใครสินะ" with dissolve
     yuma_en  "So you want me to keep it a secret?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_026.mp3"
     maya_th onegai_2 "ขอร้องล่ะ ให้ฉันทำอะไรก็ได้ อย่าบอกคนอื่นเลย" with dissolve
     maya_en onegai_2 "I'm begging you. I'll do anything, just don't tell anyone else." with dissolve
     th "'ให้ทำอะไรก็ได้' งั้นเหรอ" with dissolve
-    en "Do anything, you say?" with dissolve
+    en "I'll do anything......?" with dissolve
     th "นี่มันประโยคต้องห้ามที่ไม่ว่ายังไงก็ห้ามพูดเด็ดขาดในการ์ตูนเรต 18+ เลยไม่ใช่หรือไง" with dissolve
-    en "That's the forbidden phrase you should never, ever say in adult comics no matter what." with dissolve
+    en "That is the forbidden phrase you should never, ever say in adult comics no matter what." with dissolve
     th "ถ้าอย่างนั้นก็ไม่เกรงใจละนะ" with dissolve
     en "In that case, I won't hold back." with dissolve
     yuma_th  "ให้ทำอะไรก็ได้… ถ้างั้นก็…" with dissolve
@@ -354,27 +354,27 @@ label s2_6:
     menu:
         "[get_2_6_choice1()]":
             th "ผมขอจับหน่มน๊มของรุ่นพี่มายะได้ไหมครับ" with dissolve
-            en "Can I touch your boobs?" with dissolve
+            en "Please let me touch your melons" with dissolve
         "[get_2_6_choice2()]":
             th "ช่วยเอาต้นขามารัดคอผมหน่อยได้ไหมครับ" with dissolve
-            en "Could you wrap your legs around my neck?" with dissolve
+            en "Please wrap your legs around my neck" with dissolve
     th "จะบ้าเหรอ! ใครจะไปขออะไรแปลกๆ แบบนั้นได้กันเล่า!?" with dissolve
     en "Are you crazy?! Who would ask for something that weird?!" with dissolve
     th "คนที่คิดอะไรแผลงๆ แบบนั้นได้คงเพี้ยนไปแล้วแน่ๆ" with dissolve
-    en "Anyone who could come up with something that bizarre must be insane." with dissolve
+    en "Anyone who could come up with something that bizarre must be psychopath." with dissolve
     th "เพียงเท่านี้ทุกอย่างก็เป็นไปตามแผนที่วางไว้" with dissolve
-    en "With this, everything is going according to plan." with dissolve
+    en "Just according to keikaku. \n(Translator's note: keikaku means plan)" with dissolve
     th "รุ่นพี่มายะต้องอยากปิดบังเรื่องรูปถ่ายแตกต่างจากตัวจริงแน่นอน" with dissolve
-    en "Maya-senpai must want to hide the fact that her ID photo looks so different for sure." with dissolve
+    en "Maya-senpai want to hide the fact that her ID photo looks so different for sure." with dissolve
     th "ถึงแม้ว่าผมจะไม่รู้สาเหตุว่าทำไมรูปในบัตรกับตัวจริงถึงต่างกันขนาดนี้" with dissolve
-    en "Even though I don't know the reason why the photo looks so different from real life," with dissolve
+    en "Even though I don't know the exact reason why the photo looks so different from her actual appearance..." with dissolve
     th "แต่ตอนนี้โอกาสของผมมาถึงแล้ว" with dissolve
-    en "this is my chance." with dissolve
+    en "This is my chance." with dissolve
     th "เพื่อยูโนะ น้องสาวของผม ผมทำได้ทุกอย่าง" with dissolve
     en "For the sake of Yuno, my little sister, I'll do anything." with dissolve
     show maya normal at zoom_in,center with Dissolve(0.2) 
     yuma_th  "รุ่นพี่ช่วยมาเป็นคู่รักให้ผมซักหนึ่งวันได้ไหมครับ" with dissolve
-    yuma_en  "Sempai, could you pretend to be my girlfriend for a day?" with dissolve
+    yuma_en  "Maya-senpai, could you pretend to be my girlfriend for a day?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_027.mp3"
     show surprise
     maya_th hurt "เอ๋?!! คู่รัก คู่รักงั้นเหรอ" with dissolve
@@ -421,7 +421,7 @@ label s2_6:
     maya_th huh "นึกว่าถูกยูคุงสารภาพรักจริงๆ เสียอีก ตกใจแทบแย่" with dissolve
     maya_en huh "And here I thought Yuu-kun was confessing his love for real. You really startled me." with dissolve
     yuma_th  "หรือว่ารุ่นพี่แอบเสียดายที่ผมไม่ได้สารภาพรักจริงๆ งั้นหรอครับ" with dissolve
-    yuma_en  "Or maybe you're secretly disappointed that I wasn't really confessing, Sempai?" with dissolve
+    yuma_en  "Or maybe you're secretly disappointed that I wasn't really confessing?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_6/maya_2_6_037.mp3"
     maya_th angry "แหม ไม่ต้องมาหยอดเลย เดี๋ยวฉันก็ไม่ไปด้วยซะเลย" with dissolve
     maya_en angry "Oh stop, don't flatter yourself. I might just refuse to go along with it." with dissolve

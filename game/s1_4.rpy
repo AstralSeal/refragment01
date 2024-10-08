@@ -49,8 +49,8 @@ label s1_4:
     show akane normal at center with Dissolve(1.0) 
     th "เมื่อเปิดประตูเข้าห้องสภานักเรียนก็พบกับอากาเนะ" with dissolve
     en "Opening the door to the student council room, we find Akane." with dissolve
-    th "เธอกำลังเปิดกล่องจดหมายอยู่" with dissolve
-    en "She's opening the mailbox." with dissolve
+    th "เธอกำลังเปิดกล่องรับความคิดเห็นอยู่" with dissolve
+    en "She's opening the suggestion box." with dissolve
     yuma_th  "อ้าว วันนี้มีแค่อากาเนะคนเดียวเหรอ คาสึมะแอบอู้สินะ" with dissolve
     yuma_en  "Oh, is it just Akane today? Kazuma must be slacking off." with dissolve
     hide akane
@@ -83,21 +83,21 @@ label s1_4:
     th "มีนักเรียนหลายคนยืมหนังสือแล้วไม่ยอมเอาหนังสือมาคืนจนเลยกำหนดคืนไปแล้ว" with dissolve
     en "Many students have borrowed books and refuse to return them even after the due date has passed." with dissolve
     th "ทำให้นักเรียนที่ต้องการหนังสือไม่สามารถยืมต่อได้" with dissolve
-    en "This prevents other students who need the books from borrowing them." with dissolve
+    en "Which is preventing other students in need of those books from borrowing them." with dissolve
     th "ซึ่งจากรายการที่แนบมา มีอยู่ประมาณ 20 คน" with dissolve
-    en "AAccording to the attached list, there are about 20 students." with dissolve
+    en "According to the attached list, there are about 20 students." with dissolve
     yuma_th  "โห แต่ละคนเลยกำหนดคืนหนังสือมาเกินหนึ่งเดือนแล้วทั้งนั้นเลย แบบนี้มันนักเบี้ยวตัวฉกาจชัดๆ" with dissolve
-    yuma_en  "Wow, all of them are over a month past the return date. These are clearly notorious defaulters." with dissolve
+    yuma_en  "Wow, all of them are over a month past the return date. These are clearly professional book hoarder." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_002.mp3"
     akane_th angry "ก็ใช่น่ะสิ แถมจำนวนยังเพิ่มขึ้นจากครั้งก่อนที่ฉันจัดการไปแล้วด้วย" with dissolve
     akane_en angry "That's right. And the number has increased since the last time I dealt with this issue." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_003.mp3"
     akane_th  "แบบนี่เราจะทำยังไงกันดีคะ? ทั้งๆที่ก่อนหน้านี้ก็มีการปรับเงินเวลาคืนช้าไปแล้วด้วยแท้ๆ" with dissolve
     akane_en  "What should we do about this? We've already implemented fines for late returns." with dissolve
-    yuma_th  "ถ้างั้นลองขึ้นค่าปรับไหม โดยปกติห้องสมุดปรับเงินแค่ 50 เยน มันอาจจะน้อยเกินไปจนคนไม่สนใจ" with dissolve
-    yuma_en  "Then should we increase the fine? Normally, the library only charges 50 yen. It might be too little for people to care." with dissolve
+    yuma_th  "ถ้างั้นลองขึ้นค่าปรับไหม โดยปกติห้องสมุดปรับเงินแค่ 50 เยนต่อวัน มันอาจจะน้อยเกินไปจนคนไม่สนใจ" with dissolve
+    yuma_en  "Then should we increase the fine? Normally, the library only charges 50 yen per day. It might be too little for people to care." with dissolve
     th "เรื่องเงินๆ ทองๆ ผมไม่มีทางพลาด เห็นแบบนี้แต่ผมเองก็เป็นถึงขั้นเหรัญญิกแห่งสภานักเรียนเชียวนะ" with dissolve
-    en "When it comes to money matters, I never miss. You see, I'm the treasurer of the student council." with dissolve
+    en "I ensure that every yen is accurately tracked. You see, I'm the treasurer of the student council." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_004.mp3"
     akane_th onegai "ถ้าขึ้นค่าปรับ คำถามต่อมาคือขึ้นค่าปรับเป็นเท่าไหร่ดี" with dissolve
     akane_en onegai "If we increase the fine, the next question is how much should we increase it to?" with dissolve
@@ -286,7 +286,7 @@ label s1_4:
     yuno_c_th confident_2 "ไม่มีปัญหา ส.บ.ม.ย.ห." with dissolve
     yuno_c_en confident_2 "This is fine. Things are going to be okay." with dissolve
     yuma_th  "ไปเอาคำศัพท์แปลกๆ มาจากอินเทอร์เน็ตอีกแล้ว ว่าแต่มันไม่เก่าไปหน่อยเหรอ" with dissolve
-    yuma_en  "Oh, this meme is quite outdated. The ironic phrase 'This is fine' means things are not really that fine at all, right?" with dissolve
+    yuma_en  "Oh, this meme is quite outdated. The ironic phrase 'This is fine' means things are not really that fine at all." with dissolve
     hide yuno_c
     scene home_livingroom_night with Dissolve(1.0)
     show yuno_c normal at center with Dissolve(1.0) 
@@ -294,7 +294,7 @@ label s1_4:
     yuno_c_th ah_2 "ที่โรงเรียนเป็นยังไงบ้าง" with dissolve
     yuno_c_en ah_2 "Nah, by the way, how was school?" with dissolve
     yuma_th  "เป็นหนึ่งวันที่วุ่นวายเอาเรื่อง ไหนจะสภานักเรียน ไหนจะนโยบายใหม่ ไหนจะรุ่นพี่มายะ ไหนจะเรื่องไฝที่ก้นของ-" with dissolve
-    yuma_en  "It was a chaotic day. There was student council work, new policies, Maya-senpai, and the mole on Reika's bu-" with dissolve
+    yuma_en  "It was a chaotic day. There was student council work, new policies, Maya-senpai, and the mole on Reika's bu--" with dissolve
     th "ขณะที่ผมพูด เรกะก็เดินเข้ามาจากด้านหลัง" with dissolve
     en "As I'm speaking, Reika walks in from behind." with dissolve
     hide yuno_c
@@ -310,8 +310,8 @@ label s1_4:
     en "I break into a cold sweat and feel a sense of foreboding." with dissolve
     th "นี่มันบ้านของผมไม่ใช่เหรอ เรกะมาอยู่ที่นี่ได้ยังไงเนี่ย" with dissolve
     en "Isn't this my house? How did Reika get here?" with dissolve
-    yuma_th  "นี่เธอมายังไงเนี่ย!!!" with dissolve
-    yuma_en  "How did you get here?!!!" with dissolve
+    yuma_th  "นี่เธอมายังไงเนี่ย?!!" with dissolve
+    yuma_en  "How did you get here?!!" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_025.mp3"
     reika_th angrymeme_2 "ฉันบอกให้ลืมเรื่องนั้นไปให้หมด" with dissolve
     reika_en angrymeme_2 "I told you to forget about that completely." with dissolve
@@ -345,11 +345,11 @@ label s1_4:
     yuno_c_en ah "I called Reika-oneechan here myself." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_006.mp3"
     yuno_c_th crymeme2 "ตอนเช้าหนูส่ง LIME ไปหาพี่ พี่ไม่ยอมตอบหนูเลยเสียใจ" with dissolve
-    yuno_c_en crymeme2 "TThis morning I sent you a LIME message, but you didn't reply. I felt sad." with dissolve
+    yuno_c_en crymeme2 "This morning I sent you a LIME message, but you didn't reply. I felt sad." with dissolve
     yuma_th  "ไหน ขอเช็คดูก่อน" with dissolve
     yuma_en  "Let me check." with dissolve
     yuma_th  "จริงด้วย" with dissolve
-    yuma_en  "It's true." with dissolve
+    yuma_en  "No way." with dissolve
     th "ยูโนะส่งข้อความ LIME มาหาช่วงเช้าตอนที่กำลังสอนรุ่นพี่มายะใช้ตู้แมวน้ำบิน" with dissolve
     en "Yuno sent a LIME message in the morning when I was teaching Maya-senpai how to use the Flying Seal vending machine." with dissolve
     th "ตอนนั้นกำลังยุ่งอยู่ ด้วยเหตุนี้ข้อความจึงยังไม่ถูกเปิดอ่าน" with dissolve
@@ -371,7 +371,7 @@ label s1_4:
     yuma_th  "ขอโทษด้วยครับ ครั้งหน้าจะไม่ลืมอีกแล้ว" with dissolve
     yuma_en  "I'm sorry. I won't forget next time." with dissolve
     th "ผมวุ่นกับงานสภานักเรียน ไม่ได้เช็คข้อความ LIME จึงทำให้พลาดข้อความจากยูโนะ" with dissolve
-    en "I was busy with student council work and didn't check my LINE messages, so I missed Yuno's message." with dissolve
+    en "I was busy with student council work and didn't check my LIME messages, so I missed Yuno's message." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_031.mp3"
     reika_th ah "อ๊ะ ค่ำแล้ว ฉันไปก่อนนะ" with dissolve
     reika_en ah "Oh, it's late. I should go now." with dissolve

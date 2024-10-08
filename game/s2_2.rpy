@@ -19,7 +19,7 @@ label s2_2:
     yuma_en  "I didn't do anything, though." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_003.mp3"
     maya_th yasashi "ไม่มีใครกล้าต่อล้อต่อเถียงกับแม่สาวน้อยกรรมการระเบียบวินัยคนนั้นหรอกนะ เท่าที่ฉันเห็นก็มีแค่นายคนเดียวเนี่ยแหละ" with dissolve
-    maya_en yasashi "No one dares to argue with little miss disciplinary committee. As far as I can see, you're the only one." with dissolve
+    maya_en yasashi "No one dares to argue with the disciplinary committee. As far as I can see, you're the only one." with dissolve
     th "พอลองคิดดูแล้วก็จริงอย่างที่รุ่นพี่มายะพูด ไม่เคยมีใครโต้แย้งอากาเนะได้สำเร็จ" with dissolve
     en "Thinking about it, Maya-senpai is right. No one has ever successfully argued with Akane." with dissolve
     hide maya
@@ -123,7 +123,7 @@ label s2_2:
     yuma_th  "เป็นไปไม่ได้ โรงเรียนเอกชนซิลเวอร์ซีลเป็นโรงเรียนสห ไม่ใช่โรงเรียนหญิงล้วนสักหน่อย" with dissolve
     yuma_en  "That's impossible. Silverseal Private School is co-ed, not an all-girls school." with dissolve
     yuma_th  "คงไม่มีเหตุการณ์ชายแต่งหญิงแบบในเกมวิชวลโนเวลที่เคยเล่นหรอกมั้ง" with dissolve
-    yuma_en  "There's no way we'd have a trap (a boy that looks like a cute girl) scenario like in those visual novel games I've played." with dissolve
+    yuma_en  "There's no way we'd have a trap (a boy that looks like a cute girl) scenario like in those visual novels I've played." with dissolve
     th "ไม่ว่าจะมองจากมุมไหน รูปในบัตรนักเรียนนี้มัน… ไม่ตรงปกเลยสักนิด" with dissolve
     en "No matter how you look at it, this student ID photo... It doesn't match at all." with dissolve
     th "น่าสงสัย น่าสงสัยจริงๆ" with dissolve

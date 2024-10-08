@@ -12,7 +12,7 @@ label s2_5:
     yuma_en  "Wait, isn't it supposed to be dinner, bath, or me?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_002.mp3"
     yuno_c_th hehe "แล้วตกลงพี่เลือกอันไหน" with dissolve
-    yuno_c_en hehe "So which one did you choose, big brother?" with dissolve
+    yuno_c_en hehe "So which one did you choose, Onii-chan?" with dissolve
     yuma_th  "อาบน้ำ กินข้าว และอาบน้ำอีกครั้ง" with dissolve
     yuma_en  "Bath, dinner, and bath again." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_003.mp3"
@@ -25,7 +25,7 @@ label s2_5:
     yuma_en  "Yuno?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_004.mp3"
     yuno_c_th angry "ชิ หนูไม่อยากคุยกับพี่ชายที่หนีเที่ยวแล้วทิ้งให้น้องสาวกินข้าวคนเดียวหรอก" with dissolve
-    yuno_c_en angry "Hmph, I don't want to talk to a big brother who runs off to play and leaves his little sister to eat dinner alone." with dissolve
+    yuno_c_en angry "Hmph, I don't want to talk to Onii-chan who runs off to play and leaves his little sister to eat dinner alone." with dissolve
     th "ยูโนะเบือนหน้าหนี แกล้งทำเป็นไม่สนใจ" with dissolve
     en "Yuno turned her face away, pretending to ignore me." with dissolve
     yuma_th  "วันนี้มีข่าวว่าเกม Seal Impact เพิ่มเรตกาชาคูณสาม" with dissolve
@@ -158,8 +158,8 @@ label s2_5:
     yuno_c_en smug_2 "I know everything about you, don't worry. But let's put that aside for now. While waiting for you to come home, I already finished playing this game." with dissolve
     scene cafe_au_lait with Dissolve(1.0)
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_030.mp3"
-    yuno_c_th  "The picture of café au lait ในเกมนี้พระเอกกำลังวาดรูปสำหรับส่งประกวด แต่จู่ๆ เด็กสาวรุ่นน้องวิ่งมาชนและเผลอทำกาแฟหกใส่รูปที่พระเอกวาด การพบพานครั้งนี้ก่อกำเนิดฟักฟูมเป็นความรัก" with dissolve
-    yuno_c_en  "In The picture of café au lait, the protagonist is painting for a contest, but suddenly a younger girl bumps into him and accidentally spills coffee on his painting. This fated encounter blossoms into love." with dissolve
+    yuno_c_th  "The Picture of Cafe au lait ในเกมนี้พระเอกกำลังวาดรูปสำหรับส่งประกวด แต่จู่ๆ เด็กสาวรุ่นน้องวิ่งมาชนและเผลอทำกาแฟหกใส่รูปที่พระเอกวาด การพบพานครั้งนี้ก่อกำเนิดฟักฟูมเป็นความรัก" with dissolve
+    yuno_c_en  "In {i}The Picture of Cafe au lait{/i}, the protagonist is painting for a contest, but suddenly a younger girl bumps into him and accidentally spills coffee on his painting. This fated encounter blossoms into love." with dissolve
     hide yuno_c
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_031.mp3"
     yuno_c_th  "......และในตอนท้ายทั้งสองคนก็มีความสัมพันธ์แนบแน่นชิดกาย" with dissolve
@@ -185,10 +185,10 @@ label s2_5:
     yuma_en  "Brilliant idea! You should pitch that to the game studio for a sequel." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_035.mp3"
     yuno_c_th angry_2 "ไม่ได้ สิ้นคิดเกินไป เดี๋ยวก็ถูกผู้เล่นด่าว่าเอาของเก่ามารีไซเคิลหรอก" with dissolve
-    yuno_c_en angry_2 "No, it's too cliché. Players would complain that we're just reusing old content." with dissolve
+    yuno_c_en angry_2 "No, it's too cliche. Players would complain that we're just reusing old contents." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_036.mp3"
     yuno_c_th confident_2 "บางครั้งไอเดียดีๆ ก็เกิดจากเรื่องไม่คาดฝัน ไอสไตน์ยังนั่งคิดทฤษฎีแรงโน้มถ่วงได้จากการนั่งใต้ต้นแอปเปิ้ล" with dissolve
-    yuno_c_en confident_2 "Sometimes great ideas come from unexpected places. Even Einstein came up with the theory of gravity while sitting under an apple tree." with dissolve
+    yuno_c_en confident_2 "Sometimes great ideas come from unexpected places. Even Albert Einstein came up with the theory of gravity while sitting under an apple tree." with dissolve
     yuma_th  "นั่นมันไอแซก นิวตัน" with dissolve
     yuma_en  "That was Isaac Newton." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_037.mp3"

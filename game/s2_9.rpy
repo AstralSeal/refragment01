@@ -765,7 +765,7 @@ label s2_9:
     maya_c2_th smile4 "แล้วก็เดทวันนี้สนุกมาก บวก 1,000 คะแนน" with dissolve
     maya_c2_en smile4 "And today's date was fun, plus 1,000 points!" with dissolve
     th "พอพูดจบ มายะก็เดินจากไปโดยไม่รีรอ" with dissolve
-    en "After saying that, Maya walked away without hesitation." with dissolve
+    en "After saying that, Maya-senpai walked away without hesitation." with dissolve
     hide maya_c2
     th "ถึงจะเป็นคนที่เอาแต่ใจแต่พออยู่ด้วยแล้วก็รู้สึกสบายใจอย่างบอกไม่ถูก" with dissolve
     en "Even though she's a bit selfish, being with her feels comfortable in a way I can't explain." with dissolve
@@ -798,14 +798,14 @@ label s2_9:
     voice "audio/voice/yuno/chapter2/chapter2_9/yuno_2_9_001.mp3"
     show old
     yuno_c_th angry_2 "พี่ซื้ออะไรมาอีกแล้วเนี่ย เต็มบ้านเลย" with dissolve
-    yuno_c_en angry_2 "Did you buy something again, brother? The house is already full!" with dissolve
+    yuno_c_en angry_2 "You've bought useless things again? We don't have the space for more clutter." with dissolve
     hide yuno_c
     hide old
     scene neighborhood_evening with Dissolve(1.0)
     th "พูดถึงยูโนะแล้ว ไม่รู้ว่าป่านนี้หายงอนหรือยังนะ" with dissolve
     en "Speaking of Yuno, I wonder if she's still upset." with dissolve
     th "ลองปรึกษาเรกะดีมั้ยนะ ไม่สิ จะพึ่งเรกะตลอดไม่ได้" with dissolve
-    en "Should I consult Reika? No, I can't rely on Reika all the time." with dissolve
+    en "Should I consult Reika? No, I can't rely on her all the time." with dissolve
     yuma_th  "เอาล่ะ ต้องลองดู เป็นไงเป็นกัน" with dissolve
     yuma_en  "Alright, I have to try. Whatever happens, happens." with dissolve
     th "ผมเดินกลับบ้านพร้อมกับพุดดิ้งสตรอเบอร์รี่จากร้านดังในห้าง" with dissolve

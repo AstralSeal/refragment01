@@ -189,13 +189,13 @@ label s2_3:
     stop music
     play music "audio/bgm/MusMus-BGM-139.mp3" volume 0.5
     th "ตอนนี้เป็นเวลาบ่ายโมงกว่าๆ ก่อนเริ่มเรียนคาบเรียนที่ 5" with dissolve
-    en "It's now just after 1 PM, before the start of the fifth period." with dissolve
+    en "It's now just after 1:00 PM, before the start of the fifth period." with dissolve
     th "หลังจากที่ผมกับเรกะเดินเข้าห้องเรียน ดูเหมือนว่าเพื่อนร่วมชั้นกำลังคุยกันเรื่องยกเลิกการจำหน่ายน้ำอัดลมในโรงเรียน" with dissolve
-    en "After Reika and I enter the classroom, it seems our classmates are discussing the ban on soda sales in school." with dissolve
+    en "After Reika and I enter the classroom, it seems our classmates are discussing the ban on soda sales." with dissolve
     student_m_a_th  "เห็นข่าวหรือยัง ผลโหวตคือ 82\% เห็นด้วยกับการยกเลิกจำหน่ายน้ำอัดลมในโรงเรียน" with dissolve
-    student_m_a_en  "Did you see the news? 82\% voted in favor of banning soda sales in school, one student says." with dissolve
+    student_m_a_en  "Did you see the latest news? 82\% voted in favor of banning soda sales in our school." with dissolve
     student_m_b_th  "เห็นแล้ว ในแชทกลุ่ม LIME มีแต่คนพูดเรื่องนี้เต็มไปหมด" with dissolve
-    student_m_b_en  "Yeah, the LIME group chat is full of people talking about it, another replies." with dissolve
+    student_m_b_en  "Yeah, they're discussing it in the LIME group chat." with dissolve
     student_m_a_th  "ไม่อยากเชื่อว่าฉันเป็น 18\% ที่เหลือ คราวนี้หลังจากซ้อมกีฬาตอนเช้าเสร็จ ฉันจะดื่มอะไรแทนน้ำอัดลมดีเนี่ย" with dissolve
     student_m_a_en  "I can't believe I'm in the 18\% minority. What am I going to drink after morning sports practice now?" with dissolve
     student_m_a_th  "ถ้าลองเอาน้ำส้มมาเขย่าดู อาจจะทำให้รู้สึกซ่าแบบน้ำอัดลมได้มั้ยนะ" with dissolve
@@ -234,7 +234,7 @@ label s2_3:
     scene school_classroom_noon with Dissolve(1.0)
     show reika normal at zoom_in,center with Dissolve(0.2) 
     yuma_th  "นี่ เรกะ ฉันว่าบางทีเราน่าจะเสนอนโยบายยกเลิกการเรียนหลังช่วงพักกลางมันดีมั้ย" with dissolve
-    yuma_en  "Hey, Reika. Do you think we should propose a policy to cancel classes after lunch break?" with dissolve
+    yuma_en  "Hey, Reika. Do you think we should propose a policy to cancel all classes after lunch break?" with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_014.mp3"
     reika_th angry_2 "ไร้สาระ ต่อให้ย้ายไปตอนเช้า นายก็อ้างอยู่ดีว่าพึ่งตื่นได้ไม่นาน ยังง่วงนอนไม่หาย" with dissolve
     reika_en angry_2 "Nonsense. Even if we moved them to the morning, you'd still complain about just waking up and being sleepy." with dissolve
@@ -245,7 +245,7 @@ label s2_3:
     en "Reika dismisses me and turns back to focus on the lesson." with dissolve
     hide reika
     th "ช่วยไม่ได้ ผมเบื่อวิชาชีววิทยานี่นา ถ้าเป็นวิชาคณิตศาสตร์ก็ว่าไปอย่าง" with dissolve
-    en "I can't help it. I'm bored with biology. If it were math, it'd be different." with dissolve
+    en "I can't help it. I'm just bored with biology. If it were math, it would be a different story." with dissolve
     th "ครั้งหน้าลองเสนอนโยบายเปลี่ยนทุกคาบเรียนเป็นวิชาคณิตฯ ดีไหมนะ" with dissolve
     en "Maybe next time I should propose a policy to change all classes to math?" with dissolve
     scene black with Dissolve(1.0)

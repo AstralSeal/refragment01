@@ -78,7 +78,7 @@ label s1_3:
     voice "audio/voice/reika/chapter1/chapter1_3/reika_1_3_005.mp3"
     show excited
     reika_th angrymeme2_2 "ก็เพราะว่าเวลานายพูดแล้วมันจะทำให้คนอื่นเข้าใจผิดไงเล่า!" with dissolve
-    reika_en angrymeme2_2 "That's because when you talk about it, it makes others misunderstand!" with dissolve
+    reika_en angrymeme2_2 "That's precisely why, when you open your mouth, you always end up causing misunderstandings!" with dissolve
     hide excited
     yuma_th  "แต่ความสัมพันธ์ของพวกเรามันก็เป็นแบบนั้นไม่ใช่หรือไง แบบที่ทำให้เห็นไฝที่ก้นน่ะ" with dissolve
     yuma_en  "But isn't our relationship like that? The kind where I can see the mole on your butt?" with dissolve
@@ -147,8 +147,8 @@ label s1_3:
     student_m_b_en  "I told you, someone like Yuuma could never date an angel like the student council president." with dissolve
     yuma_th  "เดี๋ยวนะ คิดว่าคนอย่างฉันไม่มีปัญญาคบกับเรกะงั้นเหรอ" with dissolve
     yuma_en  "Wait a minute, you think someone like me doesn't have what it takes to date Reika?" with dissolve
-    everyone_th  "ใช่" with dissolve
-    everyone_en  "Yes." with dissolve
+    everyone_th  "ใช่!!!" with dissolve
+    everyone_en  "Yes!!!" with dissolve
     yuma_th  "ทีแบบนี้สามัคคีกันเชียว ตอบเป็นเสียงเดียวกันอีก!?" with dissolve
     yuma_en  "Now you're all in agreement!?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_3/reika_1_3_013.mp3"
@@ -255,10 +255,10 @@ label s1_3:
     yuma_th  "สมาชิกสภานักเรียนก็ง่วงเป็นเหมือนกันนะ" with dissolve
     yuma_en  "Even student council members get sleepy, you know." with dissolve
     yuma_th  "ช่วยไม่ได้ ถ้างั้นเดี๋ยวฉันเเอบงีบคาบต่อไปแทนก็แล้วกัน" with dissolve
-    yuma_en  "Can't be helped. Then I'll take a nap during the next period instead." with dissolve
+    yuma_en  "It can't be helped. I'll take a nap during the next period instead." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_3/reika_1_3_019.mp3"
     reika_th angry2_2 "ไม่ได้!" with dissolve
-    reika_en angry2_2 "No way!" with dissolve
+    reika_en angry2_2 "Don't do that!" with dissolve
     yuma_th  "แล้วฉันจะต้องแอบหลับคาบไหนละเนี่ย" with dissolve
     yuma_en  "Then when am I supposed to sneak in a nap?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_3/reika_1_3_020.mp3"
@@ -288,7 +288,7 @@ label s1_3:
     show risa normal at center with Dissolve(1.0) 
     voice "audio/voice/risa/chapter1/chapter1_3/risa_1_3_006.mp3"
     risa_th serious "ไม่ต้องเถียงกันแล้ว ถ้างั้นไหนคุซากะลองตอบคำถามข้อต่อไปหน่อยสิ" with dissolve
-    risa_en serious "Stop arguing. Well then, Kusaka-san, why don't you answer the next question?" with dissolve
+    risa_en serious "Stop arguing. Well then, why don't you answer the next question?" with dissolve
     yuma_th  "เอ๊ะ อะ ครับ" with dissolve
     yuma_en  "Eh? Ah, yes ma'am." with dissolve
     hide risa
@@ -298,11 +298,11 @@ label s1_3:
     yuma_th  "เรกะ เฮลป์มีพลีส" with dissolve
     yuma_en  "Reika, help me please." with dissolve
     th "ผมส่งสายตาขอความช่วยเหลือ แต่เรกะเบือนหน้านี้ ทำหน้าไม่รู้ไม่ชี้" with dissolve
-    en "I send a pleading look, but Reika turns away, pretending not to notice." with dissolve
+    en "I give her a pleading look, but Reika deliberately turns away, acting as if she didn't see." with dissolve
     hide reika
     show reika normal at center with Dissolve(1.0) 
     th "ขืนบอกไปตรงๆ ว่าเมื่อกี้หลับอยู่คงไม่ดีแน่ ลองเดาดีกว่า โอกาสตอบถูกคือ 1 ใน 4" with dissolve
-    en "It wouldn't be good to say I was sleeping just now. I'll guess instead. The chance of getting it right is 25\%." with dissolve
+    en "It wouldn't be wise to admit that I was just sleeping. I'll take a guess instead. The chance of getting it right is 25\%." with dissolve
     yuma_th  "ตอบช้อยส์ 2 ครับ" with dissolve
     yuma_en  "The answer is choice 2." with dissolve
     show reika normal at zoom_in,center with Dissolve(1.0) 
@@ -318,7 +318,7 @@ label s1_3:
     risa_en angry "What 'choice 2' are you talking about? This is a fill-in-the-blank exercise." with dissolve
     voice "audio/voice/risa/chapter1/chapter1_3/risa_1_3_008.mp3"
     risa_th  "แสดงว่าเมื่อกี้ไม่ได้ฟังที่ครูสอนเลยสินะ ดังนั้นคุณคุซากะ เธอทำรายงานสรุปบทเรียนวันนี้มาส่งครูภายในวันพรุ่งนี้ด้วย" with dissolve
-    risa_en  "So you weren't listening to what I was teaching at all, were you? Therefore please submit a report summarizing today's lesson to me by tomorrow." with dissolve
+    risa_en  "Oh, so you weren't paying attention to a single word I said, were you? You need to submit a report summarizing today's lesson to me by tomorrow!" with dissolve
     yuma_th  "เข้าใจแล้วครับ…" with dissolve
     yuma_en  "I understand, ma'am..." with dissolve
     hide risa

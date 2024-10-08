@@ -53,7 +53,7 @@ label s2_4:
     risa_th  "ไม่ว่าจะดูยังไงมันก็เป็นการ์ตูนลามกชัดๆ เลย" with dissolve
     risa_en  "No matter how you look at it, this is clearly just lewd manga." with dissolve
     yuma_th  "พูดอะไรแบบนั้นครับ ผมแค่นำเสนอรายงานในรูปแบบการ์ตูนเพื่อให้น่าสนใจยิ่งขึ้น" with dissolve
-    yuma_en  "What are you saying, Risa-sensei? I merely presented the report in manga format to make it more engaging." with dissolve
+    yuma_en  "What are you saying, sensei? I merely presented the report in manga format to make it more engaging." with dissolve
     yuma_th  "ถึงจะเป็นการ์ตูนแบบนี้ แต่ผมใส่เนื้อหาที่อาจารย์สอนในคาบเรียนเมื่อวานครบถ้วนทุกหัวข้อเลยนะครับ" with dissolve
     yuma_en  "It may be manga, but I included every single topic you covered in yesterday's lesson." with dissolve
     yuma_th  "อย่างเช่นขั้นตอนการแบ่งเซลล์จากไมโครสปอร์ไปเป็นละอองเรณู ก็มีภาพประกอบทั้งขั้นตอน Meiosis และ Mitosis" with dissolve
@@ -63,11 +63,11 @@ label s2_4:
     risa_en question "The problem isn't with the content. The problem is with the pictures you drew!" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_008.mp3"
     risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า 'ฉันจะต้องผสมเกสรให้ได้!' เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
-    risa_en angry "They're way too obscene, especially the part where the pollen says 'I must pollinate at all costs!' It's clearly the work of a pervert!" with dissolve
+    risa_en angry "They're way too obscene! especially the part where the pollen says 'Please inseminate... I mean, pollinate me.' It's clearly a pervert!" with dissolve
     yuma_th  "ครูคิดมากเกินไปแล้ว ประโยคนี้มีไว้เพื่อแสดงให้ผู้อ่านเข้าใจถึงหน้าที่ของระอองเรณูครับ" with dissolve
-    yuma_en  "You're overthinking it. That line is there to help the reader understand the role of pollen grains." with dissolve
+    yuma_en  "You're overthinking it. That line helps the reader understand the role of pollen grains." with dissolve
     yuma_th  "อีกอย่าง ตัวละครในการ์ตูนเป็นพืช มันมีต้นไม้โรคจิตแบบที่ครูว่ามาด้วยอย่างนั้นเหรอครับ" with dissolve
-    yuma_en  "Besides, the characters in the manga are plants. Are there really psycho trees like what you're suggesting?" with dissolve
+    yuma_en  "Besides, the characters in the manga are plants. Are there really lewd plants exist in the world?" with dissolve
     yuma_th  "หรือว่า… อาจารย์โสดมานานแล้ว เลยอิจฉาออวุลที่มีตัวผู้มาจีบกันครับ" with dissolve
     yuma_en  "Or maybe... you've been single so long that you're jealous of the ovules getting hit on." with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_009.mp3"
@@ -107,7 +107,7 @@ label s2_4:
     hide fertilization_censor with dissolve
     show angry
     risa_th angry "แต่ไม่ใช่ในรูปแบบการ์ตูนลามกแบบนี้!" with dissolve
-    risa_en angry "But not in the form of this lewd manga!" with dissolve
+    risa_en angry "But not in the form of lewd manga!" with dissolve
     hide angry
     th "อ้าว ไหงเป็นงั้น ผมอุตส่าห์ตั้งใจทำอย่างสุดฝีมือเลยนะ" with dissolve
     en "Huh? Why not? I went to such great lengths to make this." with dissolve
@@ -117,9 +117,9 @@ label s2_4:
     risa_en ah "Oh well. At least it shows you understood what I taught. Don't fall asleep in my class again, okay?" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_015.mp3"
     risa_th  "จะว่าไป มีอีกอย่างที่ครูอยากฝากเธอดูแล" with dissolve
-    risa_en  "By the way, there's something else I wanted to ask you to look after." with dissolve
+    risa_en  "By the way, there is something else I wanted to ask you to look after." with dissolve
     yuma_th  "เรื่องอะไรหรอครับ ถ้าให้ดูแลครูริสะที่ไม่มีใครคอยดูแลตอนแก่เพราะยังหาแฟนไม่ได้จนแก่ ผมคงต้องขอปฏิเสธล่วงหน้านะครับ" with dissolve
-    yuma_en  "What is it? If it's looking after you, Risa-sensei, in your old age after failing to find a boyfriend...I'm going to have to refuse in advance." with dissolve
+    yuma_en  "What is it? If you're asking me to take care of you when you're older because you couldn't find a boyfriend, I'll have to decline in advance." with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_016.mp3"
     show angry
     risa_th angry "ครูก็ไม่อยากเจอหน้าเด็กอย่างเธอไปจนแก่หรอกย่ะ" with dissolve
@@ -127,7 +127,7 @@ label s2_4:
     hide angry
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_017.mp3"
     risa_th serious "ครูอยากให้เธอช่วยดูแลเรกะหน่อย" with dissolve
-    risa_en serious "I want you to stand with Reika." with dissolve
+    risa_en serious "I want you to take care of Reika." with dissolve
     yuma_th  "เรกะเหรอครับ" with dissolve
     yuma_en  "Reika?" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_018.mp3"
@@ -143,7 +143,7 @@ label s2_4:
     risa_th  "เพราะแบบนี้ ฝากเตือนเด็กคนนั้นด้วยนะ ดูเหมือนว่าเด็กคนนั้นฟังเธอคนเดียว" with dissolve
     risa_en  "So keep an eye on her, okay? It seems like you're the only one that girl really listens to." with dissolve
     yuma_th  "ครับ ถ้ามีอะไรเกิดขึ้นผมจะปกป้องเรกะเอง ทั้งในฐานะสมาชิกสภานักเรียนและเพื่อนสมัยเด็ก" with dissolve
-    yuma_en  "Got it. If anything happens, I'll protect Reika myself, both as a student council member and childhood friend." with dissolve
+    yuma_en  "Got it. If anything happens, I'll protect Reika, both as a student council member and childhood friend." with dissolve
     hide risa
     hide fertilization_censor
     show border with dissolve

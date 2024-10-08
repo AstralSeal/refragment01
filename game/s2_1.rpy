@@ -119,7 +119,7 @@ label s2_1:
     th "ยูโนะพูดด้วยท่าทีขี้เล่น ดวงตาเป็นประกาย" with dissolve
     en "Yuno says playfully, her eyes sparkling." with dissolve
     yuma_th  "พี่ไม่ใช่นางเอกการ์ตูนตาหวานสักหน่อย" with dissolve
-    yuma_en  "I'm not some wide-eyed anime heroine." with dissolve
+    yuma_en  "No way! That's a very common anime trope, isn't it?" with dissolve
     play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_014.mp3"
     yuno_c_th crymeme2 "ชิ พี่ไม่รักหนูแล้วใช่มั้ย หนูอุตส่าห์เตรียมอาหารเช้าไว้แล้ว" with dissolve
     yuno_c_en crymeme2 "Hmph. Don't you love me anymore? I even prepared breakfast for you." with dissolve
@@ -207,16 +207,16 @@ label s2_1:
     th "อิวาโนะ อากาเนะ กรรมการฝ่ายระเบียบวินัย เธออยู่มัธยมปลายชั้นปีหนึ่ง" with dissolve
     en "Iwano Akane, member of the Disciplinary Committee. She's a first-year high school student." with dissolve
     th "ทำหน้าที่สอดส่องดูแลความเรียบร้อยภายในโรงเรียน" with dissolve
-    en "She adheres strictly to every single rule." with dissolve
+    en "Her role involves supervising and ensuring order within the school." with dissolve
     th "เธอเป็นยึดมั่นในกฎระเบียบตามตัวอักษรทุกกระเบียดนิ้ว" with dissolve
-    en "She adheres strictly to every letter of the rules." with dissolve
-    th "ถ้าเห็นคนทำผิดกฎก็จะพุ่งเข้าไปตักเตือนทันที ไม่ว่าอีกฝ่ายเป็นใครก็ตาม" with dissolve
-    en "If she sees anyone breaking a rule, she'll rush over to scold them, no matter who they are." with dissolve
+    en "She strictly obeys the letter of the law." with dissolve
+    th "ถ้าอากาเนะเห็นคนทำผิดกฎ เธอจะเข้าไปตักเตือนทันทีโดยไม่สนใจว่าอีกฝ่ายเป็นใครก็ตาม" with dissolve
+    en "If she sees someone breaking a rule, she will immediately scold them, regardless of who they are." with dissolve
     th "แม้กระทั่งรุ่นพี่ปีสองและปีสามต่างก็เกรงกลัวและยอมสยบให้กับเธอ" with dissolve
-    en "Even second and third-year students fear and submit to her." with dissolve
+    en "Her straitlaced demeanor terrifies the second-year and third-year students." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_005.mp3"
     akane_th  "รุ่นพี่ยูมะ พอไม่มีงานสภานักเรียนก็มาสายเลยนะ!" with dissolve
-    akane_en  "Yuuma-senpai, when there's no student council work, you're late!" with dissolve
+    akane_en  "Yuuma-senpai, how dare you come in late?!" with dissolve
     th "อากาเนะตะโกนเสียงดังลั่น นักเรียนทุกคนที่อยู่บริเวณหน้าโรงเรียนต่างมองมาที่พวกเรา" with dissolve
     en "Akane shouts loudly. Every student at the school entrance turns to look at us." with dissolve
     yuma_th  "อากาเนะ ใจเย็นๆ ก่อน" with dissolve
@@ -248,7 +248,7 @@ label s2_1:
     akane_en  "Good grief. Lately, the male students seem to think wearing a loose tie looks cool." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_011.mp3"
     akane_th serious "เสื้อผ้าที่ไม่เรียบร้อยเปรียบเสมือนจิตใจที่ยุ่งเหยิง" with dissolve
-    akane_en serious "Untidy clothes reflect a chaotic mind." with dissolve
+    akane_en serious "The state of your clothes reflects the state of your mind." with dissolve
     play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_012.mp3"
     akane_th  "รุ่นพี่เป็นสมาชิกสภานักเรียน ต้องเป็นตัวอย่างที่ดีให้กับนักเรียนคนอื่นสิ" with dissolve
     akane_en  "You're a member of the student council. You should set a good example for other students." with dissolve
@@ -260,11 +260,11 @@ label s2_1:
     akane_th angry "ไม่ต้อง เดี๋ยวฉันจะผูกให้เอง" with dissolve
     akane_en angry "No need, I'll tie it for you." with dissolve
     th "เอ๊ะ วันนี้มาแปลกนะเนี่ย" with dissolve
-    en "Huh? This is unusual." with dissolve
+    en "Huh? This is weird." with dissolve
     th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้ ...ไม่อยากเชื่อเลย" with dissolve
-    en "The super-strict disciplinary committee member Akane is going to tie my tie? ...Impossible" with dissolve
+    en "Akane, the super-strict disciplinary committee member, is going to tie my tie for me? ...Impossible" with dissolve
     th "ไอ้นั่นสินะ ที่เขาเรียกกันว่าแฟนเซอร์วิส" with dissolve
-    en "Isn't this what they call fan service?" with dissolve
+    en "Isn't this what they call 'fan service'?" with dissolve
     yuma_th  "เธอผูกเนคไทเป็นด้วยเหรอเนี่ย" with dissolve
     yuma_en  "Do you even know how to tie a tie?" with dissolve
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_014.mp3"
@@ -321,7 +321,7 @@ label s2_1:
     th "พอพูดจบ อากาเนะก็วิ่งไปขวางนักเรียนที่มาสาย" with dissolve
     en "As soon as she finishes speaking, Akane runs to block the late student." with dissolve
     th "ขืนอยู่ต่อผมอาจจะโดนลูกหลงไปด้วย ด้วยเหตุนี้ผมจึงอาสัยจังหวะชุลมุนรีบเดินเข้าอาคารเรียน" with dissolve
-    en "If I stay any longer, I might get caught in the crossfire. So, I take advantage of the commotion to quickly enter the school building." with dissolve
+    en "If I stay any longer, I might get caught in the crossfire, so I'll take advantage of the commotion to quickly enter the school building." with dissolve
     scene black with Dissolve(1.0)
     jump s2_2
     return

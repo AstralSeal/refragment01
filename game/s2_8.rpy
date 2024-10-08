@@ -43,7 +43,7 @@ label s2_8:
     yuma_en  "Anyway, I'll help you study later. Let me take a shower first." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_005.mp3"
     yuno_c_th smile4 "เย้ รักพี่ที่สุดเลย" with dissolve
-    yuno_c_en smile4 "Yay! I love you so much, big bro!" with dissolve
+    yuno_c_en smile4 "Yay! I love you so much, Onii-chan!" with dissolve
     th "ยูโนะเดินไปที่ห้องรับแขกด้วยความดีใจ" with dissolve
     en "Yuno happily walked to the living room." with dissolve
     hide yuno_c
@@ -58,7 +58,7 @@ label s2_8:
     th "เท่าที่ลองกวาดสายตาดูเนื้อหาที่ยูโนะเรียนตอนนี้เป็นเนื้อหาเกี่ยวกับการแก้สมการกำลังสอง" with dissolve
     en "As I glanced over the material Yuno was studying, I saw it was about solving quadratic equations." with dissolve
     th "ของแค่นี้ไม่ยาก เดี๋ยวพี่ชายคนนี้จัดให้!" with dissolve
-    en "This isn't too difficult. Your big brother will take care of it!" with dissolve
+    en "This isn't too difficult. Your Onii-chan will take care of it!" with dissolve
     yuma_th  "ก่อนอื่น ลองทำแบบฝึกหัดก่อนเรียนเพื่อทดสอบความรู้กันก่อนนะ" with dissolve
     yuma_en  "First, let's a quick placement test to gauge your knowledge." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_006.mp3"
@@ -138,7 +138,7 @@ label s2_8:
     yuno_c_en smile_2 "Here it is. I just learned it today. How's that?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_015.mp3"
     yuno_c_th confident_2 "เชื่อหนูสิ หนูเป็นเทพวิชาคณิตศาสตร์" with dissolve
-    yuno_c_en confident_2 "Trust me, I'm a math genius." with dissolve
+    yuno_c_en confident_2 "Trust me, I'm an unrivaled master of mathematics." with dissolve
     th "ยูโนะพูดด้วยสีหน้ามั่นใจเต็มพิกัดเหมือนตอนกดกาชาได้ SSR" with dissolve
     en "Yuno spoke with full confidence, like when she gets an SSR in a gacha pull." with dissolve
     th "แต่น่าเสียดายที่ความมั่นใจไม่ได้ช่วยให้ตอบถูก" with dissolve
@@ -193,7 +193,7 @@ label s2_8:
     yuma_en  "If you can solve this exercise, I'll treat you to two strawberry puddings!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_018.mp3"
     yuno_c_th smile_2 "สองถ้วยเลยเหรอ?! เย้ พี่ใจดีที่สุด เริ่มข้อแรกเลย Let's go!" with dissolve
-    yuno_c_en smile_2 "Two puddings?! Yay! You're the best, big bro! Let's start with the first problem. Let's go!" with dissolve
+    yuno_c_en smile_2 "Two puddings?! Yay! You're the best, Onii-chan! Let's start with the first problem. Let's go!" with dissolve
     th "การสร้างแรงจูงใจภายนอกอย่างของรางวัลได้ผลดีผิดคาด" with dissolve
     en "Creating extrinsic motivation through rewards worked surprisingly well." with dissolve
     hide yuno_c
@@ -273,7 +273,7 @@ label s2_8:
     show yuno_c normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_022.mp3"
     yuno_c_th angry_2 "พี่นี่ความรู้สึกช้าจังเลย ก็ตามที่เห็นนั่นแหละ " with dissolve
-    yuno_c_en angry_2 "Big bro, you're so slow to understand. It's exactly what you see." with dissolve
+    yuno_c_en angry_2 "Onii-chan, you're so slow to understand. It's exactly what you see." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_023.mp3"
     yuno_c_th  "สมการของพี่ไม่เห็นแยกตัวประกอบได้เลย แล้วจะไปทำได้ไงเนี่ย?" with dissolve
     yuno_c_en  "I couldn't factor your equation at all. How am I supposed to solve it?" with dissolve
@@ -286,8 +286,8 @@ label s2_8:
     yuma_en  "The formula isn't that hard. It's just this. Here, look." with dissolve
     hide sleep_note03
     show blackboard2 with dissolve
-    yuma_th  "แค่เอาเลขที่อยู่ข้างหน้าตัวแปร X มาแทนเป็น a, b, c ในสูตรก็จบแล้ว" with dissolve
-    yuma_en  "Just substitute the numbers in front of the X variable for a, b, c in the formula, and you're done." with dissolve
+    yuma_th  "แค่เอาเลขที่อยู่ข้างหน้าตัวแปร x มาแทนเป็น a, b, c ในสูตรก็จบแล้ว" with dissolve
+    yuma_en  "Just substitute the numbers in front of the x variable for a, b, c in the formula, and you're done." with dissolve
     yuma_th  "จำสูตรแค่นี้ไม่เห็นยากเลย ทีไอเท็มในเกมมีเป็นร้อยยังจำได้" with dissolve
     yuma_en  "Remembering this formula isn't hard at all. You can remember hundreds of items in games." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_8/yuno_2_8_025.mp3"

@@ -424,17 +424,17 @@ label s2_10:
     yuno_p_th ah_2 "สูตรนี้หนูจำได้แล้ว แต่ไม่รู้ว่ามันจะใช้ยังไงนะสิ ก็ตัวหลังในสูตรมันต้องเป็นบวกไม่ใช่เหรอ แต่ในโจทย์ข้อนี้มันเป็นลบนี่นา แบบนี้จะใช้สูตรได้จริงๆ เหรอ" with dissolve
     yuno_p_en ah_2 "I remember this formula, but I don't know how to use it. Doesn't the last term in the formula have to be positive? But in this problem, it's negative. Can we really use the formula like this?" with dissolve
     yuma_th  "สาเหตุที่เป็นลบอยู่ ก็เพราะมันยังไม่ใช่พจน์ที่แท้จริงยังไงล่ะ เราจะต้องมาจัดรูปก่อน" with dissolve
-    yuma_en  "The reason it's negative is because it's not the true term yet. We need to rearrange it first." with dissolve
+    yuma_en  "Yes, that's the reason why we need to rearrange it first." with dissolve
     hide yuma_sensei04
     show yuma_sensei05 with dissolve
     yuma_th  "เริ่มจากย้าย -27 ไปไว้อีกฝั่ง จะได้…" with dissolve
-    yuma_en  "Let's start by moving -27 to the other side, we'll get..." with dissolve
+    yuma_en  "Let's start by adding -27 to both sides of the equation. Then, we'll get..." with dissolve
     yuma_th  "จากนั้นก็จัดรูปกำลังสองสมบูรณ์ที่ด้านซ้าย " with dissolve
-    yuma_en  "Then we arrange the perfect square on the left side." with dissolve
+    yuma_en  "Then we arrange the perfect square on the left side of the equation." with dissolve
     hide yuma_sensei05
     show yuma_sensei06 with dissolve
     yuma_th  "โดยที่ตัวหน้าก็คือ x ส่วนตัวหลังเรายังไม่รู้ก็ติดเอาไว้ก่อน" with dissolve
-    yuma_en  "Where the first term is x, and for the second term, we don't know yet, so we'll leave it for now." with dissolve
+    yuma_en  "The first term is x. For the second term, we don't know yet, so we'll leave it for now." with dissolve
     hide yuma_sensei06
     show yuma_sensei07 with dissolve
     yuma_th  "โดยเราจะหาตัวหลังจากตรงกลางนี้นี่แหละ" with dissolve
@@ -446,25 +446,23 @@ label s2_10:
     yuno_p_en ah "Multiply by 13, of course." with dissolve
     hide yuma_sensei07
     show yuma_sensei08 with dissolve
-    yuma_th  "ใช่แล้วตัวหลังก็คือ 13 ไง ทีนี้เราก็เอา 13 เข้าไปแทนในสูตรได้ " with dissolve
+    yuma_th  "ใช่แล้วตัวหลังก็คือ 13 ไง ทีนี้เราก็เอา 13 เข้าไปแทนในสูตรได้" with dissolve
     yuma_en  "That's right, the second term is 13. Now we can substitute 13 into the formula." with dissolve
     hide yuma_sensei08
     show yuma_sensei09 with dissolve
-    yuma_th  "หรือก็คือ" with dissolve
-    yuma_en  "Or in other words:" with dissolve
     yuma_th  "แต่เพราะเราบวก 169 ไปข้างนึงก็เลยต้องบวก 169 ที่อีกข้างด้วยจะได้เท่ากัน" with dissolve
-    yuma_en  "But because we added 169 to one side, we need to add 169 to the other side to keep it equal." with dissolve
+    yuma_en  "Because we already added 169 to the left side, we need to add 169 to the right side to keep it equal." with dissolve
     hide yuma_sensei09
     show yuma_sensei10 with dissolve
-    th "เราก็จัดฝั่งซ้ายตามสูตรกำลังสองสมบูรณ์ " with dissolve
-    en "We arrange the left side according to the perfect square formula." with dissolve
+    th "เราก็จัดฝั่งซ้ายตามสูตรกำลังสองสมบูรณ์" with dissolve
+    en "Now, we arrange the left side according to the perfect square formula." with dissolve
     hide yuma_sensei10
     show yuma_sensei11 with dissolve
     th "หรือก็คือแบบนี้" with dissolve
     en "Or like this:" with dissolve
     hide yuma_sensei11
     show yuma_sensei12 with dissolve
-    th "จากนั้นก็ถอดสแควรูท สองข้าง" with dissolve
+    th "จากนั้นก็ถอดสแควรูทสองข้าง" with dissolve
     en "Then we take the square root of both sides." with dissolve
     hide yuma_sensei12
     show yuma_sensei13 with dissolve
@@ -476,9 +474,9 @@ label s2_10:
     show yuno_p normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_039.mp3"
     yuno_p_th confuse "ตอนแรกก็ตามทันอยู่หรอก แต่หลังจากนั้นเริ่มงงแล้ว เลขมาจากไหนเต็มไปหมด" with dissolve
-    yuno_p_en confuse "At first, I could follow, but after that, I started getting confused. Where are all these numbers coming from?" with dissolve
+    yuno_p_en confuse "At first I could follow, but after that I started getting confused. Where are all these numbers coming from?" with dissolve
     yuma_th  "สมการที่ยกตัวอย่างเมื่อกี้นี้เป็นวิธีหนึ่ง ถ้ายูโนะไม่เข้าใจ พี่คิดหาวิธีใหม่ที่เหมาะกับยูโนะมาแล้วล่ะ" with dissolve
-    yuma_en  "The equation I just showed is one method. If you don't understand, Yuno, I've thought of a new method that might suit you better." with dissolve
+    yuma_en  "The equation I just showed is one method. If you don't understand, I've thought of a new method that might suit you better." with dissolve
     yuma_th  "ถ้าเราเห็นสมการคณิตศาสตร์เหล่านี้เป็นภาพ เราจะทำความเข้าใจได้ง่ายกว่ากันเยอะเลย" with dissolve
     yuma_en  "If we see these mathematical equations as images, it will be much easier to understand." with dissolve
     hide yuma_sensei13
@@ -524,7 +522,7 @@ label s2_10:
     show yuno_p normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_040.mp3"
     yuno_p_th wow "สุดยอดเลยพี่ เห็นภาพชัดเจนกว่าวิธีแรกเยอะเลย ตอนนี้เริ่มเข้าใจแล้วล่ะ" with dissolve
-    yuno_p_en wow "That's amazing, brother! It's much clearer than the first method. I'm starting to understand now." with dissolve
+    yuno_p_en wow "That's amazing, Onii-chan! It's much clearer than the first method. I'm starting to understand now." with dissolve
     yuma_th  "แน่นอน นี่เป็นวิธีการสอนที่เตรียมไว้เพื่อยูโนะโดยเฉพาะเลยนะ ขอเรียกว่าสูตร Completing the square ก็แล้วกัน" with dissolve
     yuma_en  "Of course, this is a teaching method I prepared specifically for you, Yuno. Let's call it the 'Completing the square' formula." with dissolve
     th "เป็นไงล่ะ ชื่อเท่ใช่มั้ยล่ะ" with dissolve
@@ -546,7 +544,7 @@ label s2_10:
     yuno_p_th onegai "แล้วก็…ขอโทษเรื่องเมื่อวานด้วย" with dissolve
     yuno_p_en onegai "And... sorry about yesterday." with dissolve
     yuma_th  "หึๆ แสดงว่าแผนคณิตพิชิตใจของพี่สำเร็จสินะ" with dissolve
-    yuma_en  "Heh, so my math plan to win your heart succeeded, huh?" with dissolve
+    yuma_en  "Yay, my 'conquer your heart with the romance of equations' plan is succeeded, huh?" with dissolve
     show yuno_p normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_045.mp3"
     yuno_p_th angry_2 "ยังไม่สำเร็จซักหน่อย พี่ต้องตอบมาก่อนว่าทำไมถึงทิ้งหนูให้อยู่บ้านคนเดียวแล้วออกไปเที่ยวไหนก็ไม่รู้อยู่คนเดียว" with dissolve
@@ -555,9 +553,9 @@ label s2_10:
     yuma_en  "What do you mean 'went out'? Don't you remember what day it is today?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_046.mp3"
     yuno_p_th blank_2 "หนูไม่สนใจวันครบรอบที่พี่ไม่สไลด์หนอนมาหนึ่งสัปดาห์หรืออะไรแบบนั้นหรอกนะ" with dissolve
-    yuno_p_en blank_2 "I don't care about the anniversary of you not sliding like a worm for a week or something like that." with dissolve
+    yuno_p_en blank_2 "I'm not interested in celebrating your week-long break from self-pleasure or anything like that." with dissolve
     yuma_th  "ใช่ที่ไหนเล่า วันนี้มีงานเกมที่เธอเล่นไม่ใช่หรือไง" with dissolve
-    yuma_en  "That's not it. Isn't there an event for that game you play today?" with dissolve
+    yuma_en  "That's not it. Isn't there a Seal Impact special offline event for today?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_047.mp3"
     yuno_p_th angry_2 "เอ๋! แบบนี้พี่ก็แอบไปเที่ยวกับสาวมานะสิ" with dissolve
     yuno_p_en angry_2 "Eh! So you went out with a girl, didn't you?" with dissolve
@@ -569,7 +567,7 @@ label s2_10:
     yuma_th  "ได้มาสิ รู้หรือเปล่าว่ากว่าจะได้มา โดนหักคะแนนไปเพียบเลย" with dissolve
     yuma_en  "Of course I did. Do you know how many points I lost to get it?" with dissolve
     th "ยูโนะเอียงคอถามด้วยความสงสัยราวกับอยากถามว่าคะแนนอะไร" with dissolve
-    en "Yuno tilted her head in confusion, as if wanting to ask what points." with dissolve
+    en "Yuno tilted her head in confusion, as if wanting to ask what is points." with dissolve
     yuma_th  "ช่างมันเถอะ เอ้านี่ รับไปสิ ถือว่าเป็นรางวัลที่พยายามตั้งใจเรียนด้วย" with dissolve
     yuma_en  "Never mind. Here, take it. Consider it a reward for studying hard." with dissolve
     th "ผมส่งตุ๊กตาแมวน้ำพรหมลิขิต limited edition ที่ได้มาด้วยความยากลำบากให้ยูโนะ" with dissolve
@@ -580,7 +578,7 @@ label s2_10:
     yuno_p_en smile4 "Yay! I love you the most in the world, Yuuma!" with dissolve
     hide heart
     th "รอยยิ้มของยูโนะเป็นสิ่งที่เลอค่ามากๆ ผมสัญญาว่าจะรักษารอยยิ้มนี้ไว้ไม่ให้จางหายไป" with dissolve
-    en "Yuno's smile is incredibly precious. I promise to keep this smile from fading away." with dissolve
+    en "Yuno's smile is incredibly precious. I promise to keep this smile forever." with dissolve
     hide yuno_p
     th "ยูโนะสุขภาพไม่แข็งแรง ด้วยเหตุนี้จึงต้องอาศัยอยู่แต่ในบ้าน" with dissolve
     en "Yuno is not in good health, so she has to stay at home." with dissolve
@@ -599,7 +597,7 @@ label s2_10:
     show yuno_p normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_050.mp3"
     yuno_p_th ah_2 "แต่หนูไม่คิดเลยนะว่าพี่จะหามาได้จริงๆ" with dissolve
-    yuno_p_en ah_2 "But I never thought you'd actually get it, brother." with dissolve
+    yuno_p_en ah_2 "But I never thought you'd actually get it, Onii-chan." with dissolve
     yuma_th  "ไหนตอนนั้นบอกว่าถ้าเป็นพี่ละก็แค่แป๊ปเดียวก็สร้างฮาเร็มได้แล้วไง" with dissolve
     yuma_en  "Didn't you say earlier that if it was you, you could build a harem in no time?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_051.mp3"
