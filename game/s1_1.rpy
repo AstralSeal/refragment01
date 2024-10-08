@@ -31,7 +31,7 @@ label s1_1:
     show reika_hand03 with Dissolve(1.0)
     voice "audio/voice/reika/chapter1/chapter1_1/reika_1_1_001.mp3"
     reika_th  "ขอโทษนะที่เรียกมาตอนเย็นแบบนี้"
-    reika_en  "Sorry for calling you here so late," with dissolve
+    reika_en  "Sorry for calling you here so late." with dissolve
     th "เธอพูดด้วยน้ำเสียงอ่อนหวานละมุนหู แตกต่างจากปกติที่แข็งกร้าวและดุดัน" with dissolve
     en "She said gently, different from her usual fierce tone." with dissolve
     hide reika_show03

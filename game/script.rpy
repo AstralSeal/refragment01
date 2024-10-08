@@ -12,6 +12,7 @@ init python:
     achievement.register("START_CH02")
     achievement.register("CHOICE_CH02_CORRECTANSWER")
     achievement.register("CHOICE_CH02_WRONGANSWER")
+    achievement.register("END_DEMO")
 
     def get_agree_text():
         if persistent.language == "eng":
