@@ -12,6 +12,7 @@ init python:
     achievement.register("START_CH02")
     achievement.register("CHOICE_CH02_CORRECTANSWER")
     achievement.register("CHOICE_CH02_WRONGANSWER")
+    achievement.register("END_DEMO")
 
     def get_agree_text():
         if persistent.language == "eng":
@@ -31,7 +32,7 @@ init python:
     
     def get_2_6_choice1():
         if persistent.language == "eng":
-            return "Can I touch your boobs, Sempai Maya?"
+            return "Please let me touch your melons"
         elif persistent.language == "thai":
             return "ผมขอจับหน่มน๊มของรุ่นพี่มายะได้ไหมครับ"
         else:
@@ -39,7 +40,7 @@ init python:
 
     def get_2_6_choice2():
         if persistent.language == "eng":
-            return "Could you wrap your legs around my neck?"
+            return "Please wrap your legs around my neck"
         elif persistent.language == "thai":
             return "ช่วยเอาต้นขามารัดคอผมหน่อยได้ไหมครับ"
         else:
@@ -111,7 +112,7 @@ define staff_th = Character("พนักงาน" , color="#F0F8FF", who_outli
 define speaker_th = Character("พิธีกร" , color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 ################## ENg####################
 
-define yuma_en = Character("Yuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
+define yuma_en = Character("Yuuma", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define yuno_0_en = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define flying_seal_en = Character("Flying Seal Vending Machine ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 
@@ -180,6 +181,19 @@ image fb3_5 = im.Scale("cg/fb3_5.png",1920,1080)
 image fb3_6 = im.Scale("cg/fb3_6.png",1920,1080)
 image cg3 = im.Scale("cg/cg3.png",1920,1080)
 
+label endding:
+    $ achievement.grant("END_DEMO")
+    $ achievement.sync()
+    $ renpy.block_rollback()
+    stop music
+    $renpy.pause(1, hard=True)
+    scene white with Dissolve(2.0)
+    $ renpy.block_rollback()
+    play movie "ending2.mp4"
+    $renpy.pause(65, hard=True)
+    $ renpy.end_replay()
+    jump s2_11
+    return
 
 # image reika normal :
 #     zoom 0.75
@@ -218,10 +232,6 @@ label splashscreen:
     pause 2
     scene warning with Dissolve(1.0)
     pause 2
-    # if persistent.true_end_pass == True:
-    #     jump title2
-    # if persistent.common_end_pass == True:
-    #     jump title3
     $ achievement.grant("START_GAME")
     $ achievement.sync()
     jump title1
@@ -375,6 +385,12 @@ image sunset4 = im.Scale("bg/sunset4.png",1920,1080)
 transform zoom_in:
     zoom 1.5
     yoffset 420
+transform left_50:
+    xoffset 50
+transform emotion_zoom:
+    yoffset -50
+    xoffset 100
+
 
 transform zoom_in_yuno:
     zoom 1.5
@@ -451,6 +467,9 @@ image laught:
     "emotion/laught2.png"
     pause 0.5
     repeat
+transform offset_laught:
+    xoffset 30
+
 
 image panic:
     "emotion/panic1.png"
@@ -532,9 +551,13 @@ screen map_screen:
             action [Hide("map_screen"),Jump("s2_4_risa")]
     else:
         imagebutton idle "risa_choice_disable"
-
 label mall_map:
+    $ preferences.afm_enable = False
+    $ old_afm_time = renpy.game.preferences.afm_time
+    $ renpy.game.preferences.afm_time = 0
+    
     if akane_mall_pass and reika_mall_pass and kazuma_mall_pass and risa_mall_pass:
+        $ renpy.game.preferences.afm_time = old_afm_time
         jump s2_4_2
 
     $ renpy.config.skipping = False
@@ -543,3 +566,4 @@ label mall_map:
     show screen map_screen with dissolve
     
     $ renpy.pause(hard=True)
+

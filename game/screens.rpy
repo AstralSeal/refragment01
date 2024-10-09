@@ -266,11 +266,15 @@ style menu_button_text is text:
     hover_color "#FFAB56"
 
 
-    
+style auto_button_text:
+    size 38
+    hover_color "#FFAB56"
+    idle_color "#FFFFFF"
+    selected_color "#FFAB56"
+
 screen quick_menu():
     # Ensure this appears on top of other screens.
     zorder 100
-
     if quick_menu:
         hbox:
             spacing 10  # Space between buttons
@@ -301,6 +305,8 @@ screen quick_menu():
             textbutton _("Auto"):
                 style_prefix "menu"
                 action Preference("auto-forward", "toggle")
+                style "auto_button"
+    
 
             textbutton _("Q.Save"):
                 style_prefix "menu"
@@ -314,6 +320,7 @@ screen quick_menu():
                 style_prefix "menu"
                 action ShowMenu("config")
                 # activate_sound "audio/system/System_6.mp3"
+        
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
