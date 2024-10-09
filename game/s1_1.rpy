@@ -338,13 +338,13 @@ label s1_1:
     show yuno_c normal at center with Dissolve(1.0) 
     yuma_th  "ทำไมถึงต้องเล่นเกมกาชาที่ทุกอย่างขึ้นอยู่กับการสุ่มด้วย เล่นเกมอื่นที่จ่ายเงินซื้อตัวละครไปเลยไม่ดีกว่าเหรอ" with dissolve
     yuma_en  "Why do you keep playing gacha games where everything depends on luck and randomness? There are a lot of games that players can directly purchase whatever they want." with dissolve
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_025.mp3"
     yuno_c_th confident2 "พี่เนี่ยน้า~ ไม่เข้าใจเกมเมอร์ยุคใหม่เลยสักนิด" with dissolve
     yuno_c_en confident2 "Onii-chan, you really don't understand how gacha games work." with dissolve
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_026.mp3"
     yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน 'อวด' ได้ไงล่ะ" with dissolve
     yuno_c_en  "Gacha games are popular because you can take a screenshot to brag to other players." with dissolve
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_027.mp3"
     yuno_c_th badass "ถ้าจ่ายเงินซื้อของทุกอย่างที่ต้องการได้ มันจะไปมีค่าอะไร" with dissolve
     yuno_c_en badass "Gacha won't be gacha if you could just spend money to buy everything you want." with dissolve
     th "ดูเหมือนว่าน้องสาวของผมติดกับดักการตลาดเข้าเต็มๆ" with dissolve
@@ -361,7 +361,7 @@ label s1_1:
     yuma_th  "นอกจากนี้ยังมี—" with dissolve
     yuma_en  "Not to mention—" with dissolve
     show yuno_c normal at zoom_in_yuno,center with Dissolve(1.0) 
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_025.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_028.mp3"
     show angry
     yuno_c_th hee "พูดมากน่ารำคาญ ทีพี่เองยังซ่อนแผ่นเกมโป๊ไว้ใต้เตียง ลองนับดูสิว่าเป็นเงินเท่าไหร่" with dissolve
     yuno_c_en hee "Shut up, you talk too much! I knew you are hiding erotic games under your bed. Those also cost a lot of money." with dissolve
@@ -370,7 +370,7 @@ label s1_1:
     yuma_en  "Those kinds of games are one-time purchase. But gacha players need to spend money forever." with dissolve
     yuma_th  "อีกอย่าง พี่แอบเกมโป๊ไว้ที่ตู้หนังสือด้านใน หลังตำราแคลคูลัส ไม่ได้เก็บไว้ใต้เตียงสักหน่อย" with dissolve
     yuma_en  "By the way, I hide my erotic games in the bookshelf behind the caculus textbooks." with dissolve
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_026.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_029.mp3"
     yuno_c_th hehe "ฮั่นแน่! คราวหน้าขอเวลา ต-ร-ว-จ-ส-อ-บ สักหน่อยนะพี่จ๋า~" with dissolve
     yuno_c_en hehe "Ah ha~! Next time I'll try to i-n-s-p-e-c-t a bit, okay?" with dissolve
     th "แย่แล้ว เผลอหลุดปากจนได้ ยัยน้องสาวตัวแสบนี้ฉลาดไม่เบา" with dissolve
@@ -378,7 +378,7 @@ label s1_1:
     yuma_th  "เรื่องนั้นเอาไว้ก่อน สายแล้ว พี่ไปโรงเรียนก่อนนะ" with dissolve
     yuma_en  "Well, we'll take about that later. It's getting late. I'm going to school now." with dissolve
     show yuno_c normal at center with Dissolve(1.0) 
-    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_027.mp3"
+    voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_030.mp3"
     yuno_c_th smug2_2 "พอถูกจับได้ก็รีบหนีเลยนะ" with dissolve
     yuno_c_en smug2_2 "Are you trying to run away, huh?" with dissolve
     th "เพราะคำว่า 'ของมันต้องมี' นี่แหละ ที่ทำให้สัดส่วนหนี้ครัวเรือนเพิ่มสูงขึ้นทุกปี" with dissolve
