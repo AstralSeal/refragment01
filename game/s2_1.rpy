@@ -11,7 +11,7 @@ label s2_1:
     voice "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_002.mp3"
     yuno_th  "ยูมะ ตื่นได้แล้ว!" with dissolve
     yuno_en  "Yuuma, time to wake up!" with dissolve
-    play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_003.mp3"
+    voice "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_003.mp3"
     hide wakeup24
     show wakeup01 with dissolve
     yuno_th  "ได้เวลาไปโรงเรียนแล้ว!" with dissolve
@@ -120,7 +120,7 @@ label s2_1:
     en "Yuno says playfully, her eyes sparkling." with dissolve
     yuma_th  "พี่ไม่ใช่นางเอกการ์ตูนตาหวานสักหน่อย" with dissolve
     yuma_en  "No way! That's a very common anime trope, isn't it?" with dissolve
-    play sound "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_014.mp3"
+    voice "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_014.mp3"
     yuno_c_th crymeme2 "ชิ พี่ไม่รักหนูแล้วใช่มั้ย หนูอุตส่าห์เตรียมอาหารเช้าไว้แล้ว" with dissolve
     yuno_c_en crymeme2 "Hmph. Don't you love me anymore? I even prepared breakfast for you." with dissolve
     yuma_th  "เอาไว้วันหลังน่า ตอนนี้สายแล้ว" with dissolve
@@ -249,7 +249,7 @@ label s2_1:
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_011.mp3"
     akane_th serious "เสื้อผ้าที่ไม่เรียบร้อยเปรียบเสมือนจิตใจที่ยุ่งเหยิง" with dissolve
     akane_en serious "The state of your clothes reflects the state of your mind." with dissolve
-    play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_012.mp3"
+    voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_012.mp3"
     akane_th  "รุ่นพี่เป็นสมาชิกสภานักเรียน ต้องเป็นตัวอย่างที่ดีให้กับนักเรียนคนอื่นสิ" with dissolve
     akane_en  "You're a member of the student council. You should set a good example for other students." with dissolve
     yuma_th  "รู้แล้วล่ะน่า " with dissolve
@@ -270,7 +270,7 @@ label s2_1:
     voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_014.mp3"
     akane_th look "ผูกเป็นเพราะมีคนที่แต่งตัวไม่เรียบร้อยอย่างรุ่นพี่อยู่ไงคะ" with dissolve
     akane_en look "I learned because there are people like you who can't dress properly." with dissolve
-    play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_015.mp3"
+    voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_015.mp3"
     akane_th s2 "…แล้วก็ถือโอกาสไว้ลงโทษคนทำผิดกฏในเวลาเดียวกันด้วย!" with dissolve
     akane_en s2 "...And it's also a chance to punish rule-breakers at the same time!" with dissolve
     th "ทันใดนั้น เนคไทที่คอผมก็รัดแน่นขึ้นมาอย่างกะทันหัน" with dissolve
@@ -288,7 +288,7 @@ label s2_1:
     play sound "audio/sfx/escape.mp3"
     akane_th angry "ถ้ารุ่นพี่ยูมะตื่นเช้าตั้งแต่แรก ก็ไม่ต้องรีบวิ่งจนกระเซอะกระเซิงและเนคไทหลุดลุ่ยแบบนี้" with dissolve
     akane_en angry "If Yuuma-senpai woke up early in the first place, you wouldn't have to rush and end up all disheveled with a loose tie like this." with dissolve
-    play sound "audio/voice/akane/chapter2/chapter2_1/akane_2_1_018.mp3"
+    voice "audio/voice/akane/chapter2/chapter2_1/akane_2_1_018.mp3"
     akane_th  "จำไว้ นกที่ตื่นเช้าจับหนอนกินได้ก่อนใคร" with dissolve
     akane_en  "Remember, the early bird catches the worm." with dissolve
     yuma_th  "หนอนที่ตื่นสายจะรอดจากการถูกนกกิน" with dissolve

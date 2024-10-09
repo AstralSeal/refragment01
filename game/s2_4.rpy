@@ -200,7 +200,7 @@ label s2_4:
     hide reika
     hide kazuma
     show risa normal at center with Dissolve(0.2) 
-    play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_025.mp3"
+    voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_025.mp3"
     risa_th serious "นายน่าจะรีบๆ มานะ มัวแต่ชักช้าอยู่ได้" with dissolve
     risa_en serious "You should've hurried up. What were you dawdling around for?" with dissolve
     yuma_th  "ก็เพราะใครกันละครับ" with dissolve
@@ -259,7 +259,7 @@ label s2_4:
             voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
             reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
             reika_en angry_2 "Yuuma, I'm disappointed in you." with dissolve
-            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
+            voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
             reika_th angrymeme_2 "ปกตินายคูณเลขในใจได้เป็นสิบหลักไม่ใช่หรือไง ทำไมวันนี้ตอบผิดได้เนี่ย" with dissolve
             reika_en angrymeme_2 "You can normally multiply 10-digit numbers in your head, right? How could you get this wrong?" with dissolve
             voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_010.mp3"
@@ -300,7 +300,7 @@ label s2_4:
             voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_008.mp3"
             reika_th angry_2 "ยูมะ นายทำให้ฉันผิดหวัง" with dissolve
             reika_en angry_2 "Yuuma, I'm disappointed in you." with dissolve
-            play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
+            voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_009.mp3"
             reika_th angrymeme_2 "ปกตินายคูณเลขในใจได้เป็นสิบหลักไม่ใช่หรือไง ทำไมวันนี้ตอบผิดได้เนี่ย" with dissolve
             reika_en angrymeme_2 "You can normally multiply 10-digit numbers in your head, right? How could you get this wrong?" with dissolve
             voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_010.mp3"
@@ -753,7 +753,7 @@ label s2_4_reika:
     en "Yuno (age: 5) even complimented me saying I'm the most handsome boy in the world." with dissolve
     yuma_th  "เธอมีด้านที่เป็นสาวน้อยผิดคาดเหมือนกันนะเนี่ย" with dissolve
     yuma_en  "You've got an unexpected girly side too, huh." with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_029.mp3"
+    voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_029.mp3"
     reika_th hee "บางทีเมื่อกี้ฉันอาจจะโกหกก็ได้ รีบๆ ถามข้อต่อไปได้แล้ว" with dissolve
     reika_en hee "Maybe I was lying just now. Hurry up and ask the next question." with dissolve
     yuma_th  "ถ้าอย่างนั้นข้อต่อไป 1+1 ได้เท่าไหร่?" with dissolve
@@ -833,13 +833,13 @@ label s2_4_risa:
     risa_en ah "Then that means you like them both! You're not half-bad." with dissolve
     yuma_th  "เดี๋ยวสิครับ การที่บอกว่าไม่ได้เกลียดไม่ได้หมายความว่าชอบนะครับ" with dissolve
     yuma_en  "Wait a minute. Saying I don't hate them doesn't mean I like them!" with dissolve
-    play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_039.mp3"
+    voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_039.mp3"
     risa_th angry "น่ารำคาญจังนะนายเนี่ย ไม่มีความกระตือรือร้นเลยหรือไงนะเธอเนี่ย" with dissolve
     risa_en angry "You're so annoying. Do you have no enthusiasm?" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_040.mp3"
     risa_th  "หยุดอ้างนู่นอ้างนี้แล้วทำให้พวกเธอหันมามองนายให้ได้สิ" with dissolve
     risa_en  "Quit making excuses and do something to get them to notice you." with dissolve
-    play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_041.mp3"
+    voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_041.mp3"
     risa_th serious "แสดงความต้องการของนายออกมาให้เห็นหน่อย โชว์มุมเท่ๆ ให้เห็นจนตกหลุมรักแล้วก็จัดการรวบหัวรวบหางซะเลย" with dissolve
     risa_en serious "Show off your cool side until they fall for you, then make your move." with dissolve
     yuma_th  "นี่คือคำแนะนำจากครูต่อลูกศิษย์จริงๆ เหรอครับเนี่ย" with dissolve
@@ -883,7 +883,7 @@ label s2_4_risa:
     risa_en ah "Akane seems serious, she might be a good match for a hopeless guy like you." with dissolve
     yuma_th  "ผมว่าอากาเนะนี่ออกจะเข้มงวดเกินไป ขืนคบจริงๆ ล่ะก็ได้กลายเป็นพ่อบ้านใจกล้าแน่" with dissolve
     yuma_en  "I think Akane is a bit too strict. If we dated for real, I'd end up being a househusband." with dissolve
-    play sound "audio/voice/risa/chapter2/chapter2_4/risa_2_4_051.mp3"
+    voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_051.mp3"
     risa_th smile "งั้นเรกะล่ะ เป็นเพื่อนสมัยเด็กไม่ใช่หรือไง" with dissolve
     risa_en smile "What about Reika, your childhood friend?" with dissolve
     yuma_th  "ถึงเรกะจะเป็นเพื่อนสมัยเด็ก แต่ผมว่าเรกะอาจจะเกินเอื้อมไปหน่อยสำหรับผมตอนนี้" with dissolve
@@ -926,7 +926,7 @@ label s2_4_2:
     th "หลังจากที่ผมออกมาจากประตูเพียงไม่นานเรกะก็เดินออกมา" with dissolve
     en "Shortly after I exited, Reika came out too." with dissolve
     show reika normal at center with Dissolve(0.2) 
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_035.mp3"
+    voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_035.mp3"
     reika_th cold_2 "นี่นายดักรอฉันอยู่หรอ เป็นสตอล์กเกอร์หรือไง" with dissolve
     reika_en cold_2 "Were you waiting here to ambush me? What are you, a stalker?" with dissolve
     yuma_th  "เดี๋ยวสิเธอไม่คิดว่าฉันเป็นสุภาพบุรุษที่ไม่สามารถทนเห็นผู้หญิงเดินกลับบ้านคนเดียวได้บ้างเหรอ" with dissolve
@@ -934,7 +934,7 @@ label s2_4_2:
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_036.mp3"
     reika_th chito "นายเนี่ยนะ" with dissolve
     reika_en chito "You, a gentleman?" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_037.mp3"
+    voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_037.mp3"
     reika_th hee "ไม่ใช่ว่านายกลัวถูกดักตีเลยรอให้ฉันกลับบ้านด้วยหรือไง" with dissolve
     reika_en hee "More like you were scared of getting beat up, so you waited for me to walk home with you." with dissolve
     yuma_th  "เอาน่า ไหนๆ บ้านพวกเราสองคนก็กลับทางเดียวกันนี่นา" with dissolve
@@ -999,7 +999,7 @@ label s2_4_2:
     reika_en hee_2 "Is that so? Well I'm just glad to finally escape your delinquent gang stories." with dissolve
     yuma_th  "แก๊งนักเลงที่ไหนกัน แก๊งราชามังกรทมิฬ ผู้ปกป้องเมืองแห่งนี้ต่างหากต่างหาก" with dissolve
     yuma_en  "What delinquent gang? The Dark Dragon King who protect this town, that's who!" with dissolve
-    play sound "audio/voice/reika/chapter2/chapter2_4/reika_2_4_045.mp3"
+    voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_045.mp3"
     reika_th bored_2 "ทั้งๆ ที่เวลามีเรื่องทีไรก็ร้องไห้กลับมาให้ฉันทำแผลให้ทุกครั้งแท้ๆ" with dissolve
     reika_en bored_2 "Even though every time you got in trouble, you came crying to me to patch you up." with dissolve
     yuma_th  "มะ..ไม่ใช่ซักหน่อย" with dissolve
