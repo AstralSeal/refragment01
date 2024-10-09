@@ -5,8 +5,8 @@ init python:
         webbrowser.open("https://docs.google.com/forms/d/e/1FAIpQLSec9GmgjlqDV818dcfMdirdv9F5J7gd_kgz-3Ac-nq5uwYlgQ/viewform")
 
 label s2_11:
-    scene white with Dissolve(4.0)
-    scene home_livingroom_morning with Dissolve(1.0)
+    scene white with Dissolve(1.0)
+    scene home_livingroom_morning with Dissolve(4.0)
     show yuno_c smile_2 at center with Dissolve(0.2)
     play music "audio/bgm/MusMus-BGM-162.mp3" volume 0.5 
     voice "audio/voice/yuno/chapter2/chapter2_12/yuno_2_12_001.mp3"

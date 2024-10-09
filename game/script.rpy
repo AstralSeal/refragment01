@@ -189,8 +189,8 @@ label endding:
     $renpy.pause(1, hard=True)
     scene white with Dissolve(2.0)
     $ renpy.block_rollback()
-    play movie "ending.mp4"
-    $renpy.pause(63, hard=True)
+    play movie "ending2.mp4"
+    $renpy.pause(65, hard=True)
     $ renpy.end_replay()
     jump s2_11
     return
