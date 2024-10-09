@@ -156,7 +156,7 @@ label s2_7:
     show akane normal at center with Dissolve(0.2) 
     voice "audio/voice/akane/chapter2/chapter2_7/akane_2_7_002.mp3"
     akane_th normal "โรงเรียนเอกชนซิลเวอร์ซีลเป็นโรงเรียนที่นักเรียนทุกคนสามารถมีส่วนร่วมในการนำเสนอนโยบายต่างๆ ได้" with dissolve
-    akane_en normal "Silver Seal Private School is a place where all students can participate in proposing various policies." with dissolve
+    akane_en normal "Silverseal Private Academy is a place where all students can participate in proposing various policies." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_7/akane_2_7_003.mp3"
     akane_th  "โดยปกตินักเรียนจะเสนอญัตติ จากนั้นสภานักเรียนเปิดให้ทุกคนโหวตลงคะแนน ซึ่งข้อเสนอที่ได้รับคะแนนเสียงข้างมากจะถูกนำไปปฏิบัติจริง" with dissolve
     akane_en  "Normally, students submit motions, then the student council puts these motions to a vote. Proposals that receive a majority vote are then implemented." with dissolve
@@ -196,7 +196,7 @@ label s2_7:
     reika_th tense "สุริยันสาดแสง? ชื่อประหลาดดีนะ" with dissolve
     reika_en tense "The Radiant Dawn? That's a weird name." with dissolve
     yuma_th  "ชื่อโคตรเท่ อย่างกะฉายาในเกมออนไลน์สมัยก่อนเลย" with dissolve
-    yuma_en  "The name's super cool, like an old-school MMORPG game username." with dissolve
+    yuma_en  "The name sounds super cool, like something you'd use as a username in an old-school MMORPG." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"
     reika_th worry "คงจะมีแต่นายละมั้งที่คิดว่าชื่อแบบนี้มันเท่ ยูมะ" with dissolve
     reika_en worry "I think you're the only one who thinks that kind of name is cool, Yuuma." with dissolve
@@ -204,11 +204,11 @@ label s2_7:
     yuma_en  "Do you have a problem with my sense of naming?" with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_014.mp3"
     reika_th ah "ถ้าอย่างนั้น นายลองตั้งชื่อกลุ่มดูบ้างสิ" with dissolve
-    reika_en ah "If that's the case, why don't you try naming a group?" with dissolve
+    reika_en ah "If that's the case, why don't you try coming up with a group name?" with dissolve
     yuma_th "Dark Flame Conqueror" with dissolve
     yuma_en "Dark Flame Conqueror" with dissolve
     th "หลังจากที่ผมประกาศชื่อที่เท่ที่สุดเท่าที่คิดออกมาได้ ห้องสภานักเรียนก็ตกอยู่ในความเงียบงัน" with dissolve
-    en "After I announced what I thought was the coolest name I could come up with, the student council room fell into silence." with dissolve
+    en "After I announced what I thought was the coolest name, the student council room fell silent." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_015.mp3"
     reika_th ah_2 "คาสึมะ พอรู้ไหมว่ากลุ่มสุริยันสาดแสงเป็นใครมาจากไหน" with dissolve
     reika_en ah_2 "Kazuma, do you know where The Radiant Dawn are from?" with dissolve
@@ -218,10 +218,10 @@ label s2_7:
     show kazuma normal at center with Dissolve(0.2) 
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_013.mp3"
     kazuma_th ah "เท่าที่ทราบ สุริยันสาดแสงเป็นกลุ่มนักเรียนหัวก้าวหน้าที่ต้องการเปลี่ยนแปลงโรงเรียนแบบก้าวกระโดด" with dissolve
-    kazuma_en ah "As far as I know, The Radiant Dawn is a progressive student group that wants to make drastic changes to the school." with dissolve
+    kazuma_en ah "As far as I know, The Radiant Dawn is a progressive student group aiming to make drastic changes to the school." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_014.mp3"
     kazuma_th  "สโลแกนคือทำให้โรงเรียนเจิดจ้าราวกับดวงตะวัน อะไรสักอย่างทำนองนี้" with dissolve
-    kazuma_en  "Their slogan is something like 'Make the school shine as bright as the sun.'" with dissolve
+    kazuma_en  "Their slogan is something like \"Make the school shine as bright as the sun.\"" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_015.mp3"
     kazuma_th  "ได้ข่าวว่ารอบหน้าจะลงสมัครเลือกตั้งประธานนักเรียนด้วย" with dissolve
     kazuma_en  "I heard they're planning to run for student council president next time." with dissolve
@@ -229,7 +229,7 @@ label s2_7:
     yuma_en  "So they're our future rivals, huh?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_016.mp3"
     kazuma_th serious "ในเมื่อเจ้าพวกนั้นกล้าท้าชนสภานักเรียน เดี๋ยวฉันจะเป็นตัวแทนฝ่ายค้านให้เอง" with dissolve
-    kazuma_en serious "" with dissolve
+    kazuma_en serious "Since they dare to challenge the student council, I'll personally take on the role of the opposition." with dissolve
     th "การโต้วาทีไม่ใช่เรื่องที่พบได้บ่อย โดยเฉพาะอย่างยิ่งการท้าชนกับสภานักเรียน" with dissolve
     en "Debates aren't common, especially challenging the student council directly." with dissolve
     hide kazuma

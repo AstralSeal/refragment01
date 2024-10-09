@@ -387,7 +387,7 @@ label s1_1:
     th "จริงอยู่ที่คุณพ่อได้เงินก้อนโตจากงานวิจัยและส่งเงินมาให้ใช้อย่างไม่ขัดสนทุกเดือน" with dissolve
     en "It's true that Dad gets a lot of money from his research and sends us enough to live comfortably every month." with dissolve
     th "แต่คนเราก็ต้องรู้จักประหยัดอดออมกันบ้าง คำว่าออมเงินกลายเป็นคำต้องห้ามไปแล้วหรือ" with dissolve
-    en "We should being careful with money. When did 'saving money' has become a taboo word?" with dissolve
+    en "We should being careful with money. When did \"saving money\" has become a taboo word?" with dissolve
     stop music
     th "สักวันหนึ่งผมจะอบรมน้องสาวเรื่องการใช้เงินอย่างจริงจัง แต่ตอนนี้ต้องรีบไปโรงเรียนแล้ว" with dissolve
     en "One day I will teach my little sister about personal finance and money management, but right now I need to go to school." with dissolve
