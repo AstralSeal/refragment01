@@ -435,6 +435,7 @@ label s2_4:
     return
 
 label s2_4_kazuma:
+    $ renpy.game.preferences.afm_time = old_afm_time
     $ _skipping = True
     scene bg036n19201080 with Dissolve(1.0)
     stop music
@@ -518,6 +519,7 @@ label s2_4_kazuma:
     jump mall_map
 
 label s2_4_akane:
+    $ renpy.game.preferences.afm_time = old_afm_time
     $ _skipping = True
     scene bg038n19201080 with Dissolve(1.0)
     stop music
@@ -653,7 +655,7 @@ label s2_4_akane:
     $ akane_mall_pass = True
     jump mall_map
 label s2_4_reika:
-
+    $ renpy.game.preferences.afm_time = old_afm_time
     $ _skipping = True
     scene bg038n19201080 with Dissolve(1.0)
     stop music
@@ -788,6 +790,7 @@ label s2_4_reika:
     $ reika_mall_pass = True
     jump mall_map
 label s2_4_risa:
+    $ renpy.game.preferences.afm_time = old_afm_time
     $ _skipping = True
     scene bg036n19201080 with Dissolve(1.0)
     stop music

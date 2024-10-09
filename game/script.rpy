@@ -551,9 +551,13 @@ screen map_screen:
             action [Hide("map_screen"),Jump("s2_4_risa")]
     else:
         imagebutton idle "risa_choice_disable"
-
 label mall_map:
+    $ preferences.afm_enable = False
+    $ old_afm_time = renpy.game.preferences.afm_time
+    $ renpy.game.preferences.afm_time = 0
+    
     if akane_mall_pass and reika_mall_pass and kazuma_mall_pass and risa_mall_pass:
+        $ renpy.game.preferences.afm_time = old_afm_time
         jump s2_4_2
 
     $ renpy.config.skipping = False
@@ -562,3 +566,4 @@ label mall_map:
     show screen map_screen with dissolve
     
     $ renpy.pause(hard=True)
+
