@@ -53,8 +53,8 @@ label s2_9:
     yuma_th  "ทั้งๆ ที่เป็นคนนัดเวลาเอง ทำไมถึงมาช้าล่ะครับ" with dissolve
     yuma_en  "Even though you set the time yourself, why are you late?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_003.mp3"
-    maya_c2_th pout "ไม่ได้นะยูคุง เวลาแบบนี้ต้องพูดว่า 'ไม่เป็นไร เป็นห่วงแทบแย่เลย' ต่างหาก" with dissolve
-    maya_c2_en pout "That's not right, Yuu-kun. At times like this, you should say 'It's okay, I was really worried about you.'" with dissolve
+    maya_c2_th pout "ไม่ได้นะยูคุง เวลาแบบนี้ต้องพูดว่า \"ไม่เป็นไร เป็นห่วงแทบแย่เลย\" ต่างหาก" with dissolve
+    maya_c2_en pout "That's not right, Yuu-kun. At times like this, you should say \"It's okay, I was really worried about you.\"" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_004.mp3"
     maya_c2_th  "นายเนี่ยไม่เข้าใจจิตใจของสาวน้อยเลยสักนิด ขืนทำแบบนี้กับผู้หญิงคนอื่นมีหวังโดนโกรธแน่" with dissolve
     maya_c2_en  "You don't understand a maiden's heart at all. If you did this to other girls, you'd definitely make them angry." with dissolve
@@ -65,7 +65,7 @@ label s2_9:
     yuma_en  "Wait a minute, there are points?!" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_006.mp3"
     maya_c2_th smile_2 "วันนี้ผู้เชี่ยวชาญด้านความรักจะประเมินคะแนนการเดทในครั้งนี้เอง" with dissolve
-    maya_c2_en smile_2 "Today, the love expert will evaluate your dating score." with dissolve
+    maya_c2_en smile_2 "As the love expert, I'll be evaluating your dating score today." with dissolve
     yuma_th  "ทำอย่างกะสอบปลายภาคไปได้" with dissolve
     yuma_en  "It's like we're taking a final exam or something." with dissolve
     yuma_th  "งั้นผมขอแก้ตัวใหม่" with dissolve
@@ -127,8 +127,8 @@ label s2_9:
     th "ผมอุตส่าห์แสดงภาพลักษณ์ของคนช่างสังเกตขั้นสูงสุด นี่เราทำผิดพลาดตรงไหนกันนะ" with dissolve
     en "I tried my best to show the image of a highly observant person. Where did I go wrong?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_013.mp3"
-    maya_c2_th  "คำตอบคือ 'เปลี่ยนทรงผมใหม่สินะ' หรือไม่ก็ 'ต่างหูสวยจังเลยนะ'" with dissolve
-    maya_c2_en  "The answer should have been 'You changed your hairstyle, didn't you?' or 'Your earrings are really pretty.'" with dissolve
+    maya_c2_th  "คำตอบคือ \"เปลี่ยนทรงผมใหม่สินะ\" หรือไม่ก็ \"ต่างหูสวยจังเลยนะ\"" with dissolve
+    maya_c2_en  "The answer should have been \"You changed your hairstyle, didn't you?\" or \"Your earrings are really pretty.\"" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_014.mp3"
     maya_c2_th  "ผู้หญิงจะดีใจมากเลยนะ ถ้าคู่เดทอีกฝ่ายสังเกตเห็นการเปลี่ยนแปลง" with dissolve
     maya_c2_en  "Girls are really happy when their date notices changes in their appearance." with dissolve
@@ -264,7 +264,7 @@ label s2_9:
     th "คำถามนี้มันอะไรกัน" with dissolve
     en "What kind of question is this?" with dissolve
     th "เทรนด์สมัยใหม่ในยุคนี้คือ Double Income, No Kids คู่รักไม่จำเป็นต้องมีลูกสักหน่อย" with dissolve
-    en "The modern trend is Double Income, No Kids. Couples don't necessarily need to have children." with dissolve
+    en "The modern trend is Double Income, No Kids. Lovers don't necessarily need to have children." with dissolve
     th "ทั้งๆที่เห็นอยู่ชัดๆ ว่าพวกเรายังเป็นนักเรียน คู่รักวัยเรียนปกติต้องตั้งชื่อลูกด้วยเหรอ" with dissolve
     en "It's obvious we're still students. Do normal student couples usually think about naming their children?" with dissolve
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
@@ -274,12 +274,12 @@ label s2_9:
     th "ยูมะ + มายะ คำตอบคือ… ยูยะ" with dissolve
     en "Yuuma + Maya, the answer is... Yuuya." with dissolve
     th "ผมเขียนชื่อยูยะลงในกระดาน" with dissolve
-    en "I wrote the name Yuuya on the board." with dissolve
+    en "I wrote the name \"Yuuya\" on the board." with dissolve
     hide quiz00 with dissolve
     th "ขอให้ถูกทีเถอะ" with dissolve
     en "I hope it's correct." with dissolve
     staff_th  "ทั้งสองคนเปิดแผ่นป้ายได้" with dissolve
-    staff_en  "Both of them opened their signs." with dissolve
+    staff_en  "Both of you, please show your answers." with dissolve
     hide quiz00
     show quiz02 with dissolve
     th "หลังจากเห็นคำตอบของรุ่นพี่มายะ ทุกคนก็เงียบกันหมด" with dissolve
@@ -290,12 +290,12 @@ label s2_9:
     yuma_en  "Wait a minute, what was that wink just now?" with dissolve
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_020.mp3"
     maya_c2_th pero "ก็นึกว่ายูมะขอให้ตอบแบบเด็ดๆ โคตรตลกซะอีก เทเฮ๊ะ~" with dissolve
-    maya_c2_en pero "I thought Yuuma wanted a decisive answer. It's super funny, tee-hee~" with dissolve
+    maya_c2_en pero "I thought you were looking for a really funny answer! tee-hee~" with dissolve
     th "จบกัน อุตส่าห์พยายามจนมาถึงตรงนี้แล้วแท้ๆ" with dissolve
     en "It's over. We tried so hard to get to this point." with dissolve
     hide maya_c2
     th "ขอโทษครับคุณแม่ ขอโทษที่ผมไม่สามารถรักษารอยยิ้มของยูโนะเอาไว้ได้" with dissolve
-    en "I'm sorry, Mom. I'm sorry I couldn't preserve Yuno's smile." with dissolve
+    en "I'm sorry, Mom. I'm sorry I couldn't protect Yuno's smile." with dissolve
     th "ผมคงไม่มีหน้าไปพบกับคุณแม่บนสวรรค์อีกแล้ว" with dissolve
     en "I probably won't be able to face you in heaven anymore." with dissolve
     staff_th  "อย่าเพิ่งเสียใจไป ภารกิจแรกไม่ผ่าน แต่ก็ยังมีโอกาสอยู่" with dissolve
@@ -305,7 +305,7 @@ label s2_9:
     staff_th  "ภารกิจที่สอง รักหรอกจึงตอบถูก" with dissolve
     staff_en  "Second mission: Perfect Pair Challenge" with dissolve
     staff_th  "เราจะถามคำถามเกี่ยวกับอีกฝ่าย ถ้าตอบถูกทั้งคู่ก็ถือว่าผ่านภารกิจ" with dissolve
-    staff_en  "We'll ask questions about your partner. If both answer correctly, you pass the mission." with dissolve
+    staff_en  "We'll ask questions about your partner. If both of you answer correctly, you'll pass the mission." with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     staff_th  "เริ่มต้นที่คุณผู้หญิง แฟนของคุณชื่ออะไร" with dissolve
     staff_en  "Let's start with the lady. What's your boyfriend's name?" with dissolve
@@ -316,13 +316,13 @@ label s2_9:
     en "The question this round is unexpectedly easy." with dissolve
     hide maya_c2
     th "ขอบคุณคุณแม่บนสวรรค์ที่ส่งพลังมาช่วยผมปกป้องรอยยิ้มของยูโนะเอาไว้" with dissolve
-    en "Thank you, Mom in heaven, for sending me the strength to protect Yuno's smile." with dissolve
+    en "Thank you, Mom in heaven, for sending me encouragement to protect Yuno's smile." with dissolve
     th "มาเลย ไม่ว่าจะเป็นคำถามแบบไหนผมก็จะพยายามพิชิตให้ได้" with dissolve
     en "Bring it on. No matter what question it is, I'll do my best to conquer it." with dissolve
     staff_th  "คำถามถัดไป คุณผู้ชาย จงบอกชื่อบรรพบุรุษของแฟนคุณ" with dissolve
     staff_en  "Next question. Sir, please state the name of your girlfriend's ancestor." with dissolve
     yuma_th  "จะบ้าเหรอ ผมยังไม่รู้เลยว่าบรรพบุรุษตัวเองเป็นใคร" with dissolve
-    yuma_en  "Are you crazy? I don't even know who my own ancestors are." with dissolve
+    yuma_en  "What the heck? I don't even know who my own ancestors are." with dissolve
     yuma_th  "ใครมันจะไปตอบได้ฟะ" with dissolve
     yuma_en  "Who could possibly answer that?" with dissolve
     staff_th  "คุณผู้ชายต้องสนใจแฟนตัวเองมากกว่านี้นะครับ" with dissolve
@@ -330,12 +330,12 @@ label s2_9:
     show maya_c2 normal at center with Dissolve(0.2) 
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_022.mp3"
     maya_c2_th bruh "จริงค่ะ คำถามแค่นี้ยังตอบไม่ได้ถือว่ายังอ่อนหัดนะยูมะคุง~" with dissolve
-    maya_c2_en bruh "That's right. If you can't answer such a simple question, you're still a novice, Yuuma-kun~" with dissolve
+    maya_c2_en bruh "That's right. You should be able to answer such a simple question if you're my boyfriend, Yuuma-kun~" with dissolve
     yuma_th  "ขออีกรอบ รอบนี้ไม่พลาดแน่" with dissolve
     yuma_en  "One more chance. I won't miss this time." with dissolve
     hide maya_c2
     staff_th  "คำถามที่สอง คุณผู้หญิง แฟนหนุ่มของคุณใส่เสื้อขนาดอะไร" with dissolve
-    staff_en  "Second question. Miss, what size shirt does your boyfriend wear?" with dissolve
+    staff_en  "Second question. What size shirt does your boyfriend wear?" with dissolve
     show maya_c2 normal at center with Dissolve(0.2) 
     voice "audio/voice/maya/chapter2/chapter2_9/maya_2_9_023.mp3"
     maya_c2_th smile "ไซซ์ L ค่ะ" with dissolve

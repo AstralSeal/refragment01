@@ -173,10 +173,10 @@ label s2_8:
     kazuma_en smile "There are two types of motivation: extrinsic and intrinsic." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_002.mp3"
     kazuma_th normal "แรงจูงใจภายนอกคือการทำอะไรบางอย่างเพื่อเป้าหมายที่จับต้องได้ เช่น เงิน ของรางวัล การเลื่อนตำแหน่ง" with dissolve
-    kazuma_en normal "Extrinsic motivation is doing something for tangible rewards, like money, prizes, or promotions." with dissolve
+    kazuma_en normal "Extrinsic motivation is when you do something for an external reward, like money, promotions, or prizes." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_8/kazuma_2_8_003.mp3"
     kazuma_th  "แรงจูงใจภายในคือการทำอะไรบางอย่างจากความต้องการส่วนตัว เช่น ความสนุก ความอยากรู้อยากเห็น" with dissolve
-    kazuma_en  "Intrinsic motivation is doing something out of personal desire, like for fun or curiosity." with dissolve
+    kazuma_en  "Intrinsic motivation comes from within, where you're driven by personal interest, enjoyment, or curiosity." with dissolve
     hide kazuma
     hide old with dissolve
     scene home_livingroom_night with Dissolve(1.0)
@@ -356,7 +356,7 @@ label s2_8:
     en "Maybe we need to try a different approach." with dissolve
     th "ลองหาวิธีการสอนที่เข้าใจง่ายกว่านี้ดีกว่า" with dissolve
     en "Let's try to find an easier teaching method." with dissolve
-    scene Nightsky2 with Dissolve(1.0)
+    scene NightSky2 with Dissolve(1.0)
     th "……" with dissolve
     en "......" with dissolve
     scene home_yuumabedroom_night with Dissolve(1.0)

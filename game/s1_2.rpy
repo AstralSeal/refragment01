@@ -103,8 +103,8 @@ label s1_2:
     student_f_a_en  "Reika-sama is so cool! As expected of our student council president." with dissolve
     student_m_a_th  "ได้ข่าวว่าสัปดาห์ก่อนมีคนสารภาพรักแต่โดนปฏิเสธแบบไม่มีเยื่อใย" with dissolve
     student_m_a_en  "I heard that last week someone confessed to her but was rejected without mercy." with dissolve
-    student_m_b_th  "สมกับที่ได้ฉายา 'ราชินีไร้เทียมทาน' ผู้มีจิตใจแข็งแกร่งดั่งป้อมปราการเหล็ก ไม่มีใครทำให้ใจเธอหวั่นไหวได้แม้แต่คนเดียว" with dissolve
-    student_m_b_en  "Befitting her nickname 'The Formidable Queen' with a heart as strong as an iron fortress, no one can make her heart waver even a bit." with dissolve
+    student_m_b_th  "สมกับที่ได้ฉายา \"ราชินีไร้เทียมทาน\" ผู้มีจิตใจแข็งแกร่งดั่งป้อมปราการเหล็ก ไม่มีใครทำให้ใจเธอหวั่นไหวได้แม้แต่คนเดียว" with dissolve
+    student_m_b_en  "Befitting her nickname \"The Formidable Queen\" with a heart as strong as an iron fortress, no one can make her heart waver even a bit." with dissolve
     show podium00 with Dissolve(1.0)
     # to do 
     #play sound "audio/sfx/歓声と拍手1.mp3"
@@ -126,7 +126,7 @@ label s1_2:
     reika_en  "Silverseal Private Academy is a private school with over 1,400 students." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_005.mp3"
     reika_th  "ด้วยความร่วมมือจากภาครัฐและภาคเอกชนหลายแห่ง โรงเรียนนี้จึงกลายเป็นโรงเรียนต้นแบบที่ส่งเสริมประชาธิปไตยเต็มรูปแบบภายใต้แนวคิด 'ประชาธิปไตยระดับชาติ' ล้วนมีรากฐานมาจากห้องเรียน" with dissolve
-    reika_en  "With cooperation from the government and various private organizations, this school has become a model school that fully promotes democracy under the principle 'Democracy at the national level has its roots in the classroom.'" with dissolve
+    reika_en  "With cooperation from the government and various private organizations, this school has become a model school that fully promotes democracy under the principle \"Democracy at the national level has its roots in the classroom.\"" with dissolve
     student_m_a_th  "น่าเบื่อจัง ฟังมาสิบรอบแล้ว" with dissolve
     student_m_a_en  "How boring. I've heard this ten times already." with dissolve
     student_m_b_th  "นั่นสิ พูดเหมือนเดิมจนท่องตามได้แล้ว" with dissolve

@@ -459,13 +459,13 @@ label s2_4_kazuma:
     yuma_en  "No wonder the football club members have been practicing so hard lately." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_010.mp3"
     kazuma_th smile "แรงจูงใจมีสองแบบ ได้แก่ แรงจูงใจภายนอกและแรงจูงใจภายใน" with dissolve
-    kazuma_en smile "There are two types of motivation - extrinsic and intrinsic." with dissolve
+    kazuma_en smile "There are two types of motivation: extrinsic and intrinsic." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_011.mp3"
     kazuma_th normal "แรงจูงใจภายนอกคือการทำอะไรบางอย่างเพื่อเป้าหมายที่จับต้องได้ เช่น เงิน ของรางวัล การเลื่อนตำแหน่ง" with dissolve
-    kazuma_en normal "Extrinsic motivation is doing something for a tangible goal, like money, rewards, promotions." with dissolve
+    kazuma_en normal "Extrinsic motivation is when you do something for an external reward, like money, promotions, or prizes." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_012.mp3"
     kazuma_th  "แรงจูงใจภายในคือการทำอะไรบางอย่างจากความต้องการส่วนตัว เช่น ความสนุก ความอยากรู้อยากเห็น" with dissolve
-    kazuma_en  "Intrinsic motivation is doing something out of personal desire, like for fun or curiosity." with dissolve
+    kazuma_en  "Intrinsic motivation comes from within, where you're driven by personal interest, enjoyment, or curiosity." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_013.mp3"
     kazuma_th  "นายคิดว่าแรงจูงใจแบบไหนดีกว่ากัน" with dissolve
     kazuma_en  "Which type of motivation do you think is better?" with dissolve

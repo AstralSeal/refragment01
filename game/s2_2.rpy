@@ -121,7 +121,7 @@ label s2_2:
     yuma_th  "หรือว่า… ผู้ชายที่ปลอมตัวเป็นหญิงเพื่อเข้าเรียนในโรงเรียนหญิงล้วน!" with dissolve
     yuma_en  "Or maybe... a boy disguising himself as a girl to attend an all-girls school!" with dissolve
     yuma_th  "เป็นไปไม่ได้ โรงเรียนเอกชนซิลเวอร์ซีลเป็นโรงเรียนสห ไม่ใช่โรงเรียนหญิงล้วนสักหน่อย" with dissolve
-    yuma_en  "That's impossible. Silverseal Private School is co-ed, not an all-girls school." with dissolve
+    yuma_en  "That's impossible. Silverseal Private Academy is co-ed, not an all-girls school." with dissolve
     yuma_th  "คงไม่มีเหตุการณ์ชายแต่งหญิงแบบในเกมวิชวลโนเวลที่เคยเล่นหรอกมั้ง" with dissolve
     yuma_en  "There's no way we'd have a trap (a boy that looks like a cute girl) scenario like in those visual novels I've played." with dissolve
     th "ไม่ว่าจะมองจากมุมไหน รูปในบัตรนักเรียนนี้มัน… ไม่ตรงปกเลยสักนิด" with dissolve
