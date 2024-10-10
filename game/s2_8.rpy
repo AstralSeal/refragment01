@@ -356,7 +356,7 @@ label s2_8:
     en "Maybe we need to try a different approach." with dissolve
     th "ลองหาวิธีการสอนที่เข้าใจง่ายกว่านี้ดีกว่า" with dissolve
     en "Let's try to find an easier teaching method." with dissolve
-    scene Nightsky2 with Dissolve(1.0)
+    scene NightSky2 with Dissolve(1.0)
     th "……" with dissolve
     en "......" with dissolve
     scene home_yuumabedroom_night with Dissolve(1.0)
