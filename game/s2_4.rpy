@@ -6,7 +6,7 @@ label s2_4:
     en "At first, the student council members planned to meet up at the mall together after school was over." with dissolve
     th "แต่ดูเหมือนว่าทุกคนมีภารกิจที่ต้องทำ" with dissolve
     en "But it seemed like everyone had tasks they needed to take care of." with dissolve
-    th "เรกะเคลียร์งานเอกสาร คาสึมะถูกชมรมฟุตบอลดึงตัวไป" with dissolve
+    th "เรกะเคลียร์งานเอกสาร คาซึมะถูกชมรมฟุตบอลดึงตัวไป" with dissolve
     en "Reika was clearing up some paperwork, Kazuma got called away by the football club, and I had to stay and do evening duty." with dissolve
     th "ทำให้แต่ละคนแยกย้ายกันกันเดินทางไปที่จุดนัดพบ" with dissolve
     en "So each of us ended up making our separate ways to the meeting point." with dissolve
@@ -210,7 +210,7 @@ label s2_4:
     hide risa
     show akane normal at center with Dissolve(0.2) 
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_001.mp3"
-    akane_th ah "หนูมาถึงก่อนรุ่นพี่คาสึมะ 10 นาที" with dissolve
+    akane_th ah "หนูมาถึงก่อนรุ่นพี่คาซึมะ 10 นาที" with dissolve
     akane_en ah "I arrived 10 minutes before Kazuma." with dissolve
     hide akane
     show kazuma normal at center with Dissolve(0.2) 
@@ -313,7 +313,7 @@ label s2_4:
     yuma_en  "But what were you all doing anyway?" with dissolve
     show reika normal at center with Dissolve(0.2) 
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_011.mp3"
-    reika_th ah "ฉันกับคาสึมะทายกันเล่นๆ ว่านายจะสามารถตอบปริศนาเรื่องเวลาเมื่อกี้ได้หรือเปล่า" with dissolve
+    reika_th ah "ฉันกับคาซึมะทายกันเล่นๆ ว่านายจะสามารถตอบปริศนาเรื่องเวลาเมื่อกี้ได้หรือเปล่า" with dissolve
     reika_en ah "Kazuma and I were just making a little bet on whether you'd be able to answer that time riddle from earlier." with dissolve
     hide reika
     show risa normal at left
@@ -347,7 +347,7 @@ label s2_4:
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_003.mp3"
     akane_th normal "ขอบคุณสำหรับข้อมูล" with dissolve
     akane_en normal "Thanks for the info." with dissolve
-    th "คาสึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
+    th "คาซึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
     en "Kazuma and Akane spoke in flat, synthesized robot voices." with dissolve
     yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า \"สุดยอดไปเลยยูมะ\" ไม่ใช่เหรอ" with dissolve
     yuma_en  "Hey, shouldn't you be amazed and compliment me with something like \"That's amazing, Yuuma!\"?" with dissolve
@@ -443,9 +443,9 @@ label s2_4_kazuma:
     th "หลังจากที่ผมเตร็ดเตร่สักพักก็มาถึงโซนจำหน่ายอุปกรณ์กีฬา" with dissolve
     en "After wandering around for a while, I arrived at the sporting goods section." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    th "คาสึมะกำลังจ้องมองไปที่รองเท้าสตั๊ดที่ตั้งอยู่หน้าร้าน" with dissolve
+    th "คาซึมะกำลังจ้องมองไปที่รองเท้าสตั๊ดที่ตั้งอยู่หน้าร้าน" with dissolve
     en "Kazuma was staring intently at a pair of soccer cleats displayed at the front of the store." with dissolve
-    yuma_th  "คาสึมะ นายจะซื้อรองเท้าใหม่เหรอ" with dissolve
+    yuma_th  "คาซึมะ นายจะซื้อรองเท้าใหม่เหรอ" with dissolve
     yuma_en  "Kazuma, are you buying new shoes?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_008.mp3"
     kazuma_th ah "ไม่เชิงหรอก ตอนนี้ชมรมฟุตบอลกำลังจะมีงานแข่งระดับภูมิภาค" with dissolve
@@ -899,7 +899,7 @@ label s2_4_risa:
     risa_en ah "Or maybe..." with dissolve
     show risa normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_054.mp3"
-    risa_th angry "นี่นายเล็งคาสึมะเอาไว้งั้นหรอ" with dissolve
+    risa_th angry "นี่นายเล็งคาซึมะเอาไว้งั้นหรอ" with dissolve
     risa_en angry "You have your eye on Kazuma?" with dissolve
     yuma_th  "เดี๋ยวสิทำไมถึงพูดแบบสาววายอย่างนั้นละครับ!?" with dissolve
     yuma_en  "Wait, why are you talking like a BL fangirl all of a sudden?!" with dissolve

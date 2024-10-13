@@ -38,7 +38,7 @@ label s2_7:
     yuma_th  "ทำไมช่วงนี้มีแต่คนถูกสารภาพรักกัน เมื่อไหร่ฉันจะถูกสารภาพรักกับเค้าบ้างเนี่ย" with dissolve
     yuma_en  "Why is everyone getting confessed to lately? When will it be my turn to receive a confession?" with dissolve
     play sound "audio/sfx/door_school.mp3"
-    th "ก่อนที่ฤดูใบไม้ผลิของผมจะมาถึง คาสึมะก็เข้ามาในห้องสภานักเรียน" with dissolve
+    th "ก่อนที่ฤดูใบไม้ผลิของผมจะมาถึง คาซึมะก็เข้ามาในห้องสภานักเรียน" with dissolve
     en "Before my grogous moment could arrive, Kazuma entered the student council room." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_002.mp3"
@@ -210,7 +210,7 @@ label s2_7:
     th "หลังจากที่ผมประกาศชื่อที่เท่ที่สุดเท่าที่คิดออกมาได้ ห้องสภานักเรียนก็ตกอยู่ในความเงียบงัน" with dissolve
     en "After I announced what I thought was the coolest name, the student council room fell silent." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_015.mp3"
-    reika_th ah_2 "คาสึมะ พอรู้ไหมว่ากลุ่มสุริยันสาดแสงเป็นใครมาจากไหน" with dissolve
+    reika_th ah_2 "คาซึมะ พอรู้ไหมว่ากลุ่มสุริยันสาดแสงเป็นใครมาจากไหน" with dissolve
     reika_en ah_2 "Kazuma, do you know where The Radiant Dawn are from?" with dissolve
     yuma_th  "นี่เมินกันเหรอ!" with dissolve
     yuma_en  "Are you guys ignoring me?!" with dissolve
@@ -240,17 +240,17 @@ label s2_7:
     th "ไม่สิ เราต้องเชื่อมั่นในความสามารถของสภานักเรียน เราต้องผ่านไปได้" with dissolve
     en "No, we have to believe in the student council's abilities. We must get through this." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    yuma_th  "ฉันเชื่อใจนายนะ คาสึมะ" with dissolve
+    yuma_th  "ฉันเชื่อใจนายนะ คาซึมะ" with dissolve
     yuma_en  "I trust you, Kazuma." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_017.mp3"
     kazuma_th confident "ฉันไม่คิดจะแพ้ให้กับเจ้าพวกนั้นอยู่แล้ว วางใจได้เลย" with dissolve
     kazuma_en confident "I never intended to lose to them anyway. You can count on me." with dissolve
-    th "คาสึมะยอมรับคำท้าและอาสาเป็นตัวแทนฝ่ายค้าน" with dissolve
+    th "คาซึมะยอมรับคำท้าและอาสาเป็นตัวแทนฝ่ายค้าน" with dissolve
     en "Kazuma accepted the challenge and volunteered to be the opposition representative." with dissolve
     th "พอเห็นแบบนั้นแล้วผมรู้สึกโล่งใจที่ไม่ต้องขึ้นไปพูดกลางที่สาธารณะแบบนั้น" with dissolve
     en "Seeing that, I felt relieved that I didn't have to speak in public like that." with dissolve
     hide kazuma
-    th "แถมถ้าคาสึมะลงคนมือเอง ก็คงไม่มีอะไรน่าเป็นห่วง" with dissolve
+    th "แถมถ้าคาซึมะลงคนมือเอง ก็คงไม่มีอะไรน่าเป็นห่วง" with dissolve
     en "Plus, with Kazuma taking the lead, there's probably nothing to worry about." with dissolve
     scene black with Dissolve(1.0)
     jump s2_8

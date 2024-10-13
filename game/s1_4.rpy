@@ -51,13 +51,13 @@ label s1_4:
     en "Opening the door to the student council room, we find Akane." with dissolve
     th "เธอกำลังเปิดกล่องรับความคิดเห็นอยู่" with dissolve
     en "She's opening the suggestion box." with dissolve
-    yuma_th  "อ้าว วันนี้มีแค่อากาเนะคนเดียวเหรอ คาสึมะแอบอู้สินะ" with dissolve
+    yuma_th  "อ้าว วันนี้มีแค่อากาเนะคนเดียวเหรอ คาซึมะแอบอู้สินะ" with dissolve
     yuma_en  "Oh, is it just Akane today? Kazuma must be slacking off." with dissolve
     hide akane
     show reika normal at left with Dissolve(1.0) 
     show akane normal at right with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_003.mp3"
-    reika_th normal_2 "คาสึมะไปเตรียมเรื่องการโหวตในวันพรุ่งนี้ต่างหาก ไม่ใช่ทุกคนจะเป็นแบบนายซักหน่อย" with dissolve
+    reika_th normal_2 "คาซึมะไปเตรียมเรื่องการโหวตในวันพรุ่งนี้ต่างหาก ไม่ใช่ทุกคนจะเป็นแบบนายซักหน่อย" with dissolve
     reika_en normal_2 "Kazuma went to prepare for tomorrow's voting. Not everyone is like you." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_004.mp3"
     reika_th  "ว่าแต่อากาเนะ วันนี้มีปัญหาร้องเรียนอะไรบ้างไหม" with dissolve
@@ -211,7 +211,7 @@ label s1_4:
     th "ใครโทรมาในเวลาแบบนี้กันนะ สังหรณ์ใจไม่ดีเลย" with dissolve
     en "Who's calling at this time? I have a bad feeling about this." with dissolve
     show kazuma_phone with dissolve
-    yuma_th  "นั่นไง คาสึมะจริงๆ ด้วย" with dissolve
+    yuma_th  "นั่นไง คาซึมะจริงๆ ด้วย" with dissolve
     yuma_en  "See, it's really Kazuma." with dissolve
     th "เจ้าหมอนี่โทรมาแต่เรื่องงาน ไม่มีเรื่องอื่นแน่นอน" with dissolve
     en "This guy only calls about work. It's never anything else." with dissolve
@@ -233,7 +233,7 @@ label s1_4:
     yuma_th  "เดี๋ยวสิ ขืนให้นับกันแค่สองคนแบบนี้ต้องนับกันถึงเช้าแน่" with dissolve
     yuma_en  "Wait a minute, only me and Kazuma?... it'll take until morning." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_023.mp3"
-    reika_th smile "สู้ๆ นะ ขอให้ใช้ค่ำคืนอย่างมีความสุขกับคาสึมะ" with dissolve
+    reika_th smile "สู้ๆ นะ ขอให้ใช้ค่ำคืนอย่างมีความสุขกับคาซึมะ" with dissolve
     reika_en smile "Good luck! Hope you have a happy evening with Kazuma." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_008.mp3"
     akane_th smile "พวกเราไปก่อนนะ" with dissolve

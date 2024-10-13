@@ -55,7 +55,7 @@ label s1_2:
     play music "audio/bgm/MusMus-BGM-116.mp3" volume 0.5
     show kazuma normal at center with Dissolve(1.0) 
     play sound "audio/sfx/シーン切り替え1.mp3"
-    yuma_th  "คาสึมะ มีอะไรให้ช่วยหรือเปล่า" with dissolve
+    yuma_th  "คาซึมะ มีอะไรให้ช่วยหรือเปล่า" with dissolve
     yuma_en  "Kazuma, is there anything I can help with?" with dissolve
     voice "audio/voice/kazuma/chapter1/chapter1_2/kazuma_1_2_001.mp3"
     kazuma_th ah "มาพอดีเลย ช่วยจัดเตรียมระบบไฟหอประชุมให้หน่อย" with dissolve
@@ -63,7 +63,7 @@ label s1_2:
     yuma_th  "วางใจได้เลย" with dissolve
     yuma_en  "Okay, count on me." with dissolve
     show kazuma normal at zoom_in,center with Dissolve(1.0) 
-    th "คาตาโอกะ คาสึมะ เป็นรองประธานนักเรียนสังกัดสภานักเรียน" with dissolve
+    th "คาตาโอกะ คาซึมะ เป็นรองประธานนักเรียนสังกัดสภานักเรียน" with dissolve
     en "Kataoka Kazuma is the vice president of the student council." with dissolve
     th "ผลการเรียนอันดับต้นๆ ของโรงเรียน ถนัดกีฬาฟุตบอล แถมยังเป็นคนหน้าตาดี" with dissolve
     en "He has top academic performance, skilled at sport such as soccer, and good-looking man too." with dissolve
