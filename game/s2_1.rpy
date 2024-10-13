@@ -104,7 +104,7 @@ label s2_1:
     stop music
     play music "audio/bgm/MusMus-BGM-103.mp3" volume 0.5
     show yuno_c normal at center with Dissolve(0.2) 
-    th "ขณะที่ผมกำลังเดินออกจากบ้าน ยูโนะก็เดินมาหาผมที่บริเวณทางเข้าหน้าประตูบ้าน" with dissolve
+    th "ขณะที่ผมกำลังเดินออกจากบ้าน ยูโนะก็เดินมาหาผม\nที่บริเวณทางเข้าหน้าประตูบ้าน" with dissolve
     en "As I'm about to leave the house, Yuno walks up to me near the front door." with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_1/yuno_2_1_012.mp3"
     yuno_c_th  "เดี๋ยวก่อน" with dissolve
@@ -261,7 +261,7 @@ label s2_1:
     akane_en angry "No need, I'll tie it for you." with dissolve
     th "เอ๊ะ วันนี้มาแปลกนะเนี่ย" with dissolve
     en "Huh? This is weird." with dissolve
-    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้ ...ไม่อยากเชื่อเลย" with dissolve
+    th "คุณกรรมการระเบียบวินัยสุดโหดอย่างอากาเนะเนี่ยจะผูกเนคไทให้ \n...ไม่อยากเชื่อเลย" with dissolve
     en "Akane, the super-strict disciplinary committee member, is going to tie my tie for me? ...Impossible" with dissolve
     th "ไอ้นั่นสินะ ที่เขาเรียกกันว่าแฟนเซอร์วิส" with dissolve
     en "Isn't this what they call 'fan service'?" with dissolve

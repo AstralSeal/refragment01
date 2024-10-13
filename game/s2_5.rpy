@@ -69,7 +69,7 @@ label s2_5:
     en "Although strawberry pudding is a cheap dessert you can buy at the convenience store," with dissolve
     th "แต่สำหรับยูโนะ พุดดิ้งสตรอเบอร์รี่คือ the best ของกินที่อร่อยที่สุดในโลก" with dissolve
     en "to Yuno, strawberry pudding is the best, most delicious food in the world." with dissolve
-    th "หลังจากที่ยูโนะกินพุดดิ้งสตรอเบอร์รี่เสร็จ เธอก็พูดด้วยสีหน้ายิ้มแย้มอย่างชื่นมื่น" with dissolve
+    th "หลังจากที่ยูโนะกินพุดดิ้งสตรอเบอร์รี่เสร็จ \nเธอก็พูดด้วยสีหน้ายิ้มแย้มอย่างชื่นมื่น" with dissolve
     en "After finishing the pudding, Yuno spoke with a beaming smile on her face." with dissolve
     show yuno_c normal at center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_011.mp3"
@@ -120,7 +120,7 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_022.mp3"
     yuno_c_th  "ตัวละครใหม่ในเกมเป็นคู่รักกัน ทางค่ายเกมเลยจัดกิจกรรมคู่รักให้เข้าธีมกัน" with dissolve
     yuno_c_en  "The new characters in the game are lovers, so the game company made it a couples-themed event." with dissolve
-    yuma_th  "คนที่ 'ระยะเวลาที่ไม่มีแฟน = อายุ' แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
+    yuma_th  "คนที่ \"ระยะเวลาที่ไม่มีแฟน = อายุ\" แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
     yuma_en  "Where is someone who's been single his whole life like you going to find a girlfriend?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_023.mp3"
     yuno_c_th smug2_2 "แหม ระดับพี่ วันเดียวก็สร้างฮาเร็มได้แล้ว" with dissolve
@@ -139,8 +139,8 @@ label s2_5:
     en "Finishing her sentence, Yuno took out a game disc." with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_026.mp3"
-    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The picture of café au lait?" with dissolve
-    yuno_c_en hehe "Here, this game you like to play. What was it called again... The picture of café au lait?" with dissolve
+    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The Picture of Cafe au lait?" with dissolve
+    yuno_c_en hehe "Here, this game you like to play. What was it called again... {i}The Picture of Cafe au lait{/i}?" with dissolve
     yuma_th  "เดี๋ยวก่อน ไปเอามาจากไหน" with dissolve
     yuma_en  "Wait, where did you get that?!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_027.mp3"
@@ -171,15 +171,15 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_032.mp3"
     yuno_c_th teehee "เทะเฮะ~" with dissolve
     yuno_c_en teehee "Teehee" with dissolve
-    yuma_th  "ไม่ต้องมา 'เทะเฮะ' เลย" with dissolve
-    yuma_en  "Don't you 'teehee' me!" with dissolve
+    yuma_th  "ไม่ต้องมา \"เทะเฮะ\" เลย" with dissolve
+    yuma_en  "Don't you \"teehee\" me!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_033.mp3"
     yuno_c_th serious "ช่างเถอะ สิ่งที่หนูจะบอกก็คือพี่ลองทำแบบพระเอกเกมนี้ดูสิ ได้แฟนเป็นรุ่นน้องก็ไม่เลวนะ" with dissolve
     yuno_c_en serious "Anyway, what I'm saying is, why don't you try doing what the game protagonist did? Getting a younger girlfriend wouldn't be so bad." with dissolve
     yuma_th  "พี่วาดรูปไม่เป็น จะไปหาเด็กสาวรุ่นน้องมาจากไหน" with dissolve
     yuma_en  "I can't draw. Where am I supposed to find a girl?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_034.mp3"
-    yuno_c_th smile "พี่ก็แก้โจทย์คณิตศาสตร์ก็ได้ ขณะกำลังพิสูจน์ทฤษฎีบทสุดท้ายของแฟร์มา จู่ๆ ก็มีสาวน้อยปริศนาวิ่งชนและเผลอทำกาแฟหกใส่กระดาษทด" with dissolve
+    yuno_c_th smile "พี่ก็แก้โจทย์คณิตศาสตร์ก็ได้ ขณะกำลังพิสูจน์ทฤษฎีบทสุดท้ายของแฟร์มา \nจู่ๆ ก็มีสาวน้อยปริศนาวิ่งชนและเผลอทำกาแฟหกใส่กระดาษทด" with dissolve
     yuno_c_en smile "You could solve math problems then. While proving Fermat's Last Theorem, suddenly a mysterious young girl bumps into you and spills coffee on your scratch paper." with dissolve
     yuma_th  "ไอเดียบรรเจิดนี่ น่าจะเอาไปบอกค่ายเกมให้ทำเป็นเกมภาค 2" with dissolve
     yuma_en  "Brilliant idea! You should pitch that to the game studio for a sequel." with dissolve
@@ -288,7 +288,7 @@ label s2_5:
     reika_p_th smile_2 "นี่ พีสุเกะ รู้หรือเปล่า วันนี้ยูมะยืนรอกลับบ้านพร้อมฉันด้วย" with dissolve
     reika_p_en smile_2 "Hey Pii-suke, did you know? Today Yuuma waited to walk home with me." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_5/reika_2_5_006.mp3"
-    reika_p_th fin_2 "ยูมะบอกว่าจะไม่มีวันปล่อยให้ผู้หญิงที่ทั้งสวยทั้งน่ารักแบบฉันเดินกลับบ้านคนเดียวตอนกลางคืนได้ล่ะ" with dissolve
+    reika_p_th fin_2 "ยูมะบอกว่าจะไม่มีวันปล่อยให้ผู้หญิงที่ทั้งสวยทั้งน่ารักแบบฉัน\nเดินกลับบ้านคนเดียวตอนกลางคืนได้ล่ะ" with dissolve
     reika_p_en fin_2 "Yuuma said he would never let a beautiful, cute girl like me walk home alone at night." with dissolve
     th "ถึงคำว่า 'ผู้หญิงที่ทั้งสวยทั้งน่ารัก' ฉันเติมเพิ่มมาเองก็เถอะ" with dissolve
     en "I may have added the 'beautiful and cute' part myself," with dissolve
