@@ -139,8 +139,8 @@ label s2_5:
     en "Finishing her sentence, Yuno took out a game disc." with dissolve
     show yuno_c normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_026.mp3"
-    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The picture of café au lait?" with dissolve
-    yuno_c_en hehe "Here, this game you like to play. What was it called again... The picture of café au lait?" with dissolve
+    yuno_c_th hehe "นี่ไง เกมที่พี่ชอบเล่น ชื่อเกมอะไรนะ… The Picture of Cafe au lait?" with dissolve
+    yuno_c_en hehe "Here, this game you like to play. What was it called again... {i}The Picture of Cafe au lait{/i}?" with dissolve
     yuma_th  "เดี๋ยวก่อน ไปเอามาจากไหน" with dissolve
     yuma_en  "Wait, where did you get that?!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_027.mp3"
@@ -171,8 +171,8 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_032.mp3"
     yuno_c_th teehee "เทะเฮะ~" with dissolve
     yuno_c_en teehee "Teehee" with dissolve
-    yuma_th  "ไม่ต้องมา 'เทะเฮะ' เลย" with dissolve
-    yuma_en  "Don't you 'teehee' me!" with dissolve
+    yuma_th  "ไม่ต้องมา \"เทะเฮะ\" เลย" with dissolve
+    yuma_en  "Don't you \"teehee\" me!" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_033.mp3"
     yuno_c_th serious "ช่างเถอะ สิ่งที่หนูจะบอกก็คือพี่ลองทำแบบพระเอกเกมนี้ดูสิ ได้แฟนเป็นรุ่นน้องก็ไม่เลวนะ" with dissolve
     yuno_c_en serious "Anyway, what I'm saying is, why don't you try doing what the game protagonist did? Getting a younger girlfriend wouldn't be so bad." with dissolve

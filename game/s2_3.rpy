@@ -181,7 +181,7 @@ label s2_3:
     yuma_th  "รับทราบ" with dissolve
     yuma_en  "Understood." with dissolve
     hide risa
-    th "หลังจากนั้นพวกเราทุกคนก็เดินออกจากห้โองสภานักเรียนไปที่ห้องเรียนของตัวเอง" with dissolve
+    th "หลังจากนั้นพวกเราทุกคนก็เดินออกจากห้องสภานักเรียนไปที่ห้องเรียนของตัวเอง" with dissolve
     en "After that, we all walked out of the student council room to our respective classrooms." with dissolve
     th "………" with dissolve
     en "..." with dissolve

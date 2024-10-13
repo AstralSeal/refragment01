@@ -1,2 +1,2 @@
-# project3rd
-project 3rd from AstralSeal
+# codename: project3rd
+3rd project from AstralSeal (Demo Version)
