@@ -120,7 +120,7 @@ label s2_5:
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_022.mp3"
     yuno_c_th  "ตัวละครใหม่ในเกมเป็นคู่รักกัน ทางค่ายเกมเลยจัดกิจกรรมคู่รักให้เข้าธีมกัน" with dissolve
     yuno_c_en  "The new characters in the game are lovers, so the game company made it a couples-themed event." with dissolve
-    yuma_th  "คนที่ 'ระยะเวลาที่ไม่มีแฟน = อายุ' แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
+    yuma_th  "คนที่ \"ระยะเวลาที่ไม่มีแฟน = อายุ\" แบบพี่จะไปหาแฟนจากไหนเล่า" with dissolve
     yuma_en  "Where is someone who's been single his whole life like you going to find a girlfriend?" with dissolve
     voice "audio/voice/yuno/chapter2/chapter2_5/yuno_2_5_023.mp3"
     yuno_c_th smug2_2 "แหม ระดับพี่ วันเดียวก็สร้างฮาเร็มได้แล้ว" with dissolve

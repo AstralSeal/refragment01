@@ -221,8 +221,8 @@ label s1_2:
     scene school_corridor_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-CP04.mp3" volume 0.5
-    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ 'ราชินีไร้เทียมทาน' ได้เลย" with dissolve
-    student_m_a_en  "It seems like our real deal guy took a critical hit. No one can rival 'The Formidable Queen.'" with dissolve
+    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ \"ราชินีไร้เทียมทาน\" ได้เลย" with dissolve
+    student_m_a_en  "It seems like our real deal guy took a critical hit. No one can rival \"The Formidable Queen.\"" with dissolve
     student_m_b_th  "ไม่มีความปรานีกันบ้างเลย ว่าแต่นายน่ะ ยูมะ บอกหน่อยสิว่าคุณคุโรมิยะมีจุดอ่อนอะไรบ้าง" with dissolve
     student_m_b_en  "Not an ounce of mercy. By the way, you, Yuuma, tell me if Kuromiya-san has any weaknesses." with dissolve
     yuma_th  "วันก่อนมีคนแอบสอดจดหมายรักเข้ามาในกองเอกสาร พอเรกะเห็นก็หยิบไปใส่เครื่องทำลายเอกสารทันทีเลย" with dissolve
@@ -299,8 +299,8 @@ label s1_2:
     maya_0_en  "Yes, Can you teach me how to use it?" with dissolve
     hide maya
     show flyingseal05 with dissolve
-    yuma_th  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า แมวน้ำบิน" with dissolve
-    yuma_en  "Sure. First of all, this vending machine is called 'Flying Seal'." with dissolve
+    yuma_th  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า \"แมวน้ำบิน\"" with dissolve
+    yuma_en  "Sure. First of all, this vending machine is called \"Flying Seal\"." with dissolve
     yuma_th  "ตู้กดเครื่องดื่มอัตโนมัติรุ่นใหม่ล่าสุดที่ใช้พื้นที่แค่ 1x1 ตารางเมตร" with dissolve
     yuma_en  "Flying Seal is a revolutionary fully automated beverage machine that only takes up 1x1 square meter." with dissolve
     yuma_th  "จุดเด่นคือเสริฟเครื่องดื่มใส่แก้วเลย ไม่ใช่กระป๋องหรือขวดน้ำแบบตู้กดน้ำธรรมดา" with dissolve
@@ -404,7 +404,7 @@ label s1_2:
     th "เผลอแป๊บเดียวก็เพิ่มค่าความสนิทได้เร็วขนาดนี้ สุดยอดไปเลย" with dissolve
     en "In the blink of an eye, our familiarity level increasing this much. How Amazing." with dissolve
     th "ช่างแตกต่างจากคนมืดมนอย่างผมลิบลับ นี่สินะสิ่งมีชีวิตที่เรียกว่าสาวแกล" with dissolve
-    en "It's so different from someone as gloomy as me. So, this is what they call a 'gal' (a cheerful and trendy girl), right?" with dissolve
+    en "It's so different from someone as gloomy as me. So, this is what they call a \"gal\" (a cheerful and trendy girl), right?" with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_032.mp3"
     maya_th ah "จริงด้วย นึกออกแล้ว" with dissolve
     maya_en ah "Oh right, I just remembered." with dissolve

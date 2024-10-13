@@ -334,7 +334,7 @@ label s1_1:
     th "ต้องใช้เงินจริงซื้อเพชร แล้วนำเพชรไปสุ่มหาของที่ต้องการอีกที" with dissolve
     en "Players have to spend real money to buy in-game currency, which is then used to draw random in-game items." with dissolve
     th "เรียกว่าระบบการสุ่มแบบกาชา" with dissolve
-    en "These loot boxes or lottery-like systems are called 'gacha'." with dissolve
+    en "These loot boxes or lottery-like systems are called \"gacha\"." with dissolve
     show yuno_c normal at center with Dissolve(1.0) 
     yuma_th  "ทำไมถึงต้องเล่นเกมกาชาที่ทุกอย่างขึ้นอยู่กับการสุ่มด้วย เล่นเกมอื่นที่จ่ายเงินซื้อตัวละครไปเลยไม่ดีกว่าเหรอ" with dissolve
     yuma_en  "Why do you keep playing gacha games where everything depends on luck and randomness? There are a lot of games that players can directly purchase whatever they want." with dissolve
@@ -342,7 +342,7 @@ label s1_1:
     yuno_c_th confident2 "พี่เนี่ยน้า~ ไม่เข้าใจเกมเมอร์ยุคใหม่เลยสักนิด" with dissolve
     yuno_c_en confident2 "Onii-chan, you really don't understand how gacha games work." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_026.mp3"
-    yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน 'อวด' ได้ไงล่ะ" with dissolve
+    yuno_c_th  "เกมกาชาได้รับความนิยมเพราะว่ามัน \"อวด\" ได้ไงล่ะ" with dissolve
     yuno_c_en  "Gacha games are popular because you can take a screenshot to brag to other players." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_027.mp3"
     yuno_c_th badass "ถ้าจ่ายเงินซื้อของทุกอย่างที่ต้องการได้ มันจะไปมีค่าอะไร" with dissolve

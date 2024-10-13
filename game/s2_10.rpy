@@ -47,7 +47,7 @@ label s2_10:
     en "Even though Yuuma is the best at math in school, being good doesn't always mean you can teach others well." with dissolve
     hide reika_c
     hide yuno_c
-    th "ถึงอย่างนั้นฉันก็ไม่คิดจะสอนยูโนะจริงๆหรอกนะ แต่เป็นการสอนทั้งสองพี่น้องเลยต่างหาก" with dissolve
+    th "ถึงอย่างนั้นฉันก็ไม่คิดจะสอนยูโนะจริงๆ หรอกนะ แต่เป็นการสอนทั้งสองพี่น้องเลยต่างหาก" with dissolve
     en "I don't really intend to teach Yuno alone. I'm actually planning to teach both siblings." with dissolve
     show reika_c normal at left
     show yuno_c normal at right with Dissolve(0.2) 
@@ -192,7 +192,7 @@ label s2_10:
     yuno_c_en  "Finished! Isn't it cute?" with dissolve
     yuma_th  "น่ารักสุดๆ ไปเลย สมแล้วที่เป็นน้องสาวของพี่" with dissolve
     yuma_en  "It's super cute. As expected of my sister." with dissolve
-    th "พี่ชายเป็นคนที่ใจดีแล้วก็อ่อนโยนมากๆ พอได้สัมผัสแล้วทำให้ฉันรู้สึกว่าดีจังเลยที่มีคนๆนี้เป็นพี่ชาย" with dissolve
+    th "พี่ชายเป็นคนที่ใจดีแล้วก็อ่อนโยนมากๆ พอได้สัมผัสแล้วทำให้ฉันรู้สึกว่าดีจังเลยที่มีคนคนนี้เป็นพี่ชาย" with dissolve
     en "Onii-chan was so kind and gentle. When I felt his touch, it made me feel how great it was to have this person as my Onii-chan." with dissolve
     hide yuno_draw04
     hide yuno_pov

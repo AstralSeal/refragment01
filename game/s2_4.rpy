@@ -62,8 +62,8 @@ label s2_4:
     risa_th question "ปัญหามันไม่ได้อยู่เนื้อหา ปัญหามันอยู่ที่รูปที่เธอวาดต่างหาก" with dissolve
     risa_en question "The problem isn't with the content. The problem is with the pictures you drew!" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_008.mp3"
-    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า 'ฉันจะต้องผสมเกสรให้ได้!' เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
-    risa_en angry "They're way too obscene! especially the part where the pollen says 'Please inseminate... I mean, pollinate me.' It's clearly a pervert!" with dissolve
+    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า \"ฉันจะต้องผสมเกสรให้ได้!\" เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
+    risa_en angry "They're way too obscene! especially the part where the pollen says \"Please inseminate... I mean, pollinate me.\" It's clearly a pervert!" with dissolve
     yuma_th  "ครูคิดมากเกินไปแล้ว ประโยคนี้มีไว้เพื่อแสดงให้ผู้อ่านเข้าใจถึงหน้าที่ของระอองเรณูครับ" with dissolve
     yuma_en  "You're overthinking it. That line helps the reader understand the role of pollen grains." with dissolve
     yuma_th  "อีกอย่าง ตัวละครในการ์ตูนเป็นพืช มันมีต้นไม้โรคจิตแบบที่ครูว่ามาด้วยอย่างนั้นเหรอครับ" with dissolve
@@ -243,7 +243,7 @@ label s2_4:
     th "เรกะมาถึงที่นี่ในเวลา……" with dissolve
     en "Reika arrived here at..." with dissolve
     th "Hint - คุณสามารถย้อนกลับไปดูข้อความก่อนหน้าได้ด้วยการกดปุ่ม Backlog" with dissolve
-    en "Hint - You can review previous messages by clicking the 'Backlog' button." with dissolve
+    en "Hint - You can review previous messages by clicking the \"Backlog\" button below." with dissolve
     menu :
         '[get_choice("18.00 น.","6:00 PM")]':
             python:
@@ -349,10 +349,10 @@ label s2_4:
     akane_en normal "Thanks for the info." with dissolve
     th "คาสึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
     en "Kazuma and Akane spoke in flat, synthesized robot voices." with dissolve
-    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า 'สุดยอดไปเลยยูมะ' ไม่ใช่เหรอ" with dissolve
-    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like 'That's amazing, Yuuma!'?" with dissolve
+    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า \"สุดยอดไปเลยยูมะ\" ไม่ใช่เหรอ" with dissolve
+    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like \"That's amazing, Yuuma!\"?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_006.mp3"
-    kazuma_th normal "สุดยอดไปเลยยูมะ " with dissolve
+    kazuma_th normal "สุดยอดไปเลยยูมะ" with dissolve
     kazuma_en normal "That's amazing, Yuuma." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_004.mp3"
     akane_th normal "สุดยอดไปเลยยูมะ" with dissolve
@@ -527,7 +527,7 @@ label s2_4_akane:
     th "อากาเนะอยู่ที่ไหนกันนะ ไม่เคยมาเที่ยวกับอากาเนะซะด้วยสิ" with dissolve
     en "Where could Akane be? I haven't actually seen Akane before either." with dissolve
     th "ขณะนั้นผมเหลือบไปเห็นป้ายโฆษณา Shock Price Super Sale หน้าร้านขายเครื่องประดับ" with dissolve
-    en "Just then, I noticed a 'Shock Price Super Sale' sign in front of an accessories store." with dissolve
+    en "Just then, I noticed a \"Shock Price Super Sale\" sign in front of an accessories store." with dissolve
     yuma_th  "นี่มันร้านขายเครื่องประดับที่ฮิตในหมู่นักเรียนหญิงนี่นา" with dissolve
     yuma_en  "This is the accessories store that's super popular with female students." with dissolve
     yuma_th  "ลองเข้าไปดูสักหน่อยดีกว่า เผื่อซื้อเป็นของขวัญให้ยูโนะ" with dissolve
@@ -711,8 +711,8 @@ label s2_4_reika:
     reika_en cold_2 "Type O's are egotistical and think other girls are into them. Just like you." with dissolve
     yuma_th  "เธอพึ่งคิดสดเมื่อกี้นี้เลยใช่มั้ยเนี่ย" with dissolve
     yuma_en  "You totally just made that up on the spot, didn't you!" with dissolve
-    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า 'ราชินีไร้เทียมทาน' อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
-    yuma_en  "But I never in my wildest dreams thought 'The Formidable Queen' would be interested in girly romance stuff too." with dissolve
+    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า \"ราชินีไร้เทียมทาน\" อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
+    yuma_en  "But I never in my wildest dreams thought \"The Formidable Queen\" would be interested in girly romance stuff too." with dissolve
     yuma_th  "ถ้านักเรียนคนอื่นในห้องรู้จะเป็นยังไงกันนะ" with dissolve
     yuma_en  "I wonder what the other students in our class would think if they knew." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_021.mp3"

@@ -92,7 +92,7 @@ label s1_4:
     akane_th angry "ก็ใช่น่ะสิ แถมจำนวนยังเพิ่มขึ้นจากครั้งก่อนที่ฉันจัดการไปแล้วด้วย" with dissolve
     akane_en angry "That's right. And the number has increased since the last time I dealt with this issue." with dissolve
     voice "audio/voice/akane/chapter1/chapter1_4/akane_1_4_003.mp3"
-    akane_th  "แบบนี่เราจะทำยังไงกันดีคะ? ทั้งๆที่ก่อนหน้านี้ก็มีการปรับเงินเวลาคืนช้าไปแล้วด้วยแท้ๆ" with dissolve
+    akane_th  "แบบนี่เราจะทำยังไงกันดีคะ? ทั้งๆ ที่ก่อนหน้านี้ก็มีการปรับเงินเวลาคืนช้าไปแล้วด้วยแท้ๆ" with dissolve
     akane_en  "What should we do about this? We've already implemented fines for late returns." with dissolve
     yuma_th  "ถ้างั้นลองขึ้นค่าปรับไหม โดยปกติห้องสมุดปรับเงินแค่ 50 เยนต่อวัน มันอาจจะน้อยเกินไปจนคนไม่สนใจ" with dissolve
     yuma_en  "Then should we increase the fine? Normally, the library only charges 50 yen per day. It might be too little for people to care." with dissolve
@@ -170,8 +170,8 @@ label s1_4:
     yuma_th  "กลัวว่าเงินที่มีอยู่จะหมดลงเหรอ" with dissolve
     yuma_en  "Are they afraid their money will run out?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_019.mp3"
-    reika_th ah "นั่นก็ส่วนหนึ่ง แต่สิ่งที่คนรวยห่วงที่สุดคือ 'ชื่อเสียง' ต่างหาก" with dissolve
-    reika_en ah "That's part of it, but what rich people care about most is their 'reputation'." with dissolve
+    reika_th ah "นั่นก็ส่วนหนึ่ง แต่สิ่งที่คนรวยห่วงที่สุดคือ \"ชื่อเสียง\" ต่างหาก" with dissolve
+    reika_en ah "That's part of it, but what rich people care about most is their \"reputation\"." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_020.mp3"
     reika_th  "ภาพลักษณ์เป็นเรื่องที่สำคัญมาก ดังนั้นรู้ใช่ไหมว่าต้องทำอะไร" with dissolve
     reika_en  "To them, their image is very important. So, do you know what we need to do?" with dissolve

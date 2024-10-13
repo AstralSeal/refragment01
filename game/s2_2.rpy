@@ -37,7 +37,7 @@ label s2_2:
     yuma_en  "It's not like that. In my opinion, Akane is just a bit stricter than normal, that's all." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_005.mp3"
     maya_th angry "คำว่านิดหน่อยของแต่ละคนไม่เท่ากัน บางทีนิดหน่อยของนายอาจจะหมายถึงสุดขั้วของคนอื่นก็ได้นะ" with dissolve
-    maya_en angry "Everyone's definition of 'a bit' is different. Your 'a bit' might be someone else's extreme." with dissolve
+    maya_en angry "Everyone's definition of \"a bit\" is different. Your \"a bit\" might be someone else's extreme." with dissolve
     yuma_th  "ถ้าลองเปรียบเทียบเป็นสเกลตัวเลขหนึ่งถึงสิบ โดยที่เต็ม 10 หมายถึงเคร่งมาก รุ่นพี่มายะให้คะแนนเท่าไหร่" with dissolve
     yuma_en  "If we compare it on a scale of one to ten, with ten being very strict, how would you rate her, Maya-senpai?" with dissolve
     show maya normal at zoom_in,center with Dissolve(0.2) 
