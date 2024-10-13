@@ -195,7 +195,7 @@ label s2_4:
     reika_en cold_2 "Sorry, Yuuma. I didn't arrive at the last second like you did." with dissolve
     th "ขยันกัดกันจริงๆ นะยัยนี่" with dissolve
     en "You sure love to mock me, don't you." with dissolve
-    th "บางทีผมก็แอบสงสัยเหมือนกันว่าผมกับเรกะเป็นเพื่อนสมัยเด็กหรือคู่ปรับตั้งแต่สมัยเด็กกันแน่" with dissolve
+    th "บางทีผมก็แอบสงสัยเหมือนกันว่าผมกับเรกะ\nเป็นเพื่อนสมัยเด็กหรือคู่ปรับตั้งแต่สมัยเด็กกันแน่" with dissolve
     en "Sometimes I wonder if Reika and I are childhood friends or rivals." with dissolve
     hide reika
     hide kazuma
@@ -973,7 +973,7 @@ label s2_4_2:
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_042.mp3"
     reika_th angry_2 "ไม่ใช่แบบนั้นสักหน่อย แต่พอโตขึ้น ความรับผิดชอบยิ่งมากขึ้น เอาแต่เล่นสนุกทั้งวันเหมือนเมื่อก่อนไม่ได้แล้ว" with dissolve
     reika_en angry_2 "That's not it. But as you get older, you have more responsibilities. You can't just play around all day like before." with dissolve
-    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่ายจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
+    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่าย\nจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
     yuma_en  "Huh. Hard to believe the kid who couldn't sleep without hugging his stuffed rabbit grew up to be a student council president admired by everyone." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_043.mp3"
     reika_th chito "ว่าแต่คนอื่น นายก็กลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็กเลยนี่" with dissolve

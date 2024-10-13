@@ -373,7 +373,7 @@ label s2_10:
     yuma_en  "Didn't you want me to do this, Yuno?" with dissolve
     show yuno_p normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_031.mp3"
-    yuno_p_th cry2 "ไม่ใช่ซักหน่อย แค่พูดขอโทษธรรมดาก็พอแล้วจะมากระโดดหมุนตัวตีลังกาก้มกราบความเร็วสูงอะไรนั่นทำไม!" with dissolve
+    yuno_p_th cry2 "ไม่ใช่ซักหน่อย แค่พูดขอโทษธรรมดาก็พอแล้ว \nจะมากระโดดหมุนตัวตีลังกาก้มกราบความเร็วสูงอะไรนั่นทำไม!" with dissolve
     yuno_p_en cry2 "Not at all! A simple apology would've been enough. Why did you have to do that high-speed spinning jump somersault bow thing!" with dissolve
     yuma_th  "ก็แบบนี้มันเท่กว่านี่นา..." with dissolve
     yuma_en  "But this is cooler..." with dissolve
@@ -547,7 +547,7 @@ label s2_10:
     yuma_en  "Yay, my 'conquer your heart with the romance of equations' plan is succeeded, huh?" with dissolve
     show yuno_p normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/yuno/chapter2/chapter2_10/yuno_2_10_045.mp3"
-    yuno_p_th angry_2 "ยังไม่สำเร็จซักหน่อย พี่ต้องตอบมาก่อนว่าทำไมถึงทิ้งหนูให้อยู่บ้านคนเดียวแล้วออกไปเที่ยวไหนก็ไม่รู้อยู่คนเดียว" with dissolve
+    yuno_p_th angry_2 "ยังไม่สำเร็จซักหน่อย พี่ต้องตอบมาก่อนว่า\nทำไมถึงทิ้งหนูให้อยู่บ้านคนเดียวแล้วออกไปเที่ยวไหนก็ไม่รู้อยู่คนเดียว" with dissolve
     yuno_p_en angry_2 "Not at all. You need to answer first why you left me alone at home and went out somewhere by yourself." with dissolve
     yuma_th  "เที่ยวอะไรกัน ลืมไปแล้วเหรอว่าวันนี้วันอะไร" with dissolve
     yuma_en  "What do you mean 'went out'? Don't you remember what day it is today?" with dissolve

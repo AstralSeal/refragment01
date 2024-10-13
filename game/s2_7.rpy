@@ -98,7 +98,7 @@ label s2_7:
     kazuma_th smile "ถ้าเดี๋ยวฉันจะช่วยตัดสินให้เอง" with dissolve
     kazuma_en smile "I'll help settle this right now." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_007.mp3"
-    kazuma_th ah "ยูมะ ตอนที่เรกะพูดแถลงบนเวที นายจำได้ไหมว่าสารเคมีอะไรในน้ำอัดลมที่กัดกร่อนฟันและเป็นอันตรายต่อร่างกาย" with dissolve
+    kazuma_th ah "ยูมะ ตอนที่เรกะพูดแถลงบนเวที นายจำได้ไหมว่า\nสารเคมีอะไรในน้ำอัดลมที่กัดกร่อนฟันและเป็นอันตรายต่อร่างกาย" with dissolve
     kazuma_en ah "Yuuma, do you remember what chemical in soft drinks erodes teeth and is harmful to the body when Reika was giving her speech on stage?" with dissolve
     hide reika
     hide kazuma
@@ -164,7 +164,7 @@ label s2_7:
     akane_th  "แต่บางครั้งก็มีนักเรียนสองกลุ่มนำเสนอญัตติที่ขัดแย้งกันเองพร้อมกัน" with dissolve
     akane_en  "But sometimes two groups of students present conflicting motions simultaneously." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_7/akane_2_7_005.mp3"
-    akane_th  "หากเกิดกรณีเช่นนี้ ทางสภานักเรียนจะเปิดเวทีพิเศษให้ทั้งสองฝ่ายแสดงจุดยืนของตัวเอง เรียกว่าการโต้วาที" with dissolve
+    akane_th  "หากเกิดเหตุเช่นนี้ ทางสภานักเรียนจะเปิดเวทีพิเศษ\nให้ทั้งสองฝ่ายแสดงจุดยืนของตัวเอง เรียกว่าการโต้วาที" with dissolve
     akane_en  "When this happens, the student council sets up a debate for both sides to present their positions." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_7/akane_2_7_006.mp3"
     akane_th  "แต่ละฝ่ายสามารถนำเสนอข้อดี โน้มน้าวโน้มน้าวให้ทุกคนเห็นคล้อยตามความคิดของตัวเองได้" with dissolve
@@ -188,13 +188,13 @@ label s2_7:
     kazuma_th normal "นี่แหละปัญหา รอบนี้ฝ่ายเสนอญัตติท้าโต้วาทีกับสภานักเรียนโดยตรงเลย" with dissolve
     kazuma_en normal "That's the problem. This time, the group proposing the motion is challenging the student council directly." with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_7/kazuma_2_7_012.mp3"
-    kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า 'สุริยันสาดแสง' น่ะ " with dissolve
-    kazuma_en  "I heard it's a student group called 'The Radiant Dawn'" with dissolve
+    kazuma_th  "เห็นบอกว่าเป็นกลุ่มนักเรียนที่ชื่อว่า \"สุริยันสาดแสง\" น่ะ" with dissolve
+    kazuma_en  "I heard it's a student group called \"The Radiant Dawn\"" with dissolve
     hide kazuma
     show reika normal at center with Dissolve(0.2) 
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_012.mp3"
     reika_th tense "สุริยันสาดแสง? ชื่อประหลาดดีนะ" with dissolve
-    reika_en tense "The Radiant Dawn? That's a weird name." with dissolve
+    reika_en tense "{i}The Radiant Dawn{/i}? That's a weird name." with dissolve
     yuma_th  "ชื่อโคตรเท่ อย่างกะฉายาในเกมออนไลน์สมัยก่อนเลย" with dissolve
     yuma_en  "The name sounds super cool, like something you'd use as a username in an old-school MMORPG." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_7/reika_2_7_013.mp3"

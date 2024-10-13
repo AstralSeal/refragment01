@@ -8,7 +8,7 @@ label s1_4:
     student_m_a_th  "เห้อ ในที่สุดก็เลิกเรียนสักที" with dissolve
     student_m_a_en  "Phew, finally classes are over." with dissolve
     student_m_b_th  "เย็นนี้ไปยิมด้วยกันเถอะ ลูกผู้ชายกับกล้ามเนื้อเป็นของคู่กันอยู่แล้ว" with dissolve
-    student_m_b_en  "Let's go to the gym together tonight. Men and muscles are meant to be together." with dissolve
+    student_m_b_en  "Let's go to the gym together tonight. Men and muscles are meant \nto be together." with dissolve
     yuma_th  "ฉันขอผ่าน วันนี้มีงานสภานักเรียนตอนเย็นน่ะสิ" with dissolve
     yuma_en  "I'll pass. I have student council work this evening." with dissolve
     student_m_a_th  "อีกแล้วงั้นเหรอเนี่ย" with dissolve
@@ -18,7 +18,7 @@ label s1_4:
     yuma_th  "เว่อร์ไปไหมนั่น" with dissolve
     yuma_en  "Isn't that a bit dramatic?" with dissolve
     student_m_b_th  "ก็ช่วยไม่ได้ ในเมื่อยูมะไม่ว่าง พวกเราสองคนไปฟิตกล้ามล่วงหน้ากันดีกว่า" with dissolve
-    student_m_b_en  "Well, since Yuuma isn't available, the two of us will go pump iron in advance." with dissolve
+    student_m_b_en  "Well, since Yuuma isn't available, the two of us will go pump iron \nin advance." with dissolve
     student_m_a_th  "เอ๋ แต่ว่าฉันก็ไม่อยากไปเล่นกล้าม" with dissolve
     student_m_a_en  "Eh? But I don't want to work out either." with dissolve
     student_m_b_th  "พูดอะไรของนาย ผู้ชายก็ต้องกล้ามใหญ่ๆ สิ พวกสาวๆ ถึงจะชอบ" with dissolve
@@ -58,7 +58,7 @@ label s1_4:
     show akane normal at right with Dissolve(1.0) 
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_003.mp3"
     reika_th normal_2 "คาซึมะไปเตรียมเรื่องการโหวตในวันพรุ่งนี้ต่างหาก ไม่ใช่ทุกคนจะเป็นแบบนายซักหน่อย" with dissolve
-    reika_en normal_2 "Kazuma went to prepare for tomorrow's voting. Not everyone is like you." with dissolve
+    reika_en normal_2 "Kazuma went to prepare for tomorrow's voting. Not everyone \nis like you." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_004.mp3"
     reika_th  "ว่าแต่อากาเนะ วันนี้มีปัญหาร้องเรียนอะไรบ้างไหม" with dissolve
     reika_en  "By the way, Akane, are there any complaints today?" with dissolve
@@ -141,7 +141,7 @@ label s1_4:
     reika_th serious "ถูกต้อง เป็นทรัพยากรที่มีจำกัดด้วย" with dissolve
     reika_en serious "Correct. And it's a limited resource too." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_012.mp3"
-    reika_th  "ด้วยเหตุนี้ห้องสมุดจึงมีกติการ่วมกันคือเมื่อยืมหนังสือแล้วถึงระยะเวลาหนึ่งก็ต้องคืนกลับที่เดิม ถูกมั้ย" with dissolve
+    reika_th  "ด้วยเหตุนี้ห้องสมุดจึงมีกติการ่วมกันคือ\nเมื่อยืมหนังสือแล้วถึงระยะเวลาหนึ่งก็ต้องคืนกลับที่เดิม ถูกมั้ย" with dissolve
     reika_en  "For this reason, the library has a common rule that when you borrow a book, you must return it after a certain period, right?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_013.mp3"
     reika_th ah_2 "คำถามต่อมา ค่าปรับมีไว้เพื่ออะไร" with dissolve
@@ -153,7 +153,7 @@ label s1_4:
     reika_en  "Correct. Fines are there to prevent people from breaking the set rules." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_015.mp3"
     reika_th normal_2 "ปัญหาที่แท้จริงในตอนนี้คือ เจ้าพวกนั้นกำลังมองว่าค่าปรับคือค่าธรรมเนียม" with dissolve
-    reika_en normal_2 "The real problem now is that those people are viewing the fine as a fee." with dissolve
+    reika_en normal_2 "The real problem now is that those people think a fine\n is the same as a fee." with dissolve
     yuma_th  "จะบอกว่าคนที่ยืมหนังสือแล้วไม่คืน กำลังคิดว่าจ่าย 50 เยนแล้วจะยืมหนังสือได้เพิ่มอีกหนึ่งวันเหรอ" with dissolve
     yuma_en  "Are you saying that people who borrow books and don't return them are thinking they can pay 50 yen to keep the book for another day?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_016.mp3"
@@ -163,7 +163,7 @@ label s1_4:
     reika_th  "ดังนั้น เราต้องเปลี่ยนวิธีลงโทษคนที่ยืมหนังสือแล้วไม่คืนใหม่" with dissolve
     reika_en  "Therefore, we need to change the way we punish people who borrow books and don't return them." with dissolve
     yuma_th  "จะทำยังไง ในเมื่อค่าปรับไม่ใช่ปัญหาสำหรับนักเรียนที่มีเงินเยอะ" with dissolve
-    yuma_en  "What should we do, since fines aren't a problem for students with a lot of money?" with dissolve
+    yuma_en  "What should we do, since fines aren't a problem for students with \na lot of money?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_018.mp3"
     reika_th smile "รู้ไหมว่าคนรวยห่วงอะไรมากที่สุด" with dissolve
     reika_en smile "Do you know what rich people care about the most?" with dissolve
@@ -510,12 +510,12 @@ label s1_4:
     hide angry
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_013.mp3"
     yuno_c_th worry "เข้าใจที่พี่เรกะบอกแล้ว เห้อ เป็นอย่างที่พี่เรกะว่าจริงๆ ด้วย" with dissolve
-    yuno_c_en worry "I understand what Reika-oneechan said now. Jeez, it's just as Reika-oneechan said." with dissolve
+    yuno_c_en worry "I understand what Reika-oneechan said now. Jeez, it's just as\n Reika-oneechan said." with dissolve
     yuma_th  "เรกะเล่าอะไรให้ฟังเหรอ" with dissolve
     yuma_en  "What did Reika tell you?" with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_4/yuno_1_4_014.mp3"
     yuno_c_th shout "ตอนนี้ไม่ใช่เวลามาถามเรื่องนั้น รีบวิ่งตามพี่เรกะไปสิ!" with dissolve
-    yuno_c_en shout "Now's not the time to ask about that. Hurry and run after Reika-oneechan!" with dissolve
+    yuno_c_en shout "Now's not the time to ask about that. Hurry and run after\n Reika-oneechan!" with dissolve
     hide yuno_c
     th "พอพูดจบ ยูโนะก็ผลักผมออกจากประตูบ้านทันที" with dissolve
     en "After saying that, Yuno pushes me out the front door." with dissolve
@@ -530,7 +530,7 @@ label s1_4:
     yuma_en  "I think so too. It might not be long before she can go to school." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_049.mp3"
     reika_th smile_2 "ถ้าเป็นแบบนั้นพวกเราก็ต้องตั้งใจพัฒนาโรงเรียนให้ดีขึ้นเพื่อรอยูโนะจังสินะ" with dissolve
-    reika_en smile_2 "If that's the case, we need to work hard to improve the school for Yuno-chan." with dissolve
+    reika_en smile_2 "If that's the case, we need to work hard to improve the school \nfor Yuno-chan." with dissolve
     yuma_th  "นั่นมันหน้าที่ของประธานนักเรียนอย่างเธออยู่แล้วไม่ใช่หรือ" with dissolve
     yuma_en  "That's already your duty as the student council president, isn't it?" with dissolve
     voice "audio/voice/reika/chapter1/chapter1_4/reika_1_4_050.mp3"

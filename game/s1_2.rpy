@@ -174,7 +174,7 @@ label s1_2:
     reika_en  "Soda consists of water, sugar, carbonic acid, phosphoric acid, caffeine, coloring agents, flavoring agents, and preservatives." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_016.mp3"
     reika_th  "สิ่งที่ทำให้น้ำอัดลมอันตรายกว่าเครื่องดื่มทั่วไปคือกรดคาร์บอนิก" with dissolve
-    reika_en  "What makes soda more dangerous than other beverages is carbonic acid." with dissolve
+    reika_en  "What makes soda more dangerous than other beverages is \ncarbonic acid." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_017.mp3"
     reika_th  "กรดคาร์บอนิกเป็นกรดที่ได้มาจากปฏิกิริยาระหว่างน้ำกับก๊าซคาร์บอนไดออกไซด์ ซึ่งกรดนี้สามารถย่อยสลายหินปูนได้ จึงมีผลทำให้กระดูกและฟันถูกกัดกร่อน" with dissolve
     reika_en  "Carbonic acid is an acid derived from the reaction between water and carbon dioxide. This acid can dissolve limestone, thus causing erosion of bones and teeth." with dissolve
@@ -380,7 +380,7 @@ label s1_2:
     yuma_en  "My name is Kusaka Yuuma, a second-year student. I'm the treasurer of the student council, mostly handling paperwork behind the scenes." with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_029.mp3"
     maya_th smile_2 "ชิราซากิ มายะ ชั้นปี 3 เรียกสั้นๆ ว่ามายะได้เลย" with dissolve
-    maya_en smile_2 "I'm Shirasaki Maya, third year. You can just call me 'Maya' for short." with dissolve
+    maya_en smile_2 "I'm Shirasaki Maya, third year. You can just call me \"Maya\" for short." with dissolve
     yuma_th  "เข้าใจแล้วครับ รุ่นพี่ชิราซากิ" with dissolve
     yuma_en  "Okay, Shirasaki-senpai" with dissolve
     show maya normal at zoom_in,center with Dissolve(1.0) 
@@ -402,7 +402,7 @@ label s1_2:
     th "พึ่งเจอหน้ากันครั้งแรกก็ตั้งชื่อเล่นให้แล้ว" with dissolve
     en "We just met for the first time and you're already giving me a nickname." with dissolve
     th "เผลอแป๊บเดียวก็เพิ่มค่าความสนิทได้เร็วขนาดนี้ สุดยอดไปเลย" with dissolve
-    en "In the blink of an eye, our familiarity level increasing this much. How Amazing." with dissolve
+    en "In the blink of an eye, our familiarity level increasing this much. How amazing." with dissolve
     th "ช่างแตกต่างจากคนมืดมนอย่างผมลิบลับ นี่สินะสิ่งมีชีวิตที่เรียกว่าสาวแกล" with dissolve
     en "It's so different from someone as gloomy as me. So, this is what they call a \"gal\" (a cheerful and trendy girl), right?" with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_032.mp3"

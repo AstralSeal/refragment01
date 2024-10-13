@@ -288,7 +288,7 @@ label s1_1:
     yuno_c_th ah_2 "ทำไมวันนี้พี่ดูรีบร้อนจังเลย มีธุระอะไรหรือเปล่า" with dissolve
     yuno_c_en ah_2 "Why are you in such a hurry today?" with dissolve
     yuma_th  "วันนี้มีกิจกรรมที่โรงเรียนช่วงเช้า เพราะงั้นเลยต้องรีบไปเตรียมตัวล่วงหน้า" with dissolve
-    yuma_en  "There's a school activity this morning, so I need to go to school a bit earlier than usual." with dissolve
+    yuma_en  "There's a school activity this morning, so I need to go to school \na bit earlier than usual." with dissolve
     voice "audio/voice/yuno/chapter1/chapter1_1/yuno_1_1_021.mp3"
     yuno_c_th hehe "ถึงว่า ปกติพี่ชอบหลับต่อรอบที่สองทุกครั้งเลย" with dissolve
     yuno_c_en hehe "I see. Normally, you always fall back asleep again." with dissolve
@@ -323,7 +323,7 @@ label s1_1:
     yuma_en  "You are DEFINITELY a whale, aren't you?!" with dissolve
     show yuno_c normal at center with Dissolve(1.0) 
     th "ให้ตายเถอะ ขอโทษคนในอินเทอร์เน็ตแทนน้องสาวผมด้วย" with dissolve
-    en "Good grief. I can't believe my little sister is a self-proclaimed F2P player." with dissolve
+    en "Good grief. I can't believe my little sister is a self-proclaimed \nF2P player." with dissolve
     th "ช่วงหลัง ไม่สิ ตั้งแต่จำความได้ น้องสาวของผมติดเกมงอมแงม" with dissolve
     en "Recently... no, actually ever since I could remember, my little sister has been addicted to gacha games." with dissolve
     hide yuno_c
@@ -332,7 +332,7 @@ label s1_1:
     th "ในเกมนี้ผู้เล่นไม่สามารถซื้อของที่ต้องการตรงๆ ได้" with dissolve
     en "Players can't just buy whatever they want." with dissolve
     th "ต้องใช้เงินจริงซื้อเพชร แล้วนำเพชรไปสุ่มหาของที่ต้องการอีกที" with dissolve
-    en "Players have to spend real money to buy in-game currency, which is then used to draw random in-game items." with dissolve
+    en "Players have to spend real money to buy in-game currency, \nwhich is then used to draw random in-game items." with dissolve
     th "เรียกว่าระบบการสุ่มแบบกาชา" with dissolve
     en "These loot boxes or lottery-like systems are called \"gacha\"." with dissolve
     show yuno_c normal at center with Dissolve(1.0) 
@@ -387,7 +387,7 @@ label s1_1:
     th "จริงอยู่ที่คุณพ่อได้เงินก้อนโตจากงานวิจัยและส่งเงินมาให้ใช้อย่างไม่ขัดสนทุกเดือน" with dissolve
     en "It's true that Dad gets a lot of money from his research and sends us enough to live comfortably every month." with dissolve
     th "แต่คนเราก็ต้องรู้จักประหยัดอดออมกันบ้าง คำว่าออมเงินกลายเป็นคำต้องห้ามไปแล้วหรือ" with dissolve
-    en "We should being careful with money. When did \"saving money\" has become a taboo word?" with dissolve
+    en "We should being careful with money. When did \"saving money\" \nhas become a taboo word?" with dissolve
     stop music
     th "สักวันหนึ่งผมจะอบรมน้องสาวเรื่องการใช้เงินอย่างจริงจัง แต่ตอนนี้ต้องรีบไปโรงเรียนแล้ว" with dissolve
     en "One day I will teach my little sister about personal finance and money management, but right now I need to go to school." with dissolve

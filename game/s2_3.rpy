@@ -22,7 +22,7 @@ label s2_3:
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_001.mp3"
     reika_th ah_2 "ยูมะ ได้ข่าวว่าเช้าวันนี้นายมาสายเหรอ" with dissolve
     reika_en ah_2 "Yuuma, I heard you were late this morning?" with dissolve
-    yuma_th  "ไม่ได้สายซักหน่อย มาทันเวลาแบบฉิวเฉียดต่างหาก มาถึงตอน 8 โมง 29 นาทีเป๊ะๆ เลย" with dissolve
+    yuma_th  "ไม่ได้สายซักหน่อย มาทันเวลาแบบฉิวเฉียดต่างหาก มาถึงตอน \n8 โมง 29 นาทีเป๊ะๆ เลย" with dissolve
     yuma_en  "I wasn't late at all. I made it just in time, arriving at exactly 8:29 AM." with dissolve
     show reika normal at left
     show kazuma normal at right with Dissolve(0.2) 
@@ -68,7 +68,7 @@ label s2_3:
     reika_en normal_2 "Let's say arriving one second early counts as late. " with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_004.mp3"
     reika_th  "ถ้าหากอนุโลมให้ 1 วินาทีนับว่าสาย ก็จะเกิดคำถามตามมาว่า มาสาย 10 วินาทีได้ไหม, 1 นาทีได้ไหม " with dissolve
-    reika_en  "If we allow one second, questions will arise about 10 seconds, or 1 minute. In the end, it would lead to chaos." with dissolve
+    reika_en  "If we allow one second, questions will arise about 10 seconds, \nor 1 minute. In the end, it would lead to chaos." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_005.mp3"
     reika_th angry_2 "สุดท้ายแล้วก็ไม่ต่างอะไรจากความโกลาหล" with dissolve
     reika_en angry_2 "Some students might argue that arriving one second after shouldn't count as late either." with dissolve
@@ -96,7 +96,7 @@ label s2_3:
     reika_th serious_2 "ถูกต้อง สมาชิกสภานักเรียนปฏิบัติหน้าที่เสมือนตัวแทนของนักเรียนทุกคน" with dissolve
     reika_en serious_2 "Correct. Student council members act as representatives of all students." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_011.mp3"
-    reika_th  "ยูมะ นายเป็นส่วนหนึ่งของสภานักเรียน ถ้าหากนักเรียนคนอื่นเห็นว่านายมาเกือบสายนายอาจจะโดนนินทาจากสังคมรอบข้าง" with dissolve
+    reika_th  "ยูมะ นายเป็นส่วนหนึ่งของสภานักเรียน ถ้าหากนักเรียนคนอื่น\nเห็นว่านายมาเกือบสาย นายอาจจะโดนนินทาจากสังคมรอบข้าง" with dissolve
     reika_en  "Yuuma, you're part of the student council. If other students see you almost being late, you might be gossiped about." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_012.mp3"
     reika_th  "นายอาจจะไม่ได้ทำผิดกฎโรงเรียน แต่ผิดกฎของสังคม" with dissolve
