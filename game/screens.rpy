@@ -75,7 +75,10 @@ style frame:
     padding gui.frame_borders.padding
     background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
+image blackimage = Solid("#000000")
 
+screen black_screen():
+    add (blackimage)
 
 ################################################################################
 ## In-game screens
@@ -444,6 +447,12 @@ screen main_menu():
         # imagebutton auto "main/eng_%s.png":
         #     action SetVariable("persistent.language" , "thai")
         #     focus_mask True
+
+    imagebutton:
+        focus_mask True
+        idle "main/reika_h_idle.png"
+        hover "main/reika_h_hover.png"
+        action ShowMenu("black_screen",Dissolve(0.1)),Start("extra_1")  
 
 
     imagebutton:

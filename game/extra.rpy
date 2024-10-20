@@ -1,4 +1,4 @@
-label extra:
+label extra_1:
     scene twroom002n_19201080 with Dissolve(1.0)
     show reika_pov with dissolve
     stop music
@@ -38,6 +38,7 @@ label extra:
     yuma_en  "...I don't want to separate yet." with dissolve
     hide old with dissolve
     hide reika_c
+    scene twroom002n_19201080 with Dissolve(1.0)
     show reika_p normal at center with Dissolve(0.2) 
     reika_p_th yasashi "วันนี้ยูมะบอกว่า 'ยังไม่อยากแยกกันเลยแฮะ' ด้วยแหละ" with dissolve
     reika_p_en yasashi "Today, Yuma said, 'I don't want to break up yet.'" with dissolve
