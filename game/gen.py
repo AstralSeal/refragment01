@@ -6,7 +6,7 @@
 #maya smile
 #yuno smile_2
 import pandas as pd
-FILE_NAME = "s2_7.csv"
+FILE_NAME = "extra.csv"
 VOICE_BASE_PATH="audio/voice"
 VOICE_PATH = "chapter2/chapter2_7"
 SFX_BASE_PATH="audio/sfx"
