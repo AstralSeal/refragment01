@@ -55,7 +55,7 @@ label s2_8:
     show yuno_c normal at center with Dissolve(0.2) 
     yuma_th  "สรุปคืออีกไม่กี่วันจะสอบวิชาคณิตศาสตร์แล้ว แต่ยังไม่เข้าใจเนื้อหา เลยอยากให้ช่วยทบทวนสินะ" with dissolve
     yuma_en  "So, you have a math exam in a few days, but you don't understand the content, so you want help reviewing, right?" with dissolve
-    th "เท่าที่ลองกวาดสายตาดูเนื้อหาที่ยูโนะเรียนตอนนี้เป็นเนื้อหาเกี่ยวกับการแก้สมการกำลังสอง" with dissolve
+    th "เท่าที่ลองกวาดสายตาดู เนื้อหาที่ยูโนะเรียนตอนนี้\nเป็นเนื้อหาเกี่ยวกับการแก้สมการกำลังสอง" with dissolve
     en "As I glanced over the material Yuno was studying, I saw it was about solving quadratic equations." with dissolve
     th "ของแค่นี้ไม่ยาก เดี๋ยวพี่ชายคนนี้จัดให้!" with dissolve
     en "This isn't too difficult. Your Onii-chan will take care of it!" with dissolve

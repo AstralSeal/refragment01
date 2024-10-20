@@ -16,13 +16,13 @@ label s2_3:
     stop music
     play music "audio/bgm/MusMus-BGM-029.mp3" volume 0.5
     play sound "audio/sfx/door_school.mp3"
-    th "เมื่อเปิดประตูห้องก็พบว่าเรกะ คาสึมะ และอากาเนะอยู่ที่ห้องสภานักเรียนแล้ว" with dissolve
+    th "เมื่อเปิดประตูห้องก็พบว่าเรกะ คาซึมะ และอากาเนะอยู่ที่ห้องสภานักเรียนแล้ว" with dissolve
     en "When I open the door, I find Reika, Kazuma, and Akane already there." with dissolve
     show reika normal at center with Dissolve(0.2) 
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_001.mp3"
     reika_th ah_2 "ยูมะ ได้ข่าวว่าเช้าวันนี้นายมาสายเหรอ" with dissolve
     reika_en ah_2 "Yuuma, I heard you were late this morning?" with dissolve
-    yuma_th  "ไม่ได้สายซักหน่อย มาทันเวลาแบบฉิวเฉียดต่างหาก มาถึงตอน 8 โมง 29 นาทีเป๊ะๆ เลย" with dissolve
+    yuma_th  "ไม่ได้สายซักหน่อย มาทันเวลาแบบฉิวเฉียดต่างหาก มาถึงตอน \n8 โมง 29 นาทีเป๊ะๆ เลย" with dissolve
     yuma_en  "I wasn't late at all. I made it just in time, arriving at exactly 8:29 AM." with dissolve
     show reika normal at left
     show kazuma normal at right with Dissolve(0.2) 
@@ -51,9 +51,9 @@ label s2_3:
     en "Akane replies, somewhat reluctantly." with dissolve
     hide akane
     show kazuma normal at center with Dissolve(0.2) 
-    th "เยี่ยมยอด ต้องแบบนี้สิ ตอนนี้สองต่อหนึ่งเสียงแล้ว ว่าไงคาสึมะ" with dissolve
+    th "เยี่ยมยอด ต้องแบบนี้สิ ตอนนี้สองต่อหนึ่งเสียงแล้ว ว่าไงคาซึมะ" with dissolve
     en "Excellent! That's how it should be. Now it's two against one. What do you say, Kazuma?" with dissolve
-    th "ผมยิ้มแบบมีเล่ห์นัย ในขณะที่คาสึมะกำลังกำหมัด" with dissolve
+    th "ผมยิ้มแบบมีเล่ห์นัย ในขณะที่คาซึมะกำลังกำหมัด" with dissolve
     en "I smile mischievously while Kazuma clenches his fist." with dissolve
     hide kazuma
     show reika angry2_2 at center with Dissolve(0.2) 
@@ -68,7 +68,7 @@ label s2_3:
     reika_en normal_2 "Let's say arriving one second early counts as late. " with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_004.mp3"
     reika_th  "ถ้าหากอนุโลมให้ 1 วินาทีนับว่าสาย ก็จะเกิดคำถามตามมาว่า มาสาย 10 วินาทีได้ไหม, 1 นาทีได้ไหม " with dissolve
-    reika_en  "If we allow one second, questions will arise about 10 seconds, or 1 minute. In the end, it would lead to chaos." with dissolve
+    reika_en  "If we allow one second, questions will arise about 10 seconds, \nor 1 minute. In the end, it would lead to chaos." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_005.mp3"
     reika_th angry_2 "สุดท้ายแล้วก็ไม่ต่างอะไรจากความโกลาหล" with dissolve
     reika_en angry_2 "Some students might argue that arriving one second after shouldn't count as late either." with dissolve
@@ -84,7 +84,7 @@ label s2_3:
     reika_th  "บรรทัดฐานทางสังคมไม่ได้มีแต่กฎหมายหรือกฎระเบียบอย่างเดียว ยังมีสิ่งที่เรียกว่าจารีตและวิถีประชาอยู่นะ" with dissolve
     reika_en  "Social norms aren't just about laws or rules. They also include customs and social conventions." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_009.mp3"
-    reika_th  "คาสึมะ ลองบอกสิว่าการได้รับเลือกให้เป็นสมาชิกสภานักเรียนต้องทำอย่างไร" with dissolve
+    reika_th  "คาซึมะ ลองบอกสิว่าการได้รับเลือกให้เป็นสมาชิกสภานักเรียนต้องทำอย่างไร" with dissolve
     reika_en  "Kazuma, tell me how one gets elected to the student council." with dissolve
     show kazuma normal at left
     show reika normal at right with Dissolve(0.2) 
@@ -96,7 +96,7 @@ label s2_3:
     reika_th serious_2 "ถูกต้อง สมาชิกสภานักเรียนปฏิบัติหน้าที่เสมือนตัวแทนของนักเรียนทุกคน" with dissolve
     reika_en serious_2 "Correct. Student council members act as representatives of all students." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_011.mp3"
-    reika_th  "ยูมะ นายเป็นส่วนหนึ่งของสภานักเรียน ถ้าหากนักเรียนคนอื่นเห็นว่านายมาเกือบสายนายอาจจะโดนนินทาจากสังคมรอบข้าง" with dissolve
+    reika_th  "ยูมะ นายเป็นส่วนหนึ่งของสภานักเรียน ถ้าหากนักเรียนคนอื่น\nเห็นว่านายมาเกือบสาย นายอาจจะโดนนินทาจากสังคมรอบข้าง" with dissolve
     reika_en  "Yuuma, you're part of the student council. If other students see you almost being late, you might be gossiped about." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_3/reika_2_3_012.mp3"
     reika_th  "นายอาจจะไม่ได้ทำผิดกฎโรงเรียน แต่ผิดกฎของสังคม" with dissolve
@@ -181,7 +181,7 @@ label s2_3:
     yuma_th  "รับทราบ" with dissolve
     yuma_en  "Understood." with dissolve
     hide risa
-    th "หลังจากนั้นพวกเราทุกคนก็เดินออกจากห้โองสภานักเรียนไปที่ห้องเรียนของตัวเอง" with dissolve
+    th "หลังจากนั้นพวกเราทุกคนก็เดินออกจากห้องสภานักเรียนไปที่ห้องเรียนของตัวเอง" with dissolve
     en "After that, we all walked out of the student council room to our respective classrooms." with dissolve
     th "………" with dissolve
     en "..." with dissolve

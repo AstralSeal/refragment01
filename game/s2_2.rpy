@@ -37,7 +37,7 @@ label s2_2:
     yuma_en  "It's not like that. In my opinion, Akane is just a bit stricter than normal, that's all." with dissolve
     voice "audio/voice/maya/chapter2/chapter2_2/maya_2_2_005.mp3"
     maya_th angry "คำว่านิดหน่อยของแต่ละคนไม่เท่ากัน บางทีนิดหน่อยของนายอาจจะหมายถึงสุดขั้วของคนอื่นก็ได้นะ" with dissolve
-    maya_en angry "Everyone's definition of 'a bit' is different. Your 'a bit' might be someone else's extreme." with dissolve
+    maya_en angry "Everyone's definition of \"a bit\" is different. Your \"a bit\" might be someone else's extreme." with dissolve
     yuma_th  "ถ้าลองเปรียบเทียบเป็นสเกลตัวเลขหนึ่งถึงสิบ โดยที่เต็ม 10 หมายถึงเคร่งมาก รุ่นพี่มายะให้คะแนนเท่าไหร่" with dissolve
     yuma_en  "If we compare it on a scale of one to ten, with ten being very strict, how would you rate her, Maya-senpai?" with dissolve
     show maya normal at zoom_in,center with Dissolve(0.2) 
@@ -121,11 +121,11 @@ label s2_2:
     yuma_th  "หรือว่า… ผู้ชายที่ปลอมตัวเป็นหญิงเพื่อเข้าเรียนในโรงเรียนหญิงล้วน!" with dissolve
     yuma_en  "Or maybe... a boy disguising himself as a girl to attend an all-girls school!" with dissolve
     yuma_th  "เป็นไปไม่ได้ โรงเรียนเอกชนซิลเวอร์ซีลเป็นโรงเรียนสห ไม่ใช่โรงเรียนหญิงล้วนสักหน่อย" with dissolve
-    yuma_en  "That's impossible. Silverseal Private Academy is co-ed, not an all-girls school." with dissolve
+    yuma_en  "That's impossible. Silverseal Private Academy is co-ed, \nnot an all-girls school." with dissolve
     yuma_th  "คงไม่มีเหตุการณ์ชายแต่งหญิงแบบในเกมวิชวลโนเวลที่เคยเล่นหรอกมั้ง" with dissolve
     yuma_en  "There's no way we'd have a trap (a boy that looks like a cute girl) scenario like in those visual novels I've played." with dissolve
     th "ไม่ว่าจะมองจากมุมไหน รูปในบัตรนักเรียนนี้มัน… ไม่ตรงปกเลยสักนิด" with dissolve
-    en "No matter how you look at it, this student ID photo... It doesn't match at all." with dissolve
+    en "No matter how you look at it, this student ID photo... \nIt doesn't match at all." with dissolve
     th "น่าสงสัย น่าสงสัยจริงๆ" with dissolve
     en "Suspicious, very suspicious indeed." with dissolve
     th "ต่อมอยากรู้อยากเห็นของผมเริ่มทำงานแล้วสิ" with dissolve

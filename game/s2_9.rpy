@@ -221,7 +221,7 @@ label s2_9:
     staff_en  "First mission: Connect hearts, conquer love." with dissolve
     staff_th  "กติกาคือให้ทั้งสองคนตอบคำถามด้วยการเขียนลงบนกระดาน จากนั้นยกแผ่นป้ายขึ้นมา" with dissolve
     staff_en  "The rule is for both of you to answer questions by writing on the board. Then, raise your boards." with dissolve
-    staff_th  "ถ้าคำตอบของทั้งสองคนเหมือนกัน ก็จะถือว่าเป็นคู่รักกันจริง " with dissolve
+    staff_th  "ถ้าคำตอบของทั้งสองคนเหมือนกัน ก็จะถือว่าเป็นคู่รักกันจริง" with dissolve
     staff_en  "If you're really a couple, both of your answers should be the same." with dissolve
     th "ผมโดนรุ่นพี่มายะประเมินคะแนนการเดทยังไม่พอ ยังต้องโดนพนักงานบูธกิจกรรมประเมินคะแนนอีกหรอเนี่ย" with dissolve
     en "I'm already being evaluated by Maya-senpai for our date, and now I'm being evaluated by the event staff too?" with dissolve
@@ -265,7 +265,7 @@ label s2_9:
     en "What kind of question is this?" with dissolve
     th "เทรนด์สมัยใหม่ในยุคนี้คือ Double Income, No Kids คู่รักไม่จำเป็นต้องมีลูกสักหน่อย" with dissolve
     en "The modern trend is Double Income, No Kids. Lovers don't necessarily need to have children." with dissolve
-    th "ทั้งๆที่เห็นอยู่ชัดๆ ว่าพวกเรายังเป็นนักเรียน คู่รักวัยเรียนปกติต้องตั้งชื่อลูกด้วยเหรอ" with dissolve
+    th "ทั้งๆ ที่เห็นอยู่ชัดๆ ว่าพวกเรายังเป็นนักเรียน คู่รักวัยเรียนปกติต้องตั้งชื่อลูกด้วยเหรอ" with dissolve
     en "It's obvious we're still students. Do normal student couples usually think about naming their children?" with dissolve
     th "ใจเย็นก่อนยูมะ สงบใจเข้าไว้" with dissolve
     en "Stay calm, Yuuma. Keep your cool." with dissolve

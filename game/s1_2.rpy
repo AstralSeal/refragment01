@@ -55,7 +55,7 @@ label s1_2:
     play music "audio/bgm/MusMus-BGM-116.mp3" volume 0.5
     show kazuma normal at center with Dissolve(1.0) 
     play sound "audio/sfx/シーン切り替え1.mp3"
-    yuma_th  "คาสึมะ มีอะไรให้ช่วยหรือเปล่า" with dissolve
+    yuma_th  "คาซึมะ มีอะไรให้ช่วยหรือเปล่า" with dissolve
     yuma_en  "Kazuma, is there anything I can help with?" with dissolve
     voice "audio/voice/kazuma/chapter1/chapter1_2/kazuma_1_2_001.mp3"
     kazuma_th ah "มาพอดีเลย ช่วยจัดเตรียมระบบไฟหอประชุมให้หน่อย" with dissolve
@@ -63,7 +63,7 @@ label s1_2:
     yuma_th  "วางใจได้เลย" with dissolve
     yuma_en  "Okay, count on me." with dissolve
     show kazuma normal at zoom_in,center with Dissolve(1.0) 
-    th "คาตาโอกะ คาสึมะ เป็นรองประธานนักเรียนสังกัดสภานักเรียน" with dissolve
+    th "คาตาโอกะ คาซึมะ เป็นรองประธานนักเรียนสังกัดสภานักเรียน" with dissolve
     en "Kataoka Kazuma is the vice president of the student council." with dissolve
     th "ผลการเรียนอันดับต้นๆ ของโรงเรียน ถนัดกีฬาฟุตบอล แถมยังเป็นคนหน้าตาดี" with dissolve
     en "He has top academic performance, skilled at sport such as soccer, and good-looking man too." with dissolve
@@ -174,7 +174,7 @@ label s1_2:
     reika_en  "Soda consists of water, sugar, carbonic acid, phosphoric acid, caffeine, coloring agents, flavoring agents, and preservatives." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_016.mp3"
     reika_th  "สิ่งที่ทำให้น้ำอัดลมอันตรายกว่าเครื่องดื่มทั่วไปคือกรดคาร์บอนิก" with dissolve
-    reika_en  "What makes soda more dangerous than other beverages is carbonic acid." with dissolve
+    reika_en  "What makes soda more dangerous than other beverages is \ncarbonic acid." with dissolve
     voice "audio/voice/reika/chapter1/chapter1_2/reika_1_2_017.mp3"
     reika_th  "กรดคาร์บอนิกเป็นกรดที่ได้มาจากปฏิกิริยาระหว่างน้ำกับก๊าซคาร์บอนไดออกไซด์ ซึ่งกรดนี้สามารถย่อยสลายหินปูนได้ จึงมีผลทำให้กระดูกและฟันถูกกัดกร่อน" with dissolve
     reika_en  "Carbonic acid is an acid derived from the reaction between water and carbon dioxide. This acid can dissolve limestone, thus causing erosion of bones and teeth." with dissolve
@@ -221,8 +221,8 @@ label s1_2:
     scene school_corridor_noon with Dissolve(1.0)
     stop music
     play music "audio/bgm/MusMus-BGM-CP04.mp3" volume 0.5
-    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ 'ราชินีไร้เทียมทาน' ได้เลย" with dissolve
-    student_m_a_en  "It seems like our real deal guy took a critical hit. No one can rival 'The Formidable Queen.'" with dissolve
+    student_m_a_th  "ตัวแทนหมู่บ้านโดน Critical Hit เข้าเต็มๆ ไม่มีใครสู้ \"ราชินีไร้เทียมทาน\" ได้เลย" with dissolve
+    student_m_a_en  "It seems like our real deal guy took a critical hit. No one can rival \"The Formidable Queen.\"" with dissolve
     student_m_b_th  "ไม่มีความปรานีกันบ้างเลย ว่าแต่นายน่ะ ยูมะ บอกหน่อยสิว่าคุณคุโรมิยะมีจุดอ่อนอะไรบ้าง" with dissolve
     student_m_b_en  "Not an ounce of mercy. By the way, you, Yuuma, tell me if Kuromiya-san has any weaknesses." with dissolve
     yuma_th  "วันก่อนมีคนแอบสอดจดหมายรักเข้ามาในกองเอกสาร พอเรกะเห็นก็หยิบไปใส่เครื่องทำลายเอกสารทันทีเลย" with dissolve
@@ -299,8 +299,8 @@ label s1_2:
     maya_0_en  "Yes, Can you teach me how to use it?" with dissolve
     hide maya
     show flyingseal05 with dissolve
-    yuma_th  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า แมวน้ำบิน" with dissolve
-    yuma_en  "Sure. First of all, this vending machine is called 'Flying Seal'." with dissolve
+    yuma_th  "เข้าใจแล้ว ก่อนอื่นเลยตู้นี้มีชื่อเรียกว่า \"แมวน้ำบิน\"" with dissolve
+    yuma_en  "Sure. First of all, this vending machine is called \"Flying Seal\"." with dissolve
     yuma_th  "ตู้กดเครื่องดื่มอัตโนมัติรุ่นใหม่ล่าสุดที่ใช้พื้นที่แค่ 1x1 ตารางเมตร" with dissolve
     yuma_en  "Flying Seal is a revolutionary fully automated beverage machine that only takes up 1x1 square meter." with dissolve
     yuma_th  "จุดเด่นคือเสริฟเครื่องดื่มใส่แก้วเลย ไม่ใช่กระป๋องหรือขวดน้ำแบบตู้กดน้ำธรรมดา" with dissolve
@@ -380,7 +380,7 @@ label s1_2:
     yuma_en  "My name is Kusaka Yuuma, a second-year student. I'm the treasurer of the student council, mostly handling paperwork behind the scenes." with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_029.mp3"
     maya_th smile_2 "ชิราซากิ มายะ ชั้นปี 3 เรียกสั้นๆ ว่ามายะได้เลย" with dissolve
-    maya_en smile_2 "I'm Shirasaki Maya, third year. You can just call me 'Maya' for short." with dissolve
+    maya_en smile_2 "I'm Shirasaki Maya, third year. You can just call me \"Maya\" for short." with dissolve
     yuma_th  "เข้าใจแล้วครับ รุ่นพี่ชิราซากิ" with dissolve
     yuma_en  "Okay, Shirasaki-senpai" with dissolve
     show maya normal at zoom_in,center with Dissolve(1.0) 
@@ -402,9 +402,9 @@ label s1_2:
     th "พึ่งเจอหน้ากันครั้งแรกก็ตั้งชื่อเล่นให้แล้ว" with dissolve
     en "We just met for the first time and you're already giving me a nickname." with dissolve
     th "เผลอแป๊บเดียวก็เพิ่มค่าความสนิทได้เร็วขนาดนี้ สุดยอดไปเลย" with dissolve
-    en "In the blink of an eye, our familiarity level increasing this much. How Amazing." with dissolve
+    en "In the blink of an eye, our familiarity level increasing this much. How amazing." with dissolve
     th "ช่างแตกต่างจากคนมืดมนอย่างผมลิบลับ นี่สินะสิ่งมีชีวิตที่เรียกว่าสาวแกล" with dissolve
-    en "It's so different from someone as gloomy as me. So, this is what they call a 'gal' (a cheerful and trendy girl), right?" with dissolve
+    en "It's so different from someone as gloomy as me. So, this is what they call a \"gal\" (a cheerful and trendy girl), right?" with dissolve
     voice "audio/voice/maya/chapter1/chapter1_2/maya_1_2_032.mp3"
     maya_th ah "จริงด้วย นึกออกแล้ว" with dissolve
     maya_en ah "Oh right, I just remembered." with dissolve

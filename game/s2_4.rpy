@@ -6,7 +6,7 @@ label s2_4:
     en "At first, the student council members planned to meet up at the mall together after school was over." with dissolve
     th "แต่ดูเหมือนว่าทุกคนมีภารกิจที่ต้องทำ" with dissolve
     en "But it seemed like everyone had tasks they needed to take care of." with dissolve
-    th "เรกะเคลียร์งานเอกสาร คาสึมะถูกชมรมฟุตบอลดึงตัวไป" with dissolve
+    th "เรกะเคลียร์งานเอกสาร คาซึมะถูกชมรมฟุตบอลดึงตัวไป" with dissolve
     en "Reika was clearing up some paperwork, Kazuma got called away by the football club, and I had to stay and do evening duty." with dissolve
     th "ทำให้แต่ละคนแยกย้ายกันกันเดินทางไปที่จุดนัดพบ" with dissolve
     en "So each of us ended up making our separate ways to the meeting point." with dissolve
@@ -62,8 +62,8 @@ label s2_4:
     risa_th question "ปัญหามันไม่ได้อยู่เนื้อหา ปัญหามันอยู่ที่รูปที่เธอวาดต่างหาก" with dissolve
     risa_en question "The problem isn't with the content. The problem is with the pictures you drew!" with dissolve
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_008.mp3"
-    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า 'ฉันจะต้องผสมเกสรให้ได้!' เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
-    risa_en angry "They're way too obscene! especially the part where the pollen says 'Please inseminate... I mean, pollinate me.' It's clearly a pervert!" with dissolve
+    risa_th angry "มันลามกเกินไปแล้ว โดยเฉพาะตอนที่เรณูบอกว่า \"ฉันจะต้องผสมเกสรให้ได้!\" เนี่ย มันดูเหมือนพวกโรคจิตชัดๆเลย!" with dissolve
+    risa_en angry "They're way too obscene! especially the part where the pollen says \"Please inseminate... I mean, pollinate me.\" It's clearly a pervert!" with dissolve
     yuma_th  "ครูคิดมากเกินไปแล้ว ประโยคนี้มีไว้เพื่อแสดงให้ผู้อ่านเข้าใจถึงหน้าที่ของระอองเรณูครับ" with dissolve
     yuma_en  "You're overthinking it. That line helps the reader understand the role of pollen grains." with dissolve
     yuma_th  "อีกอย่าง ตัวละครในการ์ตูนเป็นพืช มันมีต้นไม้โรคจิตแบบที่ครูว่ามาด้วยอย่างนั้นเหรอครับ" with dissolve
@@ -195,7 +195,7 @@ label s2_4:
     reika_en cold_2 "Sorry, Yuuma. I didn't arrive at the last second like you did." with dissolve
     th "ขยันกัดกันจริงๆ นะยัยนี่" with dissolve
     en "You sure love to mock me, don't you." with dissolve
-    th "บางทีผมก็แอบสงสัยเหมือนกันว่าผมกับเรกะเป็นเพื่อนสมัยเด็กหรือคู่ปรับตั้งแต่สมัยเด็กกันแน่" with dissolve
+    th "บางทีผมก็แอบสงสัยเหมือนกันว่าผมกับเรกะ\nเป็นเพื่อนสมัยเด็กหรือคู่ปรับตั้งแต่สมัยเด็กกันแน่" with dissolve
     en "Sometimes I wonder if Reika and I are childhood friends or rivals." with dissolve
     hide reika
     hide kazuma
@@ -210,7 +210,7 @@ label s2_4:
     hide risa
     show akane normal at center with Dissolve(0.2) 
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_001.mp3"
-    akane_th ah "หนูมาถึงก่อนรุ่นพี่คาสึมะ 10 นาที" with dissolve
+    akane_th ah "หนูมาถึงก่อนรุ่นพี่คาซึมะ 10 นาที" with dissolve
     akane_en ah "I arrived 10 minutes before Kazuma." with dissolve
     hide akane
     show kazuma normal at center with Dissolve(0.2) 
@@ -243,7 +243,7 @@ label s2_4:
     th "เรกะมาถึงที่นี่ในเวลา……" with dissolve
     en "Reika arrived here at..." with dissolve
     th "Hint - คุณสามารถย้อนกลับไปดูข้อความก่อนหน้าได้ด้วยการกดปุ่ม Backlog" with dissolve
-    en "Hint - You can review previous messages by clicking the 'Backlog' button." with dissolve
+    en "Hint - You can review previous messages by clicking the \"Backlog\" button below." with dissolve
     menu :
         '[get_choice("18.00 น.","6:00 PM")]':
             python:
@@ -313,7 +313,7 @@ label s2_4:
     yuma_en  "But what were you all doing anyway?" with dissolve
     show reika normal at center with Dissolve(0.2) 
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_011.mp3"
-    reika_th ah "ฉันกับคาสึมะทายกันเล่นๆ ว่านายจะสามารถตอบปริศนาเรื่องเวลาเมื่อกี้ได้หรือเปล่า" with dissolve
+    reika_th ah "ฉันกับคาซึมะทายกันเล่นๆ ว่านายจะสามารถตอบปริศนาเรื่องเวลาเมื่อกี้ได้หรือเปล่า" with dissolve
     reika_en ah "Kazuma and I were just making a little bet on whether you'd be able to answer that time riddle from earlier." with dissolve
     hide reika
     show risa normal at left
@@ -347,12 +347,12 @@ label s2_4:
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_003.mp3"
     akane_th normal "ขอบคุณสำหรับข้อมูล" with dissolve
     akane_en normal "Thanks for the info." with dissolve
-    th "คาสึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
+    th "คาซึมะและอากาเนะพูดเสียงแข็งเหมือนหุ่นยนต์สังเคราะห์เสียง" with dissolve
     en "Kazuma and Akane spoke in flat, synthesized robot voices." with dissolve
-    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า 'สุดยอดไปเลยยูมะ' ไม่ใช่เหรอ" with dissolve
-    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like 'That's amazing, Yuuma!'?" with dissolve
+    yuma_th  "เดี๋ยวสิ ตรงนี้พวกนายต้องตกใจแล้วชมฉันด้วยความปลาบปลื้มว่า \"สุดยอดไปเลยยูมะ\" ไม่ใช่เหรอ" with dissolve
+    yuma_en  "Hey, shouldn't you be amazed and compliment me with something like \"That's amazing, Yuuma!\"?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_006.mp3"
-    kazuma_th normal "สุดยอดไปเลยยูมะ " with dissolve
+    kazuma_th normal "สุดยอดไปเลยยูมะ" with dissolve
     kazuma_en normal "That's amazing, Yuuma." with dissolve
     voice "audio/voice/akane/chapter2/chapter2_4/akane_2_4_004.mp3"
     akane_th normal "สุดยอดไปเลยยูมะ" with dissolve
@@ -443,9 +443,9 @@ label s2_4_kazuma:
     th "หลังจากที่ผมเตร็ดเตร่สักพักก็มาถึงโซนจำหน่ายอุปกรณ์กีฬา" with dissolve
     en "After wandering around for a while, I arrived at the sporting goods section." with dissolve
     show kazuma normal at center with Dissolve(0.2) 
-    th "คาสึมะกำลังจ้องมองไปที่รองเท้าสตั๊ดที่ตั้งอยู่หน้าร้าน" with dissolve
+    th "คาซึมะกำลังจ้องมองไปที่รองเท้าสตั๊ดที่ตั้งอยู่หน้าร้าน" with dissolve
     en "Kazuma was staring intently at a pair of soccer cleats displayed at the front of the store." with dissolve
-    yuma_th  "คาสึมะ นายจะซื้อรองเท้าใหม่เหรอ" with dissolve
+    yuma_th  "คาซึมะ นายจะซื้อรองเท้าใหม่เหรอ" with dissolve
     yuma_en  "Kazuma, are you buying new shoes?" with dissolve
     voice "audio/voice/kazuma/chapter2/chapter2_4/kazuma_2_4_008.mp3"
     kazuma_th ah "ไม่เชิงหรอก ตอนนี้ชมรมฟุตบอลกำลังจะมีงานแข่งระดับภูมิภาค" with dissolve
@@ -527,7 +527,7 @@ label s2_4_akane:
     th "อากาเนะอยู่ที่ไหนกันนะ ไม่เคยมาเที่ยวกับอากาเนะซะด้วยสิ" with dissolve
     en "Where could Akane be? I haven't actually seen Akane before either." with dissolve
     th "ขณะนั้นผมเหลือบไปเห็นป้ายโฆษณา Shock Price Super Sale หน้าร้านขายเครื่องประดับ" with dissolve
-    en "Just then, I noticed a 'Shock Price Super Sale' sign in front of an accessories store." with dissolve
+    en "Just then, I noticed a \"Shock Price Super Sale\" sign in front of an accessories store." with dissolve
     yuma_th  "นี่มันร้านขายเครื่องประดับที่ฮิตในหมู่นักเรียนหญิงนี่นา" with dissolve
     yuma_en  "This is the accessories store that's super popular with female students." with dissolve
     yuma_th  "ลองเข้าไปดูสักหน่อยดีกว่า เผื่อซื้อเป็นของขวัญให้ยูโนะ" with dissolve
@@ -711,8 +711,8 @@ label s2_4_reika:
     reika_en cold_2 "Type O's are egotistical and think other girls are into them. Just like you." with dissolve
     yuma_th  "เธอพึ่งคิดสดเมื่อกี้นี้เลยใช่มั้ยเนี่ย" with dissolve
     yuma_en  "You totally just made that up on the spot, didn't you!" with dissolve
-    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า 'ราชินีไร้เทียมทาน' อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
-    yuma_en  "But I never in my wildest dreams thought 'The Formidable Queen' would be interested in girly romance stuff too." with dissolve
+    yuma_th  "แต่ไม่นึกไม่ฝันเลยว่า \"ราชินีไร้เทียมทาน\" อย่างเธอจะสนใจเรื่องความรักแบบสาวน้อยช่างฝันด้วย" with dissolve
+    yuma_en  "But I never in my wildest dreams thought \"The Formidable Queen\" would be interested in girly romance stuff too." with dissolve
     yuma_th  "ถ้านักเรียนคนอื่นในห้องรู้จะเป็นยังไงกันนะ" with dissolve
     yuma_en  "I wonder what the other students in our class would think if they knew." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_021.mp3"
@@ -899,7 +899,7 @@ label s2_4_risa:
     risa_en ah "Or maybe..." with dissolve
     show risa normal at zoom_in,center with Dissolve(0.2) 
     voice "audio/voice/risa/chapter2/chapter2_4/risa_2_4_054.mp3"
-    risa_th angry "นี่นายเล็งคาสึมะเอาไว้งั้นหรอ" with dissolve
+    risa_th angry "นี่นายเล็งคาซึมะเอาไว้งั้นหรอ" with dissolve
     risa_en angry "You have your eye on Kazuma?" with dissolve
     yuma_th  "เดี๋ยวสิทำไมถึงพูดแบบสาววายอย่างนั้นละครับ!?" with dissolve
     yuma_en  "Wait, why are you talking like a BL fangirl all of a sudden?!" with dissolve
@@ -973,7 +973,7 @@ label s2_4_2:
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_042.mp3"
     reika_th angry_2 "ไม่ใช่แบบนั้นสักหน่อย แต่พอโตขึ้น ความรับผิดชอบยิ่งมากขึ้น เอาแต่เล่นสนุกทั้งวันเหมือนเมื่อก่อนไม่ได้แล้ว" with dissolve
     reika_en angry_2 "That's not it. But as you get older, you have more responsibilities. You can't just play around all day like before." with dissolve
-    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่ายจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
+    yuma_th  "เห ไม่อยากเชื่อเลยว่าเด็กที่นอนไม่หลับถ้าไม่ได้กอดตุ๊กตากระต่าย\nจะโตมาเป็นประธานนักเรียนที่ทุกคนชื่นชมได้" with dissolve
     yuma_en  "Huh. Hard to believe the kid who couldn't sleep without hugging his stuffed rabbit grew up to be a student council president admired by everyone." with dissolve
     voice "audio/voice/reika/chapter2/chapter2_4/reika_2_4_043.mp3"
     reika_th chito "ว่าแต่คนอื่น นายก็กลัวการพูดต่อหน้าที่สาธารณะตั้งแต่เด็กเลยนี่" with dissolve
