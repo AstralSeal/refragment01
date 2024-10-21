@@ -10,6 +10,8 @@ label extra_1:
     en "Normally I will review the school lesson in advance." with dissolve
     th "แต่วันนี้มีเหตุการณ์มากมายจนสมาธิไม่อาจจดจ่ออยู่กับการอ่านหนังสือได้" with dissolve
     en "But today, there were so many events that I couldn't concentrate at all." with dissolve
+    stop music
+    play music "audio/bgm/MusMus-BGM-105a.mp3" volume 0.5
     scene neighborhood_night with Dissolve(1.0)
     show old with dissolve
     show reika_pov with dissolve
@@ -39,6 +41,8 @@ label extra_1:
     hide old with dissolve
     hide reika_c
     scene twroom002n_19201080 with Dissolve(1.0)
+    stop music
+    play music "audio/bgm/MusMus-BGM-097.mp3" volume 0.5
     show reika_p normal at center with Dissolve(0.2) 
     reika_p_th yasashi "วันนี้ยูมะบอกว่า \"ยังไม่อยากแยกกันเลยแฮะ\" ด้วยแหละ" with dissolve
     reika_p_en yasashi "Today, Yuuma said, \"I want to stay with you a bit longer.\"" with dissolve
@@ -81,8 +85,8 @@ label extra_1:
     en "I unconsciously jumped on the bed." with dissolve
     th "สองมือหยิบหมอนขึ้นมาบังหัวไว้" with dissolve
     en "I grabbed the pillow with both hands to cover my head." with dissolve
-    reika_p_th ahh "เป็นความผิดของนายคนเดียวเลย ยูมะ" with dissolve
-    reika_p_en ahh "It's all your fault, Yuuma." with dissolve
+    reika_p_th ahh_2 "เป็นความผิดของนายคนเดียวเลย ยูมะ" with dissolve
+    reika_p_en ahh_2 "It's all your fault, Yuuma." with dissolve
     th "ฉันไม่สามารถสลัดความคิดนี้ออกจากหัวได้" with dissolve
     en "I can't get this thought out of my head." with dissolve
     reika_p_th smile "ดีใจจัง ดีใจจังเลยนะ" with dissolve
