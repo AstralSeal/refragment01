@@ -57,7 +57,7 @@ init python:
     
     def is_has_patch(directory):
         for file in os.listdir(directory):
-            if file.endswith("patch_installed.txt"):
+            if file.endswith("patch_installed.txt") or file.endswith("patch.rpa"):
                 persistent.patch_installed = True
                 return
         persistent.patch_installed = False

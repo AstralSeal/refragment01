@@ -24,7 +24,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.2.7"
+define config.version = "0.2.71"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -159,42 +159,31 @@ define config.window_icon = "gui/icon.png"
 ## This section controls how Ren'Py turns your project into distribution files.
 
 init python:
+    import os
 
-    ## The following functions take file patterns. File patterns are case-
-    ## insensitive, and matched against the path relative to the base directory,
-    ## with and without a leading /. If multiple patterns match, the first is
-    ## used.
-    ##
-    ## In a pattern:
-    ##
-    ## / is the directory separator.
-    ##
-    ## * matches all characters, except the directory separator.
-    ##
-    ## ** matches all characters, including the directory separator.
-    ##
-    ## For example, "*.txt" matches txt files in the base directory, "game/
-    ## **.ogg" matches ogg files in the game directory or any of its
-    ## subdirectories, and "**.psd" matches psd files anywhere in the project.
-
-    ## Classify files as None to exclude them from the built distributions.
+    ## Archive definitions
     build.archive("data", "all")
-    build.classify("game/**","data")
+    build.archive("patch", "all")
+    ## Function to determine if we're building the patch
+    def building_patch():
+        return False
+        # return os.path.exists("build_patch.txt")
 
-    build.classify("game/extra.rpy",None)
-    build.classify("game/patch_installed.txt",None)
+    ## Conditionally classify files based on build type
+    if building_patch():
+        build.classify("game/extra.rpy", "patch")
+        build.classify("game/patch_installed.txt", "patch")
+        build.classify("game/**", None)
 
-    ## To archive files, classify them as 'archive'.
+    else:
+        # When building main game, include all game files except patch files
+        build.classify("game/extra.rpy", None)
+        build.classify("game/patch_installed.txt", None)
+        build.classify("game/**", "data")
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
-
-    ## Files matching documentation patterns are duplicated in a mac app build,
-    ## so they appear in both the app and the zip file.
-
+    ## Documentation files
     build.documentation('*.html')
     build.documentation('*.txt')
-
 
 ## A Google Play license key is required to perform in-app purchases. It can be
 ## found in the Google Play developer console, under "Monetize" > "Monetization
