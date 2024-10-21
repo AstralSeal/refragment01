@@ -1,6 +1,6 @@
 label extra_1:
     scene twroom002n_19201080 with Dissolve(1.0)
-    show reika_pov with dissolve
+    show reika_pov
     stop music
     play music "audio/bgm/MusMus-BGM-097.mp3" volume 0.5
     show reika_p normal at center with Dissolve(0.2) 
@@ -12,9 +12,9 @@ label extra_1:
     en "But today, there were so many events that I couldn't concentrate at all." with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-105a.mp3" volume 0.5
-    scene neighborhood_night with Dissolve(1.0)
-    show old with dissolve
-    show reika_pov with dissolve
+    scene neighborhood_night
+    show old 
+    show reika_pov with Dissolve(0.5)
     show reika_c normal at zoom_in,center with Dissolve(0.2) 
     #---- play sound "audio/voice/reika/chapter2/chapter2_7/reika_3_2_132.mp3"
     reika_c_th smile "ขอบคุณที่มาส่งนะยูมะ ถ้างั้นฉันขอตัวก่อนนะ" with dissolve
@@ -40,7 +40,8 @@ label extra_1:
     yuma_en  "...I want to stay with you a bit longer." with dissolve
     hide old with dissolve
     hide reika_c
-    scene twroom002n_19201080 with Dissolve(1.0)
+    scene twroom002n_19201080
+    show reika_pov with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-097.mp3" volume 0.5
     show reika_p normal at center with Dissolve(0.2) 
