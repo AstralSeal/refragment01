@@ -81,6 +81,7 @@ label extra_1:
     hide reika_p
     th "ขืนเป็นแบบนี้ต่อไป ฉันคงเพี้ยนเข้าแน่" with dissolve
     en "This isn't good. You're always driving me crazy, Yuuma." with dissolve
+    play sound "audio/sfx/futon.mp3"
     th "ฉันกระโดดคว่ำหน้าขี้นไปบนเตียงโดยไม่รู้ตัว" with dissolve
     en "I unconsciously jumped on the bed." with dissolve
     th "สองมือหยิบหมอนขึ้นมาบังหัวไว้" with dissolve
@@ -96,7 +97,6 @@ label extra_1:
     reika_p_th  "ความอ่อนโยนอย่างตรงไปตรงมานี่แหละ ในฐานะผู้หญิง ฉันต้องขอชื่นชมนาย" with dissolve
     reika_p_en  "He was a quiet gentleness in his honesty that made his words feel comforting." with dissolve
     scene black with Dissolve(1.0)
-    show reika_pov with dissolve
     stop music
     play music "audio/bgm/MusMus-BGM-131.mp3" volume 0.5
     th "พอรู้สึกตัวอีกที……" with dissolve
