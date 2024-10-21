@@ -24,7 +24,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.2.6"
+define config.version = "0.2.7"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -181,6 +181,9 @@ init python:
     build.archive("data", "all")
     build.classify("game/**","data")
 
+    build.classify("game/extra.rpy",None)
+    build.classify("game/patch_installed.txt",None)
+
     ## To archive files, classify them as 'archive'.
 
     # build.classify('game/**.png', 'archive')
@@ -210,7 +213,7 @@ default persistent.nothing = 0
 default persistent.extra_bgm_page = 1
 default persistent.common_end_pass  = False
 default persistent.true_end_pass = False
-
+default persistent.patch_installed = False
 define config.default_music_volume = .7
 define config.default_sfx_volume = .7
 define config.default_voice_volume = 1

@@ -6,6 +6,7 @@
 define en = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "eng"')
 define th = Character(None,color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")],condition='persistent.language == "thai"')
 init python:
+    import os
     # Steam Achievements
     achievement.register("START_GAME")
     achievement.register("START_CH01")
@@ -53,6 +54,16 @@ init python:
             return s2
         else:
             return ""
+    
+    def is_has_patch(directory):
+        for file in os.listdir(directory):
+            if file.endswith("patch_installed.txt"):
+                persistent.patch_installed = True
+                return
+        persistent.patch_installed = False
+    is_has_patch(renpy.config.gamedir)
+
+
 
 # define yuma = Character("ยูมะ", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])
 # define yuno_0 = Character("???", color="#F0F8FF", who_outlines=[(2,"#000000")], what_outlines=[(2,"#000000")])

@@ -448,11 +448,12 @@ screen main_menu():
         #     action SetVariable("persistent.language" , "thai")
         #     focus_mask True
 
-    imagebutton:
-        focus_mask True
-        idle "main/reika_h_idle.png"
-        hover "main/reika_h_hover.png"
-        action ShowMenu("black_screen",Dissolve(0.1)),Start("extra_1")  
+    if persistent.patch_installed == True:
+        imagebutton:
+            focus_mask True
+            idle "main/reika_h_idle.png"
+            hover "main/reika_h_hover.png"
+            action ShowMenu("black_screen",Dissolve(0.1)),Start("extra_1")  
 
 
     imagebutton:
