@@ -10,7 +10,7 @@ label s2_4:
     en "Reika was clearing up some paperwork, Kazuma got called away by the football club, and I had to stay and do evening duty." with dissolve
     th "ทำให้แต่ละคนแยกย้ายกันกันเดินทางไปที่จุดนัดพบ" with dissolve
     en "So each of us ended up making our separate ways to the meeting point." with dissolve
-    scene twidol003y_19201080 with Dissolve(1.0)
+    scene idol_office_evening with Dissolve(1.0)
     th "ส่วนผม… ต้องส่งรายงานรายงานสรุปบทเรียนที่เป็นบทลงโทษจากการหลับในคาบเรียนเมื่อวานก่อน" with dissolve
     en "As for me... I had to hand in a lesson summary report as punishment for falling asleep in class yesterday." with dissolve
     show risa normal at center with Dissolve(0.2) 
