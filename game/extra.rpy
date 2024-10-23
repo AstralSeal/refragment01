@@ -188,7 +188,7 @@ label extra_1:
     reika_p_en  "Ugh... Ah... Ah... Ahh" with dissolve
     reika_p_th  "ดูสิด้านที่หน้าอายของฉัน ยูมะ… ไม่สิ…ทุกคน" with dissolve
     reika_p_en  "Look at my shameless side, Yuuma... No... Everyone." with dissolve
-    th "ตอนนี้เรกะดำดิ่งลงไปกับตัญหาของตัวเอง จนไม่สนใจแล้วว่าตอนนี้จินตนการของเธอจะไปในทางไหน ขอแค่ทำให้เธอพึงพอใจก็พอ" with dissolve
+    th "ตอนนี้เรกะดำดิ่งลงไปกับตัณหาของตัวเอง จนไม่สนใจแล้วว่าตอนนี้จินตนการของเธอจะไปในทางไหน ขอแค่ทำให้เธอพึงพอใจก็พอ" with dissolve
     en "Reika is now immersed in her own lust, not caring about where her imagination goes right now." with dissolve
     hide 0721_15
     show 0721_16 with dissolve
@@ -196,7 +196,7 @@ label extra_1:
     reika_p_en  "Reika went back to pinching and playing with her nipples again." with dissolve
     th "ในขณะที่เรกะกำลังพูดจาลามกอยู่นั้น มือของเธอก็เล่นกำเม็ดสีชมพูของเธออย่างไม่หยุดหย่อน" with dissolve
     en "As Reika's voice began to rise, she vigorously rubbed at her nipples." with dissolve
-    th "ทั้งค่อย ๆ ลูปไล้ ไปที่ยอดนั้น แต่ในบางจังหวะเธอก็ดึงมันขึ้นมาหยิกมัน เพื่อให้เธอดูสึกดีมากกว่าแค่การลูปไล้ พร้อมพ้นเสียงลามกของสัตว์ป่าออกมา" with dissolve
+    th "ทั้งค่อย ๆ ลูบไล้ ไปที่ยอดนั้น แต่ในบางจังหวะเธอก็ดึงมันขึ้นมาหยิกมัน เพื่อให้เธอดูสึกดีมากกว่าแค่การลูปไล้ พร้อมพ้นเสียงลามกของสัตว์ป่าออกมา" with dissolve
     en "She slowly caresses the tip, but at some point she pulls it up and pinches it, to make her feel better while letting out a lewd moan." with dissolve
     reika_p_th  "อ้าก... อะ...อ๊าง ม...ไม่พอ... แค่นี้ยังไม่พอ... ฉันต้องการมากกว่านี้" with dissolve
     reika_p_en  "Hauu... Ahhh... Ah... Ahh... I... It's no use... This is not enough... I want more." with dissolve
@@ -208,7 +208,7 @@ label extra_1:
     show 0721_17 with dissolve
     th "เรกะค่อย ๆ ถอดกางเกงในของเธอเผยให้เห็นกลีบสีชมพูที่ชุ่มไปด้วยน้ำรัก" with dissolve
     en "Reika slowly took off her panties, revealing her pink petals soaked in love juice." with dissolve
-    reika_p_th  "ดูสิ..ทุกคน..ตรงนั้นของประธานนักเรียนผู้เยือกเย็นคนนั้นตอนนี้มันกำลังร้อนระอุรอให้มีคนมาช่วยให้มันเย็นลงอยู่นะ" with dissolve
+    reika_p_th  "ดูสิ..ทุกคน..ตรงนั้นของประธานนักเรียนผู้เยือกเย็นคนนั้นตอนนี้มันกำลังร้อนระอุรอให้มีคนมาช่วย\nให้มันเย็นลงอยู่นะ" with dissolve
     reika_p_en  "Look...everybody... that strict student council president's private part is burning hot, waiting for someone to help cool it down." with dissolve
     th "นี่ฉันพูดอะไรไปละเนี่ย..." with dissolve
     en "What did I just say..." with dissolve
@@ -226,7 +226,7 @@ label extra_1:
     reika_p_en  "If we imagine being watched by everyone, it's like cheating on Yuuma." with dissolve
     hide 0721_18
     show 0721_17 with dissolve
-    reika_p_th  "ต..แต่ว่าเพราะเป็นจินตนการจะทำเรื่องไม่ดีเท่าไหร่ก็ได้ไม่ใช่หรอ" with dissolve
+    reika_p_th  "ต..แต่ว่าเพราะเป็นจินตนาการจะทำเรื่องไม่ดีเท่าไหร่ก็ได้ไม่ใช่หรอ" with dissolve
     reika_p_en  "B...but because it's an imagination, we can do bad things as much as we want, right?" with dissolve
     reika_p_th  "เพราะงั้นแล้ว…" with dissolve
     reika_p_en  "So..." with dissolve
@@ -292,7 +292,7 @@ label extra_1:
     reika_p_en  "Please use me. You can use this pair of huge breasts, or this formidable queen's pussy." with dissolve
     hide 0721_27
     show 0721_25 with dissolve
-    th "ช่วยตัวเองในขณะที่จิตนาการว่าทุกคนกำลังช่วยตัวเองโดยใช้ฉันเป็นเครื่องเคียง ฉันนี่มันโลกจิตชะมัด…" with dissolve
+    th "ช่วยตัวเองในขณะที่จิตนาการว่าทุกคนกำลังช่วยตัวเองโดยใช้ฉันเป็นเครื่องเคียง ฉันนี่มันโรคจิตชะมัด…" with dissolve
     en "Masturbate while imagining everyone masturbating using me as a fap material. Fantasized version of me is definitely pervert..." with dissolve
     hide 0721_25
     show 0721_26 with dissolve
